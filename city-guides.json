@@ -3243,7 +3243,10 @@
           "minutes": 50,
           "indoor": true,
           "note": "Downtown 咖啡停靠，和河岸、老街可集中玩，不是偏遠花田旁的臨時攤位。",
-          "query": "Ristretto Coffee Lounge and Wine Bar, Mount Vernon WA"
+          "query": "Ristretto Coffee Lounge and Wine Bar, Mount Vernon WA",
+          "url": "https://ristrettocoffeemv.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 7–18, Sat 8–18, Sun 9–16"
         },
         {
           "id": "calico",
@@ -3254,7 +3257,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "具名 bakery／午餐點，和 La Conner、Anacortes 分店分清楚。",
-          "query": "Calico Cupboard Mount Vernon, Mount Vernon WA"
+          "query": "Calico Cupboard Mount Vernon, Mount Vernon WA",
+          "url": "https://www.calicocupboardcafe.com/mount-vernon",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 7:30–15; Sat–Sun 7:30–15:30"
         },
         {
           "id": "riverwalk",
@@ -3278,7 +3284,9 @@
           "minutes": 60,
           "indoor": false,
           "note": "小店、街景與在地餐飲，不在花季也能安排的核心。",
-          "query": "First Street Downtown Mount Vernon, Mount Vernon WA"
+          "query": "First Street Downtown Mount Vernon, Mount Vernon WA",
+          "url": "https://www.downtownmountvernon.org/",
+          "verified": "2026-10-24"
         },
         {
           "id": "roozen",
@@ -3304,7 +3312,10 @@
           "indoor": true,
           "note": "真實歷史劇院，電影和音樂依節目區分；有合適的現場演出才留晚間。",
           "query": "Lincoln Theatre, Mount Vernon WA",
-          "url": "https://lincolntheatre.org/"
+          "url": "https://lincolntheatre.org/",
+          "verified": "2026-10-24",
+          "hours": "Event-based (films + live shows); concerts usually 19:30",
+          "liveMusic": "Yes — Oct 2026 calendar has concerts most weeks (e.g., Jake Shimabukuro, Black Belt Eagle Scout, Lloyd Cole, Laura Veirs, candlelight concerts; upcoming Soccer Mommy, The Smithereens), typically 19:30; plus films, Met Live in HD 2026-27, comedy. All-ages theatre (check per show)."
         }
       ],
       "plans": [
@@ -3411,14 +3422,18 @@
       "places": [
         {
           "id": "coffee",
-          "name": "Beaver Tales Coffee",
+          "name": "Raven's Cup Coffee & Art Gallery",
           "kinds": [
-            "coffee"
+            "coffee",
+            "shopping"
           ],
-          "minutes": 50,
+          "minutes": 45,
           "indoor": true,
-          "note": "具名的小鎮咖啡停留，和 First Street、水道可一起逛。",
-          "query": "Beaver Tales Coffee, La Conner WA"
+          "note": "First Street 上的咖啡館兼藝廊與禮品店，咖啡、茶、熱可可配甜點，順便看在地藝術品；週五至週日營業到 18:00。",
+          "query": "Raven's Cup Coffee & Art Gallery, 106 S 1st St Ste A, La Conner WA",
+          "url": "https://www.ravenscup.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 7–17; Fri–Sun 7–18"
         },
         {
           "id": "calico",
@@ -3430,7 +3445,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "有烘焙與正餐的實際用餐選項，別走錯 Mount Vernon 分店。",
-          "query": "Calico Cupboard La Conner, La Conner WA"
+          "query": "Calico Cupboard La Conner, La Conner WA",
+          "url": "https://www.calicocupboardcafe.com/la-conner",
+          "verified": "2026-10-24",
+          "hours": "Daily 8–15 (Google lists Sat–Sun to 15:30)"
         },
         {
           "id": "boardwalk",
@@ -3455,7 +3473,9 @@
           "indoor": true,
           "note": "西北藝術主題，給你一個實際可進去的雨天主站，不是只說逛畫廊。",
           "query": "Museum of Northwest Art, La Conner WA",
-          "url": "https://www.monamuseum.org/"
+          "url": "https://www.monamuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Sat 10–17; Sun–Mon 12–17 (free admission; open to 20:00 on second Saturdays)"
         },
         {
           "id": "first",
@@ -3467,7 +3487,9 @@
           "minutes": 75,
           "indoor": false,
           "note": "獨立商店與畫廊慢逛，保留看到喜歡店家就停下來的空間。",
-          "query": "First Street, La Conner WA"
+          "query": "First Street, La Conner WA",
+          "url": "https://lovelaconner.com/",
+          "verified": "2026-10-24"
         },
         {
           "id": "pub",
@@ -3478,7 +3500,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "想換海鮮／水道邊用餐可選，和 Calico 二選一當正餐。",
-          "query": "La Conner Pub and Eatery, La Conner WA"
+          "query": "La Conner Pub and Eatery, La Conner WA",
+          "url": "https://laconnertavern.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 10:30–21, Fri 10:30–22, Sat 10–22, Sun 10–21 (per Google)"
         },
         {
           "id": "music",
@@ -3491,8 +3516,11 @@
           "program": true,
           "setting": "季節節目・依當場場地",
           "note": "季節性水道音樂活動，不是全年每日駐唱；先看當季正式日期與場地再決定加場。",
-          "query": "La Conner Live, La Conner WA",
-          "url": "https://lovelaconner.com/"
+          "query": "Gilkey Square, 100 S 1st St, La Conner WA",
+          "url": "https://lovelaconner.com/la-conner-live/",
+          "verified": "2026-10-24",
+          "hours": "Summer Sundays 13–16 (2026 season opened May 31)",
+          "liveMusic": "Free outdoor Sunday concerts at Gilkey Square, 13:00–16:00, roughly late May–early Sept (2026: first band May 31, Mojo Cannon June 7). All ages. Town has discussed moving some dates to La Conner Marina."
         }
       ],
       "plans": [
@@ -3576,7 +3604,10 @@
           "minutes": 45,
           "indoor": true,
           "note": "具名咖啡和早點停留，先補給再看海。",
-          "query": "Penguin Coffee, Anacortes WA"
+          "query": "Penguin Coffee, Anacortes WA",
+          "url": "https://www.facebook.com/penguincoffeeanacortes/",
+          "verified": "2026-10-24",
+          "hours": "Daily 6–17"
         },
         {
           "id": "cap",
@@ -3600,7 +3631,10 @@
           "indoor": true,
           "note": "具名午餐與真實音樂活動可查的 brewpub；午餐和晚間演出分開決定，不承諾每晚都有。",
           "query": "Rockfish Grill, Anacortes WA",
-          "url": "https://anacortesrockfish.com/"
+          "url": "https://anacortesrockfish.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily from 11; Sun–Tue & Thu to 20, Wed & Fri to 21, Sat to 22 (per Google)",
+          "liveMusic": "Yes — calendar lists shows every Wednesday and Saturday through Dec 2026 (e.g., Oct 24 Joel Astley Band, Oct 28 The Lucky Dogs, Oct 31 Billy Appleton Band), 19:30–22:00; blues/jazz/americana. Shows are in the family restaurant (site: 'The Rockfish loves families', kids eat free Tuesdays); no age limit stated."
         },
         {
           "id": "commercial",
@@ -3612,7 +3646,9 @@
           "minutes": 60,
           "indoor": false,
           "note": "老港城街景、商店與餐飲，午餐前後好串。",
-          "query": "Commercial Avenue Downtown Anacortes, Anacortes WA"
+          "query": "Commercial Avenue Downtown Anacortes, Anacortes WA",
+          "url": "https://www.anacortes.org/",
+          "verified": "2026-10-24"
         },
         {
           "id": "washington",
@@ -3648,7 +3684,9 @@
           "indoor": true,
           "note": "歷史館是有名字的室內替代，先看開館日，不把季節蒸汽船也假定開放。",
           "query": "Anacortes Museum, Anacortes WA",
-          "url": "https://www.anacorteswa.gov/"
+          "url": "https://www.anacorteswa.gov/museum",
+          "verified": "2026-10-24",
+          "hours": "Wed–Sat 11–16; closed Sun–Tue (free admission)"
         }
       ],
       "plans": [
@@ -3749,8 +3787,10 @@
           "minutes": 50,
           "indoor": true,
           "note": "咖啡直接配海灣景色，別選成另一家離海邊很遠的同名分店。",
-          "query": "Woods Coffee Boulevard Park, Bellingham WA",
-          "url": "https://woodscoffee.com/"
+          "query": "Woods Coffee, 470 Bayview Dr, Bellingham WA",
+          "url": "https://woodscoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–18"
         },
         {
           "id": "boulevard",
@@ -3775,7 +3815,9 @@
           "indoor": true,
           "note": "很適合小鎮慢旅行的獨立書店，雨天也真能待一段。",
           "query": "Village Books Fairhaven, Bellingham WA",
-          "url": "https://www.villagebooks.com/"
+          "url": "https://www.villagebooks.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 9–20; Sun 10–20"
         },
         {
           "id": "colophon",
@@ -3787,7 +3829,9 @@
           "indoor": true,
           "note": "Fairhaven 的具名午餐點，和書店街區好串，不必為午餐穿城。",
           "query": "Colophon Cafe, Bellingham WA",
-          "url": "https://www.colophoncafe.com/"
+          "url": "https://www.colophoncafe.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon 9–20; closed Tue; Wed–Sat 9–20; Sun 10–19"
         },
         {
           "id": "fairhaven",
@@ -3799,7 +3843,8 @@
           "minutes": 75,
           "indoor": false,
           "note": "紅磚街屋、咖啡與獨立店，一整個街區慢慢逛比只拍招牌更有感。",
-          "query": "Historic Fairhaven, Bellingham WA"
+          "query": "Historic Fairhaven, Bellingham WA",
+          "verified": "2026-10-24"
         },
         {
           "id": "falls",
@@ -3824,7 +3869,9 @@
           "indoor": true,
           "note": "具體室內館，示範節目和普通入館不同，先看當日安排。",
           "query": "SPARK Museum, Bellingham WA",
-          "url": "https://www.sparkmuseum.org/"
+          "url": "https://www.sparkmuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Sun 11–17; closed Mon–Tue"
         },
         {
           "id": "theatre",
@@ -3837,7 +3884,10 @@
           "indoor": true,
           "note": "按樂團與節目售票的正式場館；有喜歡的演出才把這天延伸成過夜。",
           "query": "Mount Baker Theatre, Bellingham WA",
-          "url": "https://www.mountbakertheatre.com/"
+          "url": "https://www.mountbakertheatre.com/",
+          "verified": "2026-10-24",
+          "hours": "Event-based (ticketed shows)",
+          "liveMusic": "Yes — current 2026 calendar: Ingrid Michaelson (Oct 24), Frank Vignola & Pasquale Grasso (Nov 7, Lookout Sessions), Revisiting Creedence (Nov 14), plus Broadway, films and talks. Evening shows; all-ages venue (check per show)."
         }
       ],
       "plans": [
@@ -3921,7 +3971,7 @@
       ]
     },
     "blaine": {
-      "intro": "不只國境前加油：Peace Arch City Cafe、Drayton Harbor 牡蠣和 Semiahmoo 海岸都可實際導航。喜歡安靜海景才值得停，過境或夏季音樂則獨立安排。",
+      "intro": "不只國境前加油：L&L Bakery（原 Peace Arch City Cafe 已歇業）、Drayton Harbor 牡蠣和 Semiahmoo 海岸都可實際導航。喜歡安靜海景才值得停，過境或夏季音樂則獨立安排。",
       "interests": [
         "town",
         "coffee",
@@ -3932,15 +3982,18 @@
       "places": [
         {
           "id": "cafe",
-          "name": "Peace Arch City Cafe",
+          "name": "L&L Bakery",
           "kinds": [
             "coffee",
             "food"
           ],
-          "minutes": 60,
+          "minutes": 45,
           "indoor": true,
-          "note": "早餐、咖啡與餐飲停靠，不把它誇成手沖專門店；適合北上先坐下來休息。",
-          "query": "Peace Arch City Cafe, Blaine WA"
+          "note": "Peace Portal Dr 上的小烘焙坊，以蛋糕、馬卡龍出名，也有咖啡和鹹派可當早點；週一公休、週日 10:00 才開。",
+          "query": "L&L Bakery, 477 Peace Portal Dr Suite 101, Blaine WA",
+          "url": "https://www.landlbakery.com/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Sat 8:30–18; Sun 10–16; closed Mon"
         },
         {
           "id": "oyster",
@@ -3951,7 +4004,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "具名的在地牡蠣午餐選項，季節菜單與座位看當日營運。",
-          "query": "Drayton Harbor Oyster Company, Blaine WA"
+          "query": "Drayton Harbor Oyster Company, Blaine WA",
+          "url": "https://www.draytonharboroysters.com/",
+          "verified": "2026-10-24",
+          "hours": "Lunch & dinner Wed–Mon 12–20 (closed Tue); weekend breakfast Sat–Sun 8–11 (kitchen closed 11–12)"
         },
         {
           "id": "marine",
@@ -4000,8 +4056,11 @@
           "program": true,
           "setting": "季節音樂節・多個場地",
           "note": "夏季音樂活動，不是全年固定音樂廳；先看當年的正式日期、節目與該場演出位置。",
-          "query": "Blaine Harbor Music Festival, Blaine WA",
-          "url": "https://www.blaineharbormusicfestival.org/"
+          "query": "G Street Plaza, 101 G St, Blaine WA",
+          "url": "https://www.blaineharbormusicfestival.org/festival",
+          "verified": "2026-10-24",
+          "hours": "One week in mid-July (2026: July 13–18)",
+          "liveMusic": "Jazz-focused festival + youth camp, one week in July (2026: Jul 13–18): evening concerts 19:00 at G St Plaza (outdoor), free noon concerts daily at G St Plaza, Big Band swing dance at Semiahmoo Resort (ticketed $50), student showcase at Blaine PAC, Saturday street fair. Mostly free/all ages."
         }
       ],
       "plans": [
@@ -4015,7 +4074,7 @@
               "cafe",
               60,
               0,
-              "咖啡與早餐。",
+              "咖啡配烘焙早點；週日 10:00 才開門。",
               "walk"
             ],
             [
@@ -4698,7 +4757,7 @@
       "hikes": []
     },
     "poulsbo": {
-      "intro": "北歐街屋、Sluys 烘焙、Poulsbohemian 咖啡與 Liberty Bay 都值得慢慢停。餐廳和海洋館分開點名；音樂只在 Slippery Pig 有合適節目時加。",
+      "intro": "北歐街屋、Sluys 烘焙、Poulsbo Coffee Company（原 Poulsbohemian 店面）與 Liberty Bay 都值得慢慢停。餐廳和海洋館分開點名；音樂看 Bushel & Barrel Ciderhouse（多數週五 18–20 免費、全齡，北邊約 10 分鐘車程）。",
       "interests": [
         "town",
         "coffee",
@@ -4709,14 +4768,17 @@
       "places": [
         {
           "id": "coffee",
-          "name": "Poulsbohemian Coffeehouse",
+          "name": "Poulsbo Coffee Company",
           "kinds": [
             "coffee"
           ],
-          "minutes": 50,
+          "minutes": 45,
           "indoor": true,
-          "note": "Front Street 的具名咖啡停靠，搭配海灣與北歐小店很順。",
-          "query": "Poulsbohemian Coffeehouse, Poulsbo WA"
+          "note": "原 Poulsbohemian 的 Front Street 店面，現為小咖啡館，和植物店 Send Nodes 共用空間；海灣與北歐小店就在門外。",
+          "query": "Poulsbo Coffee Company, 19003 Front St NE, Poulsbo WA",
+          "url": "https://www.facebook.com/people/Poulsbo-Coffee-Company/61588439248431/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–18 (per Google)"
         },
         {
           "id": "sluys",
@@ -4727,7 +4789,10 @@
           "minutes": 30,
           "indoor": true,
           "note": "買當地代表性烘焙；主要是選購，不把它當可長時間坐的餐廳。",
-          "query": "Sluys Poulsbo Bakery, Poulsbo WA"
+          "query": "Sluys Poulsbo Bakery, Poulsbo WA",
+          "url": "https://sluyspoulsbobakery.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 5–18"
         },
         {
           "id": "front",
@@ -4740,7 +4805,8 @@
           "indoor": false,
           "note": "北歐風街屋和在地商店，停好車後慢走。",
           "query": "Historic Front Street, Poulsbo WA",
-          "url": "https://visitpoulsbo.com/"
+          "url": "https://visitpoulsbo.com/",
+          "verified": "2026-10-24"
         },
         {
           "id": "bay",
@@ -4763,7 +4829,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "海灣用餐選項；先看選定日期是否有午餐，不把酒吧營業時間直接當餐廳午餐。",
-          "query": "The Loft at Latitude Forty Seven Seven, Poulsbo WA"
+          "query": "The Loft at Latitude Forty Seven Seven, Poulsbo WA",
+          "url": "https://theloftpoulsbo.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily from 11:30 (lunch+dinner); closes 20:00, Fri–Sat ~21:00 (Google)"
         },
         {
           "id": "sea",
@@ -4775,19 +4844,40 @@
           "minutes": 60,
           "indoor": true,
           "note": "真實的小型海洋教育內容，有開館才加入，不是假日隨時都可參觀。",
-          "query": "SEA Discovery Center, Poulsbo WA"
+          "query": "SEA Discovery Center, Poulsbo WA",
+          "url": "https://sea.wwu.edu/",
+          "verified": "2026-10-24",
+          "hours": "Fri & Sat 11–16 only (free admission)"
         },
         {
           "id": "pig",
-          "name": "Slippery Pig Brewery",
+          "name": "Bushel & Barrel Ciderhouse",
           "kinds": [
             "music",
             "food"
           ],
           "minutes": 120,
           "indoor": true,
-          "note": "有在地音樂活動的 brewpub，先看當天節目與年齡／餐飲規則；不承諾午餐就有樂團。",
-          "query": "Slippery Pig Brewery, Poulsbo WA"
+          "note": "北 Poulsbo 的蘋果酒館，帶小孩、寵物友善，有小點與農場動物；週五 18:00–20:00 常有免費現場音樂（全年齡），離 Front Street 約 10 分鐘車程。",
+          "query": "Bushel & Barrel Ciderhouse, 201 NW Beaver Ridge, Poulsbo WA",
+          "url": "https://bushelandbarrelciderhouse.com/",
+          "verified": "2026-10-24",
+          "hours": "Fri 16–21; Sat–Sun 12–21; closed Mon–Thu"
+        },
+        {
+          "id": "poulsbo-maritime-museum",
+          "name": "Poulsbo Maritime Museum",
+          "kinds": [
+            "indoor",
+            "culture"
+          ],
+          "minutes": 45,
+          "indoor": true,
+          "note": "Poulsbo 歷史學會經營的小型海事館，看鮭魚漁業、鱈魚業與船隻故事；在 Front Street 上、每天 10:00–16:00 開，適合當週日的室內收尾。",
+          "query": "Poulsbo Maritime Museum, 19010 Front St NE, Poulsbo WA",
+          "url": "https://poulsbohistory.org/maritime-museum/",
+          "verified": "2026-10-24",
+          "hours": "Daily 10–16 (Jun–Aug 10–17)"
         }
       ],
       "plans": [
@@ -4833,7 +4923,7 @@
               "sea",
               60,
               10,
-              "開館才加入，否則買 Sluys 烘焙收尾。",
+              "SEA 只在週五、六 11:00–16:00 開；週日改去 Maritime Museum，或買 Sluys 烘焙收尾。",
               "walk"
             ]
           ]
@@ -4845,7 +4935,7 @@
         "sea",
         "pig"
       ],
-      "rainNote": "實際室內是 Poulsbohemian、餐廳、開館的 SEA 和有場次的 Slippery Pig；Sluys 買烘焙可以，但不拿排隊購物當全天雨天主題。",
+      "rainNote": "實際室內是 Poulsbo Coffee Company、餐廳、開館的 SEA 和週五有演出的 Bushel & Barrel；Sluys 買烘焙可以，但不拿排隊購物當全天雨天主題。",
       "musicPlaces": [
         "pig"
       ],
@@ -4872,7 +4962,9 @@
           "indoor": true,
           "note": "Manette 的具名烘焙點，先看營業日與售完資訊；和 Downtown 碼頭隔著橋。",
           "query": "Saboteur Bakery, Bremerton WA",
-          "url": "https://www.saboteurbakery.com/"
+          "url": "https://www.saboteurbakery.com/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Sun 8–14 (until sold out); closed Mon–Wed"
         },
         {
           "id": "manette",
@@ -4897,7 +4989,9 @@
           "indoor": true,
           "note": "具名海邊午餐，有室內用餐，不只把碼頭餐廳泛稱一帶。",
           "query": "Boat Shed Restaurant, Bremerton WA",
-          "url": "https://www.boatshedrestaurant.com/"
+          "url": "https://boatshedbremerton.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 11:00–close (~21:30)"
         },
         {
           "id": "navy",
@@ -4910,7 +5004,9 @@
           "indoor": true,
           "note": "看本地海軍和造船歷史，先查開館日，與船艦參觀不是同一個場所。",
           "query": "Puget Sound Navy Museum, Bremerton WA",
-          "url": "https://pugetsoundnavymuseum.org/"
+          "url": "https://pugetsoundnavymuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Mon 10–16; closed Tue"
         },
         {
           "id": "fountain",
@@ -4934,7 +5030,9 @@
           "indoor": false,
           "note": "真實軍艦，艙內階梯與甲板不是一般推車參觀；選有興趣才加入。",
           "query": "USS Turner Joy, Bremerton WA",
-          "url": "https://ussturnerjoy.org/"
+          "url": "https://ussturnerjoy.org/",
+          "verified": "2026-10-24",
+          "hours": "Mar–Oct daily 10–17 (last ticket 16:30); Nov–Feb Wed–Sun 10–16 (last ticket 15:30)"
         },
         {
           "id": "admiral",
@@ -4947,7 +5045,10 @@
           "indoor": true,
           "note": "正式音樂與巡演場館，按場次買票；不是逛完碼頭就一定有一場可看。",
           "query": "Admiral Theatre, Bremerton WA",
-          "url": "https://www.admiraltheatre.org/"
+          "url": "https://www.admiraltheatre.org/",
+          "verified": "2026-10-24",
+          "hours": "Event-based; shows usually 19:00–20:00 (doors 30–60 min earlier)",
+          "liveMusic": "Yes — 2026-27 season: e.g., 80s Concert & Halloween Dance Party (Sat Oct 24, 20:00), A Taylor Experience (Sun Nov 1, 19:00), Revisiting Creedence (Fri Nov 13, 19:30), Allman Brothers tribute (Fri Nov 20, 19:30); mostly tribute/touring acts plus films and family shows. All-ages theatre (per-show rules)."
         }
       ],
       "plans": [
@@ -5033,7 +5134,9 @@
           "indoor": true,
           "note": "咖啡、輕食和歷史商店可一起看，餐飲與商店營業時段分開核對。",
           "query": "Port Gamble General Store and Cafe, Port Gamble WA",
-          "url": "https://www.portgamblegeneralstore.com/pages/cafe"
+          "url": "https://www.portgamblegeneralstore.com/pages/cafe",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 10–17; Fri–Sat 9–19 (store; café inside — sandwiches, soups, espresso, ice cream)"
         },
         {
           "id": "town",
@@ -5058,7 +5161,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "對公司鎮故事有興趣再進館，先確認當日開放，不預設冬季每天都有。",
-          "query": "Port Gamble Historic Museum, Port Gamble WA"
+          "query": "Port Gamble Historic Museum, Port Gamble WA",
+          "url": "https://www.portgamble.com/things-to-do/arts-and-culture/port-gamble-historic-museum/",
+          "verified": "2026-10-24",
+          "hours": "Seasonal: May 1–Sep 27, 2026, Thu–Sun 12–17 (free); closed off-season"
         },
         {
           "id": "baker",
@@ -5070,7 +5176,9 @@
           "indoor": true,
           "note": "具名的午餐／烘焙餐飲點，和 General Store 二選一吃正餐即可。",
           "query": "Butcher and Baker Provisions, Port Gamble WA",
-          "url": "https://www.butcherandbakerprovisions.com/"
+          "url": "https://www.butcherandbakerprovisions.com/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Sun: coffee 8–19, café & bakery 10–19; closed Mon–Wed"
         },
         {
           "id": "church",
@@ -5082,7 +5190,10 @@
           "minutes": 20,
           "indoor": false,
           "note": "看歷史教堂外觀，不因為有建築就假設可自由進內部或正在演奏。",
-          "query": "St Paul's Church, Port Gamble WA"
+          "query": "St Paul's Church, Port Gamble WA",
+          "url": "https://gatheringstpauls.org/",
+          "verified": "2026-10-24",
+          "hours": "Exterior anytime; Sunday worship 10:00 (also a wedding/event venue)"
         },
         {
           "id": "forest",
@@ -5094,6 +5205,21 @@
           "indoor": false,
           "note": "想走森林才加一段，路網很多，選短段原路回，不把整片林地當固定環線。",
           "query": "Port Gamble Forest Heritage Park Trailhead, Port Gamble WA"
+        },
+        {
+          "id": "sea-shore-museum-port-gamble-general-sto",
+          "name": "Sea & Shore Museum (Port Gamble General Store, upstairs)",
+          "kinds": [
+            "indoor",
+            "culture"
+          ],
+          "minutes": 40,
+          "indoor": true,
+          "note": "General Store 樓上的私人貝殼博物館，1973 年開館、號稱全球第二大私人貝殼收藏；免費、每天 10:00–17:00，史蹟館休館季的室內替代。",
+          "query": "Sea and Shore Museum, 32400 N Rainier Ave, Port Gamble WA",
+          "url": "https://www.portgamblegeneralstore.com/pages/sea-shore-museum",
+          "verified": "2026-10-24",
+          "hours": "Daily 10–17 (free)"
         }
       ],
       "plans": [
@@ -5123,7 +5249,7 @@
               "museum",
               50,
               10,
-              "開館才進。",
+              "史蹟館只在 5–9 月週四至週日 12:00–17:00 開；其他時間改看 General Store 樓上的免費貝殼館。",
               "walk"
             ],
             [
@@ -5175,7 +5301,9 @@
           "indoor": true,
           "note": "水邊咖啡館，適合留一段看海而不是只買外帶。",
           "query": "Better Living Through Coffee, Port Townsend WA",
-          "url": "https://betterlivingthroughcoffee.com/"
+          "url": "https://bltcoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Mon 7:30–17; Tue–Wed 7:30–12 (official site; Google shows a slightly different daily 7/7:30–16)"
         },
         {
           "id": "water",
@@ -5187,7 +5315,9 @@
           "minutes": 90,
           "indoor": false,
           "note": "維多利亞街屋、書店和藝廊集中，挑店慢逛。",
-          "query": "Water Street Historic Downtown, Port Townsend WA"
+          "query": "Water Street Historic Downtown, Port Townsend WA",
+          "url": "https://ptmainstreet.org/",
+          "verified": "2026-10-24"
         },
         {
           "id": "museum",
@@ -5199,18 +5329,24 @@
           "minutes": 75,
           "indoor": true,
           "note": "市中心真正可進去的歷史藝術內容，核對開館日。",
-          "query": "Jefferson Museum of Art and History, Port Townsend WA"
+          "query": "JCHS Museum of Art + History, 540 Water St, Port Townsend WA",
+          "url": "https://www.jchsmuseum.org/museum",
+          "verified": "2026-10-24",
+          "hours": "Thu–Sun 11–16, March–December (closed Jan–Feb); first Saturday free until 19:00"
         },
         {
           "id": "docs",
-          "name": "Doc’s Marina Grill — Port Townsend",
+          "name": "Salish Grill（原 Doc’s Marina Grill）",
           "kinds": [
             "food"
           ],
           "minutes": 90,
           "indoor": true,
-          "note": "Point Hudson 的具名海鮮與正餐選項，不和 Bainbridge 的同名分店搞混。",
-          "query": "Doc's Marina Grill Port Townsend, Port Townsend WA"
+          "note": "Point Hudson 碼頭邊的海鮮與正餐餐廳（原 Doc’s Marina Grill 改名，同店同團隊）；午餐 11:30 起，每天 15:00–17:00 happy hour。",
+          "query": "Salish Grill, 141 Hudson St, Port Townsend WA",
+          "url": "https://www.salishgrill.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 11:30–20; Fri–Sat 11:30–21; Sun 11:30–20"
         },
         {
           "id": "point",
@@ -5235,7 +5371,10 @@
           "minutes": 120,
           "indoor": false,
           "note": "歷史區、海岸和步道選一個重點，砲台階梯與海灘不是推車路線。",
-          "query": "Fort Worden State Park, Port Townsend WA"
+          "query": "Fort Worden State Park, Port Townsend WA",
+          "url": "https://parks.wa.gov/find-parks/state-parks/fort-worden-historical-state-park",
+          "verified": "2026-10-24",
+          "hours": "Summer 6:30–dusk; winter 8:00–dusk"
         },
         {
           "id": "chet",
@@ -5261,7 +5400,10 @@
           "setting": "音樂節目・場地依票面",
           "note": "爵士、藍調與其他音樂有正式節目，部分集中夏季；場地可能室內或戶外，按所選場次與票面確認。",
           "query": "Centrum Fort Worden, Port Townsend WA",
-          "url": "https://centrum.org/"
+          "url": "https://centrum.org/",
+          "verified": "2026-10-24",
+          "hours": "Public concerts mainly late May–August",
+          "liveMusic": "Seasonal. Calendar (viewed 2026-10-24) shows only art/reading events Oct–Dec 2026; next music listing is Chamber Music: Pacifica Quartet, May 30, 2027 (14:00). Summer workshop festivals with public concerts follow, e.g., Jazz Port Townsend July 19–25, 2027. Venues vary indoor/outdoor; ticketed, generally all ages."
         },
         {
           "id": "sirens",
@@ -5274,7 +5416,10 @@
           "indoor": true,
           "note": "酒吧現場音樂選項，依當日節目與年齡規則；不是所有桌位或所有時間都有演出。",
           "query": "Sirens Pub, Port Townsend WA",
-          "url": "https://www.sirenspub.com/"
+          "url": "https://www.sirenspub.com/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Wed 12–22; Thu–Sat 12–24 (kitchen to 21 / 22)",
+          "liveMusic": "Occasional, not weekly: free band nights ~20:00 on some Fri/Sat (e.g., Yotes 2026-07-10; Dogger 2026-12-05 20:00–23:00); official events page said 'No events at the moment' on 2026-10-24. Age rule not published (pub with full bar — check before bringing a baby at night)."
         }
       ],
       "plans": [
@@ -5332,7 +5477,7 @@
         "docs",
         "sirens"
       ],
-      "rainNote": "Better Living、Jefferson Museum、Doc’s 和有場次的 Sirens 都具名。Centrum 要按實際場地判斷室內外，Fort Worden 公園不能整片當避雨點。",
+      "rainNote": "Better Living、Jefferson Museum、Salish Grill 和有場次的 Sirens 都具名。Centrum 要按實際場地判斷室內外，Fort Worden 公園不能整片當避雨點。",
       "musicPlaces": [
         "centrum",
         "sirens"
@@ -5359,7 +5504,10 @@
           "minutes": 50,
           "indoor": true,
           "note": "鎮上的具名咖啡停留，配早餐或湖海行程前補給。",
-          "query": "Hurricane Coffee Company, Sequim WA"
+          "query": "Hurricane Coffee Company, 104 W Washington St, Sequim WA",
+          "url": "https://hurricanecoffeecompany.square.site/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–17:30 (Google: 7–17)"
         },
         {
           "id": "oak",
@@ -5370,7 +5518,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "具名的早餐／午餐餐廳，和咖啡分開留完整吃飯時間。",
-          "query": "Oak Table Cafe, Sequim WA"
+          "query": "Oak Table Cafe, Sequim WA",
+          "url": "https://oaktablecafe.com/home-sequim/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–15 (breakfast & lunch)"
         },
         {
           "id": "bridge",
@@ -5395,7 +5546,9 @@
           "indoor": true,
           "note": "河流、自然教育的實際室內點，與 Bridge Park 鄰近；先看當日開館。",
           "query": "Dungeness River Nature Center, Sequim WA",
-          "url": "https://dungenessrivercenter.org/"
+          "url": "https://dungenessrivercenter.org/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 9–17; Sun 12–17 (coffee counter Tue–Sat 9–16; Railroad Bridge Park daily 7–19)"
         },
         {
           "id": "spit",
@@ -5432,7 +5585,10 @@
           "indoor": false,
           "note": "夏季公園音樂系列的實際場地，不是全年每天有演出的室內館。",
           "query": "James Center for the Performing Arts, Sequim WA",
-          "url": "https://www.visitsunnysequim.com/"
+          "url": "https://sequimwa.gov/512/Summer-Music-Events---Music-in-the-Park",
+          "verified": "2026-10-24",
+          "hours": "Summer Tuesdays 18–20 (2026: June 23–Aug 25)",
+          "liveMusic": "City 'Music in the Park' series: free outdoor concerts Tuesday evenings 18:00–20:00, late June–late August (2026 lineup June 23 Rewind to the 80s … Aug 25 Sound Advice). All ages, bring chairs/picnic. No weekend concerts; none off-season."
         }
       ],
       "plans": [
@@ -5516,7 +5672,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "早餐與咖啡的具名停留，適合已住在鎮上的早晨。",
-          "query": "First Street Haven, Port Angeles WA"
+          "query": "First Street Haven, Port Angeles WA",
+          "url": "https://thefirststreethaven.com/",
+          "verified": "2026-10-24",
+          "hours": "Fri–Mon 8–14; closed Tue–Thu (lunch items from 11)"
         },
         {
           "id": "newday",
@@ -5528,7 +5687,9 @@
           "indoor": true,
           "note": "具名 brunch／午餐點，不把海港一帶泛稱餐飲。",
           "query": "New Day Eatery, Port Angeles WA",
-          "url": "https://www.newdayeatery.com/"
+          "url": "https://newdayeatery.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Wed 8–15; Fri–Sun 7–15; closed Thu"
         },
         {
           "id": "waterfront",
@@ -5552,7 +5713,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "在地海洋生態的實際館舍，先核對開館和活動時段。",
-          "query": "Feiro Marine Life Center, Port Angeles WA"
+          "query": "Feiro Marine Life Center, Port Angeles WA",
+          "url": "https://feiromarinelifecenter.org/",
+          "verified": "2026-10-24",
+          "hours": "Winter season: Thu–Mon 12–16; closed Tue–Wed"
         },
         {
           "id": "pafac",
@@ -5565,7 +5729,9 @@
           "indoor": true,
           "note": "藝術館是室內，Webster’s Woods 雕塑林地在戶外；兩者開放條件不同。",
           "query": "Port Angeles Fine Arts Center, Port Angeles WA",
-          "url": "https://pafac.org/"
+          "url": "https://pafac.org/",
+          "verified": "2026-10-24",
+          "hours": "Gallery Thu–Sun 11–17; Webster's Woods sculpture park dawn–dusk daily"
         },
         {
           "id": "field",
@@ -5578,7 +5744,10 @@
           "indoor": true,
           "note": "真正有售票音樂節目的海濱場館，有想看的場次就很適合以此安排住宿。",
           "query": "Field Arts and Events Hall, Port Angeles WA",
-          "url": "https://fieldhallevents.org/"
+          "url": "https://fieldhallevents.org/",
+          "verified": "2026-10-24",
+          "hours": "Event-based (box office/gallery hours limited)",
+          "liveMusic": "Yes — e.g., Benjamin Hunter Band (Sat Nov 7, 2026), flamenco show Oct 30, free 'Open Mic Mondays' from Nov 9 18:00; film festivals and talks too. Ticketed evening shows, generally all ages."
         },
         {
           "id": "hurricane",
@@ -5714,7 +5883,10 @@
           "minutes": 45,
           "indoor": true,
           "note": "鎮上具名咖啡補給，進湖區或公園前先處理餐點與飲水。",
-          "query": "Hoodsport Coffee Company, Hoodsport WA"
+          "query": "Hoodsport Coffee Company, Hoodsport WA",
+          "url": "https://hoodsportcoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–17 (official; 'abbreviated hours due to staffing')"
         },
         {
           "id": "puerto",
@@ -5725,7 +5897,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "具名的鎮上用餐選項，想把午後留給湖邊時，比一直往北找餐廳更順。",
-          "query": "El Puerto de Angeles, Hoodsport WA"
+          "query": "El Puerto de Angeles, Hoodsport WA",
+          "url": "https://www.facebook.com/people/El-Puerto-De-Angeles/100064110967450/",
+          "verified": "2026-10-24",
+          "hours": "Daily 11–20 (Fri–Sat to 21 per Google)"
         },
         {
           "id": "cushman",
@@ -5763,7 +5938,9 @@
           "indoor": false,
           "note": "Lilliwaup 方向的牡蠣餐飲，往北另抓約 20–30 分鐘；以戶外體驗為主，先看開放日和預約。",
           "query": "Hama Hama Oyster Saloon, Lilliwaup WA",
-          "url": "https://hamahamaoysters.com/pages/oyster-saloon"
+          "url": "https://hamahamaoysters.com/pages/oyster-saloon",
+          "verified": "2026-10-24",
+          "hours": "Fri–Sun 11–17 (outdoor seating only)"
         },
         {
           "id": "potlatch",
@@ -5858,7 +6035,9 @@
           "indoor": true,
           "note": "市場、咖啡與在地商品；先看當週營業，這條建議以 11:00 到當地開始，不假設早上七點就開。",
           "query": "Union City Market, Union WA",
-          "url": "https://www.unioncitymarket.com/"
+          "url": "https://www.unioncitymarket.com/",
+          "verified": "2026-10-24",
+          "hours": "Market Thu–Sun 10–18 (closed Mon–Wed); Hook & Fork eatery Thu–Sun 10–16"
         },
         {
           "id": "alderbrook",
@@ -5869,7 +6048,10 @@
           "minutes": 90,
           "indoor": true,
           "note": "可預約的峽灣景觀餐飲；一般餐廳和住客泳池、spa、私人設施是不同權限。",
-          "query": "The Restaurant at Alderbrook Resort, Union WA"
+          "query": "The Restaurant at Alderbrook Resort, Union WA",
+          "url": "https://www.alderbrookresort.com/culinary/the-restaurant",
+          "verified": "2026-10-24",
+          "hours": "Daily: brunch 8–14, dinner 17–21 (lounge from 14)"
         },
         {
           "id": "twanoh",
@@ -5893,7 +6075,10 @@
           "minutes": 90,
           "indoor": false,
           "note": "農場與農產，季節活動先查當年開放，不當每個月份都能玩南瓜。",
-          "query": "Hunter Farms, Union WA"
+          "query": "Hunter Farms, Union WA",
+          "url": "https://www.hunter-farms.com/",
+          "verified": "2026-10-24",
+          "hours": "Farm store daily 9:30–17:30; pumpkin patch Oct 1–31 daily 9:30–17:30"
         },
         {
           "id": "deli",
@@ -5904,7 +6089,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "想吃簡單午餐的具名替代，和 Alderbrook 二選一，不用一日排兩頓午餐。",
-          "query": "Union Square Deli, Union WA"
+          "query": "Union Square Deli, Union WA",
+          "url": "https://unionsquaredeli.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 8–20 (per Google/Apple)"
         },
         {
           "id": "robinhood",
@@ -5916,7 +6104,10 @@
           "indoor": false,
           "note": "真正有音樂活動的選項，依公開售票與場地室內外安排，不代表非活動日住村就有演出。",
           "query": "Robin Hood Village Resort, Union WA",
-          "url": "https://www.explorehoodcanal.com/"
+          "url": "https://www.robinhoodrevival.com/",
+          "verified": "2026-10-24",
+          "hours": "Monthly: last Wednesday (Robinhood Round, curated open mic) and last Saturday (Robinhood Session, ~18:00 full concert)",
+          "liveMusic": "Yes — revived Jan 2026 in the resort's historic pub (Mason County Journal, Apr 2026): last-Wednesday curated open mic + last-Saturday ticketed concert with opener; ~45 seats, tickets released by email newsletter and usually sell out within hours; beer/wine (proceeds to nonprofits) + food truck. Age rule not published. Shows page listed no public events on 2026-10-24 (announced by newsletter/Facebook)."
         }
       ],
       "plans": [
