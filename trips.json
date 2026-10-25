@@ -1,0 +1,2310 @@
+{
+  "version": 1,
+  "updated": "2026-10-24",
+  "note": "行程整理於 2026-10-24：店家都看過官網或近期資訊，時刻用路線計算的車程加緩衝，渡輪與過境排隊另計。時間是週末建議，不是訂位；住宿價格與空房請在官網或 Google Maps 比較。",
+  "lodging": {
+    "ashford": {
+      "name": "阿什福德（雷尼爾山西南入口）",
+      "town": "Ashford, WA",
+      "searchQuery": "lodging in Ashford WA near Mount Rainier",
+      "note": "冬季 Longmire 往 Paradise 的閘門依天候開關，出發前看 NPS 路況頁。Nisqually Lodge 的官網網域已變成停放頁，未列入。",
+      "options": [
+        {
+          "name": "Stone Creek Lodge at Mt. Rainier",
+          "query": "Stone Creek Lodge at Mt. Rainier, 38624 State Route 706, Ashford WA 98304",
+          "url": "https://www.stonecreeklodge.net/",
+          "type": "小木屋",
+          "season": "全年營業",
+          "note": "離國家公園 Nisqually 入口約 200 碼的雪松木屋與套房，有冷氣、瓦斯壁爐與熱水池。每間最多住 4 人，夏季要早訂。 Family Suite：獨立 queen 臥室＋客廳上下舖，最多 2 大 2 小（含嬰兒）；小廚房只能微波加熱、不能開伙，戶外有烤肉架；官網未寫嬰兒床政策。"
+        },
+        {
+          "name": "Whittaker's Motel & Historic Bunkhouse",
+          "query": "Whittaker's Motel & Historic Bunkhouse, 30205 State Route 706 E, Ashford WA 98304",
+          "url": "https://whittakersbunkhouse.com/",
+          "type": "汽車旅館",
+          "season": "全年營業",
+          "note": "1912 年的伐木工宿舍，1990 年由登山家 Lou 與 Ingrid Whittaker 改建，是老牌登山客據點，附設咖啡館（espresso、早餐、冰淇淋）。冬季（10–4 月）咖啡館週二、週三休，週四與週一只開 8–13 點。 18 間汽車旅館房有私人衛浴，Bunk Room 共用衛浴；1.5 英里外的 Cottage 有 queen＋兩張單人床與完整廚房（最少 2 晚），帶寶寶較方便。不收寵物；官網未提嬰兒床。"
+        }
+      ]
+    },
+    "bellingham": {
+      "name": "貝靈漢",
+      "town": "Bellingham, WA",
+      "searchQuery": "hotels in Bellingham WA",
+      "note": "兩間都查過官網；價格與空房請直接在官網或 Google Maps 比較。",
+      "options": [
+        {
+          "name": "Hotel Bellwether",
+          "query": "Hotel Bellwether, 1 Bellwether Way, Bellingham WA 98225",
+          "url": "https://www.hotelbellwether.com/",
+          "type": "飯店",
+          "season": "全年營業",
+          "note": "Bellingham Bay 水岸的高價位飯店，有 Lighthouse Grill、spa 與海上浮動桑拿 Coho。是舒適的水岸據點，街區散步要另外去 Fairhaven 或 Downtown。 有 Luxury／Signature 套房；官網未提嬰兒床或兒童政策，訂前詢問。"
+        },
+        {
+          "name": "Fairhaven Village Inn",
+          "query": "Fairhaven Village Inn, 1200 10th St, Bellingham WA 98225",
+          "url": "https://www.fairhavenvillageinn.com/",
+          "type": "旅店",
+          "season": "全年營業",
+          "note": "Fairhaven 歷史街區裡的小旅館，每天 7–10 點在圖書室提供在地烘焙咖啡與糕點，房內咖啡是 Caffe Vita，出門幾步就有餐廳。早餐只有糕點，想吃正餐就去街區的店。 官網 FAQ：Pack & Play 嬰兒床一次 $10、rollaway $20（兩張 queen 的房不能加床）；客房在 2–3 樓、有電梯；房內有小冰箱；入住者需 18 歲以上。"
+        }
+      ]
+    },
+    "concrete-marblemount": {
+      "name": "康克里特／馬布爾蒙特（北喀斯喀特西側）",
+      "town": "Marblemount, WA",
+      "searchQuery": "lodging Concrete Marblemount WA North Cascades",
+      "note": "SR 20 冬季（通常 11–4 月）封閉的是 Ross Dam Trailhead 以東路段，Concrete 與 Marblemount 冬天仍開得到，但不能翻山到 Winthrop。",
+      "options": [
+        {
+          "name": "Ovenell's Heritage Inn",
+          "query": "Ovenell's Heritage Inn, 46276 Concrete Sauk Valley Rd, Concrete WA 98237",
+          "url": "https://www.ovenells-inn.com/",
+          "type": "小木屋",
+          "season": "全年營業",
+          "note": "Concrete 郊外 580 英畝的家族牧場，1997 年開始接待旅客，有 4 棟原木小屋與 3 棟 guesthouse，草地上常有鹿，還有雞鴨與 Clydesdale 馬。全年營業，冬春有優惠。 原木小屋與 guesthouse 都設備齊全（例：Foreman Cabin 有 queen＋futon、完整廚房、丙烷壁爐、冷氣）；園區有兒童遊戲區；官網未提嬰兒床。"
+        },
+        {
+          "name": "North Cascades Inn",
+          "query": "North Cascades Inn, 60117 State Route 20, Marblemount WA 98267",
+          "url": "https://www.northcascadesinn.com/",
+          "type": "旅店",
+          "season": "not stated（官網未寫冬季是否營業，冬天先確認）",
+          "note": "Marblemount 的 1898 年公路旅店改建（前身 Buffalo Run Inn），離國家公園西側入口標誌約 5 英里；對街往西 100 碼的 Upriver Grill & Taproom 有現場音樂，住客 9 折。沒有 24 小時櫃台，入住說明用簡訊傳送。 一樓 10 間 Luxury Room、樓上 5 間經濟房共用 2 間浴室，帶寶寶訂一樓；官網強調訂的房型人數要符合；未提嬰兒床。"
+        }
+      ]
+    },
+    "lake-crescent": {
+      "name": "新月湖（奧林匹克國家公園）",
+      "town": "Lake Crescent Lodge, Port Angeles, WA",
+      "searchQuery": "lodging Lake Crescent Olympic National Park",
+      "note": "兩家都是國家公園特許經營，現由 Explor Olympic LLC 經營（exploreolympic.com）；舊的 olympicnationalparks.com 已不再列出這兩家。",
+      "options": [
+        {
+          "name": "Log Cabin Resort",
+          "query": "Log Cabin Resort, East Beach Rd, Lake Crescent, Port Angeles WA 98363",
+          "url": "https://exploreolympic.com/lodging/log-cabin-resort/",
+          "type": "度假村",
+          "season": "2026: May 15–Sep 27（目前已關，2027 日期未公布）",
+          "note": "新月湖北岸 East Beach Road 的湖邊度假村，有 Shoreline Kitchen 簡餐、雜貨與船隻租借。2026 年營業 5/15–9/27，官網目前寫「2026 季已結束、2027 再見」。 官網定位為家庭與團體友善：小木屋、chalet 與 lodge 房；未提嬰兒床。"
+        },
+        {
+          "name": "Lake Crescent Lodge",
+          "query": "Lake Crescent Lodge, 416 Lake Crescent Rd, Port Angeles WA 98363",
+          "url": "https://exploreolympic.com/lodging/lake-crescent-lodge/",
+          "type": "山屋旅館",
+          "season": "Apr 17, 2026–Jan 3, 2027；Jan 8–Apr 16, 2027 僅週末開 Roosevelt Cabins 與 Singer's Tavern Cottages",
+          "note": "百年歷史的湖畔國家公園 lodge，位在 Barnes Point、Marymere Falls 步道附近；餐廳 Singer's Table 供三餐並有季節性咖啡吧，可租划船。冬季只剩週末開部分小屋，餐飲時段以官網為準。 歷史主館（Historical Lodge）房間限 18 歲以上入住，帶寶寶要訂 cottage／cabin；官網未提嬰兒床。"
+        }
+      ]
+    },
+    "leavenworth": {
+      "name": "萊文沃斯",
+      "town": "Leavenworth, WA",
+      "searchQuery": "hotels in Leavenworth WA",
+      "note": "兩間都查過官網；價格與空房請直接在官網或 Google Maps 比較。",
+      "options": [
+        {
+          "name": "Icicle Village Resort",
+          "query": "Icicle Village Resort, 505 Highway 2, Leavenworth WA 98826",
+          "url": "https://iciclevillage.com/",
+          "type": "度假村",
+          "season": "全年營業",
+          "note": "含早餐、全年溫水泳池、熱水池、遊戲室與迷你高爾夫的家庭型度假飯店，對面就是 Leavenworth Adventure Park；官網寫走到 Downtown 約 10 分鐘。房間是一般飯店風格，小鎮氣氛要進鎮找。 官網 FAQ：嬰兒床免費（向櫃台索取）；11 歲以下不收加人費；另有附廚房的一房 condo（condo 不收狗）。"
+        },
+        {
+          "name": "Enzian Inn",
+          "query": "Enzian Inn, 590 US Hwy 2, Leavenworth WA 98826",
+          "url": "https://enzianinn.com/",
+          "type": "旅店",
+          "season": "全年營業",
+          "note": "奧地利古董家具的巴伐利亞風旅館，早餐時段每天有兩次現場阿爾卑斯長號（alphorn）演奏、晚上大廳有鋼琴，另有室內外泳池。同集團的 Posthotel 是成人限定，帶寶寶別訂錯。 有 Family Room（兩張 queen＋沙發床）；含早餐自助；官網未提嬰兒床，訂房時先問。超過 2 人每人每晚加 $10。"
+        }
+      ]
+    },
+    "port-townsend": {
+      "name": "湯森港",
+      "town": "Port Townsend, WA",
+      "searchQuery": "hotels in Port Townsend WA",
+      "note": "兩間都查過官網；價格與空房請直接在官網或 Google Maps 比較。",
+      "options": [
+        {
+          "name": "The Bishop Hotel",
+          "query": "The Bishop Hotel, 714 Washington St, Port Townsend WA 98368",
+          "url": "https://www.thebishophotel.com/",
+          "type": "飯店",
+          "season": "全年營業",
+          "note": "前身 Bishop Victorian 的獨立全套房精品旅館，離水岸一個街區，走路到 Water Street 吃逛。部分套房是狗友善房，對寵物過敏就訂一般房。 16 間全套房：臥室與客廳分開、沙發床、小廚房，另有標示 Family Suite 的房型；12 歲以上加人每晚最多 $15；官網未提嬰兒床。"
+        },
+        {
+          "name": "Palace Hotel",
+          "query": "Palace Hotel, 1004 Water St, Port Townsend WA 98368",
+          "url": "https://palacehotelpt.com/",
+          "type": "飯店",
+          "season": "全年營業",
+          "note": "1889 年的三層維多利亞建築，就在 Water Street 歷史街區中心，26 間房分維多利亞古董風與現代 loft。沒有電梯、沒有一樓客房、沒有冷氣（提供電扇），推車和行李都要走樓梯。 很多房有完整廚房；部分房兩張 queen 或加充氣床可住 4 人；入住者中需有 21 歲以上成人；官網未提嬰兒床。"
+        }
+      ]
+    },
+    "portland": {
+      "name": "波特蘭",
+      "town": "Portland, OR",
+      "searchQuery": "hotels in Portland OR",
+      "note": "若三天裡有一整天跑 Columbia River Gorge，也可考慮 McMenamins 在 Troutdale 的 Edgefield（2126 SW Halsey St），Troutdale 有 Gateway to the Gorge 遊客中心，離峽谷較近。",
+      "options": [
+        {
+          "name": "Inn at Northrup Station",
+          "query": "Inn at Northrup Station, 2025 NW Northrup St, Portland OR 97209",
+          "url": "https://www.northrupstation.com/",
+          "type": "飯店",
+          "season": "全年營業",
+          "note": "NW Portland（Nob Hill／Slabtown）的獨立全套房旅館，配色復古，含早餐、停車證與 Portland Streetcar 車票，附近咖啡館與小店多。週末早餐 6:30–10 點。 全套房：King Suite 有完整廚房、Double Queen Suite 有小廚房＋單人沙發床；12 歲以下不收加人費、每房最多 4 人；官網未提嬰兒床。"
+        },
+        {
+          "name": "McMenamins Kennedy School",
+          "query": "McMenamins Kennedy School, 5736 NE 33rd Ave, Portland OR 97211",
+          "url": "https://www.mcmenamins.com/kennedy-school",
+          "type": "飯店",
+          "season": "全年營業",
+          "note": "1911 年小學改建的旅館，教室改成客房還留著黑板，館內有餐廳、多個酒吧、電影院與泡湯池（住客 8–22 點免費）。位在 NE Portland，離 Downtown 有段距離，通常開車。 6 歲以下免費同住；部分房可加 rollaway（English Wing 不行，也沒有電梯）；泡湯池未成年需家長全程陪同；官網未提嬰兒床。"
+        }
+      ]
+    },
+    "vancouver-bc": {
+      "name": "溫哥華（BC）",
+      "town": "Downtown Vancouver, BC",
+      "searchQuery": "hotels in Vancouver BC downtown",
+      "note": "兩間都查過官網；價格與空房請直接在官網或 Google Maps 比較。",
+      "options": [
+        {
+          "name": "Carmana Hotel & Suites",
+          "query": "Carmana Hotel & Suites, 1128 Alberni St, Vancouver BC V6E 4R6",
+          "url": "https://www.carmanahotel.com/",
+          "type": "飯店",
+          "season": "全年營業",
+          "note": "Downtown 的在地經營全套房飯店，一房、兩房套房都有完整廚房，官網寫適合家庭、近 Stanley Park 與水族館。套房有廚房，可以自己準備寶寶食物。 官網政策：可加嬰兒床或遊戲床（每晚 $20，每間只能加一種加床）；12 歲以下兩名小孩同住免費；一房與兩房套房都有完整廚房。"
+        },
+        {
+          "name": "Sylvia Hotel",
+          "query": "Sylvia Hotel, 1154 Gilford St, Vancouver BC V6G 2P6",
+          "url": "https://sylviahotel.com/",
+          "type": "飯店",
+          "season": "全年營業",
+          "note": "1912 年的城市地標老飯店，就在 English Bay 海灘旁、靠近 Stanley Park，附設面海餐廳與酒吧，官網寫許多家庭來海灘度假。房型從 Petite Queen 到套房大小差很多，訂前看清楚。 有「兩張 queen＋廚房」房型與附小廚房的套房；官網未提嬰兒床。"
+        }
+      ]
+    },
+    "winthrop": {
+      "name": "溫思羅普（Methow 谷）",
+      "town": "Winthrop, WA",
+      "searchQuery": "hotels in Winthrop WA",
+      "note": "WSDOT 通常在 11–4 月因雪崩風險封閉 SR 20 的 Ross Dam Trailhead 至 Lone Fir 路段，冬天從 Redmond 要改走其他山口，車程明顯變長。",
+      "options": [
+        {
+          "name": "Sun Mountain Lodge（Patterson Lake Cabins）",
+          "query": "Sun Mountain Lodge, 604 Patterson Lake Rd, Winthrop WA 98862",
+          "url": "https://sunmountainlodge.com/",
+          "type": "度假村",
+          "season": "全年營業",
+          "note": "Methow 谷上方山頂的度假村，帶寶寶建議訂主館下方 1.2 英里湖邊的 Patterson Lake 小木屋；有溫水泳池與兩座全年熱水池，冬天可從門口滑越野雪。 Patterson Lake 的 One Bedroom Cabin：完整廚房、獨立 queen 臥室＋客廳 queen 壁床，官網寫適合帶小小孩的夫妻；部分小木屋可帶寵物；官網未提嬰兒床。"
+        },
+        {
+          "name": "Hotel Rio Vista",
+          "query": "Hotel Rio Vista, 285 Riverside Ave, Winthrop WA 98862",
+          "url": "https://hotelriovista.com/",
+          "type": "飯店",
+          "season": "全年營業",
+          "note": "Winthrop 西部風主街上的家族經營小旅館，房間面河，出門就是木棧道商店街；熱水池需預約。週五、六通常最少住 2 晚，節慶週末 3 晚。 線上訂房可選最多 2 名兒童；房型以一張或兩張 queen／king 為主；官網未提嬰兒床，需電話確認。"
+        }
+      ]
+    }
+  },
+  "extras": {
+    "latourell-falls": {
+      "id": "latourell-falls",
+      "name": "Latourell Falls（Guy W. Talbot State Park）",
+      "kinds": [
+        "sight",
+        "walk"
+      ],
+      "minutes": 45,
+      "indoor": false,
+      "note": "224 ft 的瀑布直落在長滿黃綠色地衣的玄武岩柱上，停車場旁就看得到，或穿過 1914 年老橋下走到瀑布底；想多走可接 2.4 mile 的上下瀑布環線。Oregon State Parks 收日停車費（州外車 $12），同一天可在 Vista House 等其他收費州立公園通用，Northwest Forest Pass 不適用。",
+      "query": "Latourell Falls Trailhead, Guy W. Talbot State Park, Historic Columbia River Hwy, Corbett OR",
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=112",
+      "town": "Corbett OR",
+      "hours": "Day use; parking permit required (buy on site)"
+    },
+    "mazama-store": {
+      "id": "mazama-store",
+      "name": "The Mazama Store",
+      "kinds": [
+        "coffee",
+        "food",
+        "shopping"
+      ],
+      "minutes": 45,
+      "indoor": true,
+      "note": "翻過山口東側第一站的烘焙、熟食與 espresso，也有雜貨和 24 小時加油；官網列每天 7–18。",
+      "query": "The Mazama Store, 50 Lost River Road, Mazama WA",
+      "url": "https://www.themazamastore.com/",
+      "town": "Mazama WA",
+      "hours": "Daily 7–18 (Christmas Eve to 16, closed Christmas Day)"
+    },
+    "multnomah-falls": {
+      "id": "multnomah-falls",
+      "name": "Multnomah Falls",
+      "kinds": [
+        "sight",
+        "walk"
+      ],
+      "minutes": 90,
+      "indoor": false,
+      "setting": "瀑布前廣場、Benson Bridge 與歷史 Lodge（餐廳、咖啡攤、禮品店、遊客中心）",
+      "note": "620 ft 的兩段式瀑布，從 I-84 Exit 31 停車場走地下道到 Lodge，上到 Benson Bridge 是陡坡，上瀑頂來回 2.4 mile、約 600 ft。2026 年 5/22–9/7 每日 9–18 時停 Exit 31 需 Timed Use Permit（Recreation.gov 於 14 天前與 2 天前早上 7 點釋出，$2），10 月起不用；Lodge 公廁整修到 2026 年 11 月只有流動廁所，餐廳電梯也因整修間歇停用。",
+      "query": "Multnomah Falls Lodge, 53000 E Historic Columbia River Hwy, Bridal Veil OR 97010",
+      "url": "https://www.fs.usda.gov/r06/columbiarivergorge/recreation/multnomah-falls",
+      "town": "Bridal Veil OR",
+      "hours": "Lodge: Mon–Fri 9–18, Sat–Sun 8–18（restaurant, espresso stand, gift shop daily）; Visitor Center daily 10–14"
+    },
+    "old-schoolhouse": {
+      "id": "old-schoolhouse",
+      "name": "Old Schoolhouse Brewery",
+      "kinds": [
+        "food",
+        "music"
+      ],
+      "minutes": 90,
+      "indoor": true,
+      "setting": "夏季河畔露台、冬季室內",
+      "note": "Chewuch River 畔的自釀酒吧餐廳，漢堡、炸魚與沙拉；夏季在河畔露台舞台、冬季移到室內辦現場音樂（例：2026-10-09 Dillon Havins），每天營業。",
+      "query": "Old Schoolhouse Brewery, 155 Riverside Avenue, Winthrop WA",
+      "url": "https://oldschoolhousebrewery.com/visit/pub/",
+      "town": "Winthrop WA",
+      "hours": "Fri–Sun 12–20 (or 21); Mon–Thu 15–20"
+    },
+    "rocking-horse": {
+      "id": "rocking-horse",
+      "name": "Rocking Horse Bakery",
+      "kinds": [
+        "coffee",
+        "food"
+      ],
+      "minutes": 45,
+      "indoor": true,
+      "note": "主街上的烘焙咖啡館，早餐與點心；官網目前時段為週四至週一 7–14，週二、三休。",
+      "query": "Rocking Horse Bakery, 265 Riverside Avenue, Winthrop WA",
+      "url": "https://www.rockinghorsebakery.com/",
+      "town": "Winthrop WA",
+      "hours": "Thu–Mon 7–14; closed Tue–Wed (site notes closure Sat 10/17)"
+    },
+    "vista-house": {
+      "id": "vista-house",
+      "name": "Vista House at Crown Point",
+      "kinds": [
+        "sight",
+        "culture"
+      ],
+      "minutes": 40,
+      "indoor": false,
+      "setting": "河面上方 693 ft 岬角上的 1918 年八角形石造觀景建築，內有小型展覽與禮品店",
+      "note": "1918 年落成的歷史公路休息站，大理石地板與彩繪玻璃，是看整段峽谷的經典起點。建築只在週五到週一開：10/29 前 9–17 點，2026/10/30–2027/3/21 改 10–16 點，風速超過 50 mph 或天候不佳就關；停車場 6–21 點開，需 Oregon State Parks 日停車證。",
+      "query": "Vista House, 40700 Historic Columbia River Hwy, Corbett OR 97019",
+      "url": "https://vistahouse.com/",
+      "town": "Corbett OR",
+      "hours": "Fri–Mon 9–17 (through Oct 29, 2026); Fri–Mon 10–16 (Oct 30, 2026–Mar 21, 2027); closed Tue–Thu; closes in winds >50 mph; parking 6–21"
+    },
+    "washington-pass": {
+      "id": "washington-pass",
+      "name": "Washington Pass Overlook",
+      "kinds": [
+        "sight",
+        "walk"
+      ],
+      "minutes": 40,
+      "indoor": false,
+      "note": "短鋪面全無障礙步道到崖邊看 Liberty Bell 與 Early Winters Spires，有 vault toilet 與野餐桌、不收費；SR 20 冬季封閉時到不了。",
+      "query": "Washington Pass Overlook, North Cascades Highway (SR 20), WA",
+      "url": "https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/washington-pass-observation-site",
+      "town": "Washington Pass, SR 20",
+      "hours": "Day use only; reachable only while SR 20 is open"
+    },
+    "winthrop-riverside": {
+      "id": "winthrop-riverside",
+      "name": "Riverside Avenue 西部風主街",
+      "kinds": [
+        "town",
+        "shopping"
+      ],
+      "minutes": 60,
+      "indoor": false,
+      "note": "1960–70 年代為迎接 SR 20 通車，由 Wagner 家族出資把主街改造成舊西部風；木棧道店面集中在 Riverside Avenue，慢逛約一小時。",
+      "query": "Riverside Avenue, Winthrop WA",
+      "url": "https://townofwinthrop.com/",
+      "town": "Winthrop WA"
+    }
+  },
+  "trips": [
+    {
+      "id": "snoqualmie-valley",
+      "days": 1,
+      "title": "Snoqualmie 河谷：瀑布、咖啡與 Rattlesnake Ledge",
+      "subtitle": "離家 40 分鐘的山景爬升日",
+      "route": "Redmond → Snoqualmie Falls → North Bend → Rattlesnake Ledge → Twede’s → Snoqualmie Depot",
+      "scene": "mountain",
+      "interests": [
+        "town",
+        "coffee",
+        "hike",
+        "scenery"
+      ],
+      "cities": [
+        "snoqualmie",
+        "north-bend"
+      ],
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "早上先看瀑布，咖啡後爬 Rattlesnake Ledge 第一觀景台，下山在 Twede’s 補一頓，最後到老火車站散步。全程都在 Redmond 一小時內，適合臨時起意的週末。",
+      "seasonNote": "Rattlesnake Ledge 建議 5–11 月；12–4 月岩台常結冰，改走 Twin Falls 或只到湖邊。",
+      "watch": "Rattlesnake Lake 停車場週末 9 點後常滿，早到最穩。Ledge 岩台邊緣沒有護欄，揹寶寶時不要靠近崖邊。",
+      "hikes": [
+        {
+          "trail": "rattlesnake",
+          "note": "本行程主線；第一觀景台來回。"
+        },
+        {
+          "trail": "twin-falls",
+          "note": "冬季或想輕鬆時的替代：森林與瀑布，爬升小。"
+        }
+      ],
+      "driving": "全程開車約 2.5 小時",
+      "itinerary": [
+        {
+          "title": "瀑布、咖啡、爬一段山",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:00",
+          "steps": [
+            [
+              "08:40",
+              "snoqualmie/falls",
+              45,
+              40,
+              "先看主瀑布與觀景台，早上人少、停車容易。",
+              "drive"
+            ],
+            [
+              "09:40",
+              "north-bend/hux",
+              40,
+              15,
+              "咖啡與早點；店內每天 7–19。",
+              "drive"
+            ],
+            [
+              "10:40",
+              "trail/rattlesnake",
+              180,
+              20,
+              "到第一觀景台來回約 4 mi／1,160 ft；看 Rattlesnake Lake 與 Cedar River 河谷。",
+              "drive"
+            ],
+            [
+              "14:00",
+              "north-bend/twedes",
+              60,
+              20,
+              "晚午餐；Twin Peaks 的那家店，櫻桃派可外帶。",
+              "drive"
+            ],
+            [
+              "15:15",
+              "snoqualmie/depot",
+              45,
+              15,
+              "1890 年老車站與戶外火車展示，散步收尾。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 40
+        }
+      ]
+    },
+    {
+      "id": "us2-falls",
+      "days": 1,
+      "title": "US-2 瀑布日：Wallace Falls 與 Monroe 老街",
+      "subtitle": "Skykomish 河谷最經典的瀑布步道",
+      "route": "Redmond → Monroe 咖啡 → Wallace Falls → Tuscano’s 午餐 → Monroe 老街",
+      "scene": "mountain",
+      "interests": [
+        "coffee",
+        "hike",
+        "scenery",
+        "town"
+      ],
+      "cities": [
+        "monroe"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "Wallace Falls 沿河谷老林一路上到上瀑布，三段瀑布一次看完，全年可走；下山回 Monroe 吃義大利菜、逛主街，車程短、不必早起。",
+      "seasonNote": "全年可走；雨季瀑布最壯觀但步道泥濘，冬季上段偶有結冰。",
+      "watch": "Wallace Falls 州立公園要 Discover Pass，週末停車場常滿。Noticed Coffee 週日 9:00 才開；週六也可改 Monroe Coffee Co.（週六 8–13）。",
+      "hikes": [
+        {
+          "trail": "wallace",
+          "note": "本行程主線：Woody Trail 到上瀑布。"
+        },
+        {
+          "trail": "heybrook",
+          "note": "想多加一段：US-2 再往東 25 分鐘，2 mi 來回上瞭望塔。"
+        },
+        {
+          "trail": "lake-serene",
+          "note": "體力好的替代：高山湖與瀑布，爬升 2,000 ft、5–10 月。"
+        }
+      ],
+      "driving": "全程開車約 2.5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、三段瀑布、老街午餐",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:30",
+          "steps": [
+            [
+              "09:10",
+              "monroe/noticed-coffee-co",
+              40,
+              40,
+              "咖啡與糕點；週日 9 點開門。",
+              "drive"
+            ],
+            [
+              "10:25",
+              "trail/wallace",
+              210,
+              35,
+              "Woody Trail 到上瀑布來回 5.6 mi／1,300 ft，中瀑布觀景台最好拍。",
+              "drive"
+            ],
+            [
+              "14:30",
+              "monroe/tuscanos",
+              75,
+              35,
+              "義大利菜晚午餐；每天 11:30 起。",
+              "drive"
+            ],
+            [
+              "16:00",
+              "monroe/historic",
+              45,
+              15,
+              "Main Street 老街散步。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 40
+        }
+      ]
+    },
+    {
+      "id": "mountain-loop-day",
+      "days": 1,
+      "title": "Mountain Loop：Lake 22 老林與 Big Four 山壁",
+      "subtitle": "一小時到的高山湖與瀑布",
+      "route": "Redmond → Granite Falls 咖啡 → Lake 22 → Big Four 冰洞步道 → Granite Falls 晚餐",
+      "scene": "lake",
+      "interests": [
+        "coffee",
+        "hike",
+        "scenery"
+      ],
+      "cities": [
+        "mountain-loop"
+      ],
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "why": "Lake 22 一路經過瀑布與老林，終點是山壁下的高山湖；回程順路走平緩的 Big Four 步道看巨大山壁。進山前在 Granite Falls 買咖啡，出山再吃晚餐。",
+      "seasonNote": "Lake 22 與 Big Four 冬春是雪崩地形；Mountain Loop 公路冬季封閉上段，日期依 USFS 公告。",
+      "watch": "Big Four 冰洞只能遠看，絕不進入或靠近洞口，曾有致命崩塌，10 月中健行者回報冰洞已幾乎全塌。進山後幾乎沒有手機訊號，先下載離線地圖。需要 Northwest Forest Pass。",
+      "hikes": [
+        {
+          "trail": "lake-22",
+          "note": "本行程主線。"
+        },
+        {
+          "trail": "big-four",
+          "note": "回程順路的平緩步道，只遠看冰洞。"
+        },
+        {
+          "trail": "heather-lake",
+          "note": "較短的替代高山湖。"
+        }
+      ],
+      "driving": "全程開車約 4 小時",
+      "itinerary": [
+        {
+          "title": "高山湖與山壁",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:30",
+          "steps": [
+            [
+              "08:35",
+              "mountain-loop/hookline",
+              15,
+              65,
+              "外帶咖啡；進山後沒有咖啡店。",
+              "drive"
+            ],
+            [
+              "09:20",
+              "trail/lake-22",
+              270,
+              30,
+              "Lake 22 來回 6.8 mi／1,350 ft，沿途多座瀑布。",
+              "drive"
+            ],
+            [
+              "14:20",
+              "trail/big-four",
+              75,
+              30,
+              "平緩步道到山壁前，只遠看冰洞。",
+              "drive"
+            ],
+            [
+              "16:30",
+              "mountain-loop/playa",
+              60,
+              55,
+              "回 Granite Falls 吃墨西哥菜晚餐。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 65
+        }
+      ]
+    },
+    {
+      "id": "chuckanut-fairhaven",
+      "days": 1,
+      "title": "Chuckanut 海岸：Oyster Dome 與 Fairhaven 書店街",
+      "subtitle": "看 San Juan 群島的海岸步道，再逛紅磚老街",
+      "route": "Redmond → Oyster Dome → Fairhaven（Colophon 午餐、Village Books）→ Boulevard Park",
+      "scene": "harbor",
+      "interests": [
+        "hike",
+        "scenery",
+        "town",
+        "coffee"
+      ],
+      "cities": [
+        "bellingham"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "Oyster Dome 從 Chuckanut Drive 爬上岩頂，看 Samish Bay 與 San Juan 群島；下山到 Fairhaven 紅磚街吃午餐、逛獨立書店，傍晚在海邊公園喝咖啡看夕陽。",
+      "seasonNote": "全年可走；冬季泥濘、天黑早，最後一站要提早。",
+      "watch": "WTA 9–10 月回報 Oyster Dome 頂部附近有胡蜂窩。Chuckanut Drive 路邊停車位少，週末早到。Colophon 週二公休。",
+      "hikes": [
+        {
+          "trail": "oyster-dome",
+          "note": "本行程主線。"
+        },
+        {
+          "trail": "fragrance",
+          "note": "較短的替代：森林小湖，Larrabee 換水管期間停車較緊。"
+        }
+      ],
+      "driving": "全程開車約 5 小時",
+      "itinerary": [
+        {
+          "title": "海岸岩頂與書店街",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:30",
+          "steps": [
+            [
+              "09:30",
+              "trail/oyster-dome",
+              240,
+              120,
+              "5 mi／1,050 ft 到岩頂看海灣與群島。",
+              "drive"
+            ],
+            [
+              "14:15",
+              "bellingham/colophon",
+              75,
+              45,
+              "Fairhaven 老店午餐，湯與派有名。",
+              "drive"
+            ],
+            [
+              "15:35",
+              "bellingham/books",
+              60,
+              5,
+              "Village Books 三層獨立書店，就在 Fairhaven 紅磚街上。",
+              "walk"
+            ],
+            [
+              "16:45",
+              "bellingham/woods",
+              30,
+              10,
+              "海邊公園裡的咖啡館。",
+              "drive"
+            ],
+            [
+              "17:20",
+              "bellingham/boulevard",
+              40,
+              5,
+              "沿海棧道走到 Taylor Dock，看夕陽。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 115
+        }
+      ]
+    },
+    {
+      "id": "whidbey-loop",
+      "days": 1,
+      "title": "Whidbey 一圈：渡輪、Langley、Ebey’s 海崖、Deception Pass",
+      "subtitle": "搭船進島、開車繞回家",
+      "route": "Redmond → Mukilteo 渡輪 → Langley → Coupeville → Ebey’s Landing → Deception Pass → Redmond",
+      "scene": "coast",
+      "interests": [
+        "town",
+        "coffee",
+        "scenery",
+        "walk"
+      ],
+      "cities": [
+        "langley",
+        "coupeville",
+        "oak-harbor"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "早上搭渡輪到 Langley 喝咖啡逛海邊小鎮，中午到 Coupeville 吃海鮮，下午走 Ebey’s Landing 海崖草原，最後在 Deception Pass 大橋看潮水，從北端開車回家，不用再排回程渡輪。",
+      "seasonNote": "全年可去；冬季海崖風大、天黑早，Ebey’s 可只走一半折返。",
+      "watch": "渡輪排隊另計：週末上午與傍晚常要等一兩班，出發前看 WSDOT 渡輪即時等候。 Osprey Fish Co. 只開週四至週日。Ebey’s 停車需 Discover Pass。",
+      "hikes": [
+        {
+          "trail": "ebeys",
+          "note": "本行程主線：草原到海崖。"
+        },
+        {
+          "trail": "goose-rock",
+          "note": "Deception Pass 想多走：島上最高點，4.3 mi。"
+        }
+      ],
+      "driving": "全程開車約 5.5 小時",
+      "itinerary": [
+        {
+          "title": "島上小鎮與海崖",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:00",
+          "steps": [
+            [
+              "09:45",
+              "langley/coffee",
+              45,
+              105,
+              "Mukilteo–Clinton 渡輪後第一站咖啡。",
+              "drive"
+            ],
+            [
+              "10:35",
+              "langley/first",
+              60,
+              5,
+              "畫廊與小店，海邊階梯下到 Seawall。",
+              "walk"
+            ],
+            [
+              "12:25",
+              "coupeville/grill",
+              60,
+              50,
+              "Coupeville 碼頭邊吃淡菜與炸魚；12:00 開門。",
+              "drive"
+            ],
+            [
+              "13:35",
+              "trail/ebeys",
+              150,
+              10,
+              "Prairie Overlook 經海崖步道，走到看得到 Olympics 就可折返。",
+              "drive"
+            ],
+            [
+              "16:50",
+              "oak-harbor/deception",
+              60,
+              45,
+              "大橋與 West Beach，看峽灣急流。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 125
+        }
+      ]
+    },
+    {
+      "id": "paradise-day",
+      "days": 1,
+      "title": "Mount Rainier 一日：Longmire 老林與 Paradise",
+      "subtitle": "最近的冰河山景",
+      "route": "Redmond → Ashford 咖啡 → Longmire → Paradise（Nisqually Vista）→ Copper Creek",
+      "scene": "mountain",
+      "interests": [
+        "scenery",
+        "walk",
+        "coffee"
+      ],
+      "cities": [
+        "ashford"
+      ],
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "why": "經 Nisqually 入口上山：Longmire 歷史區看老林與溫泉遺跡，Paradise 走 Nisqually Vista 環線正面看冰河，下山在 Copper Creek 吃黑莓派。",
+      "seasonNote": "Paradise 步道 7–10 月無雪；11/1–5/1 所有車都要帶雪鏈，冬季 Longmire 閘門夜間關閉，Paradise 改為雪鞋路線。",
+      "watch": "需國家公園入園費或年票。Stevens Canyon Road 10/26 起冬季封閉，只能從 Ashford 這側進出。Whittaker’s 冬季只開週五至週日。",
+      "hikes": [
+        {
+          "trail": "nisqually",
+          "note": "本行程主線：輕鬆環線看冰河。"
+        },
+        {
+          "trail": "skyline",
+          "note": "體力好、8–9 月：完整高山草甸環線。"
+        }
+      ],
+      "driving": "全程開車約 6.5 小時",
+      "itinerary": [
+        {
+          "title": "老林與冰河",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:30",
+          "steps": [
+            [
+              "09:45",
+              "ashford/coffee",
+              30,
+              135,
+              "公園入口前最後的咖啡。",
+              "drive"
+            ],
+            [
+              "10:45",
+              "ashford/longmire",
+              50,
+              30,
+              "歷史區博物館與 Trail of the Shadows 入口。",
+              "drive"
+            ],
+            [
+              "12:10",
+              "trail/nisqually",
+              90,
+              35,
+              "Paradise 停車後走環線，看 Nisqually 冰河。",
+              "drive"
+            ],
+            [
+              "14:30",
+              "ashford/copper",
+              75,
+              50,
+              "下山晚午餐，黑莓派。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 140
+        }
+      ]
+    },
+    {
+      "id": "bainbridge-poulsbo",
+      "days": 1,
+      "title": "雨天也行：Bainbridge 與 Poulsbo 渡輪日",
+      "subtitle": "渡輪、美術館、北歐小鎮",
+      "route": "Redmond → Seattle 渡輪 → Bainbridge（Blackbird、BIMA、Winslow）→ Poulsbo → Kingston 渡輪 → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "town",
+        "coffee",
+        "scenery"
+      ],
+      "cities": [
+        "bainbridge",
+        "poulsbo"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "搭 Seattle 渡輪看天際線，Bainbridge 吃烘焙、看免費美術館、逛 Winslow；午後到北歐風的 Poulsbo 吃 Sluys 甜甜圈、看海事博物館，從 Kingston 渡輪回家，不走回頭路。",
+      "seasonNote": "全年可去；室內點多，下雨天也好玩。",
+      "watch": "渡輪排隊另計：週末上午與傍晚常要等一兩班，出發前看 WSDOT 渡輪即時等候。 往 Bainbridge 是西行收費，Kingston 回程不另收費；開車上船以實際票價為準。",
+      "hikes": [],
+      "driving": "全程開車約 4 小時",
+      "itinerary": [
+        {
+          "title": "兩個島鎮",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:30",
+          "steps": [
+            [
+              "10:05",
+              "bainbridge/blackbird",
+              40,
+              95,
+              "Seattle–Bainbridge 渡輪後，走到 Blackbird 烘焙咖啡。",
+              "drive"
+            ],
+            [
+              "10:55",
+              "bainbridge/bima",
+              60,
+              10,
+              "免費入場的島上美術館。",
+              "walk"
+            ],
+            [
+              "12:05",
+              "bainbridge/fish",
+              60,
+              10,
+              "Winslow 午餐。",
+              "walk"
+            ],
+            [
+              "13:15",
+              "bainbridge/winslow",
+              40,
+              10,
+              "主街小店。",
+              "walk"
+            ],
+            [
+              "14:25",
+              "poulsbo/sluys",
+              20,
+              30,
+              "Poulsbo 名店甜甜圈與烘焙。",
+              "drive"
+            ],
+            [
+              "15:00",
+              "poulsbo/front",
+              50,
+              15,
+              "北歐風 Front Street 與海灣。",
+              "walk"
+            ],
+            [
+              "16:05",
+              "poulsbo/poulsbo-maritime-museum",
+              40,
+              15,
+              "海事博物館，每天 10–16。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 120
+        }
+      ]
+    },
+    {
+      "id": "leavenworth-2d",
+      "days": 2,
+      "title": "Leavenworth 兩天：Icicle 溪谷與果鄉小鎮",
+      "subtitle": "山城住一晚，第二天慢慢逛 Cashmere",
+      "route": "D1 Redmond → Leavenworth（溪谷步道、老街）｜D2 Cashmere 烘焙、果糖工廠 → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "leavenworth",
+        "cashmere"
+      ],
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "why": "第一天翻過 Stevens Pass 到巴伐利亞風的 Leavenworth，下午走 Icicle Gorge 溪谷環線；第二天到隔壁果鄉 Cashmere 吃 Anjou 烘焙、看 Aplets & Cotlets，午餐後回家。",
+      "seasonNote": "Icicle Gorge 5–10 月；冬季改看 Leavenworth 燈節（另需提早訂房）。",
+      "watch": "US-2 Stevens Pass 冬季要看 WSDOT 山口路況與雪鏈規定。Leavenworth 週末住宿常滿，提早訂。J5 Coffee 週日休，所以第二天早餐排在 Cashmere。",
+      "hikes": [
+        {
+          "trail": "icicle-gorge",
+          "note": "本行程主線：低爬升溪谷環線。"
+        },
+        {
+          "trail": "icicle-ridge",
+          "note": "想爬山：短入口 6 mi／1,800 ft 看河谷。"
+        }
+      ],
+      "driving": "兩天合計開車約 8 小時",
+      "itinerary": [
+        {
+          "title": "翻山到巴伐利亞小鎮",
+          "from": "redmond",
+          "to": "leavenworth",
+          "depart": "08:00",
+          "steps": [
+            [
+              "10:35",
+              "leavenworth/argonaut-coffee-biscuits",
+              45,
+              155,
+              "抵達先吃 biscuit 與咖啡；每天 7–14。",
+              "drive"
+            ],
+            [
+              "11:25",
+              "leavenworth/waterfront",
+              60,
+              5,
+              "Wenatchee 河邊的 Blackbird Island 步道。",
+              "walk"
+            ],
+            [
+              "12:35",
+              "leavenworth/munchen",
+              60,
+              10,
+              "德式香腸午餐，戶外座位。",
+              "walk"
+            ],
+            [
+              "14:25",
+              "trail/icicle-gorge",
+              150,
+              50,
+              "Icicle Road 深處的溪谷環線，有吊橋。",
+              "drive"
+            ],
+            [
+              "17:45",
+              "leavenworth/front",
+              60,
+              50,
+              "傍晚逛 Front Street，入住。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 10
+        },
+        {
+          "title": "果鄉小鎮慢逛回家",
+          "from": "leavenworth",
+          "to": "redmond",
+          "depart": "08:30",
+          "steps": [
+            [
+              "08:55",
+              "cashmere/anjou",
+              45,
+              25,
+              "Anjou Bakery 早餐；只開週五至週日。",
+              "drive"
+            ],
+            [
+              "09:50",
+              "cashmere/riverside",
+              40,
+              10,
+              "河邊公園散步。",
+              "drive"
+            ],
+            [
+              "10:40",
+              "cashmere/candy",
+              40,
+              10,
+              "Aplets & Cotlets 糖果工廠，週末 10–16。",
+              "drive"
+            ],
+            [
+              "11:25",
+              "cashmere/cottage",
+              40,
+              5,
+              "Cottage Avenue 老街。",
+              "walk"
+            ],
+            [
+              "12:10",
+              "cashmere/milepost",
+              75,
+              5,
+              "午餐後回家。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 175
+        }
+      ]
+    },
+    {
+      "id": "vancouver-2d",
+      "days": 2,
+      "title": "溫哥華兩天：Gastown、Granville Island 與 North Shore",
+      "subtitle": "城市、市場、海灣森林一次走",
+      "route": "D1 Redmond → Gastown → Granville Island → Stanley Park｜D2 Lonsdale Quay → Lynn Canyon → Deep Cove → Redmond",
+      "scene": "city",
+      "interests": [
+        "town",
+        "coffee",
+        "scenery",
+        "walk"
+      ],
+      "cities": [
+        "vancouver-bc",
+        "north-vancouver"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "第一天在 Gastown 喝咖啡、Granville Island 市場吃午餐、傍晚走 Stanley Park 海堤；第二天過海到 North Vancouver，走免費的 Lynn Canyon 吊橋，再到 Deep Cove 吃甜甜圈、走 Quarry Rock 看峽灣。",
+      "seasonNote": "全年可去；冬季多雨，Quarry Rock 濕滑時只到中段。",
+      "watch": "過境需護照與有效簽證文件，邊境等候看 CBP／CBSA 即時時間。Revolver 週日休，第一天排週六最順。Deep Cove 週末停車位很少。",
+      "hikes": [
+        {
+          "trail": "quarry-rock",
+          "note": "本行程第二天的海灣步道。"
+        },
+        {
+          "trail": "lynn-loop",
+          "note": "想走更長的森林：上段有橋封閉，帶寶寶走來回。"
+        }
+      ],
+      "driving": "兩天合計開車約 8 小時",
+      "itinerary": [
+        {
+          "title": "城市與海堤",
+          "from": "redmond",
+          "to": "vancouver-bc",
+          "depart": "07:30",
+          "steps": [
+            [
+              "10:30",
+              "vancouver-bc/revolver",
+              45,
+              180,
+              "過境後到 Gastown 喝咖啡；週日休。",
+              "drive"
+            ],
+            [
+              "11:25",
+              "vancouver-bc/gastown",
+              45,
+              10,
+              "蒸汽鐘與石板街。",
+              "walk"
+            ],
+            [
+              "12:25",
+              "vancouver-bc/granville",
+              90,
+              15,
+              "市場午餐與碼頭。",
+              "drive"
+            ],
+            [
+              "14:00",
+              "vancouver-bc/stanley",
+              120,
+              5,
+              "Coal Harbour 海堤散步到 Brockton Point。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 15
+        },
+        {
+          "title": "過海到 North Shore",
+          "from": "vancouver-bc",
+          "to": "redmond",
+          "depart": "08:30",
+          "steps": [
+            [
+              "08:55",
+              "north-vancouver/quay",
+              60,
+              25,
+              "Lonsdale Quay 市場早餐。",
+              "drive"
+            ],
+            [
+              "10:15",
+              "north-vancouver/canyon",
+              75,
+              20,
+              "免費吊橋與峽谷步道。",
+              "drive"
+            ],
+            [
+              "11:55",
+              "north-vancouver/honey",
+              30,
+              25,
+              "Deep Cove 的 Honey’s 甜甜圈。",
+              "drive"
+            ],
+            [
+              "12:30",
+              "trail/quarry-rock",
+              105,
+              5,
+              "森林步道到岩台看 Indian Arm 峽灣。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 210
+        }
+      ]
+    },
+    {
+      "id": "port-townsend-2d",
+      "days": 2,
+      "title": "Port Townsend 兩天：維多利亞小鎮與 Fort Worden",
+      "subtitle": "渡輪、老碼頭、海岸要塞",
+      "route": "D1 Redmond → Kingston 渡輪 → Port Gamble → Port Townsend｜D2 Fort Worden → Chetzemoka → Poulsbo → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "town",
+        "coffee",
+        "scenery",
+        "walk"
+      ],
+      "cities": [
+        "port-gamble",
+        "port-townsend",
+        "poulsbo"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "一路經過保存完整的伐木小鎮 Port Gamble，到 Port Townsend 逛維多利亞時代的 Water Street；第二天在 Fort Worden 海岸要塞與燈塔散步，回程在 Poulsbo 午餐。",
+      "seasonNote": "全年可去；Centrum 音樂季主要在夏季。",
+      "watch": "渡輪排隊另計：週末上午與傍晚常要等一兩班，出發前看 WSDOT 渡輪即時等候。 Jefferson Museum 週四至週日開，12 月後冬休。",
+      "hikes": [],
+      "driving": "兩天合計開車約 6.5 小時",
+      "itinerary": [
+        {
+          "title": "伐木小鎮到維多利亞港",
+          "from": "redmond",
+          "to": "port-townsend",
+          "depart": "08:00",
+          "steps": [
+            [
+              "09:45",
+              "port-gamble/baker",
+              45,
+              105,
+              "Edmonds–Kingston 渡輪後，Butcher & Baker 早餐咖啡。",
+              "drive"
+            ],
+            [
+              "10:35",
+              "port-gamble/town",
+              40,
+              5,
+              "歷史小鎮街景與海灣。",
+              "walk"
+            ],
+            [
+              "12:10",
+              "port-townsend/docs",
+              75,
+              55,
+              "Point Hudson 碼頭邊海鮮午餐。",
+              "drive"
+            ],
+            [
+              "13:35",
+              "port-townsend/water",
+              75,
+              10,
+              "Water Street 老街與書店。",
+              "walk"
+            ],
+            [
+              "14:55",
+              "port-townsend/museum",
+              60,
+              5,
+              "Jefferson Museum，週四至週日 11–16。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 10
+        },
+        {
+          "title": "海岸要塞與回程",
+          "from": "port-townsend",
+          "to": "redmond",
+          "depart": "08:30",
+          "steps": [
+            [
+              "08:40",
+              "port-townsend/coffee",
+              45,
+              10,
+              "Better Living Through Coffee。",
+              "drive"
+            ],
+            [
+              "09:40",
+              "port-townsend/worden",
+              120,
+              15,
+              "要塞、燈塔與海灘。",
+              "drive"
+            ],
+            [
+              "11:50",
+              "port-townsend/chet",
+              40,
+              10,
+              "海崖邊花園公園。",
+              "drive"
+            ],
+            [
+              "13:40",
+              "poulsbo/loft",
+              75,
+              70,
+              "Poulsbo 海灣邊午餐，之後 Kingston 渡輪回家。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 120
+        }
+      ]
+    },
+    {
+      "id": "bellingham-baker-2d",
+      "days": 2,
+      "title": "Bellingham＋Mount Baker：海岸岩頂與高山湖",
+      "subtitle": "一天海、一天山",
+      "route": "D1 Redmond → Oyster Dome → Fairhaven｜D2 Mount Baker Highway → Picture Lake → Artist Point → Redmond",
+      "scene": "lake",
+      "interests": [
+        "hike",
+        "scenery",
+        "town",
+        "coffee"
+      ],
+      "cities": [
+        "bellingham",
+        "mount-baker"
+      ],
+      "months": [
+        8,
+        9
+      ],
+      "why": "第一天爬 Oyster Dome 看海灣，住 Fairhaven；第二天沿 Mount Baker Highway 進山，看 Nooksack 瀑布、Picture Lake 倒影 Mount Shuksan，路開的季節再上 Artist Point。",
+      "seasonNote": "Artist Point 路段大約 7 月中到 10 月初開放（每年依積雪公告）；其他月份第二天改走 Horseshoe Bend 與 Picture Lake。",
+      "watch": "Mount Baker Highway 高段沒有手機訊號，加滿油再進山。Wake ’N Bakery 淡季只開週末。",
+      "hikes": [
+        {
+          "trail": "oyster-dome",
+          "note": "第一天主線。"
+        },
+        {
+          "trail": "artist-ridge",
+          "note": "第二天主線：高山短環線。"
+        },
+        {
+          "trail": "chain-lakes",
+          "note": "體力好、路開時：完整高山湖環線。"
+        },
+        {
+          "trail": "horseshoe-bend",
+          "note": "路未開時的河邊替代。"
+        }
+      ],
+      "driving": "兩天合計開車約 9 小時",
+      "itinerary": [
+        {
+          "title": "海岸岩頂與書店街",
+          "from": "redmond",
+          "to": "bellingham",
+          "depart": "08:00",
+          "steps": [
+            [
+              "10:00",
+              "trail/oyster-dome",
+              240,
+              120,
+              "岩頂看 Samish Bay 與群島。",
+              "drive"
+            ],
+            [
+              "14:45",
+              "bellingham/colophon",
+              75,
+              45,
+              "Fairhaven 午餐；週二休。",
+              "drive"
+            ],
+            [
+              "16:05",
+              "bellingham/books",
+              60,
+              5,
+              "Village Books。",
+              "walk"
+            ],
+            [
+              "17:15",
+              "bellingham/boulevard",
+              45,
+              10,
+              "海邊棧道看夕陽後入住。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 15
+        },
+        {
+          "title": "進山看 Shuksan",
+          "from": "bellingham",
+          "to": "redmond",
+          "depart": "07:30",
+          "steps": [
+            [
+              "08:35",
+              "mount-baker/wnb",
+              30,
+              65,
+              "Glacier 的烘焙咖啡，進山前最後一站。",
+              "drive"
+            ],
+            [
+              "09:25",
+              "mount-baker/nooksack",
+              25,
+              20,
+              "路邊短步道看瀑布。",
+              "drive"
+            ],
+            [
+              "10:25",
+              "trail/picture-lake",
+              45,
+              35,
+              "環湖步道，Mount Shuksan 倒影。",
+              "drive"
+            ],
+            [
+              "11:25",
+              "trail/artist-ridge",
+              90,
+              15,
+              "高山短環線，正面看 Baker 與 Shuksan。",
+              "drive"
+            ],
+            [
+              "13:40",
+              "mount-baker/chair9",
+              60,
+              45,
+              "Glacier 的木烤披薩，再開回家。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 165
+        }
+      ]
+    },
+    {
+      "id": "north-cascades-2d",
+      "days": 2,
+      "title": "North Cascades 兩天：Skagit 小鎮與 Diablo 湖色",
+      "subtitle": "綠松石湖與老林",
+      "route": "D1 Redmond → Concrete → Newhalem（Trail of the Cedars、Ladder Creek）｜D2 Diablo Lake → Thunder Knob → Marblemount → Redmond",
+      "scene": "lake",
+      "interests": [
+        "town",
+        "coffee",
+        "hike",
+        "scenery"
+      ],
+      "cities": [
+        "north-cascades",
+        "mount-vernon"
+      ],
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "why": "第一天在 Concrete 吃烘焙、走河邊解說步道、Birdsview 午餐，下午到 Newhalem 走老林；第二天一早看 Diablo Lake 綠松石湖面，走 Thunder Knob 俯瞰整片湖，回程吃晚午餐。",
+      "seasonNote": "Thunder Knob 與 Diablo 觀景台約 5–10 月；冬季 SR 20 封路後只到得了 Newhalem 以西，改看 12–2 月的白頭鷹。",
+      "watch": "5b’s Bakery 週二、三休。Newhalem 以東沒有加油站，SR 20 狀態看 WSDOT。",
+      "hikes": [
+        {
+          "trail": "thunder-knob",
+          "note": "第二天主線：輕鬆上到湖景岩頂。"
+        },
+        {
+          "trail": "trail-of-the-cedars",
+          "note": "第一天下午的老林短環線。"
+        },
+        {
+          "trail": "diablo-lake-trail",
+          "note": "體力好的替代：沿湖到水壩。"
+        }
+      ],
+      "driving": "兩天合計開車約 9 小時",
+      "itinerary": [
+        {
+          "title": "河谷小鎮與老林",
+          "from": "redmond",
+          "to": "concrete-marblemount",
+          "depart": "08:15",
+          "steps": [
+            [
+              "10:25",
+              "north-cascades/bakery",
+              45,
+              130,
+              "Concrete 的 5b’s Bakery 早午餐。",
+              "drive"
+            ],
+            [
+              "11:20",
+              "north-cascades/baker-trail",
+              45,
+              10,
+              "Henry Thompson 老橋與河邊解說步道。",
+              "walk"
+            ],
+            [
+              "12:25",
+              "north-cascades/birdsview",
+              75,
+              20,
+              "Birdsview 啤酒餐廳午餐；12:00 開。",
+              "drive"
+            ],
+            [
+              "14:50",
+              "trail/trail-of-the-cedars",
+              40,
+              70,
+              "Newhalem 吊橋與老紅杉環線。",
+              "drive"
+            ],
+            [
+              "15:40",
+              "north-cascades/ladder",
+              35,
+              10,
+              "Ladder Creek 瀑布與水電廠花園。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 35
+        },
+        {
+          "title": "綠松石湖",
+          "from": "concrete-marblemount",
+          "to": "redmond",
+          "depart": "08:30",
+          "steps": [
+            [
+              "09:20",
+              "north-cascades/overlook",
+              30,
+              50,
+              "Diablo Lake 觀景台。",
+              "drive"
+            ],
+            [
+              "10:00",
+              "trail/thunder-knob",
+              150,
+              10,
+              "3.6 mi／635 ft 到湖景岩頂。",
+              "drive"
+            ],
+            [
+              "13:15",
+              "north-cascades/upriver",
+              75,
+              45,
+              "Marblemount 晚午餐。",
+              "drive"
+            ],
+            [
+              "15:05",
+              "north-cascades/theatre",
+              35,
+              35,
+              "Concrete 老戲院的 Act One 冰淇淋，然後回家。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 135
+        }
+      ]
+    },
+    {
+      "id": "rainier-2d",
+      "days": 2,
+      "title": "Mount Rainier 兩天：Paradise 與 Skyline 高山環線",
+      "subtitle": "住山腳，第二天走完整高山草甸",
+      "route": "D1 Redmond → Ashford → Longmire → Paradise｜D2 Skyline Trail → Copper Creek → Redmond",
+      "scene": "mountain",
+      "interests": [
+        "scenery",
+        "hike",
+        "coffee"
+      ],
+      "cities": [
+        "ashford"
+      ],
+      "months": [
+        8,
+        9
+      ],
+      "why": "第一天輕鬆看 Longmire 老林與 Nisqually 冰河，住 Ashford；第二天一早上 Paradise 走 Skyline Trail，經 Myrtle Falls 與 Panorama Point，下山吃黑莓派回家。",
+      "seasonNote": "Skyline 只建議 8–9 月（上段積雪常到 7 月）；其他月份第二天改 Nisqually Vista 加 Longmire 步道。",
+      "watch": "國家公園入園費；11/1–5/1 必帶雪鏈。Paradise 週末 10 點後停車難找，第二天早出發。",
+      "hikes": [
+        {
+          "trail": "skyline",
+          "note": "第二天主線。"
+        },
+        {
+          "trail": "nisqually",
+          "note": "第一天的輕鬆環線。"
+        }
+      ],
+      "driving": "兩天合計開車約 8.5 小時",
+      "itinerary": [
+        {
+          "title": "老林與冰河",
+          "from": "redmond",
+          "to": "ashford",
+          "depart": "09:00",
+          "steps": [
+            [
+              "11:15",
+              "ashford/coffee",
+              30,
+              135,
+              "Whittaker’s 咖啡。",
+              "drive"
+            ],
+            [
+              "12:15",
+              "ashford/longmire",
+              45,
+              30,
+              "歷史區博物館。",
+              "drive"
+            ],
+            [
+              "13:05",
+              "ashford/shadows",
+              45,
+              5,
+              "Trail of the Shadows 老林環線。",
+              "walk"
+            ],
+            [
+              "14:25",
+              "trail/nisqually",
+              90,
+              35,
+              "Paradise 輕鬆環線看冰河。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 55
+        },
+        {
+          "title": "Skyline 高山環線",
+          "from": "ashford",
+          "to": "redmond",
+          "depart": "07:30",
+          "steps": [
+            [
+              "08:30",
+              "ashford/paradise",
+              25,
+              60,
+              "先到 Paradise 遊客中心看當天步道與積雪公告。",
+              "drive"
+            ],
+            [
+              "09:00",
+              "trail/skyline",
+              330,
+              5,
+              "5.5 mi／1,450 ft，經 Myrtle Falls、Panorama Point。",
+              "walk"
+            ],
+            [
+              "15:20",
+              "ashford/copper",
+              75,
+              50,
+              "下山晚午餐，黑莓派。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 140
+        }
+      ]
+    },
+    {
+      "id": "olympic-3d",
+      "days": 3,
+      "title": "Olympic 半島三天：Port Townsend、Hurricane Ridge 與 Lake Crescent",
+      "subtitle": "小鎮、高山、湖，各一天",
+      "route": "D1 Kingston 渡輪 → Port Gamble → Port Townsend｜D2 Sequim → Port Angeles → Hurricane Hill｜D3 Marymere Falls → Port Angeles → Poulsbo → Redmond",
+      "scene": "lake",
+      "interests": [
+        "town",
+        "coffee",
+        "hike",
+        "scenery"
+      ],
+      "cities": [
+        "port-townsend",
+        "sequim",
+        "port-angeles",
+        "poulsbo"
+      ],
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "why": "第一天住維多利亞小鎮 Port Townsend；第二天上 Hurricane Ridge 走 Hurricane Hill 看奧林匹克群山與海峽，住 Lake Crescent 湖邊；第三天走 Marymere Falls 老林，回程在 Port Angeles 早午餐、Poulsbo 吃甜甜圈。",
+      "seasonNote": "Hurricane Hill 7–10 月；冬季 Hurricane Ridge Road 只開週五至週日且必帶雪鏈。Lake Crescent Lodge 開到 2027/1/3，之後冬季只週末開部分小屋。",
+      "watch": "渡輪排隊另計：週末上午與傍晚常要等一兩班，出發前看 WSDOT 渡輪即時等候。 國家公園入園費。New Day Eatery 週四休；First Street Haven 週五至週一開，所以這條排週五到週日或週六到週一。",
+      "hikes": [
+        {
+          "trail": "hurricane-hill",
+          "note": "第二天主線。"
+        },
+        {
+          "trail": "marymere",
+          "note": "第三天早上的老林瀑布。"
+        },
+        {
+          "trail": "mount-storm-king",
+          "note": "不帶寶寶、體力好：頂段繩索區不是公園設置，自行判斷。"
+        }
+      ],
+      "driving": "三天合計開車約 12 小時",
+      "itinerary": [
+        {
+          "title": "渡輪到維多利亞小鎮",
+          "from": "redmond",
+          "to": "port-townsend",
+          "depart": "08:00",
+          "steps": [
+            [
+              "09:45",
+              "port-gamble/baker",
+              45,
+              105,
+              "Edmonds–Kingston 渡輪後早餐。",
+              "drive"
+            ],
+            [
+              "11:25",
+              "port-townsend/docs",
+              75,
+              55,
+              "碼頭邊海鮮午餐。",
+              "drive"
+            ],
+            [
+              "12:50",
+              "port-townsend/water",
+              75,
+              10,
+              "Water Street 老街。",
+              "walk"
+            ],
+            [
+              "14:20",
+              "port-townsend/worden",
+              90,
+              15,
+              "Fort Worden 海岸與燈塔，傍晚入住。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 15
+        },
+        {
+          "title": "上 Hurricane Ridge",
+          "from": "port-townsend",
+          "to": "lake-crescent",
+          "depart": "08:00",
+          "steps": [
+            [
+              "09:00",
+              "sequim/coffee",
+              30,
+              60,
+              "Sequim 咖啡。",
+              "drive"
+            ],
+            [
+              "10:05",
+              "port-angeles/newday",
+              60,
+              35,
+              "Port Angeles 早午餐；週四休。",
+              "drive"
+            ],
+            [
+              "12:00",
+              "trail/hurricane-hill",
+              150,
+              55,
+              "Hurricane Hill 3.2 mi／650 ft，看群山與海峽。",
+              "drive"
+            ],
+            [
+              "15:25",
+              "port-angeles/waterfront",
+              45,
+              55,
+              "下山到港邊散步，再往 Lake Crescent 入住。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 40
+        },
+        {
+          "title": "湖邊老林與回程",
+          "from": "lake-crescent",
+          "to": "redmond",
+          "depart": "08:30",
+          "steps": [
+            [
+              "08:40",
+              "trail/marymere",
+              90,
+              10,
+              "1.8 mi 老林步道到 Marymere 瀑布。",
+              "drive"
+            ],
+            [
+              "10:50",
+              "port-angeles/haven",
+              60,
+              40,
+              "First Street Haven 早午餐；週五至週一開。",
+              "drive"
+            ],
+            [
+              "13:30",
+              "poulsbo/sluys",
+              20,
+              100,
+              "Poulsbo 甜甜圈，之後 Kingston 渡輪回家。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 120
+        }
+      ]
+    },
+    {
+      "id": "cascade-loop-3d",
+      "days": 3,
+      "title": "Cascade Loop 三天：Leavenworth、Lake Chelan、Winthrop 與 North Cascades Highway",
+      "subtitle": "華盛頓州最經典的公路環線",
+      "route": "D1 Redmond → Leavenworth｜D2 Cashmere → Lake Chelan → Winthrop｜D3 Washington Pass → Blue Lake → Diablo Lake → Redmond",
+      "scene": "mountain",
+      "interests": [
+        "town",
+        "coffee",
+        "hike",
+        "scenery",
+        "music"
+      ],
+      "cities": [
+        "leavenworth",
+        "cashmere",
+        "chelan",
+        "north-cascades"
+      ],
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "why": "繞一整圈不走回頭路：山城 Leavenworth、湖城 Chelan、西部小鎮 Winthrop，最後一天翻過 Washington Pass，走 Blue Lake 到花崗岩峰下的藍綠湖，再經 Diablo Lake 下山。",
+      "seasonNote": "只在 SR 20 全線開放時可走（大約 5–11 月，每年依雪況公告）；Blue Lake 7–10 月無雪。",
+      "watch": "SR 20 冬季封閉 Ross Dam 到 Silver Star 一段，出發前看 WSDOT。Rainy Pass 到 Marblemount 沒有加油站。Rocking Horse Bakery 週二、三休；Anjou 只開週五至週日。",
+      "hikes": [
+        {
+          "trail": "blue-lake-sr20",
+          "note": "第三天主線。"
+        },
+        {
+          "trail": "rainy-lake",
+          "note": "全鋪面、可推車的湖邊短步道。"
+        },
+        {
+          "trail": "icicle-gorge",
+          "note": "第一天下午的溪谷環線。"
+        }
+      ],
+      "driving": "三天合計開車約 13.5 小時",
+      "itinerary": [
+        {
+          "title": "山城 Leavenworth",
+          "from": "redmond",
+          "to": "leavenworth",
+          "depart": "08:00",
+          "steps": [
+            [
+              "10:35",
+              "leavenworth/argonaut-coffee-biscuits",
+              45,
+              155,
+              "抵達先吃 biscuit。",
+              "drive"
+            ],
+            [
+              "12:10",
+              "trail/icicle-gorge",
+              150,
+              50,
+              "溪谷環線。",
+              "drive"
+            ],
+            [
+              "15:30",
+              "leavenworth/munchen",
+              60,
+              50,
+              "德式晚午餐。",
+              "drive"
+            ],
+            [
+              "16:40",
+              "leavenworth/front",
+              60,
+              10,
+              "Front Street 散步後入住。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 10
+        },
+        {
+          "title": "果鄉、湖城到西部小鎮",
+          "from": "leavenworth",
+          "to": "winthrop",
+          "depart": "08:30",
+          "steps": [
+            [
+              "08:55",
+              "cashmere/anjou",
+              40,
+              25,
+              "Anjou Bakery 早餐。",
+              "drive"
+            ],
+            [
+              "10:45",
+              "chelan/riverwalk",
+              50,
+              70,
+              "Chelan 河岸步道。",
+              "drive"
+            ],
+            [
+              "11:45",
+              "chelan/campbells",
+              75,
+              10,
+              "湖邊午餐。",
+              "walk"
+            ],
+            [
+              "13:15",
+              "chelan/woodin",
+              40,
+              15,
+              "Woodin Avenue 小鎮街。",
+              "walk"
+            ],
+            [
+              "15:40",
+              "extra/winthrop-riverside",
+              45,
+              105,
+              "西部風主街木棧道。",
+              "drive"
+            ],
+            [
+              "16:30",
+              "extra/old-schoolhouse",
+              75,
+              5,
+              "河邊自釀餐廳晚餐，有現場音樂的晚上更好。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 10
+        },
+        {
+          "title": "翻過 Washington Pass",
+          "from": "winthrop",
+          "to": "redmond",
+          "depart": "07:30",
+          "steps": [
+            [
+              "07:40",
+              "extra/rocking-horse",
+              30,
+              10,
+              "Rocking Horse Bakery 早餐。",
+              "drive"
+            ],
+            [
+              "08:35",
+              "extra/mazama-store",
+              20,
+              25,
+              "Mazama Store 補給。",
+              "drive"
+            ],
+            [
+              "09:25",
+              "extra/washington-pass",
+              30,
+              30,
+              "Washington Pass 觀景台看 Liberty Bell。",
+              "drive"
+            ],
+            [
+              "10:05",
+              "trail/blue-lake-sr20",
+              180,
+              10,
+              "4.4 mi／1,050 ft 到藍綠色高山湖。",
+              "drive"
+            ],
+            [
+              "13:55",
+              "north-cascades/overlook",
+              30,
+              50,
+              "Diablo Lake 觀景台。",
+              "drive"
+            ],
+            [
+              "14:50",
+              "trail/trail-of-the-cedars",
+              30,
+              25,
+              "Newhalem 老林短環線，然後回家。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 175
+        }
+      ]
+    },
+    {
+      "id": "portland-gorge-3d",
+      "days": 3,
+      "title": "Portland＋Columbia Gorge 三天：書店、咖啡與瀑布",
+      "subtitle": "城市週末接峽谷瀑布",
+      "route": "D1 Redmond → Camas → Portland｜D2 Portland（Pine State、日本庭園、Coava）｜D3 Vista House → Latourell → Multnomah Falls → Redmond",
+      "scene": "city",
+      "interests": [
+        "town",
+        "coffee",
+        "scenery",
+        "walk"
+      ],
+      "cities": [
+        "camas",
+        "portland",
+        "vancouver-wa"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "第一天在 Camas 老街喝咖啡吃午餐，下午到 Portland 逛 Powell’s；第二天吃 Pine State 早餐、走日本庭園與玫瑰園；第三天沿歷史公路看 Vista House、Latourell 與 Multnomah 瀑布，再開回家。",
+      "seasonNote": "全年可去；Multnomah Falls 5 月下旬到 9 月上旬需預約時段停車證（Recreation.gov，每年公告），Vista House 冬季只開週五至週一。",
+      "watch": "Multnomah Falls 公廁整修到 2026/11 底，只有流動廁所；高架橋禁止行人通行。Oregon 州立公園外州車停車費 $12。Portland 音樂場多為 21+，帶寶寶先確認年齡規定。",
+      "hikes": [
+        {
+          "trail": "latourell-loop",
+          "note": "第三天想多走：2.4 mi 環線。"
+        },
+        {
+          "trail": "multnomah-wahkeena",
+          "note": "體力好：兩座瀑布之間的環線。"
+        }
+      ],
+      "driving": "三天合計開車約 10 小時",
+      "itinerary": [
+        {
+          "title": "Camas 老街到 Portland",
+          "from": "redmond",
+          "to": "portland",
+          "depart": "08:00",
+          "steps": [
+            [
+              "10:55",
+              "camas/coffee",
+              40,
+              175,
+              "Camas 老街咖啡。",
+              "drive"
+            ],
+            [
+              "11:45",
+              "camas/downtown",
+              50,
+              10,
+              "NE 4th Avenue 小店。",
+              "walk"
+            ],
+            [
+              "12:50",
+              "camas/grains",
+              75,
+              15,
+              "午餐。",
+              "walk"
+            ],
+            [
+              "14:45",
+              "portland/powells",
+              90,
+              40,
+              "Powell’s 書店，之後入住。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 10
+        },
+        {
+          "title": "Portland 慢慢走",
+          "from": "portland",
+          "to": "portland",
+          "depart": "09:00",
+          "steps": [
+            [
+              "09:20",
+              "portland/pine",
+              50,
+              20,
+              "Pine State 比司吉早午餐。",
+              "drive"
+            ],
+            [
+              "10:35",
+              "portland/japanese",
+              120,
+              25,
+              "日本庭園。",
+              "drive"
+            ],
+            [
+              "12:45",
+              "portland/rose",
+              40,
+              10,
+              "玫瑰試驗園就在旁邊。",
+              "walk"
+            ],
+            [
+              "13:45",
+              "portland/coava",
+              45,
+              20,
+              "下午咖啡。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 10
+        },
+        {
+          "title": "峽谷瀑布回家",
+          "from": "portland",
+          "to": "redmond",
+          "depart": "09:30",
+          "steps": [
+            [
+              "10:15",
+              "extra/vista-house",
+              30,
+              45,
+              "Crown Point 看整段峽谷；週五至週一開。",
+              "drive"
+            ],
+            [
+              "11:00",
+              "extra/latourell-falls",
+              40,
+              15,
+              "停車場旁就看得到的瀑布。",
+              "drive"
+            ],
+            [
+              "12:00",
+              "extra/multnomah-falls",
+              60,
+              20,
+              "620 ft 兩段式瀑布，走到 Benson Bridge。",
+              "drive"
+            ],
+            [
+              "13:55",
+              "vancouver-wa/wildfin",
+              75,
+              55,
+              "回程午餐，然後北上回家。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 175
+        }
+      ]
+    }
+  ]
+}

@@ -972,3 +972,4 @@ body[data-theme="night"] .trip-problems { color: #f6b7a6; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: 0s !important; }
 }
+.timed-stop-body .stop-hours { margin-top: 6px; color: var(--ink); font-size: 12px; overflow-wrap: anywhere; }

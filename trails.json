@@ -2567,6 +2567,131 @@
         "https://www.wta.org/go-hiking/hikes/lime-kiln",
         "https://snohomishcountywa.gov/Facilities/Facility/Details/Lime-Kiln-Trailhead-95"
       ]
+    },
+    {
+      "id": "latourell-loop",
+      "name": "Latourell Falls 上下瀑布環線",
+      "miles": 2.4,
+      "gainFt": 625,
+      "difficulty": "easy-moderate",
+      "climb": false,
+      "duration": [
+        75,
+        120
+      ],
+      "trailhead": [
+        45.5388,
+        -122.21757
+      ],
+      "pass": "Oregon State Parks 日停車證：州外車 $12／日（現場繳費機或掃 QR），同日可通用其他收費州立公園；Northwest Forest Pass 不適用。",
+      "note": "先看 224 ft 的下瀑布，再沿 Latourell Creek 上到兩段式的 Upper Latourell Falls，從對岸繞回、穿過 1914 年老橋下回到瀑布底。採 Oregon Hikers 2.4 mile／625 ft 的環線（州立公園頁寫約 2 mile）。",
+      "access": "停車場旁就有下瀑布觀景點；環線有石階、岩石段與 4 座小木橋，推車不適合，背巾可走；常有人潮。",
+      "source": "https://www.oregonhikers.org/field_guide/Latourell_Falls_Loop_Hike",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "全年可走，冬季暴風雨時避開；冰凍天瀑布水霧會在步道上結冰，夏季水量則很小。",
+      "roadAccess": null,
+      "status": [
+        [
+          "Oregon State Parks：Latourell Falls Trailhead 公告與現況",
+          "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=112"
+        ],
+        [
+          "Oregon Hikers 步道頁",
+          "https://www.oregonhikers.org/field_guide/Latourell_Falls_Loop_Hike"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.oregonhikers.org/field_guide/Latourell_Falls_Loop_Hike",
+        "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=112"
+      ]
+    },
+    {
+      "id": "multnomah-wahkeena",
+      "name": "Multnomah–Wahkeena 瀑布環線",
+      "miles": 4.9,
+      "gainFt": 1600,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        180,
+        270
+      ],
+      "trailhead": [
+        45.57893,
+        -122.11841
+      ],
+      "pass": "2026 年 5/22–9/7 每日 9–18 時停 I-84 Exit 31 停車場需 Timed Use Permit（Recreation.gov，$2）；其他時間不用。歷史公路 Lodge 前的小停車場由業者另外收費。",
+      "note": "從 Multnomah Falls 順時針上 Larch Mountain Trail #441 沿溪經過多座瀑布，接 Wahkeena Trail #420 下到 Wahkeena Falls，再走 Return Trail #442 回 Lodge。採 Oregon Hikers 4.9 mile／1,600 ft 的標準環線；頭 1.5 mile 人最多。",
+      "access": "從 Lodge 上 Benson Bridge 就是陡坡，到瀑頂一段 USFS 形容約等於爬 60 層樓、地面不平，之後是土石山徑；推車不適合，背巾或背架可以。Lodge 公廁整修到 2026 年 11 月，只有流動廁所。",
+      "source": "https://www.oregonhikers.org/field_guide/Multnomah-Wahkeena_Loop_Hike",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "低海拔（最高點約 1,560 ft）全年可走，但冬季偶有冰雪，石階與瀑布水霧處容易結冰，帶冰爪、雨後很滑。",
+      "roadAccess": "I-84 Exit 31 全年可到；ODOT 規定 Multnomah Falls 東西兩座歷史公路高架橋只開放 35 ft 以下車輛與自行車、禁止行人，Wahkeena 與 Multnomah 之間要走 Return Trail，不要沿公路走。",
+      "status": [
+        [
+          "USFS Columbia River Gorge 公告",
+          "https://www.fs.usda.gov/r06/columbiarivergorge/alerts"
+        ],
+        [
+          "ODOT 歷史公路高架橋與通行",
+          "https://www.oregon.gov/odot/projects/pages/project-details.aspx?project=17479"
+        ],
+        [
+          "Oregon Hikers 步道頁",
+          "https://www.oregonhikers.org/field_guide/Multnomah-Wahkeena_Loop_Hike"
+        ]
+      ],
+      "closures": [
+        {
+          "start": "2026-03-16",
+          "end": "2026-11-30",
+          "note": "Multnomah Falls Lodge 公廁整修，僅有流動廁所（步道本身開放）。",
+          "source": "https://www.fs.usda.gov/r06/columbiarivergorge/alerts/multnomah-falls-restrooms-closed-renovation-through-nov-2026",
+          "scope": "partial"
+        },
+        {
+          "start": "2026-06-29",
+          "end": null,
+          "note": "Multnomah Falls 東西兩座高架橋禁止行人（日期為 ODOT 頁面最後更新日，實際開始更早、未公布結束日）；環線走 Return Trail #442 不受影響。",
+          "source": "https://www.oregon.gov/odot/projects/pages/project-details.aspx?project=17479",
+          "scope": "partial"
+        }
+      ],
+      "seasonSources": [
+        "https://www.oregonhikers.org/field_guide/Multnomah-Wahkeena_Loop_Hike",
+        "https://www.fs.usda.gov/r06/columbiarivergorge/recreation/multnomah-falls",
+        "https://www.recreation.gov/timed-entry/10089144",
+        "https://www.fs.usda.gov/r06/columbiarivergorge/recreation/trails/wahkeena-trail-420",
+        "https://www.fs.usda.gov/r06/columbiarivergorge/recreation/trails/return-trail-442",
+        "https://www.fs.usda.gov/r06/columbiarivergorge/recreation/trails/larch-mountain-trail-441"
+      ]
     }
   ]
 }

@@ -284,7 +284,7 @@ function validateTrailSeason(trail) {
 }
 
 function validateDetailedData(data, details, trailData) {
-  if (details.version !== 1 || ![1, 2].includes(trailData.version) || !details.guides
+  if (details.version !== 1 || trailData.version !== 2 || !details.guides
     || !Array.isArray(details.interests) || !Array.isArray(trailData.items)) throw new Error("詳細指南資料格式不符。");
   const interestIds = new Set(details.interests.map((interest) => interest.id));
   if (interestIds.size !== 6 || [...interestIds].some((id) => !(id in INTEREST_ICONS))) throw new Error("探索興趣設定不符。");
@@ -302,7 +302,7 @@ function validateDetailedData(data, details, trailData) {
     if (trail.trailhead === undefined && (typeof trail.query !== "string" || !trail.query.trim())) throw new Error(`${trail.id} 缺少可定位登山口。`);
     for (const field of ["name", "pass", "note", "access"]) if (typeof trail[field] !== "string" || !trail[field].trim()) throw new Error(`${trail.id} 缺少 ${field}`);
     sourceURL(trail.source);
-    if (trailData.version === 2) validateTrailSeason(trail);
+    validateTrailSeason(trail);
     trailMap.set(trail.id, trail);
   }
   if (Object.keys(details.guides).length !== data.cities.length) throw new Error("每個目的地都必須有詳細指南，不使用舊的簡略資料回退。");
@@ -669,13 +669,13 @@ function trailCardHTML(hike) {
   const originalUnits = trail.miles !== undefined
     ? `原來源 ${trail.miles} mile／${trail.gainFt.toLocaleString("en-US")} ft`
     : `原來源 ${trail.km} km／${trail.gainM} m`;
-  const status = trail.months ? trailStatus(trail) : null;
-  const statusLinks = (trail.status || []).filter(([, url]) => new URL(url).href !== new URL(trail.source).href);
+  const status = trailStatus(trail);
+  const statusLinks = trail.status.filter(([, url]) => new URL(url).href !== new URL(trail.source).href);
   const transfer = hike.drive ? `從這座城市再開約 ${hike.drive[0]}–${hike.drive[1]} 分鐘。${hike.note}` : hike.note;
-  return `<article class="trail-card" data-trail="${trail.id}"${status ? ` data-season="${status.tone}"` : ""}>
+  return `<article class="trail-card" data-trail="${trail.id}" data-season="${status.tone}">
     <h4>${escapeHTML(trail.name)}</h4>
-    ${status ? `<div class="trail-season"><span class="season-badge" data-tone="${status.tone}">${escapeHTML(status.label)}</span><span>常規可走：${monthsLabel(trail.months)}</span><span>依 ${dateLabel(state.planDate)} 判斷</span></div>` : ""}
-    ${status?.detail ? `<p class="trail-season-note">${escapeHTML(status.detail)}</p>` : ""}
+    <div class="trail-season"><span class="season-badge" data-tone="${status.tone}">${escapeHTML(status.label)}</span><span>建議月份：${monthsLabel(trail.months)}</span><span>依 ${dateLabel(state.planDate)} 判斷</span></div>
+    ${status.detail ? `<p class="trail-season-note">${escapeHTML(status.detail)}</p>` : ""}
     <div class="trail-stats"><span>${trail.oneWay ? "單向上山" : "所列路線總長"} <strong>${distance.toFixed(1)} km</strong></span><span>累計爬升 <strong>約 ${Math.round(gain)} m</strong></span><span>${DIFFICULTY_NAMES[trail.difficulty]}</span><span>規劃 ${timePart(trail.duration[0])}–${timePart(trail.duration[1])}</span></div>
     <p>${escapeHTML(trail.note)}</p>
     ${transfer ? `<p class="trail-transfer">${escapeHTML(transfer)}</p>` : ""}
@@ -745,7 +745,7 @@ function openCity(id, { syncURL = true } = {}) {
       <section class="detail-section" id="detail-rain"><h3 class="detail-section-title"><span>03</span>下雨，直接去這幾個地方</h3>
       <div class="named-options">${namedOptionsHTML(guide, guide.rainPlaces)}</div><p class="named-note">${escapeHTML(guide.rainNote)}</p>${rainyPlan ? `<button class="secondary-button" type="button" data-plan="${rainyPlan.id}" data-plan-jump>切到完整雨天時間表${icon("arrow")}</button>` : ""}</section>
       <section class="detail-section" id="detail-trails"><h3 class="detail-section-title"><span>04</span>步道與爬山，不混成一種散步</h3>
-      ${guide.hikes.length ? `${state.trailData.version === 2 ? `<div class="plan-date-row">${planDateControl()}<span>季節與已公告的封閉依出發日判斷；積雪、落石與路況仍以官方即時頁為準。</span></div>` : ""}<p class="plan-disclaimer">${escapeHTML(state.trailData.method)}</p><div class="trails-list">${guide.hikes.map(trailCardHTML).join("")}</div>` : '<p class="music-empty">這座主線是小鎮／城市步行，地點卡已列可走的河岸或公園。這裡不把未指定入口、里程與爬升的公園自動當成登山；要完整爬山，可用首頁「爬山」篩選找有路線數據的目的地。</p>'}</section>
+      ${guide.hikes.length ? `<div class="plan-date-row">${planDateControl()}<span>季節與已公告的封閉依出發日判斷；積雪、落石與路況仍以官方即時頁為準。</span></div><p class="plan-disclaimer">${escapeHTML(state.trailData.method)}</p><div class="trails-list">${guide.hikes.map(trailCardHTML).join("")}</div>` : '<p class="music-empty">這座主線是小鎮／城市步行，地點卡已列可走的河岸或公園。這裡不把未指定入口、里程與爬升的公園自動當成登山；要完整爬山，可用首頁「爬山」篩選找有路線數據的目的地。</p>'}</section>
       <section class="detail-section" id="detail-music"><h3 class="detail-section-title"><span>05</span>音樂，先挑場次再排</h3>${musicHTML(guide)}<p class="named-note">${escapeHTML(guide.musicNote)}</p></section>
       <div class="detail-tips practical-tips"><section class="tip"><h4>什麼季節值得來</h4><p>${escapeHTML(city.seasonNote)}</p></section><section class="tip"><h4>若有推車／同行照顧需求</h4><p>${escapeHTML(city.stroller)}</p></section></div>
       <section class="detail-watch"><h4>有一點，先知道會更好。</h4><p>${escapeHTML(city.watch)}</p></section>
@@ -855,7 +855,6 @@ function tripFit(trip, date = state.planDate) {
     for (const [, ref] of day.steps) {
       if (!ref.startsWith("trail/")) continue;
       const trail = state.trails.get(ref.slice(6));
-      if (!trail.months) continue;
       const status = trailStatus(trail, addDays(date, index));
       if (status.tone === "closed" || status.tone === "off") problems.push(`Day ${index + 1}・${trail.name}：${status.label}`);
     }
@@ -905,7 +904,7 @@ function setPlanDate(raw) {
   }
   state.planDate = date;
   for (const input of $$("[data-plan-date]")) input.value = isoDate(date);
-  if (state.tripData) renderTrips();
+  renderTrips();
   if (cityDialog.open && state.activeCity) {
     const list = $(".trails-list", cityDialog);
     if (list) list.innerHTML = state.guides.get(state.activeCity).hikes.map(trailCardHTML).join("");
@@ -941,6 +940,7 @@ function tripTimelineHTML(stops, origin) {
     return `<li class="timed-stop" data-route-place="${escapeHTML(stop.ref)}" data-start="${at}" data-end="${end}">
       <div class="stop-clock"><time>${at}</time><span>至 ${end}</span></div>
       <div class="timed-stop-body"><h4>${escapeHTML(place.name)}</h4><p>停留約 ${stayLabel(minutes)}・${escapeHTML(note)}</p>
+      ${place.hours ? `<p class="stop-hours">營業（官網）：${escapeHTML(place.hours)}</p>` : ""}
       <p class="stop-transfer">${travel === "walk" ? "步行轉場" : "開車／轉場"}預留 ${transfer} 分鐘${index ? "（含必要停車、折返或進出）" : `（${escapeHTML(origin.name)}出發）`}</p>
       <div class="stop-links"><a href="${mapsURL(place.query)}" target="_blank" rel="noopener noreferrer">${icon("map")}本地點地圖</a>
       <a href="${navigationURL(place.query, previous.query, travel)}" target="_blank" rel="noopener noreferrer">${icon("arrow")}${escapeHTML(label)}</a>${place.url ? `<a href="${sourceURL(place.url)}" target="_blank" rel="noopener noreferrer">${icon("external")}${place.trail ? "路線資訊" : "官方資訊"}</a>` : ""}</div></div></li>`;
@@ -1347,8 +1347,7 @@ async function initialize() {
   state.planDate = parseISODate(requestedDate) || localToday();
   if (requestedDate && !parseISODate(requestedDate)) preferenceWarnings.push("連結中的出發日格式不正確，已改用今天。");
   const [data, map, details, trailData, tripData] = await Promise.all([
-    fetchJSON("cities.json"), fetchJSON("assets/coastline.json"), fetchJSON("city-guides.json"), fetchJSON("trails.json"),
-    fetchJSON("trips.json").catch((error) => (error.message.includes("HTTP 404") ? null : Promise.reject(error))),
+    fetchJSON("cities.json"), fetchJSON("assets/coastline.json"), fetchJSON("city-guides.json"), fetchJSON("trails.json"), fetchJSON("trips.json"),
   ]);
   validateData(data);
   validateDetailedData(data, details, trailData);
@@ -1361,11 +1360,9 @@ async function initialize() {
   state.guides = new Map(Object.entries(details.guides));
   state.trails = new Map(trailData.items.map((trail) => [trail.id, trail]));
   state.interestCatalog = new Map(details.interests.map((interest) => [interest.id, interest]));
-  if (tripData) {
-    state.tripData = tripData;
-    validateTrips(tripData);
-    state.trips = new Map(tripData.trips.map((trip) => [trip.id, trip]));
-  }
+  state.tripData = tripData;
+  validateTrips(tripData);
+  state.trips = new Map(tripData.trips.map((trip) => [trip.id, trip]));
   for (const city of data.cities) city.searchText = searchableCity(city);
   if (preferences.favorites !== undefined) {
     if (!Array.isArray(preferences.favorites) || preferences.favorites.some((id) => typeof id !== "string")) {
@@ -1384,13 +1381,8 @@ async function initialize() {
   bindEvents();
   render();
   $("#trip-date").value = isoDate(state.planDate);
-  if (state.tripData) {
-    $("#trip-tabs").innerHTML = Object.entries(TRIP_LENGTHS).map(([days, name]) => `<button class="region-tab trip-tab" type="button" data-trip-length="${days}" aria-pressed="${Number(days) === state.tripLength}">${name}<small>${state.tripData.trips.filter((trip) => trip.days === Number(days)).length}</small></button>`).join("");
-    renderTrips();
-  } else {
-    $("#trip-tabs").hidden = true;
-    $("#trip-count").textContent = "一日～三日行程正在逐站查證，完成後會出現在這裡；現在可先用下方各城市的時間路線。";
-  }
+  $("#trip-tabs").innerHTML = Object.entries(TRIP_LENGTHS).map(([days, name]) => `<button class="region-tab trip-tab" type="button" data-trip-length="${days}" aria-pressed="${Number(days) === state.tripLength}">${name}<small>${tripData.trips.filter((trip) => trip.days === Number(days)).length}</small></button>`).join("");
+  renderTrips();
   fitMap();
   if (!persistPreferences()) preferenceWarnings.push("瀏覽器不允許持久儲存；本次可使用收藏，但關閉後可能不保留。");
   const tripId = url.searchParams.get("trip");
