@@ -973,3 +973,13 @@ body[data-theme="night"] .trip-problems { color: #f6b7a6; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: 0s !important; }
 }
 .timed-stop-body .stop-hours { margin-top: 6px; color: var(--ink); font-size: 12px; overflow-wrap: anywhere; }
+.trip-selects { gap: 10px 22px; }
+.trip-selects > label { font-size: 12px; }
+.trip-selects select { font-size: 13px; }
+.trip-scope-note { margin: 18px 0 0; color: var(--muted); font-size: 12px; line-height: 1.8; }
+.trip-selects > label { white-space: nowrap; }
+@media (max-width: 640px) {
+  .trip-selects { width: 100%; gap: 6px; grid-template-columns: 1fr; }
+  .trip-selects > label { width: 100%; flex-direction: row; align-items: center; justify-content: space-between; gap: 10px; }
+  .trip-selects select, .trip-selects .plan-date input { width: 62%; min-width: 0; }
+}

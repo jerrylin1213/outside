@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4f7f5">
   <meta name="application-name" content="OUTSIDE Redmond Guide">
-  <meta name="description" content="從 Redmond 出發，67 個約四小時內的城市、小鎮與山區，16 條一日～三日現成行程，店家逐家查證。">
+  <meta name="description" content="從 Redmond 出發，67 個約四小時內的城市、小鎮與山區，61 條一日～三日現成行程（一日遊 52 條），店家逐家查證。">
   <title>OUTSIDE｜離城不必遠行・Redmond 週末旅行指南</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=6">
-  <script type="module" src="app.js?v=6"></script>
+  <link rel="stylesheet" href="styles.css?v=8">
+  <script type="module" src="app.js?v=8"></script>
 </head>
 <body id="top" data-theme="atlas">
   <a class="skip-link" href="#explore">跳到目的地清單</a>
@@ -172,10 +172,16 @@
       </div>
       <div class="trip-controls">
         <div class="trip-tabs" id="trip-tabs" role="group" aria-label="行程天數"></div>
-        <label class="plan-date trip-date">出發日<input type="date" id="trip-date" data-plan-date></label>
+        <div class="select-filters trip-selects">
+          <label>單程上限<select id="trip-drive"><option value="0">全部</option><option value="60">1 小時內</option><option value="120">2 小時內</option><option value="165">2 小時 45 分內</option></select></label>
+          <label>排序<select id="trip-sort"><option value="far">車程遠 → 近</option><option value="near">車程近 → 遠</option></select></label>
+          <label class="plan-date trip-date">出發日<input type="date" id="trip-date" data-plan-date></label>
+        </div>
       </div>
       <p class="results-count trip-count" id="trip-count" role="status" aria-live="polite">正在載入行程…</p>
       <div class="trip-grid" id="trip-grid"></div>
+      <div class="load-more-row" id="trip-more-row" hidden><button class="secondary-button" id="trip-more" type="button">再看 12 條<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button><button class="text-button" id="trip-show-all" type="button">一次展開全部</button></div>
+      <p class="trip-scope-note">一日遊收單程約 2 小時 45 分內（含渡輪排隊）的目的地；BC 城市含過境多在 3 小時以上，放在兩日、三日遊。</p>
     </section>
 
     <section class="explore-section" id="explore" aria-labelledby="explore-title">
@@ -258,7 +264,7 @@
     </section>
   </main>
 
-  <footer class="site-footer"><a class="footer-brand" href="#top">OUTSIDE<span>LESS RUSH. MORE WEEKEND.</span></a><p>從 Redmond 出發的 67 個目的地與 16 條現成行程。<br>資料整理 <time datetime="2026-10-24">2026.10.24</time>・所有插畫為原創意境圖，非景點實景照片。</p><a href="./styles.html">換一種風格看世界 ↗</a></footer>
+  <footer class="site-footer"><a class="footer-brand" href="#top">OUTSIDE<span>LESS RUSH. MORE WEEKEND.</span></a><p>從 Redmond 出發的 67 個目的地與 61 條現成行程。<br>資料整理 <time datetime="2026-10-24">2026.10.24</time>・所有插畫為原創意境圖，非景點實景照片。</p><a href="./styles.html">換一種風格看世界 ↗</a></footer>
   <dialog id="city-dialog" class="city-dialog" aria-labelledby="city-title"></dialog>
   <dialog id="method-dialog" class="method-dialog" aria-labelledby="method-title"></dialog>
   <dialog id="trip-dialog" class="city-dialog trip-dialog" aria-labelledby="trip-title"></dialog>

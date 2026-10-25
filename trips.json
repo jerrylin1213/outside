@@ -436,7 +436,8 @@
           ],
           "returnDrive": 40
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "us2-falls",
@@ -528,7 +529,8 @@
           ],
           "returnDrive": 40
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "mountain-loop-day",
@@ -611,7 +613,8 @@
           ],
           "returnDrive": 65
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "chuckanut-fairhaven",
@@ -707,7 +710,8 @@
           ],
           "returnDrive": 115
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "whidbey-loop",
@@ -805,7 +809,8 @@
           ],
           "returnDrive": 125
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "paradise-day",
@@ -884,7 +889,8 @@
           ],
           "returnDrive": 140
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "bainbridge-poulsbo",
@@ -987,7 +993,8 @@
           ],
           "returnDrive": 120
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "leavenworth-2d",
@@ -1127,7 +1134,8 @@
           ],
           "returnDrive": 175
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "vancouver-2d",
@@ -1257,7 +1265,8 @@
           ],
           "returnDrive": 210
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "port-townsend-2d",
@@ -1387,7 +1396,8 @@
           ],
           "returnDrive": 120
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "bellingham-baker-2d",
@@ -1523,7 +1533,8 @@
           ],
           "returnDrive": 165
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "north-cascades-2d",
@@ -1659,7 +1670,8 @@
           ],
           "returnDrive": 135
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "rainier-2d",
@@ -1769,7 +1781,8 @@
           ],
           "returnDrive": 140
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "olympic-3d",
@@ -1930,7 +1943,8 @@
           ],
           "returnDrive": 120
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "cascade-loop-3d",
@@ -2132,7 +2146,8 @@
           ],
           "returnDrive": 175
         }
-      ]
+      ],
+      "kind": "route"
     },
     {
       "id": "portland-gorge-3d",
@@ -2303,6 +2318,3963 @@
             ]
           ],
           "returnDrive": 175
+        }
+      ],
+      "kind": "route"
+    },
+    {
+      "id": "day-kirkland",
+      "kind": "city",
+      "days": 1,
+      "title": "Kirkland：湖畔咖啡與濕地慢走",
+      "subtitle": "湖畔的小小假日",
+      "route": "Redmond → Zoka Coffee Kirkland → Park Lane → Marina Park → Cactus Kirkland → Juanita Bay Park → Redmond",
+      "scene": "lake",
+      "interests": [
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "kirkland"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "湖邊、咖啡與演出可以真的串成一天：市中心選 Zoka，午餐 Cactus，下午走水岸；要看鳥與森林才另外去 Juanita Bay，不把兩個區域混成步行一圈。",
+      "seasonNote": "春到秋最能享受湖邊；夏日黃昏尤其舒服，冬季更像吃飯加短散步。",
+      "watch": "Juanita Bay 與市中心不是同一個步行街區；停車依現場時限，不把找車位時間算成零。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 1 小時",
+      "itinerary": [
+        {
+          "title": "湖畔咖啡與濕地慢走",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:45",
+          "steps": [
+            [
+              "10:00",
+              "kirkland/zoka",
+              45,
+              15,
+              "坐下喝咖啡。",
+              "walk"
+            ],
+            [
+              "10:55",
+              "kirkland/lane",
+              40,
+              10,
+              "逛一小段街區。",
+              "walk"
+            ],
+            [
+              "11:40",
+              "kirkland/marina",
+              45,
+              5,
+              "看湖與碼頭。",
+              "walk"
+            ],
+            [
+              "12:35",
+              "kirkland/cactus",
+              75,
+              10,
+              "午餐留完整時間。",
+              "walk"
+            ],
+            [
+              "14:10",
+              "kirkland/juanita",
+              75,
+              20,
+              "午後換成濕地與賞鳥。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 15
+        }
+      ]
+    },
+    {
+      "id": "day-bellevue",
+      "kind": "city",
+      "days": 1,
+      "title": "Bellevue：晴天｜花園、咖啡、午餐與 Bellevue Square",
+      "subtitle": "花園與城市的一小圈",
+      "route": "Redmond → Bellevue Botanical Garden → Bellden Cafe → Bellevue Downtown Park → Din Tai Fung Bellevue → Bellevue Square → Redmond",
+      "scene": "garden",
+      "interests": [
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "bellevue"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "可以把花園、湖岸、特色咖啡、Bellevue Square 與晚間音樂玩成一整天。晴天先走戶外，雨天直接改去有名字、有地圖的室內點，不再只寫『找個商場』。",
+      "seasonNote": "植物園春花與秋色各有重點；冬季燈飾是季節活動，須查當年日期與票務。",
+      "watch": "不把未確認開放的美術館當雨天主軸；特殊展覽、燈節與停車規則另查官方。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "weowna",
+          "note": "從市區再開約 15–25 分鐘。從 Downtown 商場區到森林入口另抓車程；完整路線用步道卡數字，不和短逛混算。"
+        },
+        {
+          "trail": "coal-creek",
+          "note": "從市區再開約 20–30 分鐘。想走瀑布林徑可改 Cougar Mountain 的 Red Town 入口，不再同一天走兩條完整線。"
+        }
+      ],
+      "driving": "全程開車約 1 小時",
+      "itinerary": [
+        {
+          "title": "晴天｜花園、咖啡、午餐與 Bellevue Square",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:10",
+          "steps": [
+            [
+              "09:30",
+              "bellevue/garden",
+              75,
+              20,
+              "先走庭園與短森林段。",
+              "drive"
+            ],
+            [
+              "11:10",
+              "bellevue/bellden",
+              45,
+              25,
+              "轉場含停車；坐下喝咖啡。",
+              "drive"
+            ],
+            [
+              "12:05",
+              "bellevue/downtown-park",
+              30,
+              10,
+              "午餐前走環狀步道。",
+              "walk"
+            ],
+            [
+              "12:50",
+              "bellevue/dtf",
+              75,
+              15,
+              "預留用餐與少量候位；排太久就改已確認有餐點的 Bellden。",
+              "walk"
+            ],
+            [
+              "14:15",
+              "bellevue/square",
+              120,
+              10,
+              "逛街到約 16:15，再依精神決定是否加湖邊。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 20
+        }
+      ]
+    },
+    {
+      "id": "day-woodinville",
+      "kind": "city",
+      "days": 1,
+      "title": "Woodinville：咖啡、河岸與酒鄉午餐",
+      "subtitle": "離家很近的酒鄉",
+      "route": "Redmond → Sidekick Coffee → Wilmot Gateway Park → The Hollywood Tavern → Hollywood District → Chateau Ste. Michelle Winery → Redmond",
+      "scene": "farm",
+      "interests": [
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "woodinville"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "除了酒莊，這次把 Sidekick 的咖啡、Hollywood Tavern 午餐、河畔步道和夏季音樂點名。想聽音樂先選場次，不把所有 tasting room 都當駐唱場地。",
+      "seasonNote": "天暖時庭院最有感；秋天適合酒鄉氣氛，冬天則偏向室內品飲與餐飲。",
+      "watch": "不要沿用舊攻略把已停業或搬遷的園藝賣場當主景點；酒莊之間仍需要交通安排。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 1.5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、河岸與酒鄉午餐",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:40",
+          "steps": [
+            [
+              "10:00",
+              "woodinville/sidekick",
+              45,
+              20,
+              "咖啡起手。",
+              "walk"
+            ],
+            [
+              "11:00",
+              "woodinville/wilmot",
+              60,
+              15,
+              "選一段河岸折返。",
+              "drive"
+            ],
+            [
+              "12:20",
+              "woodinville/tavern",
+              75,
+              20,
+              "午餐。",
+              "drive"
+            ],
+            [
+              "13:45",
+              "woodinville/hollywood",
+              60,
+              10,
+              "街區與庭院。",
+              "walk"
+            ],
+            [
+              "15:00",
+              "woodinville/ste-michelle",
+              60,
+              15,
+              "確認園方可訪區域，不自動加入品飲。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 20
+        }
+      ]
+    },
+    {
+      "id": "day-bothell",
+      "kind": "city",
+      "days": 1,
+      "title": "Bothell：咖啡與河岸，下午看老校舍",
+      "subtitle": "老校舍與河邊散步",
+      "route": "Redmond → Daily Grind Bothell → Bothell Landing Park → Alexa’s Cafe → Main Street Bothell → McMenamins Anderson School → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk"
+      ],
+      "cities": [
+        "bothell"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "用 Daily Grind 咖啡（原 Social Grounds 原址）、Bothell Landing 河岸、Alexa’s 午餐和 The Cottage 音樂把小城玩實在。Anderson School 是值得看的改造校舍，但電影場次和音樂不能混為一談。",
+      "seasonNote": "春到秋適合河邊與庭院；冬天縮成餐飲、建築與短散步。",
+      "watch": "校舍裡的泳池與活動有個別使用規則，不把住宿設施一律當免費公共景點。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 1 小時",
+      "itinerary": [
+        {
+          "title": "咖啡與河岸，下午看老校舍",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:35",
+          "steps": [
+            [
+              "10:00",
+              "bothell/social",
+              45,
+              25,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "10:55",
+              "bothell/landing",
+              60,
+              10,
+              "河岸短走。",
+              "walk"
+            ],
+            [
+              "12:05",
+              "bothell/alexa",
+              75,
+              10,
+              "午餐。",
+              "walk"
+            ],
+            [
+              "13:30",
+              "bothell/main",
+              40,
+              10,
+              "逛幾間店。",
+              "walk"
+            ],
+            [
+              "14:25",
+              "bothell/school",
+              75,
+              15,
+              "校舍和咖啡／點心。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 25
+        }
+      ]
+    },
+    {
+      "id": "day-duvall",
+      "kind": "city",
+      "days": 1,
+      "title": "Duvall：河谷半日｜咖啡、老街、短步道",
+      "subtitle": "河谷裡的短假期",
+      "route": "Redmond → Corie's Cafe → Main Street NE Historic Duvall → McCormick Park → The Grange Duvall → Redmond",
+      "scene": "farm",
+      "interests": [
+        "town",
+        "coffee",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "duvall"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "把 Duvall 當咖啡、老街與河谷短走，不強迫待滿一天。先在 Corie's Cafe 吃早午餐（14:00 打烊、週三公休），再往河邊走；The Grange 當天有午餐才排。",
+      "seasonNote": "春夏河谷綠意、秋天農場與葉色最加分；冬季看河水與天候。",
+      "watch": "河谷有季節性淹水與步道封閉風險，冬季別把近河步道當保證開放。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 1 小時",
+      "itinerary": [
+        {
+          "title": "河谷半日｜咖啡、老街、短步道",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:30",
+          "steps": [
+            [
+              "10:00",
+              "duvall/coffee",
+              50,
+              30,
+              "咖啡與早午餐；14:00 打烊、週三公休。",
+              "walk"
+            ],
+            [
+              "11:00",
+              "duvall/main",
+              40,
+              10,
+              "逛主街。",
+              "walk"
+            ],
+            [
+              "11:45",
+              "duvall/park",
+              45,
+              5,
+              "河岸短走。",
+              "walk"
+            ],
+            [
+              "12:40",
+              "duvall/grange",
+              75,
+              10,
+              "週日 10:00–14:00 有 brunch 才排；週六只開晚餐（17:00 起），改回 Grateful Bread 吃早午餐（供應到 14:30）。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 30
+        }
+      ]
+    },
+    {
+      "id": "day-carnation",
+      "kind": "city",
+      "days": 1,
+      "title": "Carnation：咖啡與農場，午後走吊橋",
+      "subtitle": "把一天交給農場",
+      "route": "Redmond → Kelsey’s Koffee → Remlinger Farms → Red Pepper Pizzeria → Tolt-MacDonald Park → Redmond",
+      "scene": "farm",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "carnation"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "有農場、河谷步道和 Remlinger 的演出，但先分清活動季節。咖啡、午餐也具名：Kelsey’s Koffee（原 Sandy’s 同址新店名）與 Red Pepper Pizzeria（Blake’s 已於 2026/9/30 結束營業），不再把『去鎮上找吃的』當成規劃。",
+      "seasonNote": "春夏採收與秋季南瓜活動各有重點；不是全年都有完整遊樂園。",
+      "watch": "農場入場、活動票與停車規則分開看；冬季河谷步道留意水位與封閉公告。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 2 小時",
+      "itinerary": [
+        {
+          "title": "咖啡與農場，午後走吊橋",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:00",
+          "steps": [
+            [
+              "09:30",
+              "carnation/sandys",
+              30,
+              30,
+              "咖啡外帶。",
+              "drive"
+            ],
+            [
+              "10:15",
+              "carnation/remlinger",
+              150,
+              15,
+              "只挑當季真正想玩的體驗。",
+              "drive"
+            ],
+            [
+              "13:00",
+              "carnation/blakes",
+              60,
+              15,
+              "午餐。",
+              "drive"
+            ],
+            [
+              "14:15",
+              "carnation/tolt",
+              90,
+              15,
+              "走河谷與吊橋短線。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 30
+        }
+      ]
+    },
+    {
+      "id": "day-fall-city",
+      "kind": "city",
+      "days": 1,
+      "title": "Fall City：老屋咖啡、河邊與瀑布延伸",
+      "subtitle": "河邊停一停",
+      "route": "Redmond → Aroma Coffee Co. → Historic Fall City → Fall City Community Park → Fall City Roadhouse Restaurant & Inn → Snoqualmie Falls Upper Observation Deck → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "fall-city"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "Aroma 的老房子咖啡是很好的理由，再走河邊與鎮上。想延伸就朝 Snoqualmie Falls 或 North Bend；這裡本體是悠閒半日，不用咖啡後立刻離開，也不硬湊八小時。",
+      "seasonNote": "春到秋最好發揮；夏季漂流是另一種活動，不是嬰兒親子主線。",
+      "watch": "漂流需要獨立的安全、裝備與接駁規劃；不要把夏季活動當全年可做。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 2 小時",
+      "itinerary": [
+        {
+          "title": "老屋咖啡、河邊與瀑布延伸",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:30",
+          "steps": [
+            [
+              "10:00",
+              "fall-city/aroma",
+              60,
+              30,
+              "週六坐下喝 Aroma；Aroma 週日公休，週日改附近的 Mercurys 外帶。",
+              "walk"
+            ],
+            [
+              "11:10",
+              "fall-city/downtown",
+              35,
+              10,
+              "老街短逛。",
+              "walk"
+            ],
+            [
+              "11:55",
+              "fall-city/park",
+              45,
+              10,
+              "河邊短走。",
+              "drive"
+            ],
+            [
+              "13:00",
+              "fall-city/roadhouse",
+              75,
+              20,
+              "週末 14:00 才開（平日 11:00）；13:00 要吃午餐就改去 Snoqualmie Falls Brewery（12:00 起），或把這站延到 14:00。",
+              "drive"
+            ],
+            [
+              "14:40",
+              "fall-city/snoqualmie-falls",
+              60,
+              25,
+              "上觀景區看瀑布。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 30
+        }
+      ]
+    },
+    {
+      "id": "day-seattle",
+      "kind": "city",
+      "days": 1,
+      "title": "Seattle：市場咖啡、新水岸與玻璃藝術",
+      "subtitle": "再認識一次西雅圖",
+      "route": "Redmond → Storyville Coffee → Pike Place Market → Pike Place Chowder → Waterfront Park → Chihuly Garden and Glass → Redmond",
+      "scene": "city",
+      "interests": [
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "seattle"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "第一次可走 Pike Place、waterfront 和一個館；喜歡咖啡音樂則另外留一個街區和一場演出。Discovery Park 是有路線數字的森林海景步道，不再只寫『市區散步』。",
+      "seasonNote": "全年可去；夏日 waterfront 最舒服，冬季以博物館與街區餐飲為主。",
+      "watch": "停車費與活動日交通差異大；Seattle Center、Pike Place、Ballard 不是步行一小圈。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "discovery",
+          "note": "從市區再開約 15–30 分鐘。從 Downtown 到公園另抓市區車程；這是低爬升步道，不是攻頂。"
+        }
+      ],
+      "driving": "全程開車約 1.5 小時",
+      "itinerary": [
+        {
+          "title": "市場咖啡、新水岸與玻璃藝術",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:00",
+          "steps": [
+            [
+              "09:30",
+              "seattle/storyville",
+              50,
+              30,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "10:30",
+              "seattle/market",
+              90,
+              10,
+              "市場逛吃。",
+              "walk"
+            ],
+            [
+              "12:10",
+              "seattle/chowder",
+              60,
+              10,
+              "午餐；排太久就在市場內選已確認開放攤位。",
+              "walk"
+            ],
+            [
+              "13:25",
+              "seattle/waterfront",
+              75,
+              15,
+              "看水岸與海景。",
+              "walk"
+            ],
+            [
+              "15:10",
+              "seattle/chihuly",
+              90,
+              30,
+              "開車／公共運輸轉場，含停車緩衝。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 30
+        }
+      ]
+    },
+    {
+      "id": "day-issaquah",
+      "kind": "city",
+      "days": 1,
+      "title": "Issaquah：Gilman 咖啡、鮭魚與歷史主街",
+      "subtitle": "山腳下的鮭魚小城",
+      "route": "Redmond → Issaquah Coffee Company → Gilman Village → WildFin American Grill Issaquah → Issaquah Salmon Hatchery → Front Street Historic Downtown → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "cities": [
+        "issaquah"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "把 Gilman Village 咖啡、Front Street 與鮭魚排成一條，或直接拿半天爬 Poo Poo Point。晚上有 Village Theatre 可加，但完整登山日不要再塞兩個大型活動。",
+      "seasonNote": "秋季鮭魚最有特色；春夏適合湖邊，冬季則多看當日天候。",
+      "watch": "州立公園停車須看 Discover Pass／日票規定；Salmon Days 不是整個秋季每天都有的活動。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "poo-poo",
+          "note": "從市區再開約 10–20 分鐘。從 Front Street 到 Chirico 入口還需開車；只採這個入口的數字。"
+        },
+        {
+          "trail": "coal-creek",
+          "note": "從市區再開約 15–25 分鐘。想降低爬升就改這條森林瀑布線，和 Poo Poo 二選一。"
+        },
+        {
+          "trail": "west-tiger-3",
+          "note": "從市區再開約 10–20 分鐘。I-90 出口 20 的 High Point 登山口，比 Poo Poo Point 更長、爬升更多，二選一；早上爬，回 Gilman 或 Front Street 吃午餐。"
+        }
+      ],
+      "driving": "全程開車約 2 小時",
+      "itinerary": [
+        {
+          "title": "Gilman 咖啡、鮭魚與歷史主街",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:25",
+          "steps": [
+            [
+              "10:00",
+              "issaquah/coffee",
+              45,
+              35,
+              "坐下咖啡。",
+              "walk"
+            ],
+            [
+              "10:55",
+              "issaquah/gilman",
+              50,
+              10,
+              "逛木屋小店。",
+              "walk"
+            ],
+            [
+              "12:00",
+              "issaquah/wildfin",
+              75,
+              15,
+              "午餐。",
+              "drive"
+            ],
+            [
+              "13:35",
+              "issaquah/hatchery",
+              60,
+              20,
+              "看當季魚況。",
+              "drive"
+            ],
+            [
+              "14:45",
+              "issaquah/front",
+              60,
+              10,
+              "主街慢逛；想看音樂劇另依場次。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 35
+        }
+      ]
+    },
+    {
+      "id": "day-renton",
+      "kind": "city",
+      "days": 1,
+      "title": "Renton：非洲咖啡、湖邊與音樂史短停留",
+      "subtitle": "湖的南端，慢一點",
+      "route": "Redmond → Boon Boona Coffee Renton → Gene Coulon Memorial Beach Park → Ivar’s Seafood Bar Gene Coulon → The Landing Renton → Jimi Hendrix Memorial → Redmond",
+      "scene": "lake",
+      "interests": [
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "renton"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "咖啡選 Boon Boona，湖邊選 Gene Coulon，午餐就有園內 Ivar’s；對音樂有興趣可看 Hendrix memorial，再查 Renton Civic Theatre 的實際演出（Carco Theatre 2025 年 12 月淹水後關閉，未公布重開日），不只泛稱『去市中心吃飯』。",
+      "seasonNote": "春到秋、晴朗傍晚最適合；冬天可縮短湖邊時間。",
+      "watch": "不把營運狀態未確認的歷史博物館當雨天保證；湖邊與舊市中心不是步行一個小圈。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 2 小時",
+      "itinerary": [
+        {
+          "title": "非洲咖啡、湖邊與音樂史短停留",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:25",
+          "steps": [
+            [
+              "10:00",
+              "renton/boon",
+              60,
+              35,
+              "喝咖啡。",
+              "walk"
+            ],
+            [
+              "11:20",
+              "renton/coulon",
+              75,
+              20,
+              "沿湖散步。",
+              "drive"
+            ],
+            [
+              "12:40",
+              "renton/ivars",
+              50,
+              5,
+              "園內午餐。",
+              "walk"
+            ],
+            [
+              "13:45",
+              "renton/landing",
+              60,
+              15,
+              "吃甜點或進店逛。",
+              "drive"
+            ],
+            [
+              "15:05",
+              "renton/hendrix",
+              30,
+              20,
+              "有興趣才看音樂史地標。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 35
+        }
+      ]
+    },
+    {
+      "id": "day-snoqualmie",
+      "kind": "city",
+      "days": 1,
+      "title": "Snoqualmie：大瀑布、咖啡與鐵道小鎮",
+      "subtitle": "瀑布與鐵道的下午",
+      "route": "Redmond → Snoqualmie Falls Upper Observation Deck → The Bindlestick → Snoqualmie Depot → Snoqualmie Falls Brewery → Northwest Railway Museum → Redmond",
+      "scene": "mountain",
+      "interests": [
+        "town",
+        "coffee",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "snoqualmie"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "瀑布不是全部：The Bindlestick 咖啡、老車站、鐵道展示與 Falls Brewery 午餐可組完整白天。想走更久，改選 Twin Falls，不把所有瀑布都當同一個停車場。",
+      "seasonNote": "全年都有瀑布；雨季水勢較有張力，但霧氣、積水與冬季冰面會影響體驗。",
+      "watch": "火車不是全天隨到隨搭；瀑布停車有不同停車場與規則，依現場標示選擇。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "twin-falls",
+          "note": "從市區再開約 20–30 分鐘。改走 Olallie 的森林瀑布步道；和 Snoqualmie Falls 並非同一景點。"
+        }
+      ],
+      "driving": "全程開車約 2 小時",
+      "itinerary": [
+        {
+          "title": "大瀑布、咖啡與鐵道小鎮",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:50",
+          "steps": [
+            [
+              "09:30",
+              "snoqualmie/falls",
+              60,
+              40,
+              "上觀景台為主。",
+              "drive"
+            ],
+            [
+              "10:50",
+              "snoqualmie/coffee",
+              45,
+              20,
+              "老街咖啡。",
+              "drive"
+            ],
+            [
+              "11:40",
+              "snoqualmie/depot",
+              40,
+              5,
+              "車站與歷史街景。",
+              "walk"
+            ],
+            [
+              "12:30",
+              "snoqualmie/brewery",
+              75,
+              10,
+              "午餐。",
+              "walk"
+            ],
+            [
+              "14:05",
+              "snoqualmie/railway",
+              90,
+              20,
+              "確認開館再看鐵道展示；未開改 Meadowbrook。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 40
+        }
+      ]
+    },
+    {
+      "id": "day-snohomish",
+      "kind": "city",
+      "days": 1,
+      "title": "Snohomish：咖啡、古董、派與河邊｜非農場版",
+      "subtitle": "南瓜、派與河岸老街",
+      "route": "Redmond → Snohomish Coffee Co. → Historic First Street Snohomish → Andy’s Fish House → Snohomish Pie Co. → Snohomish Riverfront Trail → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "cities": [
+        "snohomish"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "除了古董與南瓜，還有具名咖啡、書店式逛法、河岸、Centennial Trail、派和 Oxford 現場音樂。秋季農場仍可選，但不再用一間農場占掉所有小鎮時間。",
+      "seasonNote": "十月南瓜季最有記憶點，春夏則是河岸與老街；農場活動不是全年固定。",
+      "watch": "看動物、迷宮、遊樂設施常屬付費區；南瓜田免費入場不等於南瓜免費。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "wallace",
+          "note": "從市區再開約 40–60 分鐘。要爬瀑布山徑需再到 Gold Bar，和逛 Snohomish 是不同半天，不能把距離當鎮內步道。"
+        }
+      ],
+      "driving": "全程開車約 1.5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、古董、派與河邊｜非農場版",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:50",
+          "steps": [
+            [
+              "09:30",
+              "snohomish/looking-glass",
+              50,
+              40,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "10:30",
+              "snohomish/first",
+              75,
+              10,
+              "First Street 選店慢逛。",
+              "walk"
+            ],
+            [
+              "12:00",
+              "snohomish/andys",
+              75,
+              15,
+              "午餐含候位緩衝。",
+              "walk"
+            ],
+            [
+              "13:30",
+              "snohomish/pie",
+              40,
+              15,
+              "吃派。",
+              "walk"
+            ],
+            [
+              "14:20",
+              "snohomish/river",
+              45,
+              10,
+              "河岸散步，約 15:05 收尾或加已確認場次的 Oxford。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 40
+        }
+      ]
+    },
+    {
+      "id": "day-monroe",
+      "kind": "city",
+      "days": 1,
+      "title": "Monroe：咖啡、河邊林地與湖岸短日",
+      "subtitle": "沿著 Skykomish 出發",
+      "route": "Redmond → Monroe Coffee Co. → Historic Downtown Monroe → Al Borlin Park → Tuscano’s Italian Kitchen → Lake Tye Park → Redmond",
+      "scene": "farm",
+      "interests": [
+        "town",
+        "coffee",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "cities": [
+        "monroe"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "這次具體選 Monroe Coffee Co.（原 Pilot House，週日休；週日改 Noticed Coffee）、Tuscano’s 午餐、Al Borlin 林地與 Lake Tye 湖邊。真正爬山則往 Wallace Falls／Heybrook，城市公園不冒充山頂路線。",
+      "seasonNote": "春至秋最適合戶外；夏季 fair 與秋季活動需看當年日期。",
+      "watch": "Fairgrounds 不是每天都有大型活動；沿 US-2 交通與山區路況要另外估。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "wallace",
+          "note": "從市區再開約 25–40 分鐘。US-2 往 Gold Bar 的額外車程。"
+        },
+        {
+          "trail": "heybrook",
+          "note": "從市區再開約 40–55 分鐘。更往 Index／US-2 方向，短而陡，不把往返只抓一小時。"
+        },
+        {
+          "trail": "lake-serene",
+          "note": "從市區再開約 35–50 分鐘。沿 US-2 開到 Index 前，與 Wallace Falls、Heybrook 三選一；往返加休息約 5–7 小時，Monroe 鎮上只留早上咖啡或晚餐。"
+        }
+      ],
+      "driving": "全程開車約 2 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、河邊林地與湖岸短日",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:20",
+          "steps": [
+            [
+              "10:00",
+              "monroe/pilot",
+              45,
+              40,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "10:55",
+              "monroe/historic",
+              35,
+              10,
+              "老街短逛。",
+              "walk"
+            ],
+            [
+              "11:45",
+              "monroe/al-borlin",
+              60,
+              15,
+              "林地短線。",
+              "drive"
+            ],
+            [
+              "13:05",
+              "monroe/tuscanos",
+              75,
+              20,
+              "先確認午餐營業。",
+              "drive"
+            ],
+            [
+              "14:40",
+              "monroe/lake",
+              60,
+              20,
+              "若已走夠就不加，早點收尾。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 40
+        }
+      ]
+    },
+    {
+      "id": "day-north-bend",
+      "kind": "city",
+      "days": 1,
+      "title": "North Bend：咖啡、湖景、diner 與小鎮",
+      "subtitle": "山就在街尾",
+      "route": "Redmond → Huxdotter Coffee → Rattlesnake Lake → Twede’s Cafe → Historic Downtown North Bend → Redmond",
+      "scene": "mountain",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "cities": [
+        "north-bend"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "Huxdotter、Twede’s、山腳街景與 Boxley’s 爵士都點名；戶外再依你今天想爬山或只看湖二選一。Rattlesnake Lake 與 Ledge 是不同強度，不混用耗時。",
+      "seasonNote": "春秋舒適、夏季湖景漂亮；冬季地面可能濕滑或結冰。",
+      "watch": "停車、步道與湖岸狀態依管理單位公告，不能因為湖邊離城近就忽略天候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "rattlesnake",
+          "note": "從市區再開約 15–25 分鐘。從鎮上到湖邊登山口再開一段。"
+        },
+        {
+          "trail": "little-si",
+          "note": "從市區再開約 10–20 分鐘。可替換 Ledge，兩條擇一。"
+        },
+        {
+          "trail": "twin-falls",
+          "note": "從市區再開約 15–25 分鐘。想看瀑布與較低爬升的選項。"
+        }
+      ],
+      "driving": "全程開車約 2 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、湖景、diner 與小鎮",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:15",
+          "steps": [
+            [
+              "10:00",
+              "north-bend/hux",
+              45,
+              45,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "11:05",
+              "north-bend/lake",
+              75,
+              20,
+              "只走湖岸短段。",
+              "drive"
+            ],
+            [
+              "12:45",
+              "north-bend/twedes",
+              75,
+              25,
+              "午餐與派。",
+              "drive"
+            ],
+            [
+              "14:10",
+              "north-bend/downtown",
+              60,
+              10,
+              "看 Mount Si 街景。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 45
+        }
+      ]
+    },
+    {
+      "id": "day-edmonds",
+      "kind": "city",
+      "days": 1,
+      "title": "Edmonds：咖啡、海濱與美術館",
+      "subtitle": "看船的海邊小城",
+      "route": "Redmond → Cafe Louvre → Edmonds Waterfront Walkway → Salt & Iron → Cascadia Art Museum → Downtown Edmonds Main Street → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "edmonds"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "Cafe Louvre、Salt & Iron、Cascadia Art Museum 與 ECA 表演都具名，海邊則看渡輪與短步道。很適合咖啡、美術和海風，不需要先搭船才能有旅行感。",
+      "seasonNote": "春至秋的海景最佳；冬季可縮短戶外，多排室內。",
+      "watch": "要搭 Edmonds–Kingston 才需要渡輪規劃；只玩 Edmonds 不必排進候船車流。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 1.5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、海濱與美術館",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:15",
+          "steps": [
+            [
+              "10:00",
+              "edmonds/louvre",
+              50,
+              45,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "11:05",
+              "edmonds/waterfront",
+              60,
+              15,
+              "沿海濱看船。",
+              "walk"
+            ],
+            [
+              "12:20",
+              "edmonds/salt",
+              75,
+              15,
+              "午餐／brunch 先看營業。",
+              "walk"
+            ],
+            [
+              "13:50",
+              "edmonds/cascadia",
+              90,
+              15,
+              "西北藝術。",
+              "walk"
+            ],
+            [
+              "15:35",
+              "edmonds/main",
+              60,
+              15,
+              "畫廊、小店收尾。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 45
+        }
+      ]
+    },
+    {
+      "id": "day-mukilteo",
+      "kind": "city",
+      "days": 1,
+      "title": "Mukilteo：燈塔咖啡、海景午餐與航空館",
+      "subtitle": "燈塔、海風與飛機",
+      "route": "Redmond → Red Cup Cafe Mukilteo → Mukilteo Lighthouse Park → Ivar’s Mukilteo Landing → Boeing Future of Flight Gallery & Sky Deck → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "coffee",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "mukilteo"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "燈塔和 Ivar’s 海景午餐之外，還有 Red Cup 咖啡、日本谷森林步道和 Future of Flight 展示；工廠 tour 有身高限制，不能把兩者混為雨天必去。",
+      "seasonNote": "天暖海邊最舒服；燈塔內部有季節開放，外觀不等於能登塔。",
+      "watch": "Boeing Factory Tour 有至少 4 英尺身高要求，不能抱著較小兒童參加；以 Boeing 當日政策為準。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 2 小時",
+      "itinerary": [
+        {
+          "title": "燈塔咖啡、海景午餐與航空館",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:15",
+          "steps": [
+            [
+              "10:00",
+              "mukilteo/redcup",
+              45,
+              45,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "11:00",
+              "mukilteo/lighthouse",
+              75,
+              15,
+              "燈塔外觀與海邊。",
+              "walk"
+            ],
+            [
+              "12:25",
+              "mukilteo/ivars",
+              75,
+              10,
+              "室內或海景午餐。",
+              "walk"
+            ],
+            [
+              "14:05",
+              "mukilteo/flight",
+              120,
+              25,
+              "只排已確認適合的展館／票務。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 45
+        }
+      ]
+    },
+    {
+      "id": "day-everett",
+      "kind": "city",
+      "days": 1,
+      "title": "Everett：碼頭咖啡、藝術與海濱午餐",
+      "subtitle": "海濱與孩子的雨天",
+      "route": "Redmond → The Muse Whiskey & Coffee → Port of Everett Waterfront → Scuttlebutt Family Pub → Schack Art Center → Evergreen Arboretum & Gardens → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "everett"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "The Muse 咖啡和碼頭風景很適合你，藝術則可看 Schack，晚間選 New Everett Theater（原 Historic Everett Theatre）的致敬樂團場。兒童館保留作另一種家庭玩法，但不再把整座城市只當親子室內館。",
+      "seasonNote": "全年能排；Jetty Island 是有季節交通與條件的額外玩法，不混入冬季主線。",
+      "watch": "館方營業日、票務及展區限制先確認；不要看見 Jetty Island 就假設隨時能搭船。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 2.5 小時",
+      "itinerary": [
+        {
+          "title": "碼頭咖啡、藝術與海濱午餐",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "09:15",
+          "steps": [
+            [
+              "10:00",
+              "everett/muse",
+              60,
+              45,
+              "坐下咖啡。",
+              "walk"
+            ],
+            [
+              "11:10",
+              "everett/marina",
+              60,
+              10,
+              "海濱看船。",
+              "walk"
+            ],
+            [
+              "12:20",
+              "everett/scuttlebutt",
+              75,
+              10,
+              "午餐。",
+              "walk"
+            ],
+            [
+              "14:00",
+              "everett/schack",
+              75,
+              25,
+              "看當期展覽。",
+              "drive"
+            ],
+            [
+              "15:40",
+              "everett/arboretum",
+              60,
+              25,
+              "晴天再加花園，雨天略過。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 45
+        }
+      ]
+    },
+    {
+      "id": "day-tacoma",
+      "kind": "city",
+      "days": 1,
+      "title": "Tacoma：咖啡、玻璃藝術與兩種水岸",
+      "subtitle": "玻璃藝術與海濱的一天",
+      "route": "Redmond → Anthem Coffee → Museum of Glass → The Fish Peddler → Thea Foss Waterway Esplanade → Ruston Way Waterfront → Redmond",
+      "scene": "city",
+      "interests": [
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "tacoma"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "這次把咖啡、午餐、步行和音樂接好：Downtown 走 Anthem、Museum of Glass、Fish Peddler，下午才往 Ruston；Valhalla 和車博館是可選替代，不整座城市來回穿。",
+      "seasonNote": "全年合適，冬季館舍主線尤其穩定；夏日再延長水岸與公園。",
+      "watch": "Point Defiance、Ruston Way、汽車館與玻璃館不是步行一圈，別低估跨區車程與停車。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 2.5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、玻璃藝術與兩種水岸",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:55",
+          "steps": [
+            [
+              "10:00",
+              "tacoma/anthem",
+              50,
+              65,
+              "咖啡，接藝術橋。",
+              "walk"
+            ],
+            [
+              "11:05",
+              "tacoma/glass",
+              75,
+              15,
+              "展廳整修至 2026/12/12，之前以 Hot Shop 吹玻璃示範為主（另有大廳小展、商店與咖啡）；週三至週日 10–17。",
+              "walk"
+            ],
+            [
+              "12:40",
+              "tacoma/peddler",
+              75,
+              20,
+              "海鮮午餐。",
+              "walk"
+            ],
+            [
+              "14:05",
+              "tacoma/foss",
+              50,
+              10,
+              "水道短走。",
+              "walk"
+            ],
+            [
+              "15:20",
+              "tacoma/ruston",
+              60,
+              25,
+              "晴天才加另一區海岸，冬季提早或省略。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 65
+        }
+      ]
+    },
+    {
+      "id": "day-mountain-loop",
+      "kind": "city",
+      "days": 1,
+      "title": "Mountain Loop Highway：平緩版｜Big Four 觀景與 Verlot 服務站",
+      "subtitle": "Granite Falls 到 Verlot 的森林湖泊線",
+      "route": "Redmond → Hookline Espresso → Verlot Public Service Center → Big Four Ice Caves Trailhead → Thai House Authentic Thai Cuisine → Redmond",
+      "scene": "mountain",
+      "interests": [
+        "town",
+        "coffee",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "cities": [
+        "mountain-loop"
+      ],
+      "months": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "Hookline 咖啡、Thai House／Playa Bonita、Verlot 服務站與 Big Four、Lake 22 都點名。一天只選一條主線：平緩的 Big Four 觀景，或爬升的 Lake 22／Heather Lake；冬春雪崩季改走低海拔的 Lime Kiln。",
+      "seasonNote": "Mountain Loop Highway 2026 年 5/15 全線開通；冬季 Deer Creek–Bedal 之間 14 英里封路（2024 年從 11/22 起），Big Four 在封閉段內，Pilchuck Road 也在 Heather Lake 口設閘。Lake 22、Heather Lake 冬春有雪崩風險，6–10 月最穩；Big Four 冰洞每年不同，2026 年 10 月中已幾乎全塌。",
+      "watch": "Lake 22、Heather Lake 與 Big Four 冬春位在雪崩路徑下，雪季先看 NWAC；Big Four 曾有人因冰洞崩塌與雪崩喪命，只在步道終點觀看。熱門登山口週末一早客滿，停車需 Northwest Forest Pass 或現場 $5 日票。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "lake-22",
+          "note": "從市區再開約 25–35 分鐘。Verlot 東邊 2 英里，週末早到。"
+        },
+        {
+          "trail": "heather-lake",
+          "note": "從市區再開約 25–40 分鐘。轉 Pilchuck Road 1.5 英里碎石路。"
+        },
+        {
+          "trail": "big-four",
+          "note": "從市區再開約 45–60 分鐘。Verlot 再往東 14.5 英里，在冬季封閉段內。"
+        }
+      ],
+      "driving": "全程開車約 4 小時",
+      "itinerary": [
+        {
+          "title": "平緩版｜Big Four 觀景與 Verlot 服務站",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:25",
+          "steps": [
+            [
+              "08:30",
+              "mountain-loop/hookline",
+              15,
+              65,
+              "窗口外帶咖啡與早餐，順便加油。",
+              "drive"
+            ],
+            [
+              "09:10",
+              "mountain-loop/verlot",
+              20,
+              25,
+              "開放日問路況、買通行證。",
+              "drive"
+            ],
+            [
+              "10:00",
+              "mountain-loop/bigfour",
+              150,
+              30,
+              "步道含野餐，只在終點觀景區看冰洞。",
+              "drive"
+            ],
+            [
+              "13:20",
+              "mountain-loop/thai",
+              60,
+              50,
+              "回 Granite Falls 吃泰式午餐（週一休）。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 65
+        }
+      ]
+    },
+    {
+      "id": "day-enumclaw",
+      "kind": "city",
+      "days": 1,
+      "title": "Enumclaw：山前咖啡、小鎮午餐與老森林",
+      "subtitle": "山前的老街補給",
+      "route": "Redmond → The Local Coffee House → Cole Street Historic Downtown → The Historic Mint Restaurant & Alehouse → Federation Forest State Park → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "cities": [
+        "enumclaw"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "The Local Coffee House、Cole Street、The Mint 和森林步道可以排實在；想看更大山景再往 Crystal 或夏季 Naches Peak。Chalet 的電影與真正樂團場次分開看。",
+      "seasonNote": "春至秋鎮上與山前路線最好安排；冬天滑雪是另一套交通與票務計畫。",
+      "watch": "Chinook Pass 季節封路不等於整條 SR-410 都封，也不代表夏天路線冬天可穿越；看 WSDOT。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "naches",
+          "note": "從市區再開約 75–100 分鐘。只有 SR-410／Chinook 當季開放才安排，車程不是鎮內移動。"
+        }
+      ],
+      "driving": "全程開車約 3 小時",
+      "itinerary": [
+        {
+          "title": "山前咖啡、小鎮午餐與老森林",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:45",
+          "steps": [
+            [
+              "10:00",
+              "enumclaw/anchor",
+              50,
+              75,
+              "咖啡起點，週日 8:00 才開。",
+              "walk"
+            ],
+            [
+              "11:00",
+              "enumclaw/cole",
+              50,
+              10,
+              "主街。",
+              "walk"
+            ],
+            [
+              "12:05",
+              "enumclaw/mint",
+              75,
+              15,
+              "午餐。",
+              "walk"
+            ],
+            [
+              "13:55",
+              "enumclaw/federation",
+              90,
+              35,
+              "選老森林短段，不進未開放區。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 75
+        }
+      ]
+    },
+    {
+      "id": "day-gig-harbor",
+      "kind": "city",
+      "days": 1,
+      "title": "Gig Harbor：咖啡、港灣午餐與歷史館",
+      "subtitle": "港灣裡的一口慢呼吸",
+      "route": "Redmond → Kimball Coffeehouse → Skansie Brothers Park → Netshed No. 9 → Harbor History Museum → Harborview Drive Waterfront → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "gig-harbor"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "Kimball 同時滿足咖啡和真實音樂，白天再走 Skansie 和 Harborview。Netshed No. 9 作午餐；Tides Tavern 是 21+，不能把兩間不加區分地推薦給帶未成年者。",
+      "seasonNote": "春至秋最好享受水岸；冬季可做館舍加餐飲的短版。",
+      "watch": "會經 Tacoma Narrows Bridge，行程與通行費看實際走法；不要把私人碼頭當公共通道。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 3.5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、港灣午餐與歷史館",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:40",
+          "steps": [
+            [
+              "10:00",
+              "gig-harbor/kimball",
+              60,
+              80,
+              "咖啡；Kimball 週六 8–15、週日公休，週日改港邊 Java & Clay Cafe。",
+              "drive"
+            ],
+            [
+              "11:20",
+              "gig-harbor/skansie",
+              45,
+              20,
+              "港邊公園。",
+              "drive"
+            ],
+            [
+              "12:15",
+              "gig-harbor/netshed",
+              75,
+              10,
+              "午餐，先確認營業與廚房時段。",
+              "walk"
+            ],
+            [
+              "13:50",
+              "gig-harbor/history",
+              90,
+              20,
+              "週三至週六 11–16 開館，週日休館；週日改港邊 Woodstock Gallery 或縮成港灣半日。",
+              "drive"
+            ],
+            [
+              "15:35",
+              "gig-harbor/harborview",
+              60,
+              15,
+              "街景與海灣收尾。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 80
+        }
+      ]
+    },
+    {
+      "id": "day-mount-vernon",
+      "kind": "city",
+      "days": 1,
+      "title": "Mount Vernon：河岸小鎮版｜不靠花田也成立",
+      "subtitle": "不只有四月鬱金香",
+      "route": "Redmond → Ristretto Coffee Lounge & Wine Bar → Skagit Riverwalk Park → Calico Cupboard → Downtown Mount Vernon First Street → Redmond",
+      "scene": "farm",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "mount-vernon"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "花季之外也有 Ristretto 咖啡、Calico 午餐、Riverwalk 和 Lincoln Theatre。四月花田是另一套版本，不再拿全年都看得到鬱金香的想像排秋天。",
+      "seasonNote": "鬱金香以四月為主要旅遊季，實際花況隨年；秋季改看農田與收成。",
+      "watch": "花季塞車、停車與預約是重點；有些花田是生產田，不能任意進入。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 3 小時",
+      "itinerary": [
+        {
+          "title": "河岸小鎮版｜不靠花田也成立",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:35",
+          "steps": [
+            [
+              "10:00",
+              "mount-vernon/ristretto",
+              50,
+              85,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "11:00",
+              "mount-vernon/riverwalk",
+              60,
+              10,
+              "河岸。",
+              "walk"
+            ],
+            [
+              "12:15",
+              "mount-vernon/calico",
+              75,
+              15,
+              "午餐。",
+              "walk"
+            ],
+            [
+              "13:45",
+              "mount-vernon/downtown",
+              75,
+              15,
+              "逛店，約 15:00 後依場次或接下一鎮。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 85
+        }
+      ]
+    },
+    {
+      "id": "day-la-conner",
+      "kind": "city",
+      "days": 1,
+      "title": "La Conner：水道咖啡、藝術與老街",
+      "subtitle": "水道邊的藝術村",
+      "route": "Redmond → Raven's Cup Coffee & Art Gallery → La Conner Waterfront Boardwalk → La Conner Pub & Eatery → Museum of Northwest Art → First Street La Conner → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "la-conner"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "這座很合你的小鎮口味：水道邊咖啡、MoNA、老街、淡菜與慢步道。先在 La Conner 本體慢下來，花田只是季節延伸，不是唯一亮點。",
+      "seasonNote": "春季可串水仙與鬱金香，秋季更安靜；不是只有四月值得來。",
+      "watch": "花田在河谷周邊，不是鎮中心走出去就是；節慶期間停車提早規劃。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 3 小時",
+      "itinerary": [
+        {
+          "title": "水道咖啡、藝術與老街",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:25",
+          "steps": [
+            [
+              "10:00",
+              "la-conner/coffee",
+              50,
+              95,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "11:00",
+              "la-conner/boardwalk",
+              60,
+              10,
+              "看水道與橋。",
+              "walk"
+            ],
+            [
+              "12:15",
+              "la-conner/pub",
+              75,
+              15,
+              "午餐；可用 Calico 替換。",
+              "walk"
+            ],
+            [
+              "13:45",
+              "la-conner/mona",
+              90,
+              15,
+              "看當期藝術。",
+              "walk"
+            ],
+            [
+              "15:25",
+              "la-conner/first",
+              60,
+              10,
+              "小店收尾。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 95
+        }
+      ]
+    },
+    {
+      "id": "day-bainbridge",
+      "kind": "city",
+      "days": 1,
+      "title": "Bainbridge Island：步行搭船版｜咖啡、藝術與小鎮",
+      "subtitle": "把車留岸上也成立",
+      "route": "Redmond → Pegasus Coffee House → Waterfront Park Bainbridge → Proper Fish → Winslow Way → Bainbridge Island Museum of Art → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "bainbridge"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "Winslow 可以玩得很具體：Pegasus、Blackbird、Proper Fish、BIMA、水岸和 BPA。若想走森林或 Bloedel，另留交通，不再寫成下船後都能順手到。",
+      "seasonNote": "全年能排，春秋花園漂亮；冬季用藝術館與餐飲縮短戶外。",
+      "watch": "Seattle–Bainbridge 車輛不是可預約保證上船；步行和開車登船的排隊體驗差很多。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 3 小時",
+      "itinerary": [
+        {
+          "title": "步行搭船版｜咖啡、藝術與小鎮",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:25",
+          "steps": [
+            [
+              "10:00",
+              "bainbridge/pegasus",
+              60,
+              95,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "11:10",
+              "bainbridge/waterfront",
+              50,
+              10,
+              "港灣短走。",
+              "walk"
+            ],
+            [
+              "12:15",
+              "bainbridge/fish",
+              75,
+              15,
+              "午餐。",
+              "walk"
+            ],
+            [
+              "13:45",
+              "bainbridge/winslow",
+              75,
+              15,
+              "慢逛店，想吃烘焙可加 Blackbird。",
+              "walk"
+            ],
+            [
+              "15:15",
+              "bainbridge/bima",
+              90,
+              15,
+              "進館，看最後入館資訊。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 95
+        }
+      ]
+    },
+    {
+      "id": "day-olympia",
+      "kind": "city",
+      "days": 1,
+      "title": "Olympia：咖啡、州議會、白天市場與海灣",
+      "subtitle": "州議會與海灣小日子",
+      "route": "Redmond → Olympia Coffee → Washington State Capitol → Olympia Farmers Market → The Bread Peddler → Percival Landing → Redmond",
+      "scene": "city",
+      "interests": [
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "olympia"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "Olympia Coffee、州議會、市場、Bread Peddler 和 Percival Landing 可以順路串。想聽音樂看 Washington Center，想走更久的自然再去 Nisqually，不把海灣整片當一個景點。",
+      "seasonNote": "全年可去，春夏園區和水岸更舒服；冬季主打館與建築。",
+      "watch": "州議會室內不是隨時都能自由參觀；市場與特定活動要看當季公告。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 4 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、州議會、白天市場與海灣",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:50",
+          "steps": [
+            [
+              "09:30",
+              "olympia/coffee",
+              45,
+              100,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "10:35",
+              "olympia/capitol",
+              75,
+              20,
+              "週末大樓 11:00 才開（至 16:00），先看外觀與園區再入內；免費導覽週末 11:30 起每小時一梯。",
+              "drive"
+            ],
+            [
+              "12:15",
+              "olympia/market",
+              45,
+              25,
+              "白天市場 10–15；11–12 月只開週末，1–3 月只開週六，12 月下旬至 1 月初停市。",
+              "drive"
+            ],
+            [
+              "13:15",
+              "olympia/bread",
+              60,
+              15,
+              "午餐，核對廚房最後點餐。",
+              "walk"
+            ],
+            [
+              "14:30",
+              "olympia/percival",
+              75,
+              15,
+              "海灣短走，晚場另看票。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 100
+        }
+      ]
+    },
+    {
+      "id": "day-langley",
+      "kind": "city",
+      "days": 1,
+      "title": "Langley：海邊小村｜咖啡、畫廊與海景午餐",
+      "subtitle": "海邊的文藝小村",
+      "route": "Redmond → Salty Sea Coffee → First Street Langley → Village Pizzeria → Seawall Park → Langley Whale Center → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "langley"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "很適合慢逛：Salty Sea Coffee、First Street 的畫廊小店、海景 pizza、Seawall 水道景色，下午再看 WICA 或 Ott & Hunter 的實際演出。渡輪是旅程的一部分，但候船不能假裝不存在。",
+      "seasonNote": "春至秋最舒服；賞鯨有季節與運氣，不能把野生動物當固定演出。",
+      "watch": "Mukilteo–Clinton 車輛不是預約保證登船；週末候船可能比海上航程長。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 3.5 小時",
+      "itinerary": [
+        {
+          "title": "海邊小村｜咖啡、畫廊與海景午餐",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:30",
+          "steps": [
+            [
+              "10:15",
+              "langley/coffee",
+              45,
+              105,
+              "咖啡與糕點；週末 8–17 營業。",
+              "walk"
+            ],
+            [
+              "11:10",
+              "langley/first",
+              60,
+              10,
+              "畫廊和小店。",
+              "walk"
+            ],
+            [
+              "12:20",
+              "langley/pizza",
+              75,
+              10,
+              "午餐。",
+              "walk"
+            ],
+            [
+              "13:45",
+              "langley/seawall",
+              45,
+              10,
+              "水道景色。",
+              "walk"
+            ],
+            [
+              "14:45",
+              "langley/whale",
+              60,
+              15,
+              "確認開館；晚間有票才留 WICA 或 cabaret。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 105
+        }
+      ]
+    },
+    {
+      "id": "day-port-gamble",
+      "kind": "city",
+      "days": 1,
+      "title": "Port Gamble：老商店咖啡、歷史鎮與森林",
+      "subtitle": "像被留下來的十九世紀",
+      "route": "Redmond → Port Gamble General Store & Cafe → Port Gamble Historic Townsite → Port Gamble Historic Museum → Butcher & Baker Provisions → Port Gamble Forest Heritage Park → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "port-gamble"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "這座小村可以做得很精準：General Store 咖啡、公司鎮街屋、Museum、Butcher & Baker 午餐和森林步道。鎮小是特色，不需要用重複逛街湊一整天。",
+      "seasonNote": "春到秋有較多戶外活動，冬季更安靜但店家日數也可能少。",
+      "watch": "歷史鎮區、森林步道與付費活動不是同一套行程；森林活動要另外確認天候與開放。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 4 小時",
+      "itinerary": [
+        {
+          "title": "老商店咖啡、歷史鎮與森林",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:15",
+          "steps": [
+            [
+              "10:00",
+              "port-gamble/general",
+              60,
+              105,
+              "咖啡、商店。",
+              "walk"
+            ],
+            [
+              "11:10",
+              "port-gamble/town",
+              50,
+              10,
+              "歷史街屋，可經教堂外觀。",
+              "walk"
+            ],
+            [
+              "12:10",
+              "port-gamble/museum",
+              50,
+              10,
+              "史蹟館只在 5–9 月週四至週日 12:00–17:00 開；其他時間改看 General Store 樓上的免費貝殼館。",
+              "walk"
+            ],
+            [
+              "13:10",
+              "port-gamble/baker",
+              75,
+              10,
+              "午餐。",
+              "walk"
+            ],
+            [
+              "14:45",
+              "port-gamble/forest",
+              90,
+              20,
+              "選短林徑。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 110
+        }
+      ]
+    },
+    {
+      "id": "day-cle-elum",
+      "kind": "city",
+      "days": 1,
+      "title": "Cle Elum：山口東側｜咖啡、烘焙與鐵道步道",
+      "subtitle": "跨過山口的第一站",
+      "route": "Redmond → Pioneer Coffee Roasting → Cle Elum Bakery → South Cle Elum Rail Yard → Cottage Cafe → Palouse to Cascades Trail → Redmond",
+      "scene": "mountain",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "cle-elum"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "先吃 Cle Elum Bakery、喝 Pioneer，再看 South Cle Elum 的鐵道與河谷。Suncadia 和 Swiftwater 是可選的另一區，公開餐飲和住客設施分開看。",
+      "seasonNote": "春秋最舒適；夏季自然活動多，冬季雪景與山口交通是同一件事的兩面。",
+      "watch": "度假區的泳池、spa、活動與部分停車不是所有遊客免費使用；先查權限與費用。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 4.5 小時",
+      "itinerary": [
+        {
+          "title": "山口東側｜咖啡、烘焙與鐵道步道",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:15",
+          "steps": [
+            [
+              "10:00",
+              "cle-elum/pioneer",
+              50,
+              105,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "11:00",
+              "cle-elum/bakery",
+              25,
+              10,
+              "選烘焙。",
+              "walk"
+            ],
+            [
+              "11:40",
+              "cle-elum/depot",
+              45,
+              15,
+              "鐵道歷史。",
+              "drive"
+            ],
+            [
+              "12:45",
+              "cle-elum/cottage",
+              75,
+              20,
+              "午餐。",
+              "drive"
+            ],
+            [
+              "14:20",
+              "cle-elum/trail",
+              90,
+              20,
+              "河谷短線；天候差改已訂好的室內餐飲。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 105
+        }
+      ]
+    },
+    {
+      "id": "day-anacortes",
+      "kind": "city",
+      "days": 1,
+      "title": "Anacortes：港口、咖啡與兩種海景",
+      "subtitle": "不用搭船，也能看島海",
+      "route": "Redmond → Penguin Coffee → Cap Sante Park → Rockfish Grill → Commercial Avenue Historic Downtown → Washington Park Anacortes → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "anacortes"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "Anacortes 本島就夠玩：Penguin 咖啡、Cap Sante、Rockfish 午餐與 live music，再選 Washington Park 或 Mt. Erie。San Juan 渡輪不是必需，也不再把碼頭當唯一景點。",
+      "seasonNote": "春至秋天氣穩時最美；低雲強風會大幅削弱海景體驗。",
+      "watch": "開到 Anacortes 不代表已到 San Juan；外島另算船班與預約。步道／棧橋狀態也要查市府公告。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "goose-rock",
+          "note": "從市區再開約 25–40 分鐘。過 Deception Pass 大橋到島南側；和 Washington Park、Sugarloaf 三選一當下午的自然行程。"
+        },
+        {
+          "trail": "sugarloaf-anacortes",
+          "note": "從市區再開約 10–20 分鐘。鎮南 Heart Lake Road 登山口，短而陡，可取代下午開車上 Mt. Erie；走完還有時間回 Commercial Avenue。"
+        }
+      ],
+      "driving": "全程開車約 4.5 小時",
+      "itinerary": [
+        {
+          "title": "港口、咖啡與兩種海景",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:10",
+          "steps": [
+            [
+              "10:00",
+              "anacortes/penguin",
+              45,
+              110,
+              "咖啡。",
+              "drive"
+            ],
+            [
+              "11:05",
+              "anacortes/cap",
+              45,
+              20,
+              "看港口。",
+              "drive"
+            ],
+            [
+              "12:05",
+              "anacortes/rockfish",
+              75,
+              15,
+              "午餐。",
+              "drive"
+            ],
+            [
+              "13:30",
+              "anacortes/commercial",
+              60,
+              10,
+              "老街逛店。",
+              "walk"
+            ],
+            [
+              "14:55",
+              "anacortes/washington",
+              90,
+              25,
+              "海岸短線；可用 Mt. Erie 替換。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 110
+        }
+      ]
+    },
+    {
+      "id": "day-poulsbo",
+      "kind": "city",
+      "days": 1,
+      "title": "Poulsbo：咖啡、北歐烘焙與海灣",
+      "subtitle": "海灣邊的小挪威",
+      "route": "Redmond → Poulsbo Coffee Company → Historic Front Street Poulsbo → The Loft at Latitude Forty Seven Seven → Liberty Bay Waterfront Park → SEA Discovery Center → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "poulsbo"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "北歐街屋、Sluys 烘焙、Poulsbo Coffee Company（原 Poulsbohemian 店面）與 Liberty Bay 都值得慢慢停。餐廳和海洋館分開點名；音樂看 Bushel & Barrel Ciderhouse（多數週五 18–20 免費、全齡，北邊約 10 分鐘車程）。",
+      "seasonNote": "春至秋最適合海灣，冬季可逛但營業日與室內活動更需事先確認。",
+      "watch": "挪威風街景不等於大型主題樂園；節慶是特定日期，不是全年每天都有。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 4 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、北歐烘焙與海灣",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:10",
+          "steps": [
+            [
+              "10:00",
+              "poulsbo/coffee",
+              50,
+              110,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "11:00",
+              "poulsbo/front",
+              60,
+              10,
+              "小鎮街景。",
+              "walk"
+            ],
+            [
+              "12:15",
+              "poulsbo/loft",
+              75,
+              15,
+              "午餐，先確認服務時段。",
+              "walk"
+            ],
+            [
+              "13:40",
+              "poulsbo/bay",
+              60,
+              10,
+              "海灣短走。",
+              "walk"
+            ],
+            [
+              "14:50",
+              "poulsbo/sea",
+              60,
+              10,
+              "SEA 只在週五、六 11:00–16:00 開；週日改去 Maritime Museum，或買 Sluys 烘焙收尾。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 120
+        }
+      ]
+    },
+    {
+      "id": "day-roslyn",
+      "kind": "city",
+      "days": 1,
+      "title": "Roslyn：書店咖啡、礦城歷史與森林短線",
+      "subtitle": "礦城裡的慢步調",
+      "route": "Redmond → Basecamp Books and Bites → Historic Downtown Roslyn → Roslyn Village Pizza → Roslyn Historical Museum → Coal Mines Trail → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk"
+      ],
+      "cities": [
+        "roslyn"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "真正的礦城慢旅行：Basecamp 書店咖啡、Roslyn Village Pizza（老 Roslyn Cafe 已歇業）、Historical Museum 和 Coal Mines Trail，晚間才選 The Brick 的樂團。不是只有拍 Northern Exposure 招牌。",
+      "seasonNote": "春秋最容易散步；夏天可延伸自然，冬天有雪景但需山口交通規劃。",
+      "watch": "跨 Snoqualmie Pass 看 WSDOT 路況；雪季不能只照夏天導航時間出發。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 3.5 小時",
+      "itinerary": [
+        {
+          "title": "書店咖啡、礦城歷史與森林短線",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:10",
+          "steps": [
+            [
+              "10:00",
+              "roslyn/basecamp",
+              60,
+              110,
+              "書和咖啡。",
+              "walk"
+            ],
+            [
+              "11:10",
+              "roslyn/downtown",
+              50,
+              10,
+              "礦城街屋。",
+              "walk"
+            ],
+            [
+              "12:10",
+              "roslyn/cafe",
+              75,
+              10,
+              "披薩午餐，12:00 開門。",
+              "walk"
+            ],
+            [
+              "13:35",
+              "roslyn/museum",
+              60,
+              10,
+              "開館才進。",
+              "walk"
+            ],
+            [
+              "14:50",
+              "roslyn/coal",
+              90,
+              15,
+              "短段林地往返，雪天另選。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 110
+        }
+      ]
+    },
+    {
+      "id": "day-bellingham",
+      "kind": "city",
+      "days": 1,
+      "title": "Bellingham：海邊咖啡、書店與森林瀑布",
+      "subtitle": "書店、紅磚與海灣",
+      "route": "Redmond → Woods Coffee → Boulevard Park → Colophon Cafe → Village Books Fairhaven → Whatcom Falls Park → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "cities": [
+        "bellingham"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "Fairhaven、Woods 的海邊咖啡、Village Books 與 Colophon 足夠慢慢玩。再加 Whatcom Falls 或 SPARK，晚上才視興趣排 Mount Baker Theatre；爬山另外留半天。",
+      "seasonNote": "全年能排，春秋舒服；夏天適合延長海邊時間，冬天以街區和館為主。",
+      "watch": "Whatcom Falls 與 Mount Baker 是另外的車程，不是 Fairhaven 步行範圍。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "fragrance",
+          "note": "從市區再開約 20–35 分鐘。從 Fairhaven／市區到 Chuckanut 入口另抓車程；早上爬山就縮減其他館與小鎮時間。"
+        },
+        {
+          "trail": "oyster-dome",
+          "note": "從市區再開約 40–55 分鐘。登山口在 Chuckanut 山南端（I-5 Alger 出口後走碎石林道），比 Fragrance Lake 遠；早上爬、下午回 Fairhaven，兩條擇一。"
+        }
+      ],
+      "driving": "全程開車約 4.5 小時",
+      "itinerary": [
+        {
+          "title": "海邊咖啡、書店與森林瀑布",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:35",
+          "steps": [
+            [
+              "09:30",
+              "bellingham/woods",
+              50,
+              115,
+              "海邊咖啡。",
+              "walk"
+            ],
+            [
+              "10:30",
+              "bellingham/boulevard",
+              75,
+              10,
+              "海灣短走。",
+              "walk"
+            ],
+            [
+              "12:05",
+              "bellingham/colophon",
+              75,
+              20,
+              "午餐，移車含停車。",
+              "drive"
+            ],
+            [
+              "13:30",
+              "bellingham/books",
+              75,
+              10,
+              "書店與周邊街景。",
+              "walk"
+            ],
+            [
+              "15:10",
+              "bellingham/falls",
+              90,
+              25,
+              "森林瀑布；大雨改 SPARK 並核對開館。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 115
+        }
+      ]
+    },
+    {
+      "id": "day-bremerton",
+      "kind": "city",
+      "days": 1,
+      "title": "Bremerton：烘焙咖啡、海邊午餐與海軍館",
+      "subtitle": "碼頭旁的海軍故事",
+      "route": "Redmond → Saboteur Bakery → Manette Waterfront → Boat Shed Restaurant → Puget Sound Navy Museum → Harborside Fountain Park → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "bremerton"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "先在 Manette 吃 Saboteur 烘焙與 Boat Shed 午餐，再過橋看海軍館和水岸。晚上真想聽音樂有 Admiral Theatre；不把軍艦艙梯當普通博物館無障礙走法。",
+      "seasonNote": "全年可規劃，冬季館舍營業日和船艦開放尤其要查。",
+      "watch": "不要把『博物館』與『艦內參觀』當同一種可達性；實際開館、票務依業者公告。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 4 小時",
+      "itinerary": [
+        {
+          "title": "烘焙咖啡、海邊午餐與海軍館",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:05",
+          "steps": [
+            [
+              "10:00",
+              "bremerton/saboteur",
+              50,
+              115,
+              "咖啡烘焙。",
+              "walk"
+            ],
+            [
+              "11:00",
+              "bremerton/manette",
+              45,
+              10,
+              "看海灣和街區。",
+              "walk"
+            ],
+            [
+              "12:00",
+              "bremerton/boatshed",
+              90,
+              15,
+              "午餐。",
+              "walk"
+            ],
+            [
+              "13:55",
+              "bremerton/navy",
+              90,
+              25,
+              "過橋含停車。",
+              "drive"
+            ],
+            [
+              "15:35",
+              "bremerton/fountain",
+              45,
+              10,
+              "水岸收尾；有票才留 Admiral 晚場。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 115
+        }
+      ]
+    },
+    {
+      "id": "day-centralia",
+      "kind": "city",
+      "days": 1,
+      "title": "Centralia：咖啡、古董街、歷史午餐與車站",
+      "subtitle": "鐵道城的一站古董時光",
+      "route": "Redmond → Fiddlers Coffee → Tower Avenue Historic Downtown → McMenamins Olympic Club → Centralia Train Depot → Fort Borst Park → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "walk"
+      ],
+      "cities": [
+        "centralia"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "咖啡有 Fiddlers（Mellen St）與 11 點才開的 Rustic Heritage Bakery（原 Santa Lucia 位置），午餐有 Olympic Club，古董街與車站能真的走成一圈。把它當小鎮半日或南下停靠，不以 outlet 取代歷史街區。",
+      "seasonNote": "全年能逛店，春秋走街最舒服；冬季先看個別商家營業日。",
+      "watch": "Outlet 與 Historic Downtown 是不同體驗；跨區找停車和商店休息日都要算進去。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、古董街、歷史午餐與車站",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:55",
+          "steps": [
+            [
+              "10:00",
+              "centralia/fiddlers",
+              50,
+              125,
+              "咖啡；Santa Lucia 原址已改為 Rustic Heritage Bakery（11 點才開），早上以 Fiddlers 為主。",
+              "drive"
+            ],
+            [
+              "11:10",
+              "centralia/tower",
+              75,
+              20,
+              "古董與街景。",
+              "drive"
+            ],
+            [
+              "12:35",
+              "centralia/olympic",
+              90,
+              10,
+              "午餐。",
+              "walk"
+            ],
+            [
+              "14:15",
+              "centralia/depot",
+              30,
+              10,
+              "歷史車站短停。",
+              "walk"
+            ],
+            [
+              "15:10",
+              "centralia/borst",
+              60,
+              25,
+              "有精神再加公園。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 125
+        }
+      ]
+    },
+    {
+      "id": "day-oak-harbor",
+      "kind": "city",
+      "days": 1,
+      "title": "Oak Harbor：咖啡、港灣與 Deception Pass",
+      "subtitle": "從城裡走向 Deception Pass",
+      "route": "Redmond → Whidbey Coffee → Pioneer Way Historic Downtown → Windjammer Park → Seabolt’s Smokehouse → Deception Pass State Park → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "coffee",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "oak-harbor"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "用 Whidbey Coffee 與 Seabolt’s 把用餐排實在，風景則看 Windjammer 和 Deception Pass。這座是北島基地，不把普通市區公園誇成登山。",
+      "seasonNote": "春秋與夏季最適合海岸；冬季低雲、強風會影響橋邊觀景。",
+      "watch": "不要在橋上隨意停車；州立公園停車與日票規則先確認。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "goose-rock",
+          "note": "從市區再開約 20–30 分鐘。就是 north-island 計畫裡 Deception Pass 那一站的完整健行版，預留 2.5–3.5 小時；冬季園區 8:00 才開。"
+        }
+      ],
+      "driving": "全程開車約 5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、港灣與 Deception Pass",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:50",
+          "steps": [
+            [
+              "10:00",
+              "oak-harbor/coffee",
+              45,
+              130,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "10:55",
+              "oak-harbor/pioneer",
+              40,
+              10,
+              "主街。",
+              "walk"
+            ],
+            [
+              "11:45",
+              "oak-harbor/windjammer",
+              45,
+              10,
+              "海灣短走。",
+              "walk"
+            ],
+            [
+              "12:45",
+              "oak-harbor/seabolt",
+              75,
+              15,
+              "午餐。",
+              "drive"
+            ],
+            [
+              "14:30",
+              "oak-harbor/deception",
+              90,
+              30,
+              "挑一個海岸區域，不在橋上隨意停車。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 130
+        }
+      ]
+    },
+    {
+      "id": "day-chehalis",
+      "kind": "city",
+      "days": 1,
+      "title": "Chehalis：咖啡、書店、模型鐵道與午餐",
+      "subtitle": "火車與小城歷史",
+      "route": "Redmond → Mint City Coffee Roasting → Book ’n’ Brush → Lewis County Historical Museum → Jeremy’s Farm to Table → Willapa Hills Trail → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk"
+      ],
+      "cities": [
+        "chehalis"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "咖啡外帶後，Book ’n’ Brush、歷史館與 Jeremy’s 午餐能排得很具體；火車要先訂班次，晚間先看 The Chehalis Theater 有沒有演唱會（查證時沒有排定），不把兩種 theatre 混在一起。",
+      "seasonNote": "春至秋較好串戶外，節慶火車有特定日期；冬季看實際營運。",
+      "watch": "不要只看舊照片就排蒸汽火車；先確認列車是否營運、票務與車種。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 5.5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、書店、模型鐵道與午餐",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:50",
+          "steps": [
+            [
+              "10:00",
+              "chehalis/fiddlers",
+              25,
+              130,
+              "Fiddlers Chehalis 已關；改老街 Mint City 坐下喝咖啡，週日公休。",
+              "drive"
+            ],
+            [
+              "10:45",
+              "chehalis/books",
+              50,
+              20,
+              "書店。",
+              "drive"
+            ],
+            [
+              "11:50",
+              "chehalis/museum",
+              60,
+              15,
+              "週二至週六開（冬季週六只到 14:00），週日、週一休館；週日跳過這站。",
+              "walk"
+            ],
+            [
+              "13:10",
+              "chehalis/jeremy",
+              75,
+              20,
+              "午餐。",
+              "drive"
+            ],
+            [
+              "14:50",
+              "chehalis/willapa",
+              75,
+              25,
+              "短步道收尾。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 130
+        }
+      ]
+    },
+    {
+      "id": "day-coupeville",
+      "kind": "city",
+      "days": 1,
+      "title": "Coupeville：咖啡、碼頭與 Penn Cove 午餐",
+      "subtitle": "Penn Cove 的老碼頭",
+      "route": "Redmond → Sunshine Drip → Front Street Coupeville → Coupeville Wharf → Osprey Fish Co. → Island County Historical Museum → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "town",
+        "coffee",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "coupeville"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "這裡可以是咖啡與淡菜小鎮日，也可以真的走 Ebey’s 海崖長線。把 Sunshine Drip、Osprey Fish Co.（Front Street Grill 2026/10 起整修暫停） 和 Wharf 點出來，長健行就不再把午後逛店塞滿。",
+      "seasonNote": "春至秋看海與農地最舒服；冬季海灣強風時縮短戶外。",
+      "watch": "Port Townsend–Coupeville 是可訂車位的不同航線，也會受風與潮汐影響；不要混用航線規則。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "ebeys",
+          "note": "從市區再開約 10–20 分鐘。從 Front Street 到 Prairie Overlook 再開車；這裡明確採長入口。"
+        }
+      ],
+      "driving": "全程開車約 4.5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、碼頭與 Penn Cove 午餐",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:45",
+          "steps": [
+            [
+              "10:00",
+              "coupeville/sunshine",
+              50,
+              135,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "11:05",
+              "coupeville/front",
+              50,
+              15,
+              "老街。",
+              "drive"
+            ],
+            [
+              "12:00",
+              "coupeville/wharf",
+              40,
+              5,
+              "碼頭。",
+              "walk"
+            ],
+            [
+              "12:50",
+              "coupeville/grill",
+              90,
+              10,
+              "櫃檯點餐：fish & chips 或 Penn Cove 淡菜。",
+              "walk"
+            ],
+            [
+              "14:30",
+              "coupeville/museum",
+              60,
+              10,
+              "開館才進；想看風景可直接在鎮邊短走。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 125
+        }
+      ]
+    },
+    {
+      "id": "day-ellensburg",
+      "kind": "city",
+      "days": 1,
+      "title": "Ellensburg：咖啡、河畔與紅磚藝術城",
+      "subtitle": "紅磚城與峽谷公路",
+      "route": "Redmond → D&M Coffee → Irene Rinehart Riverfront Park → La Santa Mexican Cuisine → Kittitas County Historical Museum → Pearl Street Historic Downtown → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "ellensburg"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "D&M 咖啡、紅磚街屋、La Santa（原 Yellow Church 老教堂裡的墨西哥餐廳） 和兩間歷史藝術館可以慢玩；想聽音樂就查 CWU Concert Hall。河谷風景另外留交通，不直接把全段公路寫成一個點。",
+      "seasonNote": "春秋適合戶外，盛夏偏熱；rodeo 是特定日期，不是常設演出。",
+      "watch": "跨山口風雪、東側強風都會影響交通；不要把峽谷當全段都能隨意停車的觀景台。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、河畔與紅磚藝術城",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:15",
+          "steps": [
+            [
+              "09:30",
+              "ellensburg/dm",
+              50,
+              135,
+              "咖啡。",
+              "walk"
+            ],
+            [
+              "10:40",
+              "ellensburg/river",
+              75,
+              20,
+              "河畔短線。",
+              "drive"
+            ],
+            [
+              "12:15",
+              "ellensburg/church",
+              75,
+              20,
+              "午餐。",
+              "drive"
+            ],
+            [
+              "13:40",
+              "ellensburg/history",
+              75,
+              10,
+              "地方史館週一至六開、週日休；週日改去 Pearl St 的 Gallery One（12:00 開）。",
+              "walk"
+            ],
+            [
+              "15:05",
+              "ellensburg/downtown",
+              75,
+              10,
+              "街景與小店收尾。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 135
+        }
+      ]
+    },
+    {
+      "id": "day-ashford",
+      "kind": "city",
+      "days": 1,
+      "title": "Ashford & Elbe：山前咖啡與 Longmire 森林｜不攻大山",
+      "subtitle": "Rainier 西南入口的基地",
+      "route": "Redmond → Whittaker’s Bunkhouse Cafe → Longmire Historic District → Trail of the Shadows → Copper Creek Inn Restaurant → Redmond",
+      "scene": "mountain",
+      "interests": [
+        "town",
+        "coffee",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "cities": [
+        "ashford"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "山前咖啡、Copper Creek 正餐和國家公園分開給你。想登山就把 Skyline 留整個白天；Elbe 火車有恢復營運，仍要按正式班次，不沿用疫情時舊攻略說永久停駛。",
+      "seasonNote": "夏季步道與道路選擇最多；冬天道路和開門時間受天候、人力影響，不能保證每天上 Paradise。",
+      "watch": "NPS 規定十一月一日至五月一日攜帶雪鏈，AWD 也適用；其他季節、入園與預約規定看當季公告。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "nisqually",
+          "note": "從市區再開約 60–90 分鐘。從 Ashford 開到 Paradise，非鎮內步行。"
+        },
+        {
+          "trail": "skyline",
+          "note": "從市區再開約 60–90 分鐘。完整高山日，與咖啡逛街版本擇一。"
+        }
+      ],
+      "driving": "全程開車約 6 小時",
+      "itinerary": [
+        {
+          "title": "山前咖啡與 Longmire 森林｜不攻大山",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:15",
+          "steps": [
+            [
+              "09:30",
+              "ashford/coffee",
+              45,
+              135,
+              "營業日確認，必要時前晚自備早餐。",
+              "drive"
+            ],
+            [
+              "11:00",
+              "ashford/longmire",
+              60,
+              45,
+              "入園轉場與歷史區。",
+              "drive"
+            ],
+            [
+              "12:10",
+              "ashford/shadows",
+              60,
+              10,
+              "森林短線，雪季另評估。",
+              "walk"
+            ],
+            [
+              "14:00",
+              "ashford/copper",
+              90,
+              50,
+              "回山前吃正餐。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 135
+        }
+      ]
+    },
+    {
+      "id": "day-blaine",
+      "kind": "city",
+      "days": 1,
+      "title": "Blaine：咖啡、牡蠣與安靜海岸",
+      "subtitle": "國境前的海岸停靠",
+      "route": "Redmond → L&L Bakery → Blaine Marine Park → Drayton Harbor Oyster Company → Semiahmoo Park → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "blaine"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "不只國境前加油：L&L Bakery（原 Peace Arch City Cafe 已歇業）、Drayton Harbor 牡蠣和 Semiahmoo 海岸都可實際導航。喜歡安靜海景才值得停，過境或夏季音樂則獨立安排。",
+      "seasonNote": "春到秋適合海邊；冬季風冷，鎮內室內內容不多。",
+      "watch": "這裡仍是美國。國境周邊有特定規則，不把 Peace Arch 當不需文件即可自由跨境的觀光走道。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、牡蠣與安靜海岸",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:40",
+          "steps": [
+            [
+              "10:00",
+              "blaine/cafe",
+              60,
+              140,
+              "咖啡配烘焙早點；週日 10:00 才開門。",
+              "walk"
+            ],
+            [
+              "11:10",
+              "blaine/marine",
+              60,
+              10,
+              "海邊。",
+              "walk"
+            ],
+            [
+              "12:20",
+              "blaine/oyster",
+              75,
+              10,
+              "牡蠣午餐。",
+              "walk"
+            ],
+            [
+              "14:00",
+              "blaine/semiahmoo",
+              75,
+              25,
+              "另一段海岸，不下沙灘也可看景。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 140
+        }
+      ]
+    },
+    {
+      "id": "day-port-townsend",
+      "kind": "city",
+      "days": 1,
+      "title": "Port Townsend：海邊咖啡、歷史館與 Fort Worden",
+      "subtitle": "一座有靈魂的維多利亞海港",
+      "route": "Redmond → Better Living Through Coffee → Water Street Historic Downtown → Salish Grill → Jefferson Museum of Art & History → Fort Worden State Park → Redmond",
+      "scene": "harbor",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "port-townsend"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "Water Street 是開場，不是全部：海邊咖啡、Jefferson Museum、Point Hudson 午餐、Fort Worden 和 Centrum 音樂，值得讓它成為一個有內容的過夜小鎮。",
+      "seasonNote": "春秋舒服、夏季活動多；冬天可逛，但海風與部分館舍時段更受限制。",
+      "watch": "不要把整個 Fort Worden 當半小時可逛完；橋梁、船班與州立公園停車各有規則。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 5.5 小時",
+      "itinerary": [
+        {
+          "title": "海邊咖啡、歷史館與 Fort Worden",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:10",
+          "steps": [
+            [
+              "09:30",
+              "port-townsend/coffee",
+              60,
+              140,
+              "慢喝咖啡。",
+              "walk"
+            ],
+            [
+              "10:40",
+              "port-townsend/water",
+              75,
+              10,
+              "街屋與小店。",
+              "walk"
+            ],
+            [
+              "12:10",
+              "port-townsend/docs",
+              90,
+              15,
+              "午餐。",
+              "walk"
+            ],
+            [
+              "14:00",
+              "port-townsend/museum",
+              75,
+              20,
+              "藝術歷史，先看開館。",
+              "walk"
+            ],
+            [
+              "15:45",
+              "port-townsend/worden",
+              120,
+              30,
+              "選海岸或歷史區，不兩邊都跑。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 150
+        }
+      ]
+    },
+    {
+      "id": "day-hoodsport",
+      "kind": "city",
+      "days": 1,
+      "title": "Hoodsport：咖啡、Lake Cushman 與鎮上午餐",
+      "subtitle": "山腳與峽灣之間",
+      "route": "Redmond → Hoodsport Coffee Company → Skokomish Park at Lake Cushman → El Puerto de Angeles → Potlatch State Park → Redmond",
+      "scene": "lake",
+      "interests": [
+        "town",
+        "coffee",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "cities": [
+        "hoodsport"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "咖啡選 Hoodsport Coffee，湖邊選 Skokomish Park，午餐選 El Puerto；Hama Hama 是往北的另一個餐飲選項，不和中午正餐再重複塞一輪。",
+      "seasonNote": "春秋與夏季都適合水岸，山路與林道冬季可能有雪或管制。",
+      "watch": "公共海岸、私人度假地與需票的公園分清楚；進山車程不是本頁到鎮估時的一部分。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "mount-ellinor",
+          "note": "從市區再開約 40–60 分鐘。SR 119 接林道上山，最後一段碎石坑洞多；攻頂是大半天到全天，與 Lake Cushman 湖邊行程二選一，下山後只留晚餐。"
+        }
+      ],
+      "driving": "全程開車約 6 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、Lake Cushman 與鎮上午餐",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "07:35",
+          "steps": [
+            [
+              "10:00",
+              "hoodsport/coffee",
+              45,
+              145,
+              "咖啡與補給。",
+              "walk"
+            ],
+            [
+              "11:15",
+              "hoodsport/cushman",
+              105,
+              30,
+              "湖邊短線，核對日用區開放。",
+              "drive"
+            ],
+            [
+              "13:30",
+              "hoodsport/puerto",
+              75,
+              30,
+              "回鎮午餐。",
+              "drive"
+            ],
+            [
+              "15:05",
+              "hoodsport/potlatch",
+              60,
+              20,
+              "仍想看海灣才加，否則回程。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 150
+        }
+      ]
+    },
+    {
+      "id": "day-union",
+      "kind": "city",
+      "days": 1,
+      "title": "Union：晚一點出發｜市場、景觀午餐與森林海岸",
+      "subtitle": "峽灣邊的慢度假",
+      "route": "Redmond → Union City Market → The Restaurant at Alderbrook → Twanoh State Park → Redmond",
+      "scene": "lake",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery"
+      ],
+      "cities": [
+        "union"
+      ],
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "why": "這裡是水景、咖啡和音樂活動的慢度假，不是密集觀光。Union City Market 有指定營業日，Alderbrook 餐廳能訂位；想走自然則去真正公共的 Twanoh。",
+      "seasonNote": "春至秋容易享受水景，冬天偏向住宿和室內放鬆。",
+      "watch": "Alderbrook 的泳池、spa、碼頭與活動可能有住客或預約限制，不當公共遊樂設施。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [],
+      "driving": "全程開車約 5.5 小時",
+      "itinerary": [
+        {
+          "title": "晚一點出發｜市場、景觀午餐與森林海岸",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "08:35",
+          "steps": [
+            [
+              "11:00",
+              "union/market",
+              60,
+              145,
+              "咖啡與商品，先查營業日。",
+              "drive"
+            ],
+            [
+              "12:20",
+              "union/alderbrook",
+              90,
+              20,
+              "訂好景觀午餐。",
+              "drive"
+            ],
+            [
+              "14:20",
+              "union/twanoh",
+              90,
+              30,
+              "公共海岸和短森林線。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 145
+        }
+      ]
+    },
+    {
+      "id": "day-leavenworth",
+      "kind": "city",
+      "days": 1,
+      "title": "Leavenworth：咖啡、巴伐利亞街景與河岸",
+      "subtitle": "山裡的巴伐利亞假日",
+      "route": "Redmond → J5 Coffee → Front Street Leavenworth → Andreas Keller Restaurant → Waterfront Park → Leavenworth Nutcracker Museum → Redmond",
+      "scene": "village",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "cities": [
+        "leavenworth"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "把咖啡、德式午餐、河岸、博物館和音樂都點名；如果真正想爬山，Icicle Ridge 是獨立的完整早上，不和平緩 Icicle Gorge 混在一起。",
+      "seasonNote": "秋色與冬季燈景特別有氣氛，夏季適合河邊；節慶日期與活動規則逐年查。",
+      "watch": "US-2／I-90 接山路的選擇依季節與路況，不照夏天最短時間保證冬天可達。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "icicle-ridge",
+          "note": "從市區再開約 10–20 分鐘。指定較短的 Icicle Road 入口。"
+        },
+        {
+          "trail": "icicle-gorge",
+          "note": "從市區再開約 30–45 分鐘。更深入山路，低爬升但非鎮邊步行。"
+        }
+      ],
+      "driving": "全程開車約 5 小時",
+      "itinerary": [
+        {
+          "title": "咖啡、巴伐利亞街景與河岸",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "06:55",
+          "steps": [
+            [
+              "09:30",
+              "leavenworth/j5",
+              45,
+              155,
+              "咖啡；J5 週日休，週日改 Argonaut（每天 7–14）。",
+              "walk"
+            ],
+            [
+              "10:25",
+              "leavenworth/front",
+              90,
+              10,
+              "街屋與小店。",
+              "walk"
+            ],
+            [
+              "12:10",
+              "leavenworth/keller",
+              90,
+              15,
+              "室內德式午餐，晴天可換 München Haus。",
+              "walk"
+            ],
+            [
+              "13:55",
+              "leavenworth/waterfront",
+              75,
+              15,
+              "河邊短走。",
+              "walk"
+            ],
+            [
+              "15:25",
+              "leavenworth/nutcracker",
+              75,
+              15,
+              "看當日開館；不感興趣就多坐咖啡。",
+              "walk"
+            ]
+          ],
+          "returnDrive": 155
+        }
+      ]
+    },
+    {
+      "id": "day-north-cascades",
+      "kind": "city",
+      "days": 1,
+      "title": "North Cascades 西側：湖色版｜Newhalem 老樹、Diablo 觀景台與 Thunder Knob",
+      "subtitle": "Skagit 河谷小鎮到 Diablo 湖色",
+      "route": "Redmond → 5b's Bakery → Trail of the Cedars → Ladder Creek Falls Trail & Garden → Diablo Lake Overlook → Thunder Knob Trailhead → Upriver Grill & Taproom → Redmond",
+      "scene": "mountain",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "cities": [
+        "north-cascades"
+      ],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "why": "Concrete 的 5b's 烘焙與 1923 年老戲院、Newhalem 的吊橋老樹與 Ladder Creek Falls、Diablo Lake 湖色都點名；夏秋可背寶寶走 Thunder Knob，冬天改看 Rockport 白頭海鵰。SR 20 冬季封閉點會移動，出發前先看 WSDOT。",
+      "seasonNote": "SR 20 西段平時全年可開到 Newhalem；冬季封閉通常先設在 MP 134（Diablo 東側），之後可能後退到 Newhalem gate（MP 120），屆時 Gorge Creek Falls、Diablo Lake Overlook、Thunder Knob 都到不了。湖色 7–9 月晴天最藍，老鷹 12 月下旬到 1 月中最多；2026 年 Visitor Center 只開 5/18–9/27。",
+      "watch": "Marblemount 以東的 Newhalem 與國家公園沿線沒有加油站（NPS）；冬季先看 WSDOT 封閉點再決定能開到哪。Sauk Mountain 林道不除雪、步道有沖蝕與墜落事故回報，夏天也先看 WTA 近況。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "hikes": [
+        {
+          "trail": "trail-of-the-cedars",
+          "note": "從市區再開約 25–35 分鐘。Newhalem 鎮內，全年可走的平緩老樹環線。"
+        },
+        {
+          "trail": "thunder-knob",
+          "note": "從市區再開約 40–55 分鐘。Colonial Creek 營地旁，背巾可走的親子小山；季節木橋拆除後不排。"
+        },
+        {
+          "trail": "diablo-lake-trail",
+          "note": "從市區再開約 40–55 分鐘。要開過 Diablo Dam；7.6 mile 原路往返的完整健行日。"
+        }
+      ],
+      "driving": "全程開車約 7.5 小時",
+      "itinerary": [
+        {
+          "title": "湖色版｜Newhalem 老樹、Diablo 觀景台與 Thunder Knob",
+          "from": "redmond",
+          "to": "redmond",
+          "depart": "06:55",
+          "steps": [
+            [
+              "09:30",
+              "north-cascades/bakery",
+              45,
+              155,
+              "咖啡與肉桂捲，順便買午餐外帶；週二、三休。",
+              "drive"
+            ],
+            [
+              "11:05",
+              "north-cascades/cedars",
+              45,
+              50,
+              "過吊橋走老紅雪松環線，鎮上有公廁。",
+              "drive"
+            ],
+            [
+              "11:55",
+              "north-cascades/ladder",
+              40,
+              5,
+              "瀑布與老庭園，陡階處抱好寶寶。",
+              "drive"
+            ],
+            [
+              "13:05",
+              "north-cascades/overlook",
+              45,
+              30,
+              "途中可停 Gorge Creek Falls 10 分鐘；到觀景台野餐看湖色。",
+              "drive"
+            ],
+            [
+              "13:55",
+              "north-cascades/thunder-th",
+              150,
+              5,
+              "背巾往返 3.6 mile，含休息與湖景。",
+              "drive"
+            ],
+            [
+              "17:10",
+              "north-cascades/upriver",
+              75,
+              45,
+              "晚餐後約 2.5 小時回 Redmond。",
+              "drive"
+            ]
+          ],
+          "returnDrive": 155
         }
       ]
     }

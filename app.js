@@ -49,6 +49,9 @@ const state = {
   tripData: null,
   trips: new Map(),
   tripLength: 1,
+  tripLimit: 12,
+  tripMaxDrive: 0,
+  tripSort: "far",
   activeTrip: null,
   planDate: null,
 };
@@ -821,7 +824,8 @@ function validateTrips(tripData) {
   for (const trip of tripData.trips) {
     if (!/^[a-z0-9-]+$/.test(trip.id) || ids.has(trip.id)) throw new Error(`行程 ID 重複或格式不符：${trip.id}`);
     ids.add(trip.id);
-    if (![1, 2, 3].includes(trip.days) || !SCENES.has(trip.scene) || !validMonths(trip.months)) throw new Error(`${trip.id} 的天數、插畫或月份不符。`);
+    if (![1, 2, 3].includes(trip.days) || !SCENES.has(trip.scene) || !validMonths(trip.months) || !["route", "city"].includes(trip.kind)) throw new Error(`${trip.id} 的天數、類型、插畫或月份不符。`);
+    if (trip.kind === "city" && (trip.days !== 1 || trip.cities.length !== 1)) throw new Error(`${trip.id} 單城一日遊只能有一個城市、一天。`);
     for (const field of ["title", "subtitle", "route", "driving", "why", "seasonNote", "watch"]) if (typeof trip[field] !== "string" || !trip[field].trim()) throw new Error(`${trip.id} 缺少 ${field}`);
     if (!Array.isArray(trip.interests) || !trip.interests.length || trip.interests.some((id) => !state.interestCatalog.has(id))) throw new Error(`${trip.id} 的興趣分類不符。`);
     if (!Array.isArray(trip.cities) || !trip.cities.length || trip.cities.some((id) => !state.cities.has(id))) throw new Error(`${trip.id} 的相關城市不存在。`);
@@ -865,33 +869,47 @@ function tripFit(trip, date = state.planDate) {
   return { tone: "ok", label: "出發日在建議季節", problems };
 }
 
+function tripOneWay(trip) {
+  return trip.itinerary[0].steps[0][3];
+}
+
 function tripCardHTML(trip) {
   const fit = tripFit(trip);
   const stops = trip.itinerary.reduce((sum, day) => sum + day.steps.length, 0);
+  const label = trip.kind === "city" ? "單城一日" : trip.days === 1 ? "串連一日" : TRIP_LENGTHS[trip.days];
   return `<article class="trip-card" data-trip="${trip.id}" data-fit="${fit.tone}">
-    <button class="trip-art" type="button" data-trip-open="${trip.id}" aria-label="查看 ${escapeHTML(trip.title)} 行程">${artwork(trip.scene)}<span class="trip-length">${TRIP_LENGTHS[trip.days]}</span></button>
+    <button class="trip-art" type="button" data-trip-open="${trip.id}" aria-label="查看 ${escapeHTML(trip.title)} 行程">${artwork(trip.scene)}<span class="trip-length">${label}</span></button>
     <div class="trip-copy">
       <span class="season-badge" data-tone="${fit.tone}">${escapeHTML(fit.label)}</span>
       <h3><button type="button" data-trip-open="${trip.id}">${escapeHTML(trip.title)}</button></h3>
       <p class="trip-subtitle">${escapeHTML(trip.subtitle)}</p>
       <p class="trip-route">${escapeHTML(trip.route)}</p>
-      <div class="trip-facts"><span>${icon("clock")}${escapeHTML(trip.driving)}</span><span>${icon("pin")}${stops} 站</span><span>${icon("spark")}最適合 ${monthsLabel(trip.months)}</span></div>
+      <div class="trip-facts">${trip.days === 1 ? `<span>${icon("arrow")}單程約 ${timePart(tripOneWay(trip))}</span>` : ""}<span>${icon("clock")}${escapeHTML(trip.driving)}</span><span>${icon("pin")}${stops} 站</span><span>${icon("spark")}最適合 ${monthsLabel(trip.months)}</span></div>
       <div class="card-tags">${trip.interests.map((id) => `<span class="card-tag">${escapeHTML(state.interestCatalog.get(id).name)}</span>`).join("")}</div>
     </div>
   </article>`;
 }
 
+// Curated multi-town routes come first, then single-town trips by one-way drive.
 function renderTrips() {
-  const trips = state.tripData.trips.filter((trip) => trip.days === state.tripLength);
-  $("#trip-grid").innerHTML = trips.map(tripCardHTML).join("");
+  const trips = state.tripData.trips
+    .filter((trip) => trip.days === state.tripLength && (!state.tripMaxDrive || tripOneWay(trip) <= state.tripMaxDrive))
+    .sort((a, b) => (a.kind === "route" ? 0 : 1) - (b.kind === "route" ? 0 : 1)
+      || (state.tripSort === "near" ? tripOneWay(a) - tripOneWay(b) : tripOneWay(b) - tripOneWay(a)));
+  const shown = trips.slice(0, state.tripLimit);
+  $("#trip-grid").innerHTML = shown.map(tripCardHTML).join("") || '<p class="loading-message">這個單程範圍內沒有行程，放寬上限看看。</p>';
+  $("#trip-more-row").hidden = shown.length >= trips.length;
   for (const button of $$("[data-trip-length]")) button.setAttribute("aria-pressed", String(Number(button.dataset.tripLength) === state.tripLength));
   const fitting = trips.filter((trip) => tripFit(trip).tone === "ok").length;
-  $("#trip-count").textContent = `${trips.length} 條${TRIP_LENGTHS[state.tripLength]}・以 ${dateLabel(state.planDate)} 出發判斷，${fitting} 條在建議季節`;
+  const routes = trips.filter((trip) => trip.kind === "route").length;
+  const kinds = state.tripLength === 1 ? `（串連 ${routes}・單城 ${trips.length - routes}）` : "";
+  $("#trip-count").textContent = `${trips.length} 條${TRIP_LENGTHS[state.tripLength]}${kinds}・以 ${dateLabel(state.planDate)} 出發判斷，${fitting} 條在建議季節`;
 }
 
 function setTripLength(days) {
   if (!(days in TRIP_LENGTHS)) throw new Error(`未知行程天數：${days}`);
   state.tripLength = days;
+  state.tripLimit = 12;
   renderTrips();
 }
 
@@ -1302,6 +1320,10 @@ function bindEvents() {
   });
   for (const id of ["reset-filters", "empty-reset"]) $(`#${id}`).addEventListener("click", resetFilters);
   $("#load-more").addEventListener("click", () => { state.limit += 12; render(); });
+  $("#trip-more").addEventListener("click", () => { state.tripLimit += 12; renderTrips(); });
+  $("#trip-show-all").addEventListener("click", () => { state.tripLimit = Infinity; renderTrips(); });
+  $("#trip-drive").addEventListener("change", (event) => { state.tripMaxDrive = Number(event.target.value); state.tripLimit = 12; renderTrips(); });
+  $("#trip-sort").addEventListener("change", (event) => { state.tripSort = event.target.value; state.tripLimit = 12; renderTrips(); });
   $("#show-all").addEventListener("click", () => { state.limit = state.data.cities.length; render(); });
   for (const view of ["cards", "map"]) $(`#view-${view}`).addEventListener("click", () => {
     state.view = view;
