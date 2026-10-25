@@ -68,7 +68,9 @@
           "indoor": true,
           "note": "Main Street 的社區咖啡館，有室內座位與餐點；適合把咖啡和 Old Bellevue 一起安排，不是只買外帶。",
           "query": "Bellden Cafe, 10527 Main Street, Bellevue WA",
-          "url": "https://www.belldencafe.com/"
+          "url": "https://www.belldencafe.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 8–15"
         },
         {
           "id": "mercury",
@@ -80,7 +82,9 @@
           "indoor": true,
           "note": "大型烘焙咖啡空間，可坐下喝咖啡看烘焙與甜點。位於 NE 20th，不在 Bellevue Square 旁，兩區要開車轉場。",
           "query": "Mercurys Coffee Roastery, 13102 NE 20th Street, Bellevue WA",
-          "url": "https://mercurys.com/"
+          "url": "https://mercurys.com/pages/locations",
+          "verified": "2026-10-24",
+          "hours": "Mon–Wed 5–20; Thu–Sun 5–21"
         },
         {
           "id": "square",
@@ -93,7 +97,9 @@
           "indoor": true,
           "note": "真正的室內購物主體，不只是一句『去商場』。安排 1.5–2 小時逛店，雨天可直接以這裡為主線。",
           "query": "Bellevue Square, 575 Bellevue Square, Bellevue WA",
-          "url": "https://bellevuecollection.com/"
+          "url": "https://bellevuecollection.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 10–21; Sun 11–19"
         },
         {
           "id": "lincoln",
@@ -106,7 +112,9 @@
           "indoor": true,
           "note": "Bellevue Collection 的室內餐飲與娛樂區，與 Bellevue Square 是不同建物；以天橋銜接，留意南北棟位置。",
           "query": "Lincoln Square, 700 Bellevue Way NE, Bellevue WA",
-          "url": "https://bellevuecollection.com/"
+          "url": "https://bellevuecollection.com/",
+          "verified": "2026-10-24",
+          "hours": "Restaurant & entertainment hours vary"
         },
         {
           "id": "downtown-park",
@@ -131,7 +139,10 @@
           "minutes": 60,
           "indoor": false,
           "note": "看 Lake Washington 的碼頭、彎形水岸與山坡公園；想看湖景時比在商業街繞圈更有旅行感。",
-          "query": "Meydenbauer Bay Park, 9899 Lake Washington Blvd NE, Bellevue WA"
+          "query": "Meydenbauer Bay Park, 9899 Lake Washington Blvd NE, Bellevue WA",
+          "url": "https://bellevuewa.gov/city-government/departments/parks/parks-and-trails/parks/meydenbauer-beach-park",
+          "verified": "2026-10-24",
+          "hours": "Daily 6–23"
         },
         {
           "id": "library",
@@ -144,7 +155,9 @@
           "indoor": true,
           "note": "可實際進去閱讀、休息的公共圖書館，是免費室內備案。與商場有一段距離，館舍當日開放先看 KCLS。",
           "query": "Bellevue Library, 1111 110th Ave NE, Bellevue WA",
-          "url": "https://kcls.bibliocommons.com/locations/1492"
+          "url": "https://kcls.bibliocommons.com/locations/1492",
+          "verified": "2026-10-24",
+          "hours": "Mon 10–18; Tue–Wed 10–20; Thu–Fri 10–18; Sat–Sun 11–18"
         },
         {
           "id": "dtf",
@@ -155,8 +168,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "小籠包、麵與餃子，放在商場日的午餐很好串。熱門時段請訂位或把候位算進去，不把 30 分鐘當一餐。",
-          "query": "Din Tai Fung, 700 Bellevue Way NE Suite 280, Bellevue WA",
-          "url": "https://www.dintaifungusa.com/"
+          "query": "Din Tai Fung, 10455 NE 8th Street, Bellevue WA",
+          "url": "https://dtf.com/en-us/locations/bellevue",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 11–21; Fri 11–22; Sat 10:30–22; Sun 10:30–21"
         },
         {
           "id": "bakes",
@@ -169,7 +184,10 @@
           "indoor": true,
           "note": "已查到真正室內演出：週五音樂 20:00–21:30；秋冬春週六有 18:00、20:30 場。週日、週一休息；音樂場 21+，須選室內場次訂位，戶外座位看不到表演，另有音樂費與餐飲低消。",
           "query": "Bake's Place Bar & Bistro, 155 108th Ave NE Suite 110, Bellevue WA",
-          "url": "https://bakesplacebellevue.com/bellevue-bellevue-bake-s-place-bar-and-bistro-reservations-and-general-information"
+          "url": "https://bakesplacebellevue.com/bellevue-bellevue-bake-s-place-bar-and-bistro-reservations-and-general-information",
+          "verified": "2026-10-24",
+          "hours": "Tue 15–21; Wed–Thu 15–22; Fri 15–23; Sat 17–23; closed Sun–Mon (private events only)",
+          "liveMusic": "Fri 20:00–21:30; Sat (fall–spring) 18:00–19:30 and 20:30–22:00; 21+; music charge $25–45/person plus $30 F&B minimum; indoor tables only."
         },
         {
           "id": "weowna",
@@ -272,7 +290,7 @@
               "dtf",
               75,
               10,
-              "步行／天橋轉場，依訂位時間調整。",
+              "走天橋到 Lincoln Square North，DTF 已搬到一樓 NE 8th St 側；依訂位時間調整。",
               "walk"
             ],
             [
@@ -382,8 +400,10 @@
           "minutes": 45,
           "indoor": true,
           "note": "在市中心坐下喝 espresso 或手沖，適合作為湖畔散步前的起點。",
-          "query": "Zoka Coffee Kirkland, Kirkland WA",
-          "url": "https://www.zokacoffee.com/"
+          "query": "Zoka Coffee, 129 Central Way, Kirkland WA",
+          "url": "https://www.zokacoffee.com/pages/kirkland-zoka",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 6–17; Sat–Sun 6:30–18"
         },
         {
           "id": "marina",
@@ -407,7 +427,8 @@
           "minutes": 45,
           "indoor": false,
           "note": "小店和餐飲街景，選幾間真的有興趣的店，往湖邊收尾。",
-          "query": "Park Lane, Kirkland WA"
+          "query": "Park Lane, Kirkland WA",
+          "verified": "2026-10-24"
         },
         {
           "id": "cactus",
@@ -418,8 +439,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "有完整午餐與室內座位，適合把湖邊、咖啡和餐飲集中在 Downtown。",
-          "query": "Cactus Restaurant Kirkland, Kirkland WA",
-          "url": "https://www.cactusrestaurants.com/"
+          "query": "Cactus Kirkland, 121 Park Lane, Kirkland WA",
+          "url": "https://www.cactusrestaurants.com/location/locations-kirkland",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 11–21; Fri 11–22; Sat 10–22; Sun 10–21 (weekend brunch 10–14)"
         },
         {
           "id": "juanita",
@@ -455,7 +478,10 @@
           "indoor": true,
           "note": "真正有售票節目的表演場地；先看樂團與日期，不把一般喜劇或電影都當音樂。",
           "query": "Kirkland Performance Center, Kirkland WA",
-          "url": "https://www.kpcenter.org/"
+          "url": "https://www.kpcenter.org/",
+          "verified": "2026-10-24",
+          "hours": "Show dates only; box office Tue–Fri 12–17",
+          "liveMusic": "Ticketed shows on varying nights (e.g., Nov 12 & Dec 9, 2026 music acts); not every show is music; under 16 with adult."
         }
       ],
       "plans": [
@@ -538,7 +564,9 @@
           "indoor": true,
           "note": "可坐下喝咖啡的小店，先在這裡開始，再決定往河邊或 Hollywood District。",
           "query": "Sidekick Coffee, Woodinville WA",
-          "url": "https://www.sidekick.coffee/"
+          "url": "https://www.sidekick.coffee/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 6–17; Sat–Sun 7–17"
         },
         {
           "id": "wilmot",
@@ -562,7 +590,9 @@
           "indoor": true,
           "note": "真的有午餐的酒鄉餐館，不是只在晚間開的 fine dining；可選室內座位。",
           "query": "The Hollywood Tavern, Woodinville WA",
-          "url": "https://www.thehollywoodtavern.com/"
+          "url": "https://www.thehollywoodtavern.com/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11–21; Fri–Sat 11–22"
         },
         {
           "id": "hollywood",
@@ -599,7 +629,10 @@
           "indoor": false,
           "note": "具名的夏季戶外演出，不是十月也有的每日活動。按指定歌手、票種、年齡與草坪規則安排。",
           "query": "Chateau Ste. Michelle Amphitheatre, Woodinville WA",
-          "url": "https://www.ste-michelle.com/"
+          "url": "https://www.ste-michelle.com/concerts/summer-concerts",
+          "verified": "2026-10-24",
+          "hours": "Summer series only; no upcoming events listed in Oct 2026",
+          "liveMusic": "Summer only (dates for next season not posted). Ticket required age 3+; 2 and under free with ticketed adult in GA lawn; reserved seats need tickets for all."
         }
       ],
       "plans": [
@@ -663,7 +696,7 @@
       "hikes": []
     },
     "bothell": {
-      "intro": "用 Social Grounds 咖啡、Bothell Landing 河岸、Alexa’s 午餐和 The Cottage 音樂把小城玩實在。Anderson School 是值得看的改造校舍，但電影場次和音樂不能混為一談。",
+      "intro": "用 Daily Grind 咖啡（原 Social Grounds 原址）、Bothell Landing 河岸、Alexa’s 午餐和 The Cottage 音樂把小城玩實在。Anderson School 是值得看的改造校舍，但電影場次和音樂不能混為一談。",
       "interests": [
         "town",
         "coffee",
@@ -673,14 +706,17 @@
       "places": [
         {
           "id": "social",
-          "name": "Social Grounds Coffee & Tea",
+          "name": "Daily Grind Bothell",
           "kinds": [
             "coffee"
           ],
           "minutes": 45,
           "indoor": true,
-          "note": "Main Street 附近坐下喝咖啡，再順路往河邊；不是假定有 live music 的咖啡店。",
-          "query": "Social Grounds Coffee and Tea, Bothell WA"
+          "note": "原 Social Grounds 的店面（2024 年換手改名），可坐下喝咖啡，也有沙拉、三明治和在地烘焙點心；喝完步行往 Main Street 與河岸。",
+          "query": "Daily Grind, 18333 Bothell Way NE #103, Bothell WA",
+          "url": "https://dailygrindbothell.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 7–17; Sat–Sun 8–17"
         },
         {
           "id": "landing",
@@ -704,7 +740,9 @@
           "indoor": true,
           "note": "具名的早午餐和午餐點，適合河邊走完後坐下；看當日營業再出發。",
           "query": "Alexa's Cafe, Bothell WA",
-          "url": "https://alexascafe.com/"
+          "url": "https://alexascafe.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 8–15"
         },
         {
           "id": "main",
@@ -716,7 +754,8 @@
           "minutes": 45,
           "indoor": false,
           "note": "逛小店、咖啡和主街，不需要一直移車。",
-          "query": "Main Street, Bothell WA"
+          "query": "Main Street, Bothell WA",
+          "verified": "2026-10-24"
         },
         {
           "id": "school",
@@ -729,7 +768,9 @@
           "indoor": true,
           "note": "看歷史校舍改造、走公共可訪空間與餐飲；泳池等設施另有使用規則。",
           "query": "McMenamins Anderson School, Bothell WA",
-          "url": "https://www.mcmenamins.com/anderson-school"
+          "url": "https://www.mcmenamins.com/anderson-school",
+          "verified": "2026-10-24",
+          "hours": "Tavern on the Square: Sun–Thu 7–22; Fri–Sat 7–23 (brunch 7–15 daily)"
         },
         {
           "id": "cottage",
@@ -742,7 +783,10 @@
           "indoor": true,
           "note": "有真實演出活動可查的餐館；選定音樂日期再訂位，不把每天午餐都當演出。",
           "query": "The Cottage Bothell, Bothell WA",
-          "url": "https://thecottagebothell.com/"
+          "url": "https://thecottagebothell.com/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Sun, hours vary; closed Mon",
+          "liveMusic": "Every Fri & Sat 18:30–21:30 (e.g., Oct 30, Nov 6–7, 2026); age rule not stated (restaurant has kids' menu); reserve a table."
         }
       ],
       "plans": [
@@ -800,7 +844,7 @@
         "school",
         "cottage"
       ],
-      "rainNote": "雨天可直接 Social Grounds → Alexa’s → Anderson School；有預約好的音樂再去 The Cottage。校舍庭院有戶外，不等於全部有屋頂。",
+      "rainNote": "雨天可直接 Daily Grind → Alexa’s → Anderson School；有預約好的音樂再去 The Cottage。校舍庭院有戶外，不等於全部有屋頂。",
       "musicPlaces": [
         "cottage"
       ],
@@ -828,7 +872,9 @@
           "indoor": true,
           "note": "Gilman Village 的具名咖啡館，搭配木屋聚落逛店很順。",
           "query": "Issaquah Coffee Company, Gilman Village, Issaquah WA",
-          "url": "https://www.issaquahcoffee.com/"
+          "url": "https://www.issaquahcoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 6–18; Sat–Sun 7–18"
         },
         {
           "id": "gilman",
@@ -840,7 +886,9 @@
           "minutes": 60,
           "indoor": false,
           "note": "木造歷史建築聚落與小店，和 Front Street 是不同一區。",
-          "query": "Gilman Village, Issaquah WA"
+          "query": "Gilman Village, Issaquah WA",
+          "url": "https://www.gilmanvillage.com/",
+          "verified": "2026-10-24"
         },
         {
           "id": "wildfin",
@@ -851,8 +899,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "有午餐菜單的室內餐廳，安排在 Gilman 區域，不拿 dinner-only 餐廳當中午備案。",
-          "query": "WildFin American Grill, Issaquah WA",
-          "url": "https://www.wildfinamericangrill.com/issaquah-menus"
+          "query": "WildFin American Grill, 835 NW Gilman Blvd, Issaquah WA",
+          "url": "https://www.wildfinamericangrill.com/issaquah-menus",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11:30–21; Fri–Sat 11:30–22"
         },
         {
           "id": "hatchery",
@@ -864,7 +914,10 @@
           "minutes": 60,
           "indoor": false,
           "note": "秋季看洄游與孵化場；魚況隨季節，不是全年有同樣景象。",
-          "query": "Issaquah Salmon Hatchery, Issaquah WA"
+          "query": "Issaquah Salmon Hatchery, Issaquah WA",
+          "url": "https://www.issaquahfish.org/",
+          "verified": "2026-10-24",
+          "hours": "Daily dawn–dusk; free"
         },
         {
           "id": "front",
@@ -876,7 +929,8 @@
           "minutes": 45,
           "indoor": false,
           "note": "歷史主街、餐飲和小店，孵化場附近可步行串連。",
-          "query": "Front Street North, Issaquah WA"
+          "query": "Front Street North, Issaquah WA",
+          "verified": "2026-10-24"
         },
         {
           "id": "theatre",
@@ -888,8 +942,11 @@
           "minutes": 150,
           "indoor": true,
           "note": "看音樂劇要買正式場次，戲劇不一定都是音樂劇；先選真正想看的節目。",
-          "query": "Village Theatre, Issaquah WA",
-          "url": "https://villagetheatre.org/"
+          "query": "Village Theatre Francis J. Gaudette Theatre, 303 Front St N, Issaquah WA",
+          "url": "https://villagetheatre.org/",
+          "verified": "2026-10-24",
+          "hours": "Performance dates only (current show Nov 10, 2026–Jan 24, 2027)",
+          "liveMusic": "Musical theatre runs (Nov 10, 2026–Jan 24, 2027 production; holiday shows); under-4s only in the Family Rooms."
         },
         {
           "id": "poo",
@@ -1043,7 +1100,7 @@
       ]
     },
     "renton": {
-      "intro": "咖啡選 Boon Boona，湖邊選 Gene Coulon，午餐就有園內 Ivar’s；對音樂有興趣可看 Hendrix memorial，再查 Carco 的實際演出，不只泛稱『去市中心吃飯』。",
+      "intro": "咖啡選 Boon Boona，湖邊選 Gene Coulon，午餐就有園內 Ivar’s；對音樂有興趣可看 Hendrix memorial，再查 Renton Civic Theatre 的實際演出（Carco Theatre 2025 年 12 月淹水後關閉，未公布重開日），不只泛稱『去市中心吃飯』。",
       "interests": [
         "coffee",
         "music",
@@ -1061,7 +1118,9 @@
           "indoor": true,
           "note": "非洲咖啡豆主題的烘焙咖啡館，是值得坐下喝的一站，不和湖岸商業區混在一起。",
           "query": "Boon Boona Coffee, 724 South 3rd Street, Renton WA",
-          "url": "https://www.boonboonacoffee.com/"
+          "url": "https://www.boonboonacoffee.com/pages/renton",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–18"
         },
         {
           "id": "coulon",
@@ -1084,8 +1143,10 @@
           "minutes": 50,
           "indoor": false,
           "note": "園內 fish & chips、chowder 午餐，主要是戶外休閒吃法，不拿它當完整室內避雨餐廳。",
-          "query": "Ivar's Seafood Bar Gene Coulon, Renton WA",
-          "url": "https://www.ivars.com/"
+          "query": "Ivar's Seafood Bar, 1201 Lake Washington Blvd, Renton WA",
+          "url": "https://www.ivars.com/renton-seafood-bar",
+          "verified": "2026-10-24",
+          "hours": "Daily 11–20"
         },
         {
           "id": "landing",
@@ -1097,7 +1158,9 @@
           "minutes": 75,
           "indoor": false,
           "note": "餐飲和店家分散在開放式街區，能進店躲雨，但不是一棟全室內 shopping mall。",
-          "query": "The Landing, Renton WA"
+          "query": "The Landing, Renton WA",
+          "url": "https://thelandinginrenton.com/",
+          "verified": "2026-10-24"
         },
         {
           "id": "hendrix",
@@ -1108,26 +1171,32 @@
           "minutes": 30,
           "indoor": false,
           "note": "對音樂史有興趣的短停留；墓園環境請尊重，不當 live music 場館。",
-          "query": "Jimi Hendrix Memorial, Renton WA"
+          "query": "Jimi Hendrix Memorial, Renton WA",
+          "url": "https://www.jimihendrixmemorial.com/",
+          "verified": "2026-10-24",
+          "hours": "Cemetery grounds; listed as open 24h by a Mar 2026 travel guide (no official hours found)"
         },
         {
           "id": "carco",
-          "name": "Carco Theatre",
+          "name": "Renton Civic Theatre",
           "kinds": [
             "music",
             "culture"
           ],
-          "minutes": 120,
+          "minutes": 150,
           "indoor": true,
-          "note": "依具體節目看音樂／戲劇，不是每天都有可直接入場的活動。",
-          "query": "Carco Theatre, Renton WA"
+          "note": "市中心 S 3rd St 的社區劇場，音樂劇和舞台劇輪演（2026 年 12 月演音樂劇《Scrooge!》）；按場次買票，不是每天都有演出。",
+          "query": "Renton Civic Theatre, 507 S 3rd St, Renton WA",
+          "url": "https://www.rentoncivictheatre.org/",
+          "verified": "2026-10-24",
+          "hours": "Performance dates only (Scrooge! Dec 4–20, 2026; 2027 season from Feb 19)"
         }
       ],
       "plans": [
         {
           "id": "classic",
           "title": "非洲咖啡、湖邊與音樂史短停留",
-          "note": "咖啡與湖岸是不同區域；中午後依興趣只加 Hendrix 或有票的 Carco。",
+          "note": "咖啡與湖岸是不同區域；中午後依興趣只加 Hendrix 或有票的 Renton Civic Theatre。",
           "steps": [
             [
               "10:00",
@@ -1176,11 +1245,11 @@
         "boon",
         "carco"
       ],
-      "rainNote": "Boon Boona 是確定具名的室內咖啡；Carco 需有場次。The Landing 是開放式，Ivar’s 也不是全天避雨基地，全天雨天別照戶外版本走。",
+      "rainNote": "Boon Boona 是確定具名的室內咖啡；Renton Civic Theatre 需有場次。The Landing 是開放式，Ivar’s 也不是全天避雨基地，全天雨天別照戶外版本走。",
       "musicPlaces": [
         "carco"
       ],
-      "musicNote": "Hendrix memorial 不是演出。要聽現場就查 Carco 當日是否有音樂節目，沒有就不硬留到晚上。",
+      "musicNote": "Hendrix memorial 不是演出。要聽現場就查 Renton Civic Theatre 當日是否有音樂節目，沒有就不硬留到晚上。",
       "hikes": []
     },
     "duvall": {
@@ -1216,7 +1285,8 @@
           "minutes": 45,
           "indoor": false,
           "note": "看老街屋、獨立店與河谷小城街景，不是大型購物區。",
-          "query": "Main Street NE, Duvall WA"
+          "query": "Main Street NE, Duvall WA",
+          "verified": "2026-10-24"
         },
         {
           "id": "park",
@@ -1251,7 +1321,9 @@
           "indoor": true,
           "note": "農場風格餐廳；先確認選定日期的午餐／早午餐服務，不能只看有餐廳就假設中午開。",
           "query": "The Grange, Duvall WA",
-          "url": "https://www.thegrangeduvall.com/"
+          "url": "https://www.thegrangeduvall.com/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Sat dinner 17–20; Sun brunch 10–14 + dinner 17–20; closed Mon–Tue"
         },
         {
           "id": "library",
@@ -1264,7 +1336,9 @@
           "indoor": true,
           "note": "想安靜休息與看書時的免費室內選項；不是需要特地遠行的大景點。",
           "query": "Duvall Library, Duvall WA",
-          "url": "https://kcls.org/"
+          "url": "https://kcls.org/locations/duvall/",
+          "verified": "2026-10-24",
+          "hours": "Mon 10–18; Tue–Wed 10–20; Thu–Fri 10–18; Sat–Sun 11–18"
         }
       ],
       "plans": [
@@ -1302,7 +1376,7 @@
               "grange",
               75,
               10,
-              "只在當天有午餐／brunch 時安排；否則回 Corie's Cafe（14:00 前）。",
+              "週日 10:00–14:00 有 brunch 才排；週六只開晚餐（17:00 起），改回 Grateful Bread 吃早午餐（供應到 14:30）。",
               "walk"
             ]
           ]
@@ -1319,7 +1393,7 @@
       "hikes": []
     },
     "carnation": {
-      "intro": "有農場、河谷步道和 Remlinger 的演出，但先分清活動季節。咖啡、午餐也具名：Sandy’s 與 Blake’s，不再把『去鎮上找吃的』當成規劃。",
+      "intro": "有農場、河谷步道和 Remlinger 的演出，但先分清活動季節。咖啡、午餐也具名：Kelsey’s Koffee（原 Sandy’s 同址新店名）與 Red Pepper Pizzeria（Blake’s 已於 2026/9/30 結束營業），不再把『去鎮上找吃的』當成規劃。",
       "interests": [
         "town",
         "coffee",
@@ -1330,14 +1404,17 @@
       "places": [
         {
           "id": "sandys",
-          "name": "Sandy’s Espresso Carnation",
+          "name": "Kelsey’s Koffee",
           "kinds": [
             "coffee"
           ],
           "minutes": 30,
-          "indoor": false,
-          "note": "河谷咖啡停靠，別預設有能坐很久的完整室內空間。",
-          "query": "Sandy's Espresso, Carnation WA"
+          "indoor": true,
+          "note": "原 Sandy's Espresso 同址（2025 年底由老員工接手改名），有得來速，也有壁爐旁座位和點心、輕食；週日 7:30–16:00。",
+          "query": "Kelsey's Koffee, 4650 Tolt Ave, Carnation WA",
+          "url": "https://kelseyskoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 5–17; Sat 6:30–17; Sun 7:30–16"
         },
         {
           "id": "remlinger",
@@ -1350,18 +1427,23 @@
           "indoor": false,
           "note": "選當季農場、市集或設施，不是假定全年都有完整遊樂園。",
           "query": "Remlinger Farms, Carnation WA",
-          "url": "https://remlingerfarms.com/"
+          "url": "https://remlingerfarms.com/",
+          "verified": "2026-10-24",
+          "hours": "Fall Harvest Festival Sep 26–Nov 1, 2026: Fri–Sun 10–18 (Fridays from Oct; last entry 17:00); closed Mon–Thu"
         },
         {
           "id": "blakes",
-          "name": "Blake’s Pizzeria",
+          "name": "Red Pepper Pizzeria（Carnation）",
           "kinds": [
             "food"
           ],
           "minutes": 60,
           "indoor": true,
-          "note": "鎮上的具名 pizza 午餐點，適合農場或公園前後補一頓正餐。",
-          "query": "Blake's Pizzeria, Carnation WA"
+          "note": "Tolt Ave 上可內用的 pizza 店，有 pizza、義大利麵、潛艇堡和沙拉，農場或吊橋前後補一頓正餐；每天 11:00 開門。",
+          "query": "Red Pepper Pizzeria, 4721 Tolt Ave, Carnation WA",
+          "url": "https://redpepperpizzeria.com/locations/carnation/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11–21; Fri–Sat 11–22"
         },
         {
           "id": "tolt",
@@ -1396,7 +1478,10 @@
           "indoor": false,
           "note": "確實有售票演出，但大型戶外節目、啤酒區與農場設施是不同活動，查日期、票種和年齡。",
           "query": "Remlinger Farms Concerts, Carnation WA",
-          "url": "https://remlingerfarms.com/"
+          "url": "https://remlingerfarms.com/",
+          "verified": "2026-10-24",
+          "hours": "Concerts at the Farm: late May–Sep; Brewery & café this week Thu 16–20, Fri–Sat 12–21, Sun 12–19, Mon–Wed closed",
+          "liveMusic": "Summer ticketed series late May–Sep (rain or shine, lawn); Brewery stage Fri–Sat 18–20, mostly free, all ages, dates posted on farm calendar (none listed now)."
         },
         {
           "id": "library",
@@ -1409,7 +1494,9 @@
           "indoor": true,
           "note": "純粹需要室內休息與閱讀時可用；先看 KCLS 當日開館，不把它當全天觀光。",
           "query": "Carnation Library, Carnation WA",
-          "url": "https://kcls.org/"
+          "url": "https://kcls.org/locations/carnation/",
+          "verified": "2026-10-24",
+          "hours": "Mon 10–18; Tue–Wed 10–20; Thu–Fri 10–18; Sat 11–18; closed Sun"
         }
       ],
       "plans": [
@@ -1457,7 +1544,7 @@
         "blakes",
         "library"
       ],
-      "rainNote": "真的有室內備案是 Blake’s 和開館的 Library，並不足以取代一整天農場。大雨時改去室內目的地比較好，不把演唱會當有屋頂保證。",
+      "rainNote": "真的有室內備案是 Red Pepper Pizzeria 和開館的 Library，並不足以取代一整天農場。大雨時改去室內目的地比較好，不把演唱會當有屋頂保證。",
       "musicPlaces": [
         "concert"
       ],
@@ -1482,7 +1569,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "歷史房屋風格咖啡館，適合坐下慢喝；最新店家時段以地圖與營運資訊為準。",
-          "query": "Aroma Coffee Co, Fall City WA"
+          "query": "Aroma Coffee Co, Fall City WA",
+          "url": "https://aromacoffeeco.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 6:30–16:30; closed Sun"
         },
         {
           "id": "park",
@@ -1516,7 +1606,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "有名字的餐飲選項；先確認當日是否有午餐，若週末只開較晚，就改 Aroma 餐點或往 Snoqualmie 用餐。",
-          "query": "Fall City Roadhouse Restaurant and Inn, Fall City WA"
+          "query": "Fall City Roadhouse Restaurant and Inn, Fall City WA",
+          "url": "https://fcroadhouse.com/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Fri 11–close (lunch 11–16); Sat–Sun 14–close; closed Mon–Tue"
         },
         {
           "id": "snoqualmie-falls",
@@ -1542,7 +1635,23 @@
           "indoor": true,
           "note": "短暫看書休息的公共室內點，需依開館日安排。",
           "query": "Fall City Library, Fall City WA",
-          "url": "https://kcls.org/"
+          "url": "https://kcls.org/locations/fall-city/",
+          "verified": "2026-10-24",
+          "hours": "Mon 10–18; Tue–Wed 10–20; Thu–Fri 10–18; Sat 11–18; closed Sun"
+        },
+        {
+          "id": "mercurys-coffee-co-fall-city",
+          "name": "Mercurys Coffee Co.（Fall City）",
+          "kinds": [
+            "coffee"
+          ],
+          "minutes": 20,
+          "indoor": false,
+          "note": "Fall City 小學對面的 Mercurys 分店，每天 5:00–19:00，Aroma 週日公休時的備案；座位情況未確認，當外帶咖啡安排。",
+          "query": "Mercurys Coffee, 33378 SE Redmond-Fall City Rd, Fall City WA",
+          "url": "https://mercurys.com/pages/locations",
+          "verified": "2026-10-24",
+          "hours": "Daily 5–19"
         }
       ],
       "plans": [
@@ -1556,7 +1665,7 @@
               "aroma",
               60,
               0,
-              "坐下咖啡。",
+              "週六坐下喝 Aroma；Aroma 週日公休，週日改附近的 Mercurys 外帶。",
               "walk"
             ],
             [
@@ -1580,7 +1689,7 @@
               "roadhouse",
               75,
               20,
-              "只在有午餐時段時加入，否則換已確認的餐點。",
+              "週末 14:00 才開（平日 11:00）；13:00 要吃午餐就改去 Snoqualmie Falls Brewery（12:00 起），或把這站延到 14:00。",
               "drive"
             ],
             [
@@ -1636,7 +1745,10 @@
           "minutes": 45,
           "indoor": true,
           "note": "歷史街區的 coffee／beer 小店，當作老車站路線的咖啡與輕食停靠。",
-          "query": "The Bindlestick, Snoqualmie WA"
+          "query": "The Bindlestick, Snoqualmie WA",
+          "url": "https://bindlestick.org/",
+          "verified": "2026-10-24",
+          "hours": "Mon 8–14 & 18–22; Tue–Thu 8–20; Fri–Sat 8–22; Sun 8–20"
         },
         {
           "id": "depot",
@@ -1648,7 +1760,9 @@
           "indoor": false,
           "note": "歷史車站與鐵道氛圍，和實際購票搭火車是不同體驗。",
           "query": "Snoqualmie Depot, Snoqualmie WA",
-          "url": "https://trainmuseum.org/"
+          "url": "https://trainmuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Daily 10–17 (free; closed Thanksgiving, Christmas, New Year's Day)"
         },
         {
           "id": "brewery",
@@ -1660,7 +1774,9 @@
           "indoor": true,
           "note": "有午餐和餐飲的具名地方，別只寫去老街隨便找吃的。",
           "query": "Snoqualmie Falls Brewery, Snoqualmie WA",
-          "url": "https://fallsbrew.com/"
+          "url": "https://fallsbrew.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 12–20; Fri–Sat 12–21; Sun 12–20"
         },
         {
           "id": "railway",
@@ -1673,7 +1789,9 @@
           "indoor": true,
           "note": "和 Downtown Depot 不是同一個入口；確認館舍與列車當日開放再去。",
           "query": "Northwest Railway Museum Railway History Campus, Snoqualmie WA",
-          "url": "https://trainmuseum.org/"
+          "url": "https://trainmuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Apr–Dec Wed–Mon 11–16; late Jan–Mar Fri–Mon 11–16 ($5–10)"
         },
         {
           "id": "meadowbrook",
@@ -1777,7 +1895,9 @@
           "indoor": true,
           "note": "North Bend 具名咖啡起點，早點補給後再往步道或老街。",
           "query": "Huxdotter Coffee, 101 W Park Street, North Bend WA",
-          "url": "https://huxdottercoffee.com/"
+          "url": "https://huxdottercoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Cafe daily 7–19; drive-thru Mon–Fri 5–19, Sat–Sun 6–19"
         },
         {
           "id": "twedes",
@@ -1790,7 +1910,9 @@
           "indoor": true,
           "note": "Twin Peaks 的 diner 氛圍、正餐與派；不是只拍招牌，預留坐下用餐時間。",
           "query": "Twede's Cafe, North Bend WA",
-          "url": "https://twedescafe.com/"
+          "url": "https://twedescafe.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 9–19"
         },
         {
           "id": "downtown",
@@ -1852,7 +1974,10 @@
           "indoor": true,
           "note": "真正按樂手與日期排的爵士場地，不是普通電影戲院；先看節目和當場入場規則。",
           "query": "Boxley's Jazz Club, 228 W North Bend Way, North Bend WA",
-          "url": "https://jazzclubsnw.org/boxleys"
+          "url": "https://jazzclubsnw.org/boxleys",
+          "verified": "2026-10-24",
+          "hours": "Show nights only (Fri–Sat 20:00; Thu student jam 19–21)",
+          "liveMusic": "Jazz Fri & Sat at 20:00 (most no cover); Thu 19–21 student-only jam; no reservations; age rule not published (calendar: jazzclubsnw.org/calendar)."
         }
       ],
       "plans": [
@@ -9563,7 +9688,9 @@
           "indoor": true,
           "note": "555 Great Northern Way 的紅色建築與 specialty coffee，室內座位、烘焙和建築一起享受。",
           "query": "Nemesis Coffee GNW, 555 Great Northern Way, Vancouver BC",
-          "url": "https://www.nemesis.coffee/"
+          "url": "https://www.nemesis.coffee/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 8–16; Sat–Sun 9–17"
         },
         {
           "id": "revolver",
@@ -9575,7 +9702,9 @@
           "indoor": true,
           "note": "Gastown 咖啡點，和 GNW 不同區；營業日先查，不為一杯咖啡又跨城折返。",
           "query": "Revolver Coffee, 325 Cambie Street, Vancouver BC",
-          "url": "https://revolvercoffee.ca/"
+          "url": "https://revolvercoffee.ca/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 7–17 (banner; footer says 7:30–17); closed Sun"
         },
         {
           "id": "granville",
@@ -9588,7 +9717,9 @@
           "indoor": true,
           "note": "室內市場加戶外工藝島，內容不只吃飯；周邊步行仍會淋雨。",
           "query": "Granville Island Public Market, Vancouver BC",
-          "url": "https://granvilleisland.com/"
+          "url": "https://granvilleisland.com/",
+          "verified": "2026-10-24",
+          "hours": "Public Market daily 9–18 (closed Mondays in January only; closed Dec 25–26, Jan 1)"
         },
         {
           "id": "sandbar",
@@ -9600,7 +9731,10 @@
           "indoor": true,
           "note": "市場旁有名字的 seafood 正餐，和隨買外帶不同，想坐下吃午餐可先訂位。",
           "query": "The Sandbar Seafood Restaurant Granville Island, Vancouver BC",
-          "url": "https://www.vancouverdine.com/sandbar/"
+          "url": "https://www.vancouverdine.com/sandbar/",
+          "verified": "2026-10-24",
+          "hours": "Daily from 11:30",
+          "liveMusic": "Restaurant also has live music: Mon–Thu 19–22; Fri–Sat 16:30–19:30 & 20–23; Sun 15:30–18:30 & 19–22."
         },
         {
           "id": "jam",
@@ -9612,7 +9746,9 @@
           "indoor": true,
           "note": "想以 brunch 為主的替代，熱門隊伍需預留時間；不再接另一頓正餐湊行程。",
           "query": "Jam Cafe Beatty Street, Vancouver BC",
-          "url": "https://jamcafes.com/"
+          "url": "https://jamcafes.com/",
+          "verified": "2026-10-24",
+          "hours": "Weekdays 8–14:30; weekends 8–15"
         },
         {
           "id": "stanley",
@@ -9625,7 +9761,9 @@
           "indoor": false,
           "note": "選一段海堤看山海，不把推車環完整公園當必要任務；行人和自行車分流。",
           "query": "Stanley Park Coal Harbour Seawall, Vancouver BC",
-          "url": "https://vancouver.ca/parks-recreation-culture/stanley-park.aspx"
+          "url": "https://vancouver.ca/parks-recreation-culture/stanley-park.aspx",
+          "verified": "2026-10-24",
+          "hours": "Park 6:00–22:00 unless posted; washrooms dawn–dusk"
         },
         {
           "id": "science",
@@ -9638,7 +9776,9 @@
           "indoor": true,
           "note": "具體的雨天科學館，有興趣才以此替換海堤，票務與特展分開看。",
           "query": "Science World, Vancouver BC",
-          "url": "https://www.scienceworld.ca/"
+          "url": "https://www.scienceworld.ca/",
+          "verified": "2026-10-24",
+          "hours": "Daily 10–17"
         },
         {
           "id": "aquarium",
@@ -9651,7 +9791,9 @@
           "indoor": true,
           "note": "另一個明確的室內主題，可配 Stanley Park，不同一天又塞 Science World 全部跑。",
           "query": "Vancouver Aquarium, Vancouver BC",
-          "url": "https://www.vanaqua.org/"
+          "url": "https://www.vanaqua.org/",
+          "verified": "2026-10-24",
+          "hours": "Closes 17:00, last entry 15:30 (timed tickets; holiday hours may change)"
         },
         {
           "id": "gastown",
@@ -9663,7 +9805,9 @@
           "minutes": 75,
           "indoor": false,
           "note": "老街與建築、店家，街區條件各段不同，選適合的主街慢逛。",
-          "query": "Water Street Gastown, Vancouver BC"
+          "query": "Water Street Gastown, Vancouver BC",
+          "url": "https://gastown.org/",
+          "verified": "2026-10-24"
         },
         {
           "id": "frankies",
@@ -9676,7 +9820,10 @@
           "indoor": true,
           "note": "真正有爵士與藍調節目的 club，按晚餐／演出場次訂位；晚場與家庭接待依該場規則。",
           "query": "Frankie's Jazz Club, Vancouver BC",
-          "url": "https://www.frankiesjazzclub.ca/"
+          "url": "https://www.frankiesjazzclub.ca/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Sun evenings (7 shows weekly); closed Mon–Tue",
+          "liveMusic": "Jazz/blues every Wed–Sun; e.g. Sat Oct 24 20:00, Sun Oct 25 18:00, Weeds/Wine/Wednesday 19:00 (Oct 2026 calendar, VanJazz26). Prepaid ticketed tables (refund only if cancelled >24h). Minors allowed until 22:00 if seated at a table with an adult."
         },
         {
           "id": "guilt",
@@ -9688,7 +9835,10 @@
           "indoor": true,
           "note": "Gastown 的現場音樂 lounge，入場、年齡與低消按營運公告，不先保證未成年可進。",
           "query": "Guilt and Company, Vancouver BC",
-          "url": "https://www.guiltandcompany.com/"
+          "url": "https://www.guiltandcompany.com/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Wed 18–24; Thu 18–01; Fri–Sat 18–02",
+          "liveMusic": "Two shows nightly (early ~19:00, late ~21:00–22:00); Tockify calendar current for Oct 2026. Strictly 19+ (FAQ: 'We are a 19+ no minors establishment'); no reservations or group bookings, first-come."
         }
       ],
       "plans": [
@@ -9807,7 +9957,9 @@
           "indoor": true,
           "note": "明確選 Steveston 的咖啡位置，和市中心 roastery／外帶點分清楚。",
           "query": "Rocanini Coffee Roasters Steveston, Richmond BC",
-          "url": "https://www.rocanini.com/"
+          "url": "https://www.rocanini.com/",
+          "verified": "2026-10-24",
+          "hours": "Weekdays 8–17; weekends 8–18"
         },
         {
           "id": "steveston-coffee",
@@ -9818,7 +9970,10 @@
           "minutes": 50,
           "indoor": true,
           "note": "想再選一家小村咖啡可用，不必同一天喝完每間；先看營業資訊。",
-          "query": "Steveston Coffee Company, Richmond BC"
+          "query": "Steveston Coffee Company, Richmond BC",
+          "url": "https://www.stevestoncoffee.ca/",
+          "verified": "2026-10-24",
+          "hours": "8:30–16, closed Thu (IG bio: 'Everyday 8:30 to 4:00, Closed on Thursday'); aggregator also lists Mon closed"
         },
         {
           "id": "cannery",
@@ -9831,7 +9986,9 @@
           "indoor": true,
           "note": "真正能深入看的罐頭工業歷史館，雨天仍有內容；不是只看建築外觀。",
           "query": "Gulf of Georgia Cannery, Richmond BC",
-          "url": "https://gulfofgeorgiacannery.org/"
+          "url": "https://gulfofgeorgiacannery.org/",
+          "verified": "2026-10-24",
+          "hours": "Daily 10–17"
         },
         {
           "id": "village",
@@ -9855,7 +10012,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "村內具名的 fish & chips 正餐替代，有室內時比較適合雨天。",
-          "query": "Dave's Fish and Chips Steveston, Richmond BC"
+          "query": "Dave's Fish and Chips Steveston, Richmond BC",
+          "url": "https://davesfishandchips.com/",
+          "verified": "2026-10-24",
+          "hours": "Winter: Mon–Thu 11–18, Fri–Sun 11–19; summer daily 11–20"
         },
         {
           "id": "pajos",
@@ -9867,7 +10027,9 @@
           "indoor": false,
           "note": "浮動碼頭外帶／戶外桌，不是有屋頂的完整室內餐廳；有季節營業。",
           "query": "Pajo's Fish and Chips Steveston Wharf, Richmond BC",
-          "url": "https://www.pajos.com/"
+          "url": "https://www.pajos.com/",
+          "verified": "2026-10-24",
+          "hours": "Weather-dependent; official page says check Google for current hours"
         },
         {
           "id": "garry",
@@ -9892,7 +10054,10 @@
           "indoor": false,
           "setting": "戶外街區＋開放的歷史館舍",
           "note": "看漁業與移民歷史，戶外區與個別建築時段不同，不把整片遺址當室內。",
-          "query": "Britannia Shipyards National Historic Site, Richmond BC"
+          "query": "Britannia Shipyards National Historic Site, Richmond BC",
+          "url": "https://stevestonheritage.ca/visit/britannia-shipyards-national-historic-site/",
+          "verified": "2026-10-24",
+          "hours": "Grounds dawn–dusk. Buildings 2026: Oct 6–Dec 31 Fri–Sun 10–16; Sep 8–Oct 5 Tue–Sun 10–17; May 16–Sep 7 daily 10–17; closed stat holidays"
         },
         {
           "id": "art",
@@ -9905,7 +10070,9 @@
           "indoor": true,
           "note": "Minoru 的文化區是另一個明確室內選項，需從 Steveston 另外開車，不混成村內步行。",
           "query": "Richmond Art Gallery, Richmond BC",
-          "url": "https://www.richmondartgallery.org/"
+          "url": "https://www.richmondartgallery.org/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 10–18; Sat–Sun 12–17; closed stat holidays"
         },
         {
           "id": "gateway",
@@ -9918,7 +10085,9 @@
           "indoor": true,
           "note": "有音樂劇或演出才排，普通話劇不一概標成音樂；選日期與票務。",
           "query": "Gateway Theatre, Richmond BC",
-          "url": "https://www.gatewaytheatre.com/"
+          "url": "https://www.gatewaytheatre.com/",
+          "verified": "2026-10-24",
+          "liveMusic": "2026/27 season musicals/music: 'Songs for a New World' (from Nov 13, 2026, at Minoru Chapel, not the main theatre), '42nd Street' (from Dec 10, 2026, MainStage), 'Silk Road Music: Lunar New Year Celebration' (Feb 6, 2027). Ticketed productions only."
         }
       ],
       "plans": [
@@ -10004,7 +10173,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "具名社區咖啡，適合在海邊走之前坐下；和 pier 並非同一個水平面入口。",
-          "query": "Laura's Coffee Corner, White Rock BC"
+          "query": "Laura's Coffee Corner, White Rock BC",
+          "url": "https://laurascoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 7–16; Sun 9–15"
         },
         {
           "id": "pier",
@@ -10039,7 +10211,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "具名 fish & chips 午餐，室內座位有限，熱門天候位要留時間。",
-          "query": "Moby Dick Restaurant, White Rock BC"
+          "query": "Moby Dick Restaurant, White Rock BC",
+          "url": "https://www.mobydickrestaurant.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 11:30–19:00 per official site (aggregator shows to 20:00); weather-dependent; closed Thanksgiving Sun–Mon, Dec 24–26, Dec 31 from 15:00, Jan 1"
         },
         {
           "id": "museum",
@@ -10052,7 +10227,9 @@
           "indoor": true,
           "note": "舊車站裡的地方故事，小型室內替代，開館日先查。",
           "query": "White Rock Museum and Archives, White Rock BC",
-          "url": "https://www.whiterockmuseum.ca/"
+          "url": "https://www.whiterockmuseum.ca/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Sun 10:30–16:30; closed Mon"
         },
         {
           "id": "east",
@@ -10076,7 +10253,9 @@
           "indoor": true,
           "note": "錄音室型近距離 live show，有明確節目與票務；不是可直接進去坐的餐廳。",
           "query": "Blue Frog Studios, White Rock BC",
-          "url": "https://www.bluefrogstudios.ca/"
+          "url": "https://www.bluefrogstudios.ca/",
+          "verified": "2026-10-24",
+          "liveMusic": "Ticketed concerts mostly Fri/Sat plus multi-night runs (2026: Oct 24, Oct 30–31, Nov 7, 13, 14, 20–21, 28, Dec 2–5 & 9–12, Dec 19; Jan–Feb 2027 listed). Early show doors 18:00 / music 19:00; late show doors 20:45 / music 21:15. Shows are 19+ (some 15+ if posted). 100 seats, first-come seating."
         }
       ],
       "plans": [
@@ -10162,7 +10341,9 @@
           "indoor": true,
           "note": "具名烘焙咖啡，選 Fort Langley 店，不走錯 Langley 其他分店。",
           "query": "Blacksmith Bakery Fort Langley, Langley BC",
-          "url": "https://www.blacksmithbakery.ca/"
+          "url": "https://www.blacksmithbakery.ca/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–19"
         },
         {
           "id": "wendels",
@@ -10175,7 +10356,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "書店與 cafe 的慢旅行選項，可以替換一頓午餐或第二杯咖啡，不一定兩間都坐滿。",
-          "query": "Wendel's Bookstore and Cafe, Fort Langley BC"
+          "query": "Wendel's Bookstore and Cafe, Fort Langley BC",
+          "url": "https://wendelsonline.com/",
+          "verified": "2026-10-24",
+          "hours": "Café daily 7:30–22; bookstore daily 9–22"
         },
         {
           "id": "fort",
@@ -10188,7 +10372,9 @@
           "setting": "園區戶外＋歷史建物",
           "note": "毛皮貿易與地方歷史，給 1.5–2 小時才有內容，不只是門口拍照。",
           "query": "Fort Langley National Historic Site, British Columbia",
-          "url": "https://parks.canada.ca/lhn-nhs/bc/langley"
+          "url": "https://parks.canada.ca/lhn-nhs/bc/langley",
+          "verified": "2026-10-24",
+          "hours": "Daily 10–16:30; closed Dec 24–26, 31, Jan 1"
         },
         {
           "id": "trading",
@@ -10200,7 +10386,9 @@
           "indoor": true,
           "note": "村內的具名正餐，先確認當天午餐與座位；不是到大溫另一區的同品牌分店。",
           "query": "Trading Post Eatery Fort Langley, British Columbia",
-          "url": "https://www.tradingpostbrewing.com/"
+          "url": "https://www.tradingpostbrewing.com/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11:30–22; Fri–Sat 11:30–23"
         },
         {
           "id": "glover",
@@ -10212,7 +10400,8 @@
           "minutes": 75,
           "indoor": false,
           "note": "小店、古董與咖啡街區，逛到喜歡的店可慢慢停。",
-          "query": "Glover Road Village Fort Langley, British Columbia"
+          "query": "Glover Road Village Fort Langley, British Columbia",
+          "verified": "2026-10-24"
         },
         {
           "id": "trail",
@@ -10237,7 +10426,9 @@
           "indoor": true,
           "note": "想看農業歷史再加，季節開館，不能用夏季時間排冬天。",
           "query": "BC Farm Museum, Fort Langley BC",
-          "url": "https://bcfma.com/"
+          "url": "https://bcfma.com/",
+          "verified": "2026-10-24",
+          "hours": "Season Apr 1–Sep 30; closed Sep 30, 2026 – Apr 1, 2027 (may open Mondays 9:30–14:30 when work crews are in)"
         },
         {
           "id": "beatniks",
@@ -10250,7 +10441,10 @@
           "indoor": true,
           "note": "餐飲與選定日期的音樂，先看藝人／時段，不保證每頓午餐都有演奏。",
           "query": "Beatniks Bistro, Fort Langley BC",
-          "url": "https://www.beatniksbistro.com/"
+          "url": "https://www.beatniksbistro.com/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Thu 11–21; Fri 11–22; Sat 10:30–22; Sun 10:30–21; closed Mon–Tue (weekend brunch to 14:30)",
+          "liveMusic": "Live music only on Thursdays, 18:00–20:00 (event page says 6–9 pm). No weekend music. Restaurant; no age limit stated."
         }
       ],
       "plans": [
@@ -10335,8 +10529,10 @@
           "minutes": 50,
           "indoor": true,
           "note": "市場裡的具名咖啡點，適合雨天慢坐與沿河行程。",
-          "query": "Craft Cafe River Market, New Westminster BC",
-          "url": "https://rivermarket.ca/"
+          "query": "Craft Cafe, 960 Quayside Dr Unit 115, New Westminster BC",
+          "url": "https://www.craftcafe.ca/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Wed 6:30–20; Thu–Fri 6:30–22; Sat 8–22; Sun 8–20"
         },
         {
           "id": "longtail",
@@ -10348,7 +10544,9 @@
           "indoor": true,
           "note": "River Market 裡具體的 Thai 餐飲選項，別把整個市場當沒決定要吃什麼。",
           "query": "Longtail Kitchen, New Westminster BC",
-          "url": "https://longtailkitchen.com/"
+          "url": "https://longtailkitchen.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 11:30–18; Fri–Sun 11:30–19"
         },
         {
           "id": "market",
@@ -10361,7 +10559,7 @@
           "indoor": true,
           "note": "市場與河岸生活，咖啡午餐不必反覆跨區停車。",
           "query": "River Market, New Westminster BC",
-          "url": "https://rivermarket.ca/"
+          "verified": "2026-10-24"
         },
         {
           "id": "pier",
@@ -10386,7 +10584,9 @@
           "indoor": true,
           "note": "河流與在地生活的具體室內館，先核對開館和活動。",
           "query": "Fraser River Discovery Centre, New Westminster BC",
-          "url": "https://fraserriverdiscovery.org/"
+          "url": "https://fraserriverdiscovery.org/",
+          "verified": "2026-10-24",
+          "hours": "Sep 3–Dec 16: Wed–Sun 10–16; Dec 17–Jan 4 daily 10–16; Jan 5–Mar 10 Wed–Sun 10–16"
         },
         {
           "id": "museum",
@@ -10398,7 +10598,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "Anvil 內的城市歷史內容，和買票看 theatre 是兩件事。",
-          "query": "New Westminster Museum Anvil Centre, New Westminster BC"
+          "query": "New Westminster Museum Anvil Centre, New Westminster BC",
+          "url": "https://anvilcentre.com/new-westminster-museum-archives/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 10–20; Fri–Sun 10–17"
         },
         {
           "id": "moodswing",
@@ -10409,7 +10612,11 @@
           "minutes": 60,
           "indoor": true,
           "note": "白天咖啡與晚間 bar 分開看，不因有活動就自動當固定 live-music 場館。",
-          "query": "Moodswing Coffee and Bar, New Westminster BC"
+          "query": "Moodswing Coffee and Bar, New Westminster BC",
+          "url": "https://www.moodswingbar.com/",
+          "verified": "2026-10-24",
+          "hours": "Wed & Sun 8–15; Thu–Sat 8–23; closed Mon–Tue",
+          "liveMusic": "Evening DJ sets / open mics on listed dates (Oct 2026), not a concert venue — matches guide note."
         },
         {
           "id": "anvil",
@@ -10422,7 +10629,9 @@
           "indoor": true,
           "note": "音樂與戲劇各有節目，先選當天真正想看的演出。",
           "query": "Anvil Theatre, New Westminster BC",
-          "url": "https://anvilcentre.com/"
+          "url": "https://anvilcentre.com/",
+          "verified": "2026-10-24",
+          "liveMusic": "Mixed programming incl. music, ticketed: 'Terrell Edwards: A Night of Motown' Sat Oct 24, 2026; 'Academy Chamber Players: Between Shadow and Light' Mon Oct 26 (afternoon); Vancouver Fall Classic Oct 31. Ages per show."
         },
         {
           "id": "massey",
@@ -10435,7 +10644,9 @@
           "indoor": true,
           "note": "另一區的正式表演場館，晚間需另留車程，不是市場樓上的下一個房間。",
           "query": "Massey Theatre, New Westminster BC",
-          "url": "https://www.masseytheatre.com/"
+          "url": "https://www.masseytheatre.com/",
+          "verified": "2026-10-24",
+          "liveMusic": "Closed now; shows resume Dec 2026: Dance Into Christmas Dec 4, An ABBA Christmas Dec 5, Chilliwack Dec 11, Rana Mansour Dec 12, International Guitar Night Jan 31, 2027, many tribute concerts into 2027 (tickets via TicketsNW/Ticketpro)."
         }
       ],
       "plans": [
@@ -10523,7 +10734,9 @@
           "indoor": true,
           "note": "具名的大型 cafe／烘焙空間，選 Metrotown 附近店，不和其他城市分店混用。",
           "query": "La Foret Cafe Jubilee Avenue, Burnaby BC",
-          "url": "https://cafelaforet.com/"
+          "url": "https://cafelaforet.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 8–22; Sat–Sun & holidays 9–22"
         },
         {
           "id": "smallvictory",
@@ -10535,7 +10748,9 @@
           "indoor": true,
           "note": "想看另一種咖啡烘焙空間可用，和 Deer Lake 不是同一個步行街區。",
           "query": "Small Victory Brentwood, Burnaby BC",
-          "url": "https://smallvictory.ca/"
+          "url": "https://smallvictory.ca/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 8:30–18; Fri–Sun 8:30–19"
         },
         {
           "id": "antons",
@@ -10547,7 +10762,9 @@
           "indoor": true,
           "note": "Hastings Street 的具名午餐餐廳，份量和候位都要留餘裕，不當快速外帶。",
           "query": "Anton's Pasta Bar, Burnaby BC",
-          "url": "https://www.antonspastabar.com/"
+          "url": "https://www.antonspastabar.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon 15:30–21:30; Tue–Wed 11:30–21:30; Thu 11:30–22; Fri–Sat 11:30–22:30; Sun 15:30–21:30"
         },
         {
           "id": "deer",
@@ -10573,7 +10790,9 @@
           "setting": "戶外歷史村＋部分建築",
           "note": "季節性開放，歷史街道多在戶外；不能把 winter 任意一天都當常設室內館。",
           "query": "Burnaby Village Museum, Burnaby BC",
-          "url": "https://www.burnabyvillagemuseum.ca/"
+          "url": "https://www.burnabyvillagemuseum.ca/",
+          "verified": "2026-10-24",
+          "hours": "2026: summer May 2–Sep 7 Tue–Sun 11–16:30; Haunted Village Oct 23–25 & 30–31 16–21 (ticketed); Festive Village Nov 25–Dec 13 Wed–Sun 14–21, Dec 16, 2026–Jan 3, 2027 daily 14–21 (closed Dec 24–25)"
         },
         {
           "id": "mountain",
@@ -10597,7 +10816,24 @@
           "minutes": 150,
           "indoor": true,
           "note": "Deer Lake 旁的正式藝文演出，音樂節目依實際場次購票。",
-          "query": "Shadbolt Centre for the Arts, Burnaby BC"
+          "query": "Shadbolt Centre for the Arts, Burnaby BC",
+          "url": "https://www.burnaby.ca/recreation-and-arts/arts-and-culture-facilities/shadbolt-centre-for-the-arts",
+          "verified": "2026-10-24",
+          "liveMusic": "Mixed theatre/dance/music; upcoming Nov 2026: Mom's the Word (5–6), Meadows of Stone (7), Ruby Singh & The Future Ancestors (Nov 20, music), Bright Shadow (27–28). Tickets via purchase.shadboltcentre.com (Spektrix). Ages per show."
+        },
+        {
+          "id": "hart-house-restaurant-deer-lake",
+          "name": "Hart House Restaurant — Deer Lake",
+          "kinds": [
+            "food"
+          ],
+          "minutes": 90,
+          "indoor": true,
+          "note": "Deer Lake 湖畔的 Tudor 式老宅餐廳，週六日 10–14 有 brunch，週二至週日供應晚餐；就在湖邊步道旁，週末建議先訂位。",
+          "query": "Hart House Restaurant, 6664 Deer Lake Ave, Burnaby BC",
+          "url": "https://www.harthouserestaurant.com/",
+          "verified": "2026-10-24",
+          "hours": "Brunch Sat–Sun 10–14; lunch Tue–Fri 11:30–14:30; dinner Tue–Sun from 17:00; closed Mon"
         }
       ],
       "plans": [
@@ -10627,7 +10863,7 @@
               "antons",
               90,
               20,
-              "午餐。",
+              "午餐；Anton’s 週日 15:30 才開，週日改 Deer Lake 旁 Hart House 的 brunch。",
               "drive"
             ],
             [
@@ -10682,7 +10918,9 @@
           "indoor": true,
           "note": "Ladner 具名咖啡，搭配小鎮和賞鳥前後安排。",
           "query": "Stir Coffee House, Ladner Delta BC",
-          "url": "https://stircoffeehouse.com/"
+          "url": "https://stircoffeehouse.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 7–17; Sat–Sun 8–16:30"
         },
         {
           "id": "reifel",
@@ -10707,7 +10945,9 @@
           "indoor": true,
           "note": "義式正餐，午餐並非每個營業日都有，選定週末／日期先看服務時段。",
           "query": "Il Posto, Ladner Delta BC",
-          "url": "https://www.ilpostoresto.com/"
+          "url": "https://www.ilpostoresto.com/",
+          "verified": "2026-10-24",
+          "hours": "Tue 16:30–20:30; Wed–Thu 11:30–20:30; Fri–Sat 11:30–21:30; Sun 11:30–20:30; Mon closed"
         },
         {
           "id": "village",
@@ -10719,7 +10959,8 @@
           "minutes": 75,
           "indoor": false,
           "note": "河畔村落與小店，Ladner Village Market 是另有指定日期的市集，不是天天開。",
-          "query": "Ladner Village, Delta BC"
+          "query": "Ladner Village, Delta BC",
+          "verified": "2026-10-24"
         },
         {
           "id": "discovery",
@@ -10732,7 +10973,9 @@
           "indoor": true,
           "note": "具體的 Delta 歷史館舍，可作室內替代，先看市府開館日。",
           "query": "Douglas J Husband Discovery Centre, Delta BC",
-          "url": "https://www.delta.ca/"
+          "url": "https://www.delta.ca/community-culture/museum-heritage/discovery-centre",
+          "verified": "2026-10-24",
+          "hours": "Mon–Wed & Fri 10–17; Thu 10–20; Sat–Sun & stat holidays 12–17"
         },
         {
           "id": "boundary",
@@ -10756,7 +10999,10 @@
           "minutes": 150,
           "indoor": true,
           "note": "真正的表演空間，先挑音樂／演出場次和票務，不是白天隨到可看。",
-          "query": "Genesis Theatre, Delta BC"
+          "query": "Genesis Theatre, Delta BC",
+          "url": "https://deltalearns.ca/genesistheatre/",
+          "verified": "2026-10-24",
+          "liveMusic": "Occasional ticketed concerts, mostly Saturday evenings: DBX (Doobie Brothers tribute) Sat Oct 24, 2026 19:30; 'Take It to the Limit' Eagles tribute Sat Nov 21, 2026 19:00; Fleetwood Magic Jan 23, 2027; plus school/community shows. 400-seat school theatre."
         }
       ],
       "plans": [
@@ -10842,7 +11088,9 @@
           "indoor": true,
           "note": "Lonsdale 水岸的特色咖啡與烘焙，選 Polygon 店，不是 GNW 分店。",
           "query": "Nemesis Coffee Polygon, North Vancouver BC",
-          "url": "https://www.nemesis.coffee/"
+          "url": "https://www.nemesis.coffee/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 8–16; Sat–Sun 9–17"
         },
         {
           "id": "shipyards",
@@ -10867,7 +11115,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "實際室內市場，和 SeaBus 旁水岸可步行串連。",
-          "query": "Lonsdale Quay Market, North Vancouver BC"
+          "query": "Lonsdale Quay Market, North Vancouver BC",
+          "url": "https://lonsdalequay.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily: market level 9–19; food hall 10–21 (Fri–Sat to 23); second level 10–18"
         },
         {
           "id": "tap",
@@ -10879,7 +11130,9 @@
           "indoor": true,
           "note": "有室內正餐與海景的具名選項，訂位／座位依當日。",
           "query": "Tap and Barrel Shipyards, North Vancouver BC",
-          "url": "https://tapandbarrel.com/"
+          "url": "https://tapandbarrel.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 11–24; Fri 11–01; Sat 10–01; Sun 10–24; weekend brunch 10–14"
         },
         {
           "id": "polygon",
@@ -10892,7 +11145,9 @@
           "indoor": true,
           "note": "當代攝影／藝術展，不只是建築外觀，核對開館與展期。",
           "query": "The Polygon Gallery, North Vancouver BC",
-          "url": "https://thepolygon.ca/"
+          "url": "https://thepolygon.ca/",
+          "verified": "2026-10-24",
+          "hours": "Wed 10–17; Thu 10–21; Fri–Sun 10–17; closed Mon–Tue"
         },
         {
           "id": "honey",
@@ -10904,7 +11159,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "Deep Cove 的 doughnut 與咖啡，有時排隊長；與 Lonsdale 是不同街區，別中途反覆穿越。",
-          "query": "Honey's Doughnuts and Goodies, Deep Cove North Vancouver BC"
+          "query": "Honey's Doughnuts and Goodies, Deep Cove North Vancouver BC",
+          "url": "https://honeydoughnuts.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 6–17; closed Dec 25–26"
         },
         {
           "id": "deepcove",
@@ -10959,7 +11217,7 @@
         },
         {
           "id": "capu",
-          "name": "BlueShore at CapU",
+          "name": "Capilano University Centre for the Performing Arts（原 BlueShore）",
           "kinds": [
             "music",
             "culture"
@@ -10967,8 +11225,10 @@
           "minutes": 150,
           "indoor": true,
           "note": "大學內的正式音樂表演場地，與 Lonsdale 還有車程，依場次票務安排。",
-          "query": "BlueShore Financial Centre for the Performing Arts Capilano University, North Vancouver BC",
-          "url": "https://www.capilanou.ca/centre/"
+          "query": "Capilano University Centre for the Performing Arts, 2055 Purcell Way, North Vancouver BC",
+          "url": "https://www.capilanou.ca/student-services/community/centre-for-performing-arts/",
+          "verified": "2026-10-24",
+          "liveMusic": "Series: CapU Jazz, Global Roots, Choral & Classical, North Shore Jazz. Next music: Jon Faddis & CapU Jazz Ensembles, Fri Nov 27, 2026. Box office Mon–Fri 11–15 (604-990-7810), opens 1 h before shows."
         }
       ],
       "plans": [
@@ -11126,7 +11386,9 @@
           "indoor": true,
           "note": "Klahanie 的具名咖啡館，有室內可坐；和 Rocky Point 不是同一個停車位。",
           "query": "Caffe Divano Port Moody, British Columbia",
-          "url": "https://www.caffedivano.ca/"
+          "url": "https://www.caffedivano.ca/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 7–17; Fri–Sun 7–18"
         },
         {
           "id": "gabi",
@@ -11139,7 +11401,9 @@
           "indoor": true,
           "note": "咖啡與 pie／烘焙的另一個選項，選 Port Moody 店，不同一天硬喝兩杯。",
           "query": "Gabi and Jules Port Moody, British Columbia",
-          "url": "https://gabiandjules.com/"
+          "url": "https://gabiandjules.com/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Sun 9–17; closed Mon"
         },
         {
           "id": "rocky",
@@ -11175,7 +11439,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "具名的室內午餐選項，和戶外 fish & chips 是不同吃法，先看當日服務。",
-          "query": "Taps and Tacos, Port Moody BC"
+          "query": "Taps and Tacos, Port Moody BC",
+          "url": "https://www.tapsandtacos.ca/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 12–21; Fri–Sat 12–22; Sun 12–21"
         },
         {
           "id": "pajos",
@@ -11187,11 +11454,13 @@
           "indoor": false,
           "note": "戶外公園餐飲，查季節與天氣；不把 picnic tables 當室內座位。",
           "query": "Pajo's Fish and Chips Rocky Point, Port Moody BC",
-          "url": "https://www.pajos.com/"
+          "url": "https://www.pajos.com/",
+          "verified": "2026-10-24",
+          "hours": "Weather-dependent; official page says check Google for current hours"
         },
         {
           "id": "station",
-          "name": "Port Moody Station Museum",
+          "name": "POMO Museum（Port Moody 車站博物館）",
           "kinds": [
             "indoor",
             "culture"
@@ -11199,7 +11468,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "歷史車站和地方故事，先查開館日與活動。",
-          "query": "Port Moody Station Museum, Port Moody BC"
+          "query": "POMO Museum, 2734 Murray St, Port Moody BC",
+          "url": "https://www.pomo.museum/",
+          "verified": "2026-10-24",
+          "hours": "Sep–May Wed–Sun 12–16; Jun–Aug Wed–Sun 11–17; closed Mon–Tue & stat holidays"
         },
         {
           "id": "inlet",
@@ -11212,7 +11484,9 @@
           "indoor": true,
           "note": "音樂、戲劇與電影有不同節目，挑真正想聽的場次，沒有演出不空等。",
           "query": "Inlet Theatre, Port Moody BC",
-          "url": "https://www.portmoody.ca/"
+          "url": "https://www.portmoody.ca/arts-culture-and-heritage/inlet-theatre-and-galleria/",
+          "verified": "2026-10-24",
+          "liveMusic": "Inlet Music Series: Lache Cercel Ensemble Sat Nov 28, 2026; 'O Come all Ye Soulful' Sat Dec 19, 2026; also PWR/UP AC/DC tribute Fri Nov 6, 2026. Tickets sold by each organizer; film/comedy/theatre on other dates."
         },
         {
           "id": "buntzen",
@@ -11254,7 +11528,7 @@
               "taps",
               75,
               15,
-              "午餐，晴天可改 Pajo’s。",
+              "午餐；晴天可改 Pajo’s，但 Rocky Point 店冬季常休業（約 11 月至 2 月），先查。",
               "walk"
             ],
             [
@@ -11270,7 +11544,7 @@
               "station",
               60,
               35,
-              "含折返／轉場；開館才進，未開可選 Gabi & Jules 點心。",
+              "含折返／轉場；博物館 9–5 月只開到 16:00，15:40 到只剩 20 分鐘，想看請午餐後先去，否則改 Gabi & Jules 點心（週一休）。",
               "walk"
             ]
           ]
@@ -11283,7 +11557,7 @@
         "station",
         "inlet"
       ],
-      "rainNote": "Divano、Gabi & Jules、Taps & Tacos、開館的 Station Museum、有票的 Inlet 都是明確室內。Pajo’s、Rocky Point 與森林湖泊不是。",
+      "rainNote": "Divano、Gabi & Jules、Taps & Tacos、開館的 POMO Museum（冬季 16:00 關）、有票的 Inlet 都是明確室內。Pajo’s、Rocky Point 與森林湖泊不是。",
       "musicPlaces": [
         "inlet"
       ],
