@@ -897,10 +897,10 @@ body[data-theme="night"] .plan-date input { color-scheme: dark; }
 .season-badge { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 650; line-height: 1.5; }
 .season-badge::before { content: ""; width: 7px; height: 7px; flex: 0 0 7px; border-radius: 50%; background: currentColor; }
 .season-badge[data-tone="ok"] { color: #2f6b4f; background: #e2f0e6; }
-.season-badge[data-tone="soon"], .season-badge[data-tone="off"] { color: #84571a; background: #f6ead2; }
+.season-badge[data-tone="soon"], .season-badge[data-tone="off"], .season-badge[data-tone="notice"] { color: #84571a; background: #f6ead2; }
 .season-badge[data-tone="closed"] { color: #a2402b; background: #f7e1da; }
 body[data-theme="night"] .season-badge[data-tone="ok"] { color: #b8e6c8; background: #1f3b30; }
-body[data-theme="night"] .season-badge[data-tone="soon"], body[data-theme="night"] .season-badge[data-tone="off"] { color: #f1d69d; background: #3d3320; }
+body[data-theme="night"] .season-badge[data-tone="soon"], body[data-theme="night"] .season-badge[data-tone="off"], body[data-theme="night"] .season-badge[data-tone="notice"] { color: #f1d69d; background: #3d3320; }
 body[data-theme="night"] .season-badge[data-tone="closed"] { color: #f6b7a6; background: #452723; }
 .trail-season { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin: -2px 0 12px; color: var(--muted); font-size: 12px; }
 .trail-card .trail-season-note { padding: 10px 12px; border-radius: 6px; background: var(--soft-accent); color: var(--ink); }

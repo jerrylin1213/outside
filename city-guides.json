@@ -1031,6 +1031,14 @@
             25
           ],
           "note": "想降低爬升就改這條森林瀑布線，和 Poo Poo 二選一。"
+        },
+        {
+          "trail": "west-tiger-3",
+          "drive": [
+            10,
+            20
+          ],
+          "note": "I-90 出口 20 的 High Point 登山口，比 Poo Poo Point 更長、爬升更多，二選一；早上爬，回 Gilman 或 Front Street 吃午餐。"
         }
       ]
     },
@@ -1961,6 +1969,30 @@
             25
           ],
           "note": "想看瀑布與較低爬升的選項。"
+        },
+        {
+          "trail": "mount-si",
+          "drive": [
+            10,
+            20
+          ],
+          "note": "完整登山會占掉白天大半：清晨出發，下山只留 Twede’s 或咖啡收尾；與 Rattlesnake Ledge、Little Si 是不同強度，三選一。"
+        },
+        {
+          "trail": "snow-lake",
+          "drive": [
+            30,
+            45
+          ],
+          "note": "往 Snoqualmie Pass 再開半小時以上，只在 7–10 月無雪季排；週末早到搶車位，下山回鎮上吃派收尾。"
+        },
+        {
+          "trail": "franklin-falls",
+          "drive": [
+            30,
+            45
+          ],
+          "note": "短程瀑布線，可和鎮上咖啡、Twede’s 排同一天；冬季封路後是另一條約 7 英里雪地路線，不當成同一個行程。"
         }
       ]
     },
@@ -3056,6 +3088,14 @@
             55
           ],
           "note": "更往 Index／US-2 方向，短而陡，不把往返只抓一小時。"
+        },
+        {
+          "trail": "lake-serene",
+          "drive": [
+            35,
+            50
+          ],
+          "note": "沿 US-2 開到 Index 前，與 Wallace Falls、Heybrook 三選一；往返加休息約 5–7 小時，Monroe 鎮上只留早上咖啡或晚餐。"
         }
       ]
     },
@@ -3545,7 +3585,24 @@
         "rockfish"
       ],
       "musicNote": "Rockfish 有實際樂手活動表，按日期安排晚餐／音樂；沒演出時就是午餐餐廳。",
-      "hikes": []
+      "hikes": [
+        {
+          "trail": "goose-rock",
+          "drive": [
+            25,
+            40
+          ],
+          "note": "過 Deception Pass 大橋到島南側；和 Washington Park、Sugarloaf 三選一當下午的自然行程。"
+        },
+        {
+          "trail": "sugarloaf-anacortes",
+          "drive": [
+            10,
+            20
+          ],
+          "note": "鎮南 Heart Lake Road 登山口，短而陡，可取代下午開車上 Mt. Erie；走完還有時間回 Commercial Avenue。"
+        }
+      ]
     },
     "bellingham": {
       "intro": "Fairhaven、Woods 的海邊咖啡、Village Books 與 Colophon 足夠慢慢玩。再加 Whatcom Falls 或 SPARK，晚上才視興趣排 Mount Baker Theatre；爬山另外留半天。",
@@ -3727,6 +3784,14 @@
             35
           ],
           "note": "從 Fairhaven／市區到 Chuckanut 入口另抓車程；早上爬山就縮減其他館與小鎮時間。"
+        },
+        {
+          "trail": "oyster-dome",
+          "drive": [
+            40,
+            55
+          ],
+          "note": "登山口在 Chuckanut 山南端（I-5 Alger 出口後走碎石林道），比 Fragrance Lake 遠；早上爬、下午回 Fairhaven，兩條擇一。"
         }
       ]
     },
@@ -4323,7 +4388,16 @@
       "rainNote": "有室內咖啡、Seabolt’s 餐廳與有票的劇場，但大景仍在海岸。風雨差時不為完成景點數繼續走橋邊。",
       "musicPlaces": [],
       "musicNote": "Whidbey Playhouse 只有當季真的演音樂劇才算音樂體驗；一般日不保證。島上固定音樂選擇優先查 Langley。",
-      "hikes": []
+      "hikes": [
+        {
+          "trail": "goose-rock",
+          "drive": [
+            20,
+            30
+          ],
+          "note": "就是 north-island 計畫裡 Deception Pass 那一站的完整健行版，預留 2.5–3.5 小時；冬季園區 8:00 才開。"
+        }
+      ]
     },
     "bainbridge": {
       "intro": "Winslow 可以玩得很具體：Pegasus、Blackbird、Proper Fish、BIMA、水岸和 BPA。若想走森林或 Bloedel，另留交通，不再寫成下船後都能順手到。",
@@ -5485,6 +5559,14 @@
             50
           ],
           "note": "往 Lake Crescent 另一方向，與 Hurricane Hill 分成不同半天／不同日。"
+        },
+        {
+          "trail": "mount-storm-king",
+          "drive": [
+            35,
+            50
+          ],
+          "note": "和 Marymere Falls 同一個停車場；帶嬰兒的版本建議走 Marymere，Storm King 是另一個陡坡半天，不和 Hurricane Hill 排同日。"
         }
       ]
     },
@@ -5494,7 +5576,8 @@
         "town",
         "coffee",
         "walk",
-        "scenery"
+        "scenery",
+        "hike"
       ],
       "places": [
         {
@@ -5618,7 +5701,16 @@
       "rainNote": "只有鎮上咖啡與餐廳是可靠的室內短停留。Hama Hama 不能當全室內牡蠣餐廳，山路與湖邊大雨時要願意取消。",
       "musicPlaces": [],
       "musicNote": "白天以咖啡和自然為主，不把偶發酒莊活動當每週固定音樂。想聽音樂可查 Union 的實際活動或 Port Angeles Field Hall。",
-      "hikes": []
+      "hikes": [
+        {
+          "trail": "mount-ellinor",
+          "drive": [
+            40,
+            60
+          ],
+          "note": "SR 119 接林道上山，最後一段碎石坑洞多；攻頂是大半天到全天，與 Lake Cushman 湖邊行程二選一，下山後只留晚餐。"
+        }
+      ]
     },
     "union": {
       "intro": "這裡是水景、咖啡和音樂活動的慢度假，不是密集觀光。Union City Market 有指定營業日，Alderbrook 餐廳能訂位；想走自然則去真正公共的 Twanoh。",
@@ -11003,6 +11095,14 @@
             40
           ],
           "note": "高強度選項；原路下山不允許，纜車返程另計，不當預設初學路線。"
+        },
+        {
+          "trail": "quarry-rock",
+          "drive": [
+            20,
+            35
+          ],
+          "note": "可替換森林小村版的 Lynn Loop：Honey’s 早餐後直接從 Deep Cove 走，一個早上完成；週末車位難找，早到或搭 211／212 公車。"
         }
       ]
     },

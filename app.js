@@ -182,24 +182,28 @@ function monthsLabel(months) {
   return runs.map(([first, last]) => (first === last ? `${first} 月` : `${first}–${last} 月`)).join("、");
 }
 
-// A closure's end is the expected reopening day, so the trail is closed on [start, end).
-function activeClosure(trail, date) {
-  return trail.closures.find((closure) => parseISODate(closure.start) <= date && (closure.end === null || date < parseISODate(closure.end)));
+// A closure's end is the expected reopening day, so the trail is closed on [start, end). A null start means already in effect.
+function closureActive(closure, date) {
+  return (closure.start === null || parseISODate(closure.start) <= date) && (closure.end === null || date < parseISODate(closure.end));
 }
 
 function trailStatus(trail, date = state.planDate) {
-  const closure = activeClosure(trail, date);
-  if (closure) {
-    return { tone: "closed", label: closure.end ? `封閉中・預計 ${dateLabel(parseISODate(closure.end))}重開` : "封閉中・重開日未公告", detail: closure.note };
+  const active = trail.closures.filter((closure) => closureActive(closure, date));
+  const full = active.find((closure) => closure.scope === "full");
+  if (full) {
+    return { tone: "closed", label: full.end ? `封閉中・預計 ${dateLabel(parseISODate(full.end))}重開` : "封閉中・重開日未公告", detail: full.note };
   }
   const month = date.getMonth() + 1;
-  if (!trail.months.includes(month)) return { tone: "off", label: `${month} 月不在常規可走季節`, detail: trail.winter };
+  if (!trail.months.includes(month)) return { tone: "off", label: `${month} 月不在建議月份`, detail: trail.winter };
   const upcoming = trail.closures.find((item) => {
+    if (item.scope !== "full" || item.start === null) return false;
     const start = parseISODate(item.start);
     return start > date && (start - date) / DAY_MS <= 21;
   });
   if (upcoming) return { tone: "soon", label: `${dateLabel(parseISODate(upcoming.start))}起封閉`, detail: upcoming.note };
-  return { tone: "ok", label: `${month} 月在常規季節內`, detail: null };
+  const partial = active.filter((closure) => closure.scope === "partial");
+  if (partial.length) return { tone: "notice", label: "可走・有局部封閉公告", detail: partial.map((closure) => closure.note).join(" ") };
+  return { tone: "ok", label: `${month} 月在建議月份內`, detail: null };
 }
 
 function planDateControl() {
@@ -271,9 +275,10 @@ function validateTrailSeason(trail) {
   for (const [, url] of trail.status) sourceURL(url);
   if (!Array.isArray(trail.closures)) throw new Error(`${trail.id} 的封閉資料不符。`);
   for (const closure of trail.closures) {
-    const start = parseISODate(closure.start);
+    const start = closure.start === null ? null : parseISODate(closure.start);
     const end = closure.end === null ? null : parseISODate(closure.end);
-    if (!start || (closure.end !== null && (!end || end <= start)) || typeof closure.note !== "string" || !closure.note.trim()) throw new Error(`${trail.id} 的封閉日期不符。`);
+    if (!["full", "partial"].includes(closure.scope) || (closure.start !== null && !start) || (closure.end !== null && !end)
+      || (start && end && end <= start) || typeof closure.note !== "string" || !closure.note.trim()) throw new Error(`${trail.id} 的封閉資料不符。`);
     sourceURL(closure.source);
   }
 }
@@ -673,7 +678,7 @@ function trailCardHTML(hike) {
     ${transfer ? `<p class="trail-transfer">${escapeHTML(transfer)}</p>` : ""}
     ${trail.roadAccess ? `<p class="trail-road">${escapeHTML(trail.roadAccess)}</p>` : ""}
     <p class="trail-access">${escapeHTML(trail.access)}</p>
-    <p class="trail-pass">${escapeHTML(trail.pass)}・${originalUnits}</p>
+    <p class="trail-pass">${escapeHTML(trail.pass.replace(/。$/, ""))}・${originalUnits}</p>
     <div class="trail-actions"><a href="${mapsURL(query)}" target="_blank" rel="noopener noreferrer">${icon("map")}登山口 Google Maps</a><a href="${navigationURL(query)}" target="_blank" rel="noopener noreferrer">${icon("pin")}導航至入口</a><a href="${sourceURL(trail.source)}" target="_blank" rel="noopener noreferrer">${icon("external")}指定路線／近期資訊</a>${statusLinks.map(([label, url]) => `<a class="status-link" href="${sourceURL(url)}" target="_blank" rel="noopener noreferrer">${icon("info")}${escapeHTML(label)}</a>`).join("")}</div>
   </article>`;
 }

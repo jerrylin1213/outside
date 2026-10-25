@@ -1,28 +1,1668 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-10-24",
-  "method": "距離、累計爬升、登山口與停車證依所連結的指定路線，不混用別的入口。建議耗時是含休息的規劃區間，不是保證步速；不代表今日開放，出發前仍須查管理方與近期路況。",
+  "method": "距離、累計爬升、登山口與停車證依所連結的指定路線，不混用別的入口。建議耗時是含休息的規劃區間，不是保證步速。可走月份是一般人無雪、能開車到登山口的建議月份，冬季說明另列；封閉分「整條封閉」與「局部公告」，依出發日判斷，當天仍以官方即時頁為準。",
   "items": [
-    {"id":"weowna","name":"Weowna Park 森林環線","miles":3.5,"gainFt":600,"difficulty":"easy-moderate","climb":false,"duration":[120,210],"trailhead":[47.6035,-122.1123],"pass":"WTA：不需停車證；看現場標示。","note":"城市老森林與溪谷，有上下坡，不是平面公園。這裡採 WTA 的 3.5 mile 走法；可依園區地圖縮短，不把短逛與完整環線混算。","access":"雨後有泥與濕滑樹根，普通小輪推車不適合完整路線。","source":"https://www.wta.org/go-hiking/hikes/weona-park-bellevue"},
-    {"id":"coal-creek","name":"Coal Creek Falls（Red Town 入口）","miles":2.5,"gainFt":416,"difficulty":"easy-moderate","climb":false,"duration":[90,150],"trailhead":[47.5348,-122.1288],"pass":"WTA：不需停車證。","note":"森林與瀑布的低負擔路線，適合想走自然步道、不想攻大山的一天。採 Red Town 入口，和其他 Cougar Mountain 長線不同。","access":"瀑布水量隨季節變；雨後泥濘，礦區請走正式步道。","source":"https://www.wta.org/go-hiking/hikes/coal-creek-falls"},
-    {"id":"poo-poo","name":"Poo Poo Point（Chirico Trail）","miles":3.8,"gainFt":1760,"difficulty":"moderate","climb":true,"duration":[150,240],"trailhead":[47.5,-122.0219],"pass":"WTA：此 Chirico 入口不需 Discover Pass。","note":"距離短但爬升實在，石階很多；晴天有 Rainier 與 Issaquah 景色，可看飛行傘，但不能走進起飛區。","access":"不是推車路線；陰雨時山景可能完全被遮，冬季需另看冰雪。","source":"https://www.wta.org/go-hiking/hikes/poo-poo-point-chirico-trail"},
-    {"id":"rattlesnake","name":"Rattlesnake Ledge（第一觀景台）","miles":4,"gainFt":1160,"difficulty":"moderate","climb":true,"duration":[150,240],"trailhead":[47.4347,-121.7687],"pass":"WTA：登山口不需停車證；依現場標示。","note":"森林上坡後看湖與山，這是登 Ledge 的路線，不是湖邊短散步。第一次不需要再接 Upper Ledge。","access":"觀景岩壁有落差，勿靠邊；冬季可能結冰，熱門週末早到。","source":"https://www.wta.org/go-hiking/hikes/rattlesnake-ledge"},
-    {"id":"little-si","name":"Little Si 標準登頂線","miles":3.7,"gainFt":1300,"difficulty":"moderate","climb":true,"duration":[150,240],"trailhead":[47.4867,-121.7535],"pass":"Discover Pass。","note":"起點與終點較陡，途中有森林緩段，頂部看 North Bend 山谷。是完整小山健行，不是平面步道。","access":"有石頭、樹根與岩面，不推車；雨雪後需重新評估止滑與折返。","source":"https://www.wta.org/go-hiking/hikes/little-si"},
-    {"id":"twin-falls","name":"Twin Falls（Olallie 標準入口）","miles":2.4,"gainFt":500,"difficulty":"easy-moderate","climb":false,"duration":[90,150],"trailhead":[47.4526,-121.7054],"pass":"Discover Pass。","note":"沿河、森林與瀑布，有坡與階梯，適合想看瀑布又不排長登山的一天。觀景台若管制，不繞封鎖。","access":"先查 Olallie State Park 警示與觀景台開放；不是完全無障礙路線。","source":"https://www.wta.org/go-hiking/hikes/twin-falls-state-park"},
-    {"id":"wallace","name":"Wallace Falls（Woody Trail 至上瀑布）","miles":5.6,"gainFt":1300,"difficulty":"moderate","climb":true,"duration":[180,300],"trailhead":[47.8669,-121.678],"pass":"Discover Pass。","note":"長一點的森林瀑布日，採 WTA 完整上瀑布路線。只走到中瀑布可以提早折返，但距離與耗時會不同。","access":"從 Monroe 還需開到 Gold Bar；不是到 Monroe 就到登山口，雨後小徑濕滑。","source":"https://www.wta.org/go-hiking/hikes/wallace-falls"},
-    {"id":"heybrook","name":"Heybrook Lookout（US-2 登山口）","miles":2,"gainFt":980,"difficulty":"easy-moderate","climb":true,"duration":[90,180],"trailhead":[47.8084,-121.5352],"pass":"WTA：不需停車證。","note":"短而陡的森林上坡與瞭望塔景觀；WTA 此路線列 2.0 miles、980 ft，不能混用其他攻略的里程。","access":"塔上是階梯，不推車；低雲會遮山景，登山口與 US-2 車流要留意。","source":"https://www.wta.org/go-hiking/hikes/heybrook-lookout"},
-    {"id":"discovery","name":"Discovery Park Loop（不含燈塔延伸）","miles":2.8,"gainFt":140,"difficulty":"easy","climb":false,"duration":[75,120],"trailhead":[47.6576,-122.4065],"pass":"WTA：不需停車證。","note":"森林、草地與海景的城市步道。此數字只算 Loop；加下海灘、燈塔與爬回來會更遠且更累。","access":"部分泥地與小徑不適合小輪推車；燈塔不是開車隨便停門口的景點。","source":"https://www.wta.org/go-hiking/hikes/discovery-park-loop-trail"},
-    {"id":"ebeys","name":"Ebey’s Landing（Prairie Overlook 長線）","miles":5.6,"gainFt":260,"difficulty":"easy-moderate","climb":false,"duration":[180,270],"trailhead":[48.2049,-122.706],"pass":"WTA：Discover Pass；不同入口依現場規定。","note":"採 Sunnyside Cemetery 附近 Prairie Overlook 起走的較長路線，包含田野、海崖與海岸，不混用海邊停車場的短環線。","access":"海崖風大、海灘受潮汐影響，查天候與潮汐；不是全段鋪面或推車路線。","source":"https://www.wta.org/go-hiking/hikes/ebeys-landing"},
-    {"id":"fragrance","name":"Fragrance Lake（Chuckanut 入口）","miles":4,"gainFt":1260,"difficulty":"moderate","climb":true,"duration":[150,240],"trailhead":[48.6534,-122.4902],"pass":"Discover Pass。","note":"比市區水岸更有爬山感的森林湖泊線，適合 Bellingham 過夜旅行的一個早上，不和長市區行程硬塞同半天。","access":"登山口不在 Fairhaven 市中心；雨後泥濘，冬天高處仍可能有雪。","source":"https://www.wta.org/go-hiking/hikes/fragrance-lake"},
-    {"id":"icicle-gorge","name":"Icicle Gorge Nature Loop","miles":4.2,"gainFt":150,"difficulty":"easy-moderate","climb":false,"duration":[120,180],"trailhead":[47.6086,-120.8945],"pass":"America the Beautiful Pass 或 Northwest Forest Pass（WTA）。","note":"河谷、吊橋與森林的長散步，爬升低；喜歡風景但不想攻頂時，比硬爬高山更合適。","access":"從 Leavenworth 還需往 Icicle Creek 深處開車，山路與停車季節性受雪影響。","source":"https://www.wta.org/go-hiking/hikes/icicle-gorge-loop"},
-    {"id":"saddle-rock","name":"Saddle Rock 標準觀景線","miles":3.1,"gainFt":920,"difficulty":"moderate","climb":true,"duration":[120,180],"trailhead":[47.3965,-120.3307],"pass":"WTA：不需停車證。","note":"看 Wenatchee 河谷與岩峰的近城爬坡，景觀和海岸城市很不同。依復育標示走正式線，不能照舊捷徑抄路。","access":"開闊曝曬，盛夏熱、野火煙霧會影響體驗；泥濘季留意復育封閉。","source":"https://www.wta.org/go-hiking/hikes/saddle-rock"},
-    {"id":"icicle-ridge","name":"Icicle Ridge（Icicle Road 短入口）","miles":6,"gainFt":1800,"difficulty":"moderate-hard","climb":true,"duration":[240,360],"trailhead":[47.569,-120.6812],"pass":"WTA：不需停車證。","note":"看 Leavenworth 河谷與山勢的完整爬山日。特別指定 WTA 的 icicle-ridge-1，不是 Fourth of July Creek 的 12 mile／4,370 ft 高強度路線。","access":"開闊坡面熱、雪季需另看條件；不在同半天再排另一條完整健行。","source":"https://www.wta.org/go-hiking/hikes/icicle-ridge-1"},
-    {"id":"hurricane-hill","name":"Hurricane Hill（夏季標準路線）","miles":3.2,"gainFt":650,"difficulty":"easy-moderate","climb":true,"duration":[120,210],"trailhead":[47.9766,-123.5178],"pass":"Olympic 入園／可用通行證，依 NPS 當季規則。","note":"高山草坡與開闊景觀，數字採道路開到指定登山口後的標準線；停車點改變或道路關閉會增加距離。","access":"從 Port Angeles 還要進山；冬季雪地不是這條無雪步行線，先查 Hurricane Ridge Road。","source":"https://www.wta.org/go-hiking/hikes/hurricane-hill"},
-    {"id":"marymere","name":"Marymere Falls（Storm King 入口）","miles":1.8,"gainFt":500,"difficulty":"easy-moderate","climb":false,"duration":[75,120],"trailhead":[48.0581,-123.7889],"pass":"Olympic 入園／可用通行證，依 NPS 當季規則。","note":"老森林、溪流與瀑布，最後觀景段有階梯；不是全程推車路線，也不等於 Mount Storm King 的陡登頂線。","access":"從 Port Angeles 到 Lake Crescent 另開車；雨後階梯濕滑，冬季可能有冰。","source":"https://www.wta.org/go-hiking/hikes/marymere-falls"},
-    {"id":"naches","name":"Naches Peak Loop（Tipsoo Lake）","miles":3.2,"gainFt":600,"difficulty":"easy-moderate","climb":true,"duration":[120,210],"trailhead":[46.8674,-121.5176],"pass":"依實際停車區查 NPS／Forest Pass 規則。","note":"環線看 Rainier、湖泊與高山草甸，採 WTA 3.2 mile 路線。以無雪季為前提，不是冬季照原路可走的市區步道。","access":"Chinook／Cayuse 與 SR-410 有季節封路；從 Enumclaw 或 Packwood 還需另開山路。","source":"https://www.wta.org/go-hiking/hikes/naches-peak-loop"},
-    {"id":"nisqually","name":"Nisqually Vista（Paradise 無雪季環線）","miles":1.2,"gainFt":200,"difficulty":"easy","climb":false,"duration":[60,100],"query":"Nisqually Vista Trailhead Paradise Lower Parking, Mount Rainier National Park WA","pass":"Mount Rainier 入園／可用通行證，依 NPS。","note":"採 NPS 1.2 mile／200 ft 資料，路面鋪設但入口有階梯。看冰河山谷、花與秋色，不和 WTA 另列的 1.1 mile 數字混算。","access":"冬季積雪，雖有雪鞋路線，但不是同一套裝備和走法；Paradise Road 當日可否上去先查 NPS。","source":"https://www.nps.gov/thingstodo/hike-nisqually-vista-trail.htm"},
-    {"id":"skyline","name":"Skyline Trail Loop（Paradise）","miles":5.5,"gainFt":1450,"difficulty":"moderate","climb":true,"duration":[240,360],"trailhead":[46.786,-121.735],"pass":"Mount Rainier 入園／可用通行證，依 NPS。","note":"完整高山草甸、山景與瀑布環線，採 WTA 5.5 miles／1,450 ft；不是在 Paradise 停車拍照 30 分鐘的玩法。","access":"以無雪季和開放路線為前提；天候、積雪、雪崩與日照時間可能使標準線不適合一般遊客，勿越過封閉。","source":"https://www.wta.org/go-hiking/hikes/skyline-trail-loop"},
-    {"id":"lynn-loop","name":"Lynn Loop（Lynn Headwaters）","km":5.1,"gainM":160,"difficulty":"easy","climb":false,"duration":[90,150],"query":"Lynn Headwaters Regional Park Trailhead, North Vancouver BC","pass":"停車與開門時間看 Metro Vancouver 當季公告。","note":"森林上坡後沿 Lynn Creek 回來；數字採在地路線專站 Vancouver Trails（次級路線來源），不是只走溪邊服務道路。","access":"不是 Lynn Canyon 吊橋那一站；雨後泥地、冬季高處與公園道路開門情況要另查。","source":"https://www.vancouvertrails.com/trails/lynn-loop/"},
-    {"id":"grouse","name":"Grouse Grind（單向上山）","km":2.5,"gainM":800,"difficulty":"hard","climb":true,"oneWay":true,"duration":[150,240],"query":"Grouse Grind Trailhead, North Vancouver BC","pass":"上山步道與下山纜車為不同票務；下山需另安排並購票。","note":"採 Metro Vancouver 現行約 2.5 km／800 m 資料。全程陡上，不是普通散步；原路下山不開放，返程交通與排隊另留時間。","access":"有季節維護與天候封閉，山上可能比山下冷很多；不把這條列成初次輕鬆健行或雨天備案。","source":"https://metrovancouver.org/services/regional-parks/grouse-grind"}
+    {
+      "id": "weowna",
+      "name": "Weowna Park 森林環線",
+      "miles": 3.5,
+      "gainFt": 600,
+      "difficulty": "easy-moderate",
+      "climb": false,
+      "duration": [
+        120,
+        210
+      ],
+      "trailhead": [
+        47.6035,
+        -122.1123
+      ],
+      "pass": "WTA：不需停車證；看現場標示。",
+      "note": "城市老森林與溪谷，有上下坡，不是平面公園。這裡採 WTA 的 3.5 mile 走法；可依園區地圖縮短，不把短逛與完整環線混算。",
+      "access": "雨後有泥與濕滑樹根，普通小輪推車不適合完整路線。",
+      "source": "https://www.wta.org/go-hiking/hikes/weona-park-bellevue",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "低地城市林地全年可走；雨季步道泥濘、樹根與木階濕滑，偶有降雪結冰時要止滑。",
+      "roadAccess": null,
+      "status": [
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/weona-park-bellevue"
+        ],
+        [
+          "Bellevue Parks：Weowna Park",
+          "https://bellevuewa.gov/city-government/departments/parks/parks-and-trails/parks/weowna-park"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/weona-park-bellevue",
+        "https://bellevuewa.gov/city-government/departments/parks/parks-and-trails/parks/weowna-park"
+      ]
+    },
+    {
+      "id": "coal-creek",
+      "name": "Coal Creek Falls（Red Town 入口）",
+      "miles": 2.5,
+      "gainFt": 416,
+      "difficulty": "easy-moderate",
+      "climb": false,
+      "duration": [
+        90,
+        150
+      ],
+      "trailhead": [
+        47.5348,
+        -122.1288
+      ],
+      "pass": "WTA：不需停車證。",
+      "note": "森林與瀑布的低負擔路線，適合想走自然步道、不想攻大山的一天。採 Red Town 入口，和其他 Cougar Mountain 長線不同。",
+      "access": "瀑布水量隨季節變；雨後泥濘，礦區請走正式步道。",
+      "source": "https://www.wta.org/go-hiking/hikes/coal-creek-falls",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "約 1,000 ft 的低地森林全年可走；瀑布在多雨的冬春水量最大、夏秋常乾（10/23 trip report 已無水），雨後泥濘，偶有雪冰。",
+      "roadAccess": "King County 公告 Cougar Mountain 每日日出至日落開放，冬季天黑早要提早下山。",
+      "status": [
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/coal-creek-falls"
+        ],
+        [
+          "King County Parks：Cougar Mountain",
+          "https://kingcounty.gov/en/dept/dnrp/nature-recreation/parks-recreation/king-county-parks/parks/cougar-mountain"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/coal-creek-falls",
+        "https://www.wta.org/go-hiking/hikes/coal-creek-falls/@@related_tripreport_listing",
+        "https://kingcounty.gov/en/dept/dnrp/nature-recreation/parks-recreation/king-county-parks/parks/cougar-mountain"
+      ]
+    },
+    {
+      "id": "poo-poo",
+      "name": "Poo Poo Point（Chirico Trail）",
+      "miles": 3.8,
+      "gainFt": 1760,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        150,
+        240
+      ],
+      "trailhead": [
+        47.5,
+        -122.0219
+      ],
+      "pass": "WTA：此 Chirico 入口不需 Discover Pass。",
+      "note": "距離短但爬升實在，石階很多；晴天有 Rainier 與 Issaquah 景色，可看飛行傘，但不能走進起飛區。",
+      "access": "不是推車路線；陰雨時山景可能完全被遮，冬季需另看冰雪。",
+      "source": "https://www.wta.org/go-hiking/hikes/poo-poo-point-chirico-trail",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "低山全年常有人走（WTA 頁列 Winter Walks & Hikes 指南）；冬季石階濕滑、雲霧常遮景，雪後上段可能結冰要鞋釘。",
+      "roadAccess": null,
+      "status": [
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/poo-poo-point-chirico-trail"
+        ],
+        [
+          "DNR：Tiger Mountain 州有林公告",
+          "https://dnr.wa.gov/forest-and-trust-lands/tiger-mountain-and-raging-river-state-forests"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/poo-poo-point-chirico-trail",
+        "https://dnr.wa.gov/forest-and-trust-lands/tiger-mountain-and-raging-river-state-forests",
+        "https://dnr.wa.gov/natural-areas/natural-resources-conservation-areas/west-tiger-mountain-natural-resources-conservation-area"
+      ]
+    },
+    {
+      "id": "rattlesnake",
+      "name": "Rattlesnake Ledge（第一觀景台）",
+      "miles": 4,
+      "gainFt": 1160,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        150,
+        240
+      ],
+      "trailhead": [
+        47.4347,
+        -121.7687
+      ],
+      "pass": "WTA：登山口不需停車證；依現場標示。",
+      "note": "森林上坡後看湖與山，這是登 Ledge 的路線，不是湖邊短散步。第一次不需要再接 Upper Ledge。",
+      "access": "觀景岩壁有落差，勿靠邊；冬季可能結冰，熱門週末早到。",
+      "source": "https://www.wta.org/go-hiking/hikes/rattlesnake-ledge",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "winter": "SPU 提醒冬季狀況可能持續到 4 月；北向林道與 Ledge 岩台結冰時有滑落與墜落風險，雪冰天要鞋釘或改期。",
+      "roadAccess": "Rattlesnake Lake 由 SPU 管理，全年日出至日落開放、停車免費，但週末車位有限。",
+      "status": [
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/rattlesnake-ledge"
+        ],
+        [
+          "SPU：Rattlesnake Lake 開放規則與步道",
+          "https://www.seattle.gov/utilities/protecting-our-environment/our-water-sources/cedar-river-watershed/recreation-areas-and-trails"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.seattle.gov/utilities/protecting-our-environment/our-water-sources/cedar-river-watershed/recreation-areas-and-trails",
+        "https://www.wta.org/go-hiking/hikes/rattlesnake-ledge",
+        "https://www.wta.org/go-hiking/hikes/rattlesnake-ledge/@@related_tripreport_listing"
+      ]
+    },
+    {
+      "id": "little-si",
+      "name": "Little Si 標準登頂線",
+      "miles": 3.7,
+      "gainFt": 1300,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        150,
+        240
+      ],
+      "trailhead": [
+        47.4867,
+        -121.7535
+      ],
+      "pass": "Discover Pass。",
+      "note": "起點與終點較陡，途中有森林緩段，頂部看 North Bend 山谷。是完整小山健行，不是平面步道。",
+      "access": "有石頭、樹根與岩面，不推車；雨雪後需重新評估止滑與折返。",
+      "source": "https://www.wta.org/go-hiking/hikes/little-si",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "全年可走；冬季雨後岩面與樹根濕滑，偶有雪冰，頂部岩面結冰時不建議揹嬰兒上去。",
+      "roadAccess": null,
+      "status": [
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/little-si"
+        ],
+        [
+          "DNR：Mount Si NRCA 公告",
+          "https://dnr.wa.gov/natural-areas/natural-resources-conservation-areas/mount-si-natural-resources-conservation-area"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/little-si",
+        "https://www.wta.org/go-hiking/hikes/little-si/@@related_tripreport_listing",
+        "https://dnr.wa.gov/natural-areas/natural-resources-conservation-areas/mount-si-natural-resources-conservation-area"
+      ]
+    },
+    {
+      "id": "twin-falls",
+      "name": "Twin Falls（Olallie 標準入口）",
+      "miles": 2.4,
+      "gainFt": 500,
+      "difficulty": "easy-moderate",
+      "climb": false,
+      "duration": [
+        90,
+        150
+      ],
+      "trailhead": [
+        47.4526,
+        -121.7054
+      ],
+      "pass": "Discover Pass。",
+      "note": "沿河、森林與瀑布，有坡與階梯，適合想看瀑布又不排長登山的一天。觀景台若管制，不繞封鎖。",
+      "access": "先查 Olallie State Park 警示與觀景台開放；不是完全無障礙路線。",
+      "source": "https://www.wta.org/go-hiking/hikes/twin-falls-state-park",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "低海拔全年可走，冬春瀑布水量最大；雨季泥濘、階梯濕滑，偶有雪冰。",
+      "roadAccess": "Olallie State Park 全年 6:30 至黃昏開放，停車需 Discover Pass。",
+      "status": [
+        [
+          "WA State Parks：Olallie 公告",
+          "https://parks.wa.gov/find-parks/state-parks/olallie-state-park"
+        ],
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/twin-falls-state-park"
+        ]
+      ],
+      "closures": [
+        {
+          "start": "2026-03-16",
+          "end": null,
+          "scope": "partial",
+          "note": "Twin Falls 步道的 Lower Falls 觀景台因暴風受損關閉（州立公園 3/16 公告，9–10 月 trip report 仍關閉）；其他觀景點與大橋照常開放。",
+          "source": "https://parks.wa.gov/find-parks/state-parks/olallie-state-park"
+        }
+      ],
+      "seasonSources": [
+        "https://parks.wa.gov/find-parks/state-parks/olallie-state-park",
+        "https://parks.wa.gov/find-activities/winter-schedule",
+        "https://www.wta.org/go-hiking/hikes/twin-falls-state-park",
+        "https://www.wta.org/go-hiking/hikes/twin-falls-state-park/@@related_tripreport_listing"
+      ]
+    },
+    {
+      "id": "wallace",
+      "name": "Wallace Falls（Woody Trail 至上瀑布）",
+      "miles": 5.6,
+      "gainFt": 1300,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        180,
+        300
+      ],
+      "trailhead": [
+        47.8669,
+        -121.678
+      ],
+      "pass": "Discover Pass。",
+      "note": "長一點的森林瀑布日，採 WTA 完整上瀑布路線。只走到中瀑布可以提早折返，但距離與耗時會不同。",
+      "access": "從 Monroe 還需開到 Gold Bar；不是到 Monroe 就到登山口，雨後小徑濕滑。",
+      "source": "https://www.wta.org/go-hiking/hikes/wallace-falls",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "低海拔全年開放，冬春瀑布水量大；中瀑布到上瀑布的之字坡雨雪後濕滑，偶有結冰。",
+      "roadAccess": "州立公園全年 8:00 至黃昏開放，週末停車場常在 11 點前滿，勿停通往公園的窄縣道路肩。",
+      "status": [
+        [
+          "WA State Parks：Wallace Falls 公告與停車",
+          "https://parks.wa.gov/find-parks/state-parks/wallace-falls-state-park"
+        ],
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/wallace-falls"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://parks.wa.gov/find-parks/state-parks/wallace-falls-state-park",
+        "https://parks.wa.gov/find-activities/winter-schedule",
+        "https://www.wta.org/go-hiking/hikes/wallace-falls"
+      ]
+    },
+    {
+      "id": "heybrook",
+      "name": "Heybrook Lookout（US-2 登山口）",
+      "miles": 2,
+      "gainFt": 980,
+      "difficulty": "easy-moderate",
+      "climb": true,
+      "duration": [
+        90,
+        180
+      ],
+      "trailhead": [
+        47.8084,
+        -121.5352
+      ],
+      "pass": "WTA：不需停車證。",
+      "note": "短而陡的森林上坡與瞭望塔景觀；WTA 此路線列 2.0 miles、980 ft，不能混用其他攻略的里程。",
+      "access": "塔上是階梯，不推車；低雲會遮山景，登山口與 US-2 車流要留意。",
+      "source": "https://www.wta.org/go-hiking/hikes/heybrook-lookout",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "winter": "冬季可能積雪結冰（USFS 稱它是此區最早融雪的步道之一），雪後林道與瞭望塔 89 階樓梯濕滑，要鞋釘或在塔下折返。",
+      "roadAccess": null,
+      "status": [
+        [
+          "USFS Mt. Baker-Snoqualmie 公告",
+          "https://www.fs.usda.gov/r06/mbs/alerts"
+        ],
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/heybrook-lookout"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/mbs/recreation/trails/heybrook-lookout-trail-1070",
+        "https://www.fs.usda.gov/r06/mbs/recreation/heybrook-lookout",
+        "https://www.fs.usda.gov/r06/mbs/alerts",
+        "https://www.wta.org/go-hiking/hikes/heybrook-lookout"
+      ]
+    },
+    {
+      "id": "discovery",
+      "name": "Discovery Park Loop（不含燈塔延伸）",
+      "miles": 2.8,
+      "gainFt": 140,
+      "difficulty": "easy",
+      "climb": false,
+      "duration": [
+        75,
+        120
+      ],
+      "trailhead": [
+        47.6576,
+        -122.4065
+      ],
+      "pass": "WTA：不需停車證。",
+      "note": "森林、草地與海景的城市步道。此數字只算 Loop；加下海灘、燈塔與爬回來會更遠且更累。",
+      "access": "部分泥地與小徑不適合小輪推車；燈塔不是開車隨便停門口的景點。",
+      "source": "https://www.wta.org/go-hiking/hikes/discovery-park-loop-trail",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "城市海岸公園全年可走；冬季風雨大、泥地濕滑、天黑早，海崖邊勿靠近。",
+      "roadAccess": "公園 4:30–23:00 開放；遊客中心關閉至 2027 年夏，旁邊的 East Lot 照常停車；下海灘只限 ADA 停車，免費海灘接駁車只開到 11/1（週四–日）。",
+      "status": [
+        [
+          "Seattle Parks：Discovery Park",
+          "https://www.seattle.gov/parks/parks/discovery-park"
+        ],
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/discovery-park-loop-trail"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.seattle.gov/parks/parks/discovery-park",
+        "https://www.wta.org/go-hiking/hikes/discovery-park-loop-trail"
+      ]
+    },
+    {
+      "id": "ebeys",
+      "name": "Ebey’s Landing（Prairie Overlook 長線）",
+      "miles": 5.6,
+      "gainFt": 260,
+      "difficulty": "easy-moderate",
+      "climb": false,
+      "duration": [
+        180,
+        270
+      ],
+      "trailhead": [
+        48.2049,
+        -122.706
+      ],
+      "pass": "WTA：Discover Pass；不同入口依現場規定。",
+      "note": "採 Sunnyside Cemetery 附近 Prairie Overlook 起走的較長路線，包含田野、海崖與海岸，不混用海邊停車場的短環線。",
+      "access": "海崖風大、海灘受潮汐影響，查天候與潮汐；不是全段鋪面或推車路線。",
+      "source": "https://www.wta.org/go-hiking/hikes/ebeys-landing",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "全年可走；冬季海崖強風、暴雨，崖邊土質鬆，風大或滿潮時不要走海灘段。",
+      "roadAccess": null,
+      "status": [
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/ebeys-landing"
+        ],
+        [
+          "NPS Ebey's Landing 公告",
+          "https://www.nps.gov/ebla/planyourvisit/conditions.htm"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/ebeys-landing",
+        "https://www.wta.org/go-hiking/hikes/ebeys-landing/@@related_tripreport_listing",
+        "https://www.nps.gov/ebla/planyourvisit/conditions.htm"
+      ]
+    },
+    {
+      "id": "fragrance",
+      "name": "Fragrance Lake（Chuckanut 入口）",
+      "miles": 4,
+      "gainFt": 1260,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        150,
+        240
+      ],
+      "trailhead": [
+        48.6534,
+        -122.4902
+      ],
+      "pass": "Discover Pass。",
+      "note": "比市區水岸更有爬山感的森林湖泊線，適合 Bellingham 過夜旅行的一個早上，不和長市區行程硬塞同半天。",
+      "access": "登山口不在 Fairhaven 市中心；雨後泥濘，冬天高處仍可能有雪。",
+      "source": "https://www.wta.org/go-hiking/hikes/fragrance-lake",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "WTA 稱全年可走；冬季雨多泥濘，湖邊與高處偶有雪冰。",
+      "roadAccess": "Larrabee 換水管工程期間（2026/9/15–2027/6/15）主日間區停車場與室內廁所關閉，Chuckanut Drive 旁登山口小停車場常滿，可改停 Lost Lake 停車場（路線變長）；州立公園冬季 8:00、夏季 6:30 開到黃昏。",
+      "status": [
+        [
+          "WA State Parks：Larrabee 公告",
+          "https://parks.wa.gov/find-parks/state-parks/larrabee-state-park"
+        ],
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/fragrance-lake"
+        ]
+      ],
+      "closures": [
+        {
+          "start": "2026-09-15",
+          "end": "2027-06-15",
+          "scope": "partial",
+          "note": "Larrabee 州立公園換水管工程：露營區、主日間區、廚房棚與室內廁所關閉；Chuckanut Drive、Lost Lake 停車場與步道開放。",
+          "source": "https://parks.wa.gov/find-parks/state-parks/larrabee-state-park"
+        }
+      ],
+      "seasonSources": [
+        "https://parks.wa.gov/find-parks/state-parks/larrabee-state-park",
+        "https://parks.wa.gov/larrabee-water-system-overhaul",
+        "https://parks.wa.gov/find-activities/winter-schedule",
+        "https://www.wta.org/go-hiking/hikes/fragrance-lake",
+        "https://www.wta.org/go-hiking/hikes/fragrance-lake/@@related_tripreport_listing"
+      ]
+    },
+    {
+      "id": "icicle-gorge",
+      "name": "Icicle Gorge Nature Loop",
+      "miles": 4.2,
+      "gainFt": 150,
+      "difficulty": "easy-moderate",
+      "climb": false,
+      "duration": [
+        120,
+        180
+      ],
+      "trailhead": [
+        47.6086,
+        -120.8945
+      ],
+      "pass": "America the Beautiful Pass 或 Northwest Forest Pass（WTA）。",
+      "note": "河谷、吊橋與森林的長散步，爬升低；喜歡風景但不想攻頂時，比硬爬高山更合適。",
+      "access": "從 Leavenworth 還需往 Icicle Creek 深處開車，山路與停車季節性受雪影響。",
+      "source": "https://www.wta.org/go-hiking/hikes/icicle-gorge-loop",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "冬季 Icicle Road 深處不剷雪，登山口開車到不了；積雪期只能從剷雪終點改走雪鞋或越野滑雪，不是同一條步行路線。",
+      "roadAccess": "登山口在 Icicle Road（FR 7600）約 15 英里處，冬季剷雪約只到 9–10 英里；2026 年 USFS 註明 Eightmile 一帶起有多處坍方與沖刷，夏秋 trip report 說路面坑洞多但一般轎車可通行。",
+      "status": [
+        [
+          "USFS Okanogan-Wenatchee 路況（含 Icicle Road）",
+          "https://www.fs.usda.gov/r06/okanogan-wenatchee/conditions"
+        ],
+        [
+          "USFS：Icicle Gorge Trailhead",
+          "https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/icicle-gorge-trailhead"
+        ],
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/icicle-gorge-loop"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/icicle-gorge-trailhead",
+        "https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/trails/icicle-gorge-loop-trail",
+        "https://www.fs.usda.gov/r06/okanogan-wenatchee/conditions",
+        "https://www.mountaineers.org/activities/routes-places/icicle-creek-road",
+        "https://www.wta.org/go-hiking/hikes/icicle-gorge-loop/@@related_tripreport_listing"
+      ]
+    },
+    {
+      "id": "saddle-rock",
+      "name": "Saddle Rock 標準觀景線",
+      "miles": 3.1,
+      "gainFt": 920,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        120,
+        180
+      ],
+      "trailhead": [
+        47.3965,
+        -120.3307
+      ],
+      "pass": "WTA：不需停車證。",
+      "note": "看 Wenatchee 河谷與岩峰的近城爬坡，景觀和海岸城市很不同。依復育標示走正式線，不能照舊捷徑抄路。",
+      "access": "開闊曝曬，盛夏熱、野火煙霧會影響體驗；泥濘季留意復育封閉。",
+      "source": "https://www.wta.org/go-hiking/hikes/saddle-rock",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "冬季常有人來練腳力，也不在 CDLT 對 5th Street 以北步道的 12/1–4/1 野生動物封閉範圍；但雪後與融雪期陡坡濕滑泥濘需止滑，盛夏炎熱無遮蔭。",
+      "roadAccess": null,
+      "status": [
+        [
+          "CDLT 步道狀態（Saddle Rock）",
+          "https://www.cdlandtrust.org/trails-access/trail-conditions"
+        ],
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/saddle-rock"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/saddle-rock",
+        "https://www.cdlandtrust.org/trails-access/trail-conditions",
+        "https://www.cdlandtrust.org/saddle-rock"
+      ]
+    },
+    {
+      "id": "icicle-ridge",
+      "name": "Icicle Ridge（Icicle Road 短入口）",
+      "miles": 6,
+      "gainFt": 1800,
+      "difficulty": "moderate-hard",
+      "climb": true,
+      "duration": [
+        240,
+        360
+      ],
+      "trailhead": [
+        47.569,
+        -120.6812
+      ],
+      "pass": "WTA：不需停車證。",
+      "note": "看 Leavenworth 河谷與山勢的完整爬山日。特別指定 WTA 的 icicle-ridge-1，不是 Fourth of July Creek 的 12 mile／4,370 ft 高強度路線。",
+      "access": "開闊坡面熱、雪季需另看條件；不在同半天再排另一條完整健行。",
+      "source": "https://www.wta.org/go-hiking/hikes/icicle-ridge-1",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "WTA 說最早 4 月就可能無雪；冬季到早春坡面常積雪結冰，開闊陡坡不適合一般步行，夏季則炎熱無遮蔭。",
+      "roadAccess": null,
+      "status": [
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/icicle-ridge-1"
+        ],
+        [
+          "USFS Okanogan-Wenatchee 公告",
+          "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/icicle-ridge-1",
+        "https://www.wta.org/go-hiking/hikes/icicle-ridge-1/@@related_tripreport_listing",
+        "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts"
+      ]
+    },
+    {
+      "id": "hurricane-hill",
+      "name": "Hurricane Hill（夏季標準路線）",
+      "miles": 3.2,
+      "gainFt": 650,
+      "difficulty": "easy-moderate",
+      "climb": true,
+      "duration": [
+        120,
+        210
+      ],
+      "trailhead": [
+        47.9766,
+        -123.5178
+      ],
+      "pass": "Olympic 入園／可用通行證，依 NPS 當季規則。",
+      "note": "高山草坡與開闊景觀，數字採道路開到指定登山口後的標準線；停車點改變或道路關閉會增加距離。",
+      "access": "從 Port Angeles 還要進山；冬季雪地不是這條無雪步行線，先查 Hurricane Ridge Road。",
+      "source": "https://www.wta.org/go-hiking/hikes/hurricane-hill",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "Hurricane Ridge 冬季（約 11 月下旬–3 月）積雪，Hurricane Hill 成為要雪鞋與雪崩判斷的雪地路線，不是這條無雪步行線。",
+      "roadAccess": "冬季 Hurricane Ridge Road 通常只在週五–日與部分假日開放上山（9:00–16:00，17:00 前須回到 Heart O' the Hills 以下），11/1–4/1 全車須帶雪鏈；登山口所在的 Hurricane Hill Road 只在無雪季開（2026 年 7/3 才開），2026 年山上停車場施工、無飲用水，2026–27 冬季時刻表 NPS 尚未公布。",
+      "status": [
+        [
+          "NPS Olympic 道路狀態",
+          "https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm"
+        ],
+        [
+          "NPS Olympic 公告與現況",
+          "https://www.nps.gov/olym/planyourvisit/conditions.htm"
+        ],
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/hurricane-hill"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.nps.gov/olym/planyourvisit/hurricane-ridge-in-winter.htm",
+        "https://www.nps.gov/olym/planyourvisit/visiting-hurricane-ridge.htm",
+        "https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm",
+        "https://www.nps.gov/olym/planyourvisit/conditions.htm",
+        "https://www.wta.org/go-hiking/hikes/hurricane-hill/@@related_tripreport_listing"
+      ]
+    },
+    {
+      "id": "marymere",
+      "name": "Marymere Falls（Storm King 入口）",
+      "miles": 1.8,
+      "gainFt": 500,
+      "difficulty": "easy-moderate",
+      "climb": false,
+      "duration": [
+        75,
+        120
+      ],
+      "trailhead": [
+        48.0581,
+        -123.7889
+      ],
+      "pass": "Olympic 入園／可用通行證，依 NPS 當季規則。",
+      "note": "老森林、溪流與瀑布，最後觀景段有階梯；不是全程推車路線，也不等於 Mount Storm King 的陡登頂線。",
+      "access": "從 Port Angeles 到 Lake Crescent 另開車；雨後階梯濕滑，冬季可能有冰。",
+      "source": "https://www.wta.org/go-hiking/hikes/marymere-falls",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "低海拔老林全年可走；冬季雨多，木橋與觀景階梯濕滑，偶有雪冰。",
+      "roadAccess": "US-101 全年通行；Storm King 管理站已季節性關閉，但 Marymere Falls 登山口與 Barnes Point 廁所照常開放。",
+      "status": [
+        [
+          "NPS Olympic 公告與現況（Lake Crescent）",
+          "https://www.nps.gov/olym/planyourvisit/conditions.htm"
+        ],
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/marymere-falls"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.nps.gov/olym/planyourvisit/conditions.htm",
+        "https://www.wta.org/go-hiking/hikes/marymere-falls"
+      ]
+    },
+    {
+      "id": "naches",
+      "name": "Naches Peak Loop（Tipsoo Lake）",
+      "miles": 3.2,
+      "gainFt": 600,
+      "difficulty": "easy-moderate",
+      "climb": true,
+      "duration": [
+        120,
+        210
+      ],
+      "trailhead": [
+        46.8674,
+        -121.5176
+      ],
+      "pass": "依實際停車區查 NPS／Forest Pass 規則。",
+      "note": "環線看 Rainier、湖泊與高山草甸，採 WTA 3.2 mile 路線。以無雪季為前提，不是冬季照原路可走的市區步道。",
+      "access": "Chinook／Cayuse 與 SR-410 有季節封路；從 Enumclaw 或 Packwood 還需另開山路。",
+      "source": "https://www.wta.org/go-hiking/hikes/naches-peak-loop",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "Tipsoo 一帶積雪常留到 6 月甚至 7 月，10 月起隨時降雪結冰（2026/10/11 trip report 已見薄雪、建議止滑）；冬季整區深雪、SR 410 封閉。",
+      "roadAccess": "SR 410（Chinook Pass）與 SR 123 每年冬季封閉：近 6 年封路日在 10/24–11/12、重開在 5 月下旬–6 月初；截至 10/23 仍開放，NPS 估 2026 年 11 月中下旬視天候封路，WSDOT 尚未公布日期。",
+      "status": [
+        [
+          "WSDOT Chinook Pass 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/chinook"
+        ],
+        [
+          "NPS Mount Rainier 道路狀態",
+          "https://www.nps.gov/mora/planyourvisit/road-status.htm"
+        ],
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/naches-peak-loop"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.nps.gov/places/tipsoo-lake.htm",
+        "https://www.nps.gov/thingstodo/explore-tipsoo-lake.htm",
+        "https://www.nps.gov/mora/planyourvisit/road-status.htm",
+        "https://wsdot.wa.gov/travel/roads-bridges/mountain-pass-closure-and-opening-dates",
+        "https://wsdot.wa.gov/about/news/2025/sr-410-chinook-pass-and-sr-123-cayuse-pass-close-season-friday-oct-24",
+        "https://wsdot.com/travel/real-time/mountainpasses/chinook",
+        "https://www.wta.org/go-hiking/hikes/naches-peak-loop/@@related_tripreport_listing"
+      ]
+    },
+    {
+      "id": "nisqually",
+      "name": "Nisqually Vista（Paradise 無雪季環線）",
+      "miles": 1.2,
+      "gainFt": 200,
+      "difficulty": "easy",
+      "climb": false,
+      "duration": [
+        60,
+        100
+      ],
+      "query": "Nisqually Vista Trailhead Paradise Lower Parking, Mount Rainier National Park WA",
+      "pass": "Mount Rainier 入園／可用通行證，依 NPS。",
+      "note": "採 NPS 1.2 mile／200 ft 資料，路面鋪設但入口有階梯。看冰河山谷、花與秋色，不和 WTA 另列的 1.1 mile 數字混算。",
+      "access": "冬季積雪，雖有雪鞋路線，但不是同一套裝備和走法；Paradise Road 當日可否上去先查 NPS。",
+      "source": "https://www.nps.gov/thingstodo/hike-nisqually-vista-trail.htm",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "Paradise 冬季積雪很深（年均約 640 吋），此線冬季到早春改為有標示的雪鞋路線、路面常結冰，要雪鞋與保暖裝備，不能推車。",
+      "roadAccess": "冬季只能從 Nisqually 入口經 Longmire 上 Paradise：Longmire 閘門入冬後夜間關閉，通常 9:00 開、16:00 停止上山、17:00 鎖門，天候差可能晚開或整天不開；11/1–5/1 所有車輛（含四驅）都必須攜帶雪鏈；SR 706 換涵管後仍有碎石路段與限速，之後白天鋪路會單線管制。另外 Stevens Canyon Road 預定 10/26 起冬季封閉，之後東側（SR 123）無法進 Paradise。",
+      "status": [
+        [
+          "NPS Mount Rainier 道路狀態",
+          "https://www.nps.gov/mora/planyourvisit/road-status.htm"
+        ],
+        [
+          "NPS Mount Rainier 公告（含 Longmire 閘門每日狀態）",
+          "https://www.nps.gov/mora/planyourvisit/conditions.htm"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.nps.gov/thingstodo/hike-nisqually-vista-trail.htm",
+        "https://www.nps.gov/mora/planyourvisit/paradise.htm",
+        "https://www.nps.gov/mora/planyourvisit/winter-travel.htm",
+        "https://www.nps.gov/mora/planyourvisit/road-status.htm",
+        "https://www.nps.gov/mora/planyourvisit/conditions.htm",
+        "https://wsdot.wa.gov/about/news/2026/round-2-overnight-closure-sr-706-near-mount-rainier-national-park-friday-oct-23",
+        "https://www.wta.org/news/signpost/hiker-headlines-rainier-seasonal-road-closures-begin-free-day-share-your-thoughts-on-sw-wa-parks-10-22-26"
+      ]
+    },
+    {
+      "id": "skyline",
+      "name": "Skyline Trail Loop（Paradise）",
+      "miles": 5.5,
+      "gainFt": 1450,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        240,
+        360
+      ],
+      "trailhead": [
+        46.786,
+        -121.735
+      ],
+      "pass": "Mount Rainier 入園／可用通行證，依 NPS。",
+      "note": "完整高山草甸、山景與瀑布環線，採 WTA 5.5 miles／1,450 ft；不是在 Paradise 停車拍照 30 分鐘的玩法。",
+      "access": "以無雪季和開放路線為前提；天候、積雪、雪崩與日照時間可能使標準線不適合一般遊客，勿越過封閉。",
+      "source": "https://www.wta.org/go-hiking/hikes/skyline-trail-loop",
+      "months": [
+        8,
+        9
+      ],
+      "winter": "上段 Panorama Point 一帶積雪常留到 7 月甚至更晚、10 月起可能降雪，NPS 提醒早季走這條可能有危險；冬季是雪崩地形，不是一般步行路線。",
+      "roadAccess": "冬季只能從 Nisqually 入口經 Longmire 上 Paradise：Longmire 閘門入冬後夜間關閉，通常 9:00 開、16:00 停止上山、17:00 鎖門，天候差可能晚開或整天不開；11/1–5/1 所有車輛（含四驅）都必須攜帶雪鏈；SR 706 換涵管後仍有碎石路段與限速，之後白天鋪路會單線管制。另外 Stevens Canyon Road 預定 10/26 起冬季封閉，之後東側（SR 123）無法進 Paradise。",
+      "status": [
+        [
+          "NPS Mount Rainier 道路狀態",
+          "https://www.nps.gov/mora/planyourvisit/road-status.htm"
+        ],
+        [
+          "NPS Mount Rainier 步道狀況",
+          "https://www.nps.gov/mora/planyourvisit/trails-and-backcountry-camp-conditions.htm"
+        ],
+        [
+          "WTA 步道頁（近期 trip reports）",
+          "https://www.wta.org/go-hiking/hikes/skyline-trail-loop"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.nps.gov/mora/planyourvisit/skyline-trail.htm",
+        "https://www.nps.gov/mora/planyourvisit/paradise.htm",
+        "https://www.nps.gov/mora/planyourvisit/trails-and-backcountry-camp-conditions.htm",
+        "https://www.nps.gov/mora/planyourvisit/winter-recreation.htm",
+        "https://www.nps.gov/mora/planyourvisit/winter-travel.htm",
+        "https://www.nps.gov/mora/planyourvisit/road-status.htm",
+        "https://wsdot.wa.gov/about/news/2026/round-2-overnight-closure-sr-706-near-mount-rainier-national-park-friday-oct-23",
+        "https://www.wta.org/news/signpost/hiker-headlines-rainier-seasonal-road-closures-begin-free-day-share-your-thoughts-on-sw-wa-parks-10-22-26",
+        "https://www.wta.org/go-hiking/hikes/skyline-trail-loop",
+        "https://www.wta.org/go-hiking/hikes/skyline-trail-loop/@@related_tripreport_listing"
+      ]
+    },
+    {
+      "id": "lynn-loop",
+      "name": "Lynn Loop（Lynn Headwaters）",
+      "km": 5.1,
+      "gainM": 160,
+      "difficulty": "easy",
+      "climb": false,
+      "duration": [
+        90,
+        150
+      ],
+      "query": "Lynn Headwaters Regional Park Trailhead, North Vancouver BC",
+      "pass": "停車與開門時間看 Metro Vancouver 當季公告。",
+      "note": "森林上坡後沿 Lynn Creek 回來；數字採在地路線專站 Vancouver Trails（次級路線來源），不是只走溪邊服務道路。",
+      "access": "不是 Lynn Canyon 吊橋那一站；雨後泥地、冬季高處與公園道路開門情況要另查。",
+      "source": "https://www.vancouvertrails.com/trails/lynn-loop/",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "低海拔森林全年可走（Vancouver Trails 列 year-round）；冬季上段林道可能結冰，雨後泥濘、溪水暴漲。",
+      "roadAccess": "Metro Vancouver 公告鋪面停車場因施工關閉，可停碎石停車場或路邊指定車位，進園道路仍開放行人與單車。",
+      "status": [
+        [
+          "Metro Vancouver 公園公告",
+          "https://metrovancouver.org/services/regional-parks/park-alerts-and-notices"
+        ],
+        [
+          "Metro Vancouver：Lynn Headwaters",
+          "https://metrovancouver.org/services/regional-parks/park/lynn-headwaters-regional-park"
+        ]
+      ],
+      "closures": [
+        {
+          "start": null,
+          "end": null,
+          "scope": "partial",
+          "note": "Lynn Loop 上段森林步道、接 Lynn Loop Spur 前的一座橋因結構受損封閉（DO NOT CROSS），無法照原環線走完；官方只建議有經驗者走溪床陡繞道、大雨時可能過不去，帶嬰兒請改走來回。",
+          "source": "https://metrovancouver.org/services/regional-parks/park-alerts-and-notices"
+        },
+        {
+          "start": null,
+          "end": null,
+          "scope": "partial",
+          "note": "Lynn Headwaters 鋪面停車場因施工關閉，改停碎石停車場或路邊指定車位。",
+          "source": "https://metrovancouver.org/services/regional-parks/park-alerts-and-notices"
+        }
+      ],
+      "seasonSources": [
+        "https://www.vancouvertrails.com/trails/lynn-loop/",
+        "https://metrovancouver.org/services/regional-parks/park-alerts-and-notices",
+        "https://metrovancouver.org/services/regional-parks/Lists/ParkAdvisories/Attachments/1706/LYN%20bridge%20closure%20MAP_Oct2026.pdf"
+      ]
+    },
+    {
+      "id": "grouse",
+      "name": "Grouse Grind（單向上山）",
+      "km": 2.5,
+      "gainM": 800,
+      "difficulty": "hard",
+      "climb": true,
+      "oneWay": true,
+      "duration": [
+        150,
+        240
+      ],
+      "query": "Grouse Grind Trailhead, North Vancouver BC",
+      "pass": "不可沿 Grind 原路下山；下山可搭 Grouse Mountain 纜車（需付費），或走 BCMC Route（約 2.9 km、約 2 小時，陡）。",
+      "note": "採 Metro Vancouver 現行約 2.5 km／800 m 資料。全程陡上，不是普通散步；原路下山不開放，返程交通與排隊另留時間。",
+      "access": "有季節維護與天候封閉，山上可能比山下冷很多；不把這條列成初次輕鬆健行或雨天備案。",
+      "source": "https://metrovancouver.org/services/regional-parks/grouse-grind",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "winter": "山頂約 1,100 m，常比山下冷約 10°C；冬季因雪冰封閉（無固定日期，2026 年到 4/21 才開放），秋季也可能有年度維護封閉。",
+      "roadAccess": "步道開放時段隨日照調整（2026 年 4/21 開放時為 7:00–18:00）；禁止沿 Grind 下山，下山搭付費纜車或走 BCMC Route（約 2.9 km、約 2 小時）。",
+      "status": [
+        [
+          "Metro Vancouver：Grouse Grind",
+          "https://metrovancouver.org/services/regional-parks/grouse-grind"
+        ],
+        [
+          "Metro Vancouver 公園公告",
+          "https://metrovancouver.org/services/regional-parks/park-alerts-and-notices"
+        ]
+      ],
+      "closures": [
+        {
+          "start": "2026-10-13",
+          "end": "2026-11-10",
+          "scope": "full",
+          "note": "年度維護與步道改善封閉，每天都封；天候許可才於 11/10 重開（CBC 報導寫 11/13，以 Metro Vancouver 公告 11/10 為準）。BCMC Route 照常開放、終點相同但一樣陡。",
+          "source": "https://metrovancouver.org/services/regional-parks/park-alerts-and-notices"
+        }
+      ],
+      "seasonSources": [
+        "https://metrovancouver.org/services/regional-parks/grouse-grind",
+        "https://metrovancouver.org/services/regional-parks/park-alerts-and-notices",
+        "https://www.nsnews.com/local-news/north-vancouvers-grouse-grind-closing-for-four-weeks-for-annual-maintenance-12859629",
+        "https://www.cbc.ca/news/canada/british-columbia/grouse-grind-closure-seasonal-maintenance-9.7372113",
+        "https://www.thenorthshorelocal.com/grouse-grind-trail-reopens-for-2026-season/"
+      ]
+    },
+    {
+      "id": "mount-si",
+      "name": "Mount Si（主步道到 Haystack 下方觀景區）",
+      "miles": 8.0,
+      "gainFt": 3150,
+      "difficulty": "hard",
+      "climb": true,
+      "duration": [
+        300,
+        450
+      ],
+      "trailhead": [
+        47.488,
+        -121.7231
+      ],
+      "pass": "Discover Pass（DNR；WTA 提醒停車場會巡查）。",
+      "note": "州內最熱門的硬派登山：約 4 英里一路上坡到岩區，晴天看 Snoqualmie 河谷、Seattle、Olympics 與 Rainier。數字採 WTA 主步道到 Haystack 下方觀景區，不含最後的 Haystack 攀爬。",
+      "access": "步道寬、路面大多平整，但持續陡升 3,150 ft，揹嬰兒是一整天的體力考驗、下坡傷膝；可在約 2 英里的 Snag Flat 老林解說區折返。Haystack 是手腳並用的岩攀，絕不帶嬰兒；不能推車。",
+      "source": "https://www.wta.org/go-hiking/hikes/mount-si",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "冬季仍常有人走，但上段多有壓實雪與冰（WTA 2025–26 冬季回報），需簡易冰爪與登山杖；Haystack 岩塊濕冰時不要上。",
+      "roadAccess": null,
+      "status": [
+        [
+          "DNR Mount Si 保護區公告",
+          "https://dnr.wa.gov/natural-areas/natural-resources-conservation-areas/mount-si-natural-resources-conservation-area"
+        ],
+        [
+          "WTA 近期步道回報",
+          "https://www.wta.org/go-hiking/hikes/mount-si"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2025-12-29.225919334505",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-01-10.151128369499",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2025-02-04.191942963634",
+        "https://dnr.wa.gov/natural-areas/natural-resources-conservation-areas/mount-si-natural-resources-conservation-area"
+      ]
+    },
+    {
+      "id": "lake-serene",
+      "name": "Lake Serene（WTA 標準線，含 Bridal Veil Falls 支線）",
+      "miles": 8.2,
+      "gainFt": 2000,
+      "difficulty": "moderate-hard",
+      "climb": true,
+      "duration": [
+        300,
+        420
+      ],
+      "trailhead": [
+        47.809,
+        -121.5738
+      ],
+      "pass": "Northwest Forest Pass／America the Beautiful，或現場 $5 Scan & Pay（USFS；Discover Pass 不適用）。",
+      "note": "瀑布加高山湖的經典一日，湖對面是 Mount Index 約 3,000 ft 高的岩壁。WTA 頁首 8.2 mi／2,000 ft，同頁註明只去湖約 7.2 mi，可見頁首里程含 Bridal Veil Falls 約 1 mi 往返支線；只去瀑布是 WTA 另一頁 4.0 mi／1,000 ft，不混算。",
+      "access": "前段舊林道平緩，過溪後最後 1.5 英里爬約 1,300 ft，多石階、樹根與岩塊；2026 年 9–10 月回報有沖毀的階梯段。揹嬰兒只建議體能好的大人，瀑布支線階梯濕滑、水霧大；不能推車。",
+      "source": "https://www.wta.org/go-hiking/hikes/lake-serene",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "12 月到 4 月中最後約 1 英里常見壓實雪與冰，需冰爪（WTA 回報）；湖面結冰時不要走上去，冬春可見對岸 Mount Index 的小型雪崩，留在步道與湖岸。",
+      "roadAccess": "USFS 列為日間使用（日出到日落）；停車場約 120 車位，週末常滿，勿停路邊。",
+      "status": [
+        [
+          "USFS Lake Serene 步道頁",
+          "https://www.fs.usda.gov/r06/mbs/recreation/trails/lake-serene-trail-1068"
+        ],
+        [
+          "USFS Mt. Baker-Snoqualmie 警示",
+          "https://www.fs.usda.gov/r06/mbs/alerts"
+        ],
+        [
+          "WTA 近期步道回報",
+          "https://www.wta.org/go-hiking/hikes/lake-serene"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-01-01.153820400990",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-04-16.174206656842",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-04-20.110804910083",
+        "https://www.fs.usda.gov/r06/mbs/recreation/lake-serene-trailhead"
+      ]
+    },
+    {
+      "id": "snow-lake",
+      "name": "Snow Lake（Alpental 登山口）",
+      "miles": 7.2,
+      "gainFt": 1800,
+      "difficulty": "moderate-hard",
+      "climb": true,
+      "duration": [
+        240,
+        360
+      ],
+      "trailhead": [
+        47.4454,
+        -121.423
+      ],
+      "pass": "Northwest Forest Pass／America the Beautiful 或現場 $5（USFS）；5/15–10/31 另填登山口免費自助荒野許可。",
+      "note": "Alpine Lakes 荒野最熱門的湖：上到鞍部俯瞰 Snow Lake 與 Chair Peak 岩壁，再下坡約 400 ft 到湖邊，回程要爬回來。採 WTA 與 USFS 一致的 7.2 mi 往返。",
+      "access": "WTA 形容路面多石、部分外露且有障礙，揹嬰兒可行但需穩定步伐與登山杖；不能推車。夏秋週末停車場常滿，早到。",
+      "source": "https://www.wta.org/go-hiking/hikes/snow-lake",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "WTA 指有雪時前段陡坡有高雪崩風險，冬季不是一般健行路線；USFS 說湖區常積雪到 7 月中，7 月初鞍部下湖段仍常有雪。",
+      "roadAccess": "冬季 I-90 過 Snoqualmie Pass 可能要求雪鏈（WSDOT 於 11/1–4/1 發布路況），Alpental 屆時為滑雪場營運；夏秋週末約 150 車位的停車場常滿。",
+      "status": [
+        [
+          "WSDOT Snoqualmie Pass 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/snoqualmie"
+        ],
+        [
+          "USFS Mt. Baker-Snoqualmie 警示",
+          "https://www.fs.usda.gov/r06/mbs/alerts"
+        ],
+        [
+          "WTA 近期步道回報",
+          "https://www.wta.org/go-hiking/hikes/snow-lake"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/mbs/recreation/trails/snow-lake-trail-1013",
+        "https://www.wta.org/go-hiking/hikes/snow-lake",
+        "https://wsdot.com/travel/real-time/mountainpasses/snoqualmie"
+      ]
+    },
+    {
+      "id": "franklin-falls",
+      "name": "Franklin Falls（夏季 FR 58 登山口）",
+      "miles": 2.0,
+      "gainFt": 400,
+      "difficulty": "easy-moderate",
+      "climb": false,
+      "duration": [
+        75,
+        120
+      ],
+      "trailhead": [
+        47.4131,
+        -121.4428
+      ],
+      "pass": "Northwest Forest Pass／America the Beautiful 或現場 $5 繳費機（USFS）；冬季改停 Sno-Park 需 Sno-Park permit。",
+      "note": "沿河的森林短步道，終點是約 70 ft 的瀑布，夾在 I-90 兩座高架橋之間；是這批最輕鬆、最適合帶嬰兒的一條。採夏季 FR 58 登山口 2.0 mi 路線，不混用冬季約 7 英里版本。",
+      "access": "大致緩坡加石階，WTA 說前 500 ft 可輪椅到河景點，其餘不適合推車；最後下到瀑布底的岩坡陡又濕滑（USFS），揹嬰兒時在上方觀景點看即可。",
+      "source": "https://www.wta.org/go-hiking/hikes/franklin-falls",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "冬季瀑布盆地位在雪崩溝底，USFS 明言勿進入；WTA 冬季版是另一條約 7 英里路線，出發前需看 NWAC 雪崩預報。",
+      "roadAccess": "冬季 FR 58（Denny Creek Road）不鏟雪並封閉機動車，USFS（2026-08 更新）寫 Franklin Falls Sno-Park 這個冬季不營運，只能停 Asahel Curtis Sno-Park（需 Sno-Park permit）走約 7 英里往返；2026 年閘門到 4 月下旬才重開。",
+      "status": [
+        [
+          "USFS Franklin Falls 登山口（含冬季資訊）",
+          "https://www.fs.usda.gov/r06/mbs/recreation/franklin-falls-trailhead"
+        ],
+        [
+          "WSDOT Snoqualmie Pass 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/snoqualmie"
+        ],
+        [
+          "WTA 近期步道回報",
+          "https://www.wta.org/go-hiking/hikes/franklin-falls"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/mbs/recreation/franklin-falls-trailhead",
+        "https://www.wta.org/go-hiking/hikes/franklin-falls-winter",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-04-04.132247451697",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-04-26.132639759774",
+        "https://parks.wa.gov/find-sno-parks/asahel-curtis-sno-park"
+      ]
+    },
+    {
+      "id": "oyster-dome",
+      "name": "Oyster Dome（Samish Overlook 入口）",
+      "miles": 5.0,
+      "gainFt": 1050,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        180,
+        270
+      ],
+      "trailhead": [
+        48.6096,
+        -122.4264
+      ],
+      "pass": "Discover Pass（DNR Samish Overlook）。",
+      "note": "岩崖頂看 San Juan 群島、Samish 灣、Skagit 平原與 Olympics，起點觀景台常見飛行傘起飛。採 WTA 從 Samish Overlook 起登的 5.0 mi／1,050 ft；Chuckanut Drive 路邊起登更長更陡，DNR 要求不要從那裡上。",
+      "access": "開頭先下坡 190 ft，再走石牆之字陡坡，終段路跡較不明顯；崖邊落差大，嬰兒與小孩遠離邊緣。2026 年 9–10 月 WTA 回報近頂部有活躍黃蜂窩；不能推車。",
+      "source": "https://www.wta.org/go-hiking/hikes/oyster-dome",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "WTA 稱全年可去；冬季以泥濘與濕滑岩面為主，寒流降雪後碎石林道與上段可能結冰，先看近期回報。",
+      "roadAccess": "Samish Overlook 閘門日出前 1 小時開、日落後 1 小時關（DNR，日間使用），最後約 2.2 英里碎石路顛簸，停車位約 20 個。",
+      "status": [
+        [
+          "DNR Blanchard 州有林公告",
+          "https://dnr.wa.gov/forest-and-trust-lands/blanchard-whatcom-county-and-nearby-islands"
+        ],
+        [
+          "WTA 近期步道回報",
+          "https://www.wta.org/go-hiking/hikes/oyster-dome"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/oyster-dome",
+        "https://dnr.wa.gov/forest-and-trust-lands/blanchard-whatcom-county-and-nearby-islands"
+      ]
+    },
+    {
+      "id": "mount-ellinor",
+      "name": "Mount Ellinor（下登山口，夏季路線）",
+      "miles": 6.2,
+      "gainFt": 3300,
+      "difficulty": "hard",
+      "climb": true,
+      "duration": [
+        270,
+        420
+      ],
+      "trailhead": [
+        47.5066,
+        -123.2321
+      ],
+      "pass": "下登山口不收費（USFS）；上登山口需 Northwest Forest Pass／America the Beautiful 或 $5（現場不收現金）。",
+      "note": "Hood Canal 一帶最經典的攻頂：出森林後走上碎石坡與草甸，山頂 360 度看 Lake Cushman、Puget Sound 與 Olympics，常見山羊。採 WTA 下登山口 6.2 mi／3,300 ft；上登山口是 3.2 mi 但一樣陡，數字不混用。",
+      "access": "後段是階梯式陡坡與碎石，WTA 計算為 Hard；不建議揹嬰兒攻頂，可在離下登山口約 2.5 英里的林線觀景點折返（USFS 建議初學者在此回頭）。山頂山羊保持距離；下登山口無廁所；不能推車。",
+      "source": "https://www.wta.org/go-hiking/hikes/mount-ellinor",
+      "months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "冬春山上積雪，冬季攀登路線走雪崩溝，USFS 要求冰斧與雪崩判斷；2026 年到 5 月中仍需冰爪，6 月初才幾乎無雪（WTA 回報）。",
+      "roadAccess": "上登山口 USFS 列為初夏到秋季使用，2026-03 回報林道可到下登山口、開不上上登山口；FR 2419 碎石路坑洞與搓板路多（2026-10 回報）。",
+      "status": [
+        [
+          "USFS Olympic 國家森林警示",
+          "https://www.fs.usda.gov/r06/olympic/alerts"
+        ],
+        [
+          "USFS Mt. Ellinor 步道頁",
+          "https://www.fs.usda.gov/r06/olympic/recreation/trails/mt-ellinor-trail-812"
+        ],
+        [
+          "WTA 近期步道回報",
+          "https://www.wta.org/go-hiking/hikes/mount-ellinor"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/olympic/recreation/trails/mt-ellinor-trail-812",
+        "https://www.fs.usda.gov/r06/olympic/recreation/mt-ellinor-upper-trailhead",
+        "https://www.fs.usda.gov/r06/olympic/recreation/mt-ellinor-lower-trailhead",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-03-07.145731315131",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-05-16.164358817141",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-06-02.203306800516"
+      ]
+    },
+    {
+      "id": "mount-storm-king",
+      "name": "Mount Storm King（Storm King Ranger Station 起登）",
+      "miles": 4.0,
+      "gainFt": 2065,
+      "difficulty": "moderate-hard",
+      "climb": true,
+      "duration": [
+        180,
+        270
+      ],
+      "trailhead": [
+        48.0582,
+        -123.7892
+      ],
+      "pass": "Olympic 入園／可用通行證，依 NPS 當季規則（WTA 列 America the Beautiful）。",
+      "note": "Lake Crescent 上方的陡坡，招牌畫面是岩點俯瞰藍色湖面。採 WTA 4.0 mi／2,065 ft；依 WTA 與 NPS，維護步道到「End of Maintained Trail」告示為止，之後是外露的登山者小徑與非官方繩索段。",
+      "access": "全程陡，乾季碎石易滑；NPS 說告示後是外露陡坡與鬆石，繩子不是 NPS 設置、可能不安全，揹嬰兒絕對不上，維護段也偏陡。帶嬰兒建議改走同停車場的 Marymere Falls；不能推車、禁帶狗（WTA）。",
+      "source": "https://www.wta.org/go-hiking/hikes/mount-storm-king",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "Lake Crescent 全年開放，但冬季上段可能積雪結冰（2026-03-14 WTA 回報有雪），繩索段濕滑或結冰時更危險，冬季最多走到維護終點。",
+      "roadAccess": "US-101 沿 Lake Crescent 全年通行；Storm King Ranger Station 建物季節性關閉，但 NPS（2026-10-17）列 Marymere Falls 登山口與停車開放。",
+      "status": [
+        [
+          "NPS Olympic 警示與現況",
+          "https://www.nps.gov/olym/planyourvisit/conditions.htm"
+        ],
+        [
+          "NPS 步道狀況（Lake Crescent）",
+          "https://www.nps.gov/olym/planyourvisit/wilderness-trail-conditions.htm"
+        ],
+        [
+          "WTA 近期步道回報",
+          "https://www.wta.org/go-hiking/hikes/mount-storm-king"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.nps.gov/olym/planyourvisit/wilderness-trail-conditions.htm",
+        "https://www.nps.gov/olym/planyourvisit/conditions.htm",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-03-14.144607852191"
+      ]
+    },
+    {
+      "id": "quarry-rock",
+      "name": "Quarry Rock（Deep Cove，Baden-Powell Trail）",
+      "km": 3.8,
+      "gainM": 100,
+      "difficulty": "easy",
+      "climb": false,
+      "duration": [
+        75,
+        120
+      ],
+      "query": "Quarry Rock Trailhead, Panorama Drive, Deep Cove, North Vancouver BC",
+      "pass": "步道免費；Deep Cove Park／Panorama Park 3/1–10/31 每小時 $3（8:00–18:00）。",
+      "note": "Deep Cove 村子旁的森林小徑，終點岩頂俯瞰 Indian Arm 峽灣與小船。數字採 Vancouver Trails（次級路線來源）3.8 km 往返、100 m 爬升。",
+      "access": "數字小，但木階梯、樹根與上下起伏多，不是平路；揹嬰兒可行，不能推車。岩頂邊緣有落差，沿途無廁所（用 Deep Cove 海灘旁設施），週末人多。",
+      "source": "https://www.vancouvertrails.com/trails/quarry-rock/",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "Vancouver Trails 列為全年可走；冬季多雨，樹根與木階梯濕滑，偶有降雪結冰時需止滑。",
+      "roadAccess": "Deep Cove 3/1–10/31 實施街邊停車限制與停車場收費，Panorama Park 停車場限 3 小時；週末車位常滿，DNV 建議搭 211／212 公車。",
+      "status": [
+        [
+          "DNV 公告（Advisories）",
+          "https://www.dnv.org/advisories"
+        ],
+        [
+          "DNV Deep Cove 停車規定",
+          "https://www.dnv.org/streets-transportation/summer-parking-deep-cove"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.vancouvertrails.com/trails/quarry-rock/",
+        "https://www.dnv.org/streets-transportation/summer-parking-deep-cove"
+      ]
+    },
+    {
+      "id": "goose-rock",
+      "name": "Goose Rock（Deception Pass，West Beach 起登）",
+      "miles": 4.3,
+      "gainFt": 484,
+      "difficulty": "easy-moderate",
+      "climb": false,
+      "duration": [
+        150,
+        210
+      ],
+      "trailhead": [
+        48.4011,
+        -122.664
+      ],
+      "pass": "Discover Pass（Washington State Parks）。",
+      "note": "Whidbey 島最高點（484 ft）：走 North Beach 步道穿過 Deception Pass 大橋下方，繞 Perimeter Trail 上到裸岩草坡，看 Olympics、San Juan 群島與 Cranberry Lake。採 WTA West Beach 起登 4.3 mi 版本。",
+      "access": "步道寬整、爬升小，揹嬰兒合適，不適合推車。Balds 草坡植物脆弱，走既有路徑；崖邊與橋下注意小孩，熱門季節早到。",
+      "source": "https://www.wta.org/go-hiking/hikes/deception-pass-goose-rock",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "低海拔全年可走；冬季園區 8:00 至黃昏開放，海風大，岩面與木階梯濕滑。",
+      "roadAccess": "2026-10-15 起 West Beach 設施進入風暴季關閉，停車場因風暴損壞車位減少（超過 25 ft 車輛禁入）；North Beach 停車場 11/1–3/31 關閉。",
+      "status": [
+        [
+          "Deception Pass State Park 警示",
+          "https://parks.wa.gov/find-parks/state-parks/deception-pass-state-park"
+        ],
+        [
+          "State Parks 冬季營運表",
+          "https://parks.wa.gov/find-activities/winter-schedule"
+        ],
+        [
+          "WTA 近期步道回報",
+          "https://www.wta.org/go-hiking/hikes/deception-pass-goose-rock"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://parks.wa.gov/find-parks/state-parks/deception-pass-state-park",
+        "https://parks.wa.gov/find-activities/winter-schedule"
+      ]
+    },
+    {
+      "id": "sugarloaf-anacortes",
+      "name": "Sugarloaf（Anacortes 社區林地，Heart Lake Road 入口）",
+      "miles": 2.5,
+      "gainFt": 520,
+      "difficulty": "easy-moderate",
+      "climb": false,
+      "duration": [
+        90,
+        150
+      ],
+      "trailhead": [
+        48.4676,
+        -122.6295
+      ],
+      "pass": "WTA：不需停車證；碎石停車場約 25 個車位。",
+      "note": "Anacortes 社區林地（ACFL）裡沒有停車場的山頂：谷底平路後約 1/4 英里陡上，之後看 Burrows Bay、San Juan 群島與對面的 Mount Erie。採 WTA 2.5 mi／520 ft；想接 Mount Erie 是 WTA 另一頁約 5 mi／1,000 ft 的路線，不混算。",
+      "access": "起步陡，之後是階梯式上坡，頂部有平坦岩面與草地適合讓嬰兒休息；揹嬰兒可行，不能推車。路口用數字編號（215、238），帶地圖。",
+      "source": "https://www.wta.org/go-hiking/hikes/sugarloaf-1",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "低海拔全年可走（WTA 2026 年 1–3 月回報無雪）；冬春多泥濘，起步陡坡濕滑。",
+      "roadAccess": null,
+      "status": [
+        [
+          "Anacortes 社區林地（ACFL）",
+          "https://www.anacorteswa.gov/517/Community-Forest-Lands-ACFL"
+        ],
+        [
+          "WTA 近期步道回報",
+          "https://www.wta.org/go-hiking/hikes/sugarloaf-1"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-01-21.112509732405",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-03-02.161838741045",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2026-04-09.204313378532",
+        "https://www.anacorteswa.gov/517/Community-Forest-Lands-ACFL"
+      ]
+    },
+    {
+      "id": "west-tiger-3",
+      "name": "West Tiger 3（High Point 登山口）",
+      "miles": 5.0,
+      "gainFt": 2100,
+      "difficulty": "moderate-hard",
+      "climb": true,
+      "duration": [
+        180,
+        300
+      ],
+      "trailhead": [
+        47.5296,
+        -121.9956
+      ],
+      "pass": "Discover Pass（DNR High Point 停車場）。",
+      "note": "Issaquah 旁的經典訓練山：大多走舊林道，穩定爬升約 2,000 ft，山頂因 2023 年伐木而視野打開。採 WTA High Point 登山口 5.0 mi／2,100 ft 標準線。",
+      "access": "路寬、坡度穩定，揹嬰兒可行但爬升實在；岔路多，跟 Tiger 3 指標走。不能推車。",
+      "source": "https://www.wta.org/go-hiking/hikes/west-tiger-3",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "冬季多數時候可走（2025-12-31 回報到頂無雪冰），寒流後山頂一段可能結殼，下坡建議冰爪；雨季泥濘。",
+      "roadAccess": "DNR 停車場有閘門、夜間關閉（WTA），只限日間使用；WTA 建議停場內，不要停在路邊。",
+      "status": [
+        [
+          "DNR West Tiger Mountain 保護區",
+          "https://dnr.wa.gov/natural-areas/natural-resources-conservation-areas/west-tiger-mountain-natural-resources-conservation-area"
+        ],
+        [
+          "WTA 近期步道回報",
+          "https://www.wta.org/go-hiking/hikes/west-tiger-3"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/west-tiger-3",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2025-12-31.104959774008",
+        "https://www.wta.org/go-hiking/trip-reports/trip_report-2025-12-28.211249585808",
+        "https://dnr.wa.gov/natural-areas/natural-resources-conservation-areas/west-tiger-mountain-natural-resources-conservation-area"
+      ]
+    }
   ]
 }
