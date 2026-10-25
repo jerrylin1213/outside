@@ -324,6 +324,7 @@ function validateDetailedData(data, details, trailData) {
       if (place.program !== undefined && typeof place.program !== "boolean") throw new Error(`${city.id}/${place.id} 節目型別不符。`);
       if (place.program && !place.url) throw new Error(`${city.id}/${place.id} 節目需要可查日期與場地的來源。`);
       if (place.verified !== undefined && !parseISODate(place.verified)) throw new Error(`${city.id}/${place.id} 查證日期不符。`);
+      if (place.checkNote !== undefined && (typeof place.checkNote !== "string" || !place.checkNote.trim() || place.verified)) throw new Error(`${city.id}/${place.id} 的 checkNote 要寫明無法確認的原因，且不能同時標為已查證。`);
       for (const field of ["hours", "liveMusic"]) if (place[field] !== undefined && (typeof place[field] !== "string" || !place[field].trim())) throw new Error(`${city.id}/${place.id} 的 ${field} 不符。`);
       if (place.query.trim().length < 8 || normalize(place.query) === normalize(city.name)) throw new Error(`${city.id}/${place.id} 不能只以城市名稱代替地點定位。`);
       if (place.url !== undefined) sourceURL(place.url);
@@ -601,9 +602,9 @@ function placeCardHTML(place, index) {
     <div class="place-kinds">${place.kinds.map((kind) => `<span>${PLACE_KINDS[kind]}</span>`).join("")}</div>
     <p>${escapeHTML(place.note)}</p>
     <div class="place-time">${icon("clock")}建議停留約 ${stayLabel(place.minutes)}</div>
-    ${place.hours ? `<p class="place-hours">營業（官網）：${escapeHTML(place.hours)}</p>` : ""}
+    ${place.hours ? `<p class="place-hours">營業時間：${escapeHTML(place.hours)}</p>` : ""}
     ${place.liveMusic ? `<p class="place-hours">演出：${escapeHTML(place.liveMusic)}</p>` : ""}
-    ${place.kinds.some((kind) => BUSINESS_KINDS.has(kind)) ? `<p class="place-verified" data-verified="${place.verified ? "yes" : "no"}">${place.verified ? `${icon("check")}${dateLabel(parseISODate(place.verified))}已查證營業` : `${icon("info")}營業狀態尚未逐家查證，出發前先看 Google Maps`}</p>` : ""}
+    ${place.kinds.some((kind) => BUSINESS_KINDS.has(kind)) ? `<p class="place-verified" data-verified="${place.verified ? "yes" : "no"}">${place.verified ? `${icon("check")}${dateLabel(parseISODate(place.verified))}已查證營業` : place.checkNote ? `${icon("info")}尚未確認營業：${escapeHTML(place.checkNote)}。出發前先看 Google Maps` : `${icon("info")}營業狀態尚未逐家查證，出發前先看 Google Maps`}</p>` : ""}
     <p class="place-location">${escapeHTML(place.query)}</p>
     <div class="place-actions">${placeActions(place)}</div>
   </article>`;
@@ -648,7 +649,7 @@ function renderTimedPlan(id = state.activePlan) {
       const end = clockLabel(minutesFromClock(at) + minutes);
       return `<li class="timed-stop" data-route-place="${place.id}" data-start="${at}" data-end="${end}">
         <div class="stop-clock"><time>${at}</time><span>至 ${end}</span></div>
-        <div class="timed-stop-body"><h4>${escapeHTML(place.name)}</h4><p>停留約 ${stayLabel(minutes)}・${escapeHTML(note)}</p>
+        <div class="timed-stop-body"><h4>${escapeHTML(place.name)}</h4><p>停留約 ${stayLabel(minutes)}・${escapeHTML(note)}</p>${unconfirmedStopHTML(place)}
         ${index ? `<p class="stop-transfer">${mode === "walk" ? "步行轉場" : "開車／轉場"}預留 ${transfer} 分鐘（含必要停車、折返或進出）</p>` : ""}
         <div class="stop-links"><a href="${mapsURL(place.query)}" target="_blank" rel="noopener noreferrer">${icon("map")}本地點地圖</a>
         <a href="${navigationURL(place.query, previous?.query || null, previous ? mode : "drive")}" target="_blank" rel="noopener noreferrer">${icon("arrow")}${previous ? `上站 → 本站${mode === "walk" ? "（步行）" : "（開車）"}` : "開車前往第一站"}</a></div></div></li>`;
@@ -948,6 +949,10 @@ function dayRouteLinks(from, stops, to) {
   }).join("");
 }
 
+function unconfirmedStopHTML(place) {
+  return place.checkNote ? `<p class="stop-unconfirmed">${icon("info")}尚未確認營業：${escapeHTML(place.checkNote)}。出發前先看 Google Maps</p>` : "";
+}
+
 function tripTimelineHTML(stops, origin) {
   return stops.map((stop, index) => {
     const { at, place, minutes, transfer, note, mode } = stop;
@@ -958,7 +963,7 @@ function tripTimelineHTML(stops, origin) {
     return `<li class="timed-stop" data-route-place="${escapeHTML(stop.ref)}" data-start="${at}" data-end="${end}">
       <div class="stop-clock"><time>${at}</time><span>至 ${end}</span></div>
       <div class="timed-stop-body"><h4>${escapeHTML(place.name)}</h4><p>停留約 ${stayLabel(minutes)}・${escapeHTML(note)}</p>
-      ${place.hours ? `<p class="stop-hours">營業（官網）：${escapeHTML(place.hours)}</p>` : ""}
+      ${place.hours ? `<p class="stop-hours">營業時間：${escapeHTML(place.hours)}</p>` : ""}${unconfirmedStopHTML(place)}
       <p class="stop-transfer">${travel === "walk" ? "步行轉場" : "開車／轉場"}預留 ${transfer} 分鐘${index ? "（含必要停車、折返或進出）" : `（${escapeHTML(origin.name)}出發）`}</p>
       <div class="stop-links"><a href="${mapsURL(place.query)}" target="_blank" rel="noopener noreferrer">${icon("map")}本地點地圖</a>
       <a href="${navigationURL(place.query, previous.query, travel)}" target="_blank" rel="noopener noreferrer">${icon("arrow")}${escapeHTML(label)}</a>${place.url ? `<a href="${sourceURL(place.url)}" target="_blank" rel="noopener noreferrer">${icon("external")}${place.trail ? "路線資訊" : "官方資訊"}</a>` : ""}</div></div></li>`;

@@ -1502,7 +1502,7 @@
       "plans": [
         {
           "id": "farm",
-          "title": "咖啡與農場，午後走吊橋",
+          "title": "咖啡、吊橋河岸與當季農場",
           "note": "以農場當季開放為前提；若沒有想玩的項目，就直接把 Tolt 步道拉長，不買票湊時間。",
           "steps": [
             [
@@ -1510,31 +1510,31 @@
               "sandys",
               30,
               0,
-              "咖啡外帶。",
+              "Kelsey’s Koffee 咖啡外帶；週日 7:30 起。",
               "drive"
             ],
             [
               "10:15",
-              "remlinger",
-              150,
-              15,
-              "只挑當季真正想玩的體驗。",
-              "drive"
-            ],
-            [
-              "13:00",
-              "blakes",
-              60,
-              15,
-              "午餐。",
-              "drive"
-            ],
-            [
-              "14:15",
               "tolt",
               90,
-              15,
-              "走河谷與吊橋短線。",
+              10,
+              "Tolt-MacDonald 吊橋與河谷短線，全年可走。",
+              "drive"
+            ],
+            [
+              "12:00",
+              "blakes",
+              60,
+              10,
+              "Red Pepper Pizzeria 午餐，每天 11:00 起。",
+              "drive"
+            ],
+            [
+              "13:15",
+              "remlinger",
+              120,
+              10,
+              "只在南瓜節（9/26–11/1，週五至週日 10–18）與夏季開放時才進；其他月份改走 Snoqualmie Valley Trail 或早點回家。",
               "drive"
             ]
           ]
@@ -1686,18 +1686,18 @@
             ],
             [
               "13:00",
-              "roadhouse",
-              75,
+              "snoqualmie-falls",
+              60,
               20,
-              "週末 14:00 才開（平日 11:00）；13:00 要吃午餐就改去 Snoqualmie Falls Brewery（12:00 起），或把這站延到 14:00。",
+              "先上觀景區看瀑布，再回 Fall City 吃飯。",
               "drive"
             ],
             [
-              "14:40",
-              "snoqualmie-falls",
-              60,
-              25,
-              "上觀景區看瀑布。",
+              "14:20",
+              "roadhouse",
+              75,
+              20,
+              "Roadhouse 週末 14:00 才開門（平日 11:00），所以排在看完瀑布後的晚午餐。",
               "drive"
             ]
           ]
@@ -2587,8 +2587,8 @@
           "note": "Old Town 的咖啡停靠，適合和燈塔路線一起安排。",
           "query": "Red Cup Cafe, Mukilteo WA",
           "url": "https://www.facebook.com/RedCupCafe/",
-          "verified": "2026-10-24",
-          "hours": "Opens 7:00 incl. Sunday (Restaurant Guru, updated Oct 2026); closing time not published"
+          "hours": "Opens 7:00 daily per directories (Restaurant Guru, joe coffee); closing time not confirmed",
+          "checkNote": "10/24 查：最新評論停在 2025 年 9 月，官方只有要登入的 Facebook"
         },
         {
           "id": "lighthouse",
@@ -3240,10 +3240,10 @@
           "steps": [
             [
               "10:00",
-              "pilot",
+              "noticed-coffee-co",
               45,
               0,
-              "咖啡。",
+              "Main St 的 Noticed Coffee，週六 7–16、週日 9–14；原 Pilot House（現 Monroe Coffee Co.）週日公休。",
               "walk"
             ],
             [
@@ -3697,8 +3697,8 @@
           "note": "具名咖啡和早點停留，先補給再看海。",
           "query": "Penguin Coffee, Anacortes WA",
           "url": "https://www.facebook.com/penguincoffeeanacortes/",
-          "verified": "2026-10-24",
-          "hours": "Daily 6–17"
+          "hours": "Daily 6–17 per directories",
+          "checkNote": "10/24 查：最新評論停在 2025 年 9 月，官方只有要登入的 Facebook"
         },
         {
           "id": "cap",
@@ -5084,10 +5084,10 @@
             ],
             [
               "14:50",
-              "sea",
+              "poulsbo-maritime-museum",
               60,
               10,
-              "SEA 只在週五、六 11:00–16:00 開；週日改去 Maritime Museum，或買 Sluys 烘焙收尾。",
+              "Poulsbo 海事博物館每天 10–16；SEA Discovery Center 只開週五、六。",
               "walk"
             ]
           ]
@@ -5410,10 +5410,10 @@
             ],
             [
               "12:10",
-              "museum",
-              50,
+              "sea-shore-museum-port-gamble-general-sto",
+              40,
               10,
-              "史蹟館只在 5–9 月週四至週日 12:00–17:00 開；其他時間改看 General Store 樓上的免費貝殼館。",
+              "General Store 樓上的免費貝殼館，每天 10–17；史蹟館只在 5–9 月週四至週日 12–17 開。",
               "walk"
             ],
             [
@@ -6354,7 +6354,7 @@
           "indoor": true,
           "note": "鎮中心家庭式披薩店，菜單有以《Northern Exposure》小鎮命名的 Cicely 披薩；12:00 才開門、週一二休。吃完走一個街口可看已歇業 Roslyn Cafe 外牆的駱駝壁畫。",
           "query": "Village Pizza, 105 W Pennsylvania Ave, Roslyn WA",
-          "url": "https://roslyn-village-pizza-llc-roslyn.cloveronline.com/menu/all",
+          "url": "https://roslynvillagepizza.com/",
           "verified": "2026-10-24",
           "hours": "Wed–Sun 12–21; closed Mon–Tue"
         },
@@ -7018,10 +7018,10 @@
           "steps": [
             [
               "09:30",
-              "j5",
+              "argonaut-coffee-biscuits",
               45,
               0,
-              "咖啡；J5 週日休，週日改 Argonaut（每天 7–14）。",
+              "Argonaut 的 biscuit 與咖啡，每天 7–14（J5 週日休）。",
               "walk"
             ],
             [
@@ -9415,7 +9415,7 @@
         {
           "id": "books-rail",
           "title": "咖啡、書店、模型鐵道與午餐",
-          "note": "沒有買列車票就不空留兩小時在車站；Steam train 若是主角，先以班次重排全日。",
+          "note": "這條排週六：週日 Mint City 與歷史館都休、Book ’n’ Brush 11 點才開。沒有買列車票就不空留兩小時在車站；Steam train 若是主角，先以班次重排全日。",
           "steps": [
             [
               "10:00",
@@ -9430,7 +9430,7 @@
               "books",
               50,
               20,
-              "書店。",
+              "書店（週日 11:00 才開）。",
               "drive"
             ],
             [

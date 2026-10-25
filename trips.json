@@ -2352,7 +2352,7 @@
       ],
       "why": "湖邊、咖啡與演出可以真的串成一天：市中心選 Zoka，午餐 Cactus，下午走水岸；要看鳥與森林才另外去 Juanita Bay，不把兩個區域混成步行一圈。",
       "seasonNote": "春到秋最能享受湖邊；夏日黃昏尤其舒服，冬季更像吃飯加短散步。",
-      "watch": "Juanita Bay 與市中心不是同一個步行街區；停車依現場時限，不把找車位時間算成零。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "前半段都在 Downtown 步行；午餐後只移車一次去 Juanita Bay。 Juanita Bay 與市中心不是同一個步行街區；停車依現場時限，不把找車位時間算成零。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 1 小時",
       "itinerary": [
@@ -2440,7 +2440,7 @@
       ],
       "why": "可以把花園、湖岸、特色咖啡、Bellevue Square 與晚間音樂玩成一整天。晴天先走戶外，雨天直接改去有名字、有地圖的室內點，不再只寫『找個商場』。",
       "seasonNote": "植物園春花與秋色各有重點；冬季燈飾是季節活動，須查當年日期與票務。",
-      "watch": "不把未確認開放的美術館當雨天主軸；特殊展覽、燈節與停車規則另查官方。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "先東側花園，再一路往 Old Bellevue 與商場區，不東西來回開。時段以已到當地為起點；DTF 請處理訂位／候位。 不把未確認開放的美術館當雨天主軸；特殊展覽、燈節與停車規則另查官方。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "weowna",
@@ -2534,7 +2534,7 @@
       ],
       "why": "除了酒莊，這次把 Sidekick 的咖啡、Hollywood Tavern 午餐、河畔步道和夏季音樂點名。想聽音樂先選場次，不把所有 tasting room 都當駐唱場地。",
       "seasonNote": "天暖時庭院最有感；秋天適合酒鄉氣氛，冬天則偏向室內品飲與餐飲。",
-      "watch": "不要沿用舊攻略把已停業或搬遷的園藝賣場當主景點；酒莊之間仍需要交通安排。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "先市中心與河畔，午餐後往 Hollywood，避免不同酒莊區反覆繞路。 不要沿用舊攻略把已停業或搬遷的園藝賣場當主景點；酒莊之間仍需要交通安排。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 1.5 小時",
       "itinerary": [
@@ -2622,7 +2622,7 @@
       ],
       "why": "用 Daily Grind 咖啡（原 Social Grounds 原址）、Bothell Landing 河岸、Alexa’s 午餐和 The Cottage 音樂把小城玩實在。Anderson School 是值得看的改造校舍，但電影場次和音樂不能混為一談。",
       "seasonNote": "春到秋適合河邊與庭院；冬天縮成餐飲、建築與短散步。",
-      "watch": "校舍裡的泳池與活動有個別使用規則，不把住宿設施一律當免費公共景點。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "前三站在市中心周邊，最後才開去 Anderson School；晚間音樂另選 The Cottage。 校舍裡的泳池與活動有個別使用規則，不把住宿設施一律當免費公共景點。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 1 小時",
       "itinerary": [
@@ -2707,7 +2707,7 @@
       ],
       "why": "把 Duvall 當咖啡、老街與河谷短走，不強迫待滿一天。先在 Corie's Cafe 吃早午餐（14:00 打烊、週三公休），再往河邊走；The Grange 當天有午餐才排。",
       "seasonNote": "春夏河谷綠意、秋天農場與葉色最加分；冬季看河水與天候。",
-      "watch": "河谷有季節性淹水與步道封閉風險，冬季別把近河步道當保證開放。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "這條是 3–4 小時小鎮走法；餐廳午餐先確認，不為了湊一天反覆開車。 河谷有季節性淹水與步道封閉風險，冬季別把近河步道當保證開放。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 1 小時",
       "itinerary": [
@@ -2758,9 +2758,9 @@
       "id": "day-carnation",
       "kind": "city",
       "days": 1,
-      "title": "Carnation：咖啡與農場，午後走吊橋",
+      "title": "Carnation：咖啡、吊橋河岸與當季農場",
       "subtitle": "把一天交給農場",
-      "route": "Redmond → Kelsey’s Koffee → Remlinger Farms → Red Pepper Pizzeria → Tolt-MacDonald Park → Redmond",
+      "route": "Redmond → Kelsey’s Koffee → Tolt-MacDonald Park → Red Pepper Pizzeria → Remlinger Farms → Redmond",
       "scene": "farm",
       "interests": [
         "town",
@@ -2785,12 +2785,12 @@
       ],
       "why": "有農場、河谷步道和 Remlinger 的演出，但先分清活動季節。咖啡、午餐也具名：Kelsey’s Koffee（原 Sandy’s 同址新店名）與 Red Pepper Pizzeria（Blake’s 已於 2026/9/30 結束營業），不再把『去鎮上找吃的』當成規劃。",
       "seasonNote": "春夏採收與秋季南瓜活動各有重點；不是全年都有完整遊樂園。",
-      "watch": "農場入場、活動票與停車規則分開看；冬季河谷步道留意水位與封閉公告。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "以農場當季開放為前提；若沒有想玩的項目，就直接把 Tolt 步道拉長，不買票湊時間。 農場入場、活動票與停車規則分開看；冬季河谷步道留意水位與封閉公告。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
-      "driving": "全程開車約 2 小時",
+      "driving": "全程開車約 1.5 小時",
       "itinerary": [
         {
-          "title": "咖啡與農場，午後走吊橋",
+          "title": "咖啡、吊橋河岸與當季農場",
           "from": "redmond",
           "to": "redmond",
           "depart": "09:00",
@@ -2800,31 +2800,31 @@
               "carnation/sandys",
               30,
               30,
-              "咖啡外帶。",
+              "Kelsey’s Koffee 咖啡外帶；週日 7:30 起。",
               "drive"
             ],
             [
               "10:15",
-              "carnation/remlinger",
-              150,
-              15,
-              "只挑當季真正想玩的體驗。",
-              "drive"
-            ],
-            [
-              "13:00",
-              "carnation/blakes",
-              60,
-              15,
-              "午餐。",
-              "drive"
-            ],
-            [
-              "14:15",
               "carnation/tolt",
               90,
-              15,
-              "走河谷與吊橋短線。",
+              10,
+              "Tolt-MacDonald 吊橋與河谷短線，全年可走。",
+              "drive"
+            ],
+            [
+              "12:00",
+              "carnation/blakes",
+              60,
+              10,
+              "Red Pepper Pizzeria 午餐，每天 11:00 起。",
+              "drive"
+            ],
+            [
+              "13:15",
+              "carnation/remlinger",
+              120,
+              10,
+              "只在南瓜節（9/26–11/1，週五至週日 10–18）與夏季開放時才進；其他月份改走 Snoqualmie Valley Trail 或早點回家。",
               "drive"
             ]
           ],
@@ -2838,7 +2838,7 @@
       "days": 1,
       "title": "Fall City：老屋咖啡、河邊與瀑布延伸",
       "subtitle": "河邊停一停",
-      "route": "Redmond → Aroma Coffee Co. → Historic Fall City → Fall City Community Park → Fall City Roadhouse Restaurant & Inn → Snoqualmie Falls Upper Observation Deck → Redmond",
+      "route": "Redmond → Aroma Coffee Co. → Historic Fall City → Fall City Community Park → Snoqualmie Falls Upper Observation Deck → Fall City Roadhouse Restaurant & Inn → Redmond",
       "scene": "village",
       "interests": [
         "town",
@@ -2862,7 +2862,7 @@
       ],
       "why": "Aroma 的老房子咖啡是很好的理由，再走河邊與鎮上。想延伸就朝 Snoqualmie Falls 或 North Bend；這裡本體是悠閒半日，不用咖啡後立刻離開，也不硬湊八小時。",
       "seasonNote": "春到秋最好發揮；夏季漂流是另一種活動，不是嬰兒親子主線。",
-      "watch": "漂流需要獨立的安全、裝備與接駁規劃；不要把夏季活動當全年可做。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "Roadhouse 如沒有合適午餐時段，就在 Aroma 吃餐點或往 Snoqualmie；不空等到下午才吃飯。 漂流需要獨立的安全、裝備與接駁規劃；不要把夏季活動當全年可做。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 2 小時",
       "itinerary": [
@@ -2898,18 +2898,18 @@
             ],
             [
               "13:00",
-              "fall-city/roadhouse",
-              75,
+              "fall-city/snoqualmie-falls",
+              60,
               20,
-              "週末 14:00 才開（平日 11:00）；13:00 要吃午餐就改去 Snoqualmie Falls Brewery（12:00 起），或把這站延到 14:00。",
+              "先上觀景區看瀑布，再回 Fall City 吃飯。",
               "drive"
             ],
             [
-              "14:40",
-              "fall-city/snoqualmie-falls",
-              60,
-              25,
-              "上觀景區看瀑布。",
+              "14:20",
+              "fall-city/roadhouse",
+              75,
+              20,
+              "Roadhouse 週末 14:00 才開門（平日 11:00），所以排在看完瀑布後的晚午餐。",
               "drive"
             ]
           ],
@@ -2950,7 +2950,7 @@
       ],
       "why": "第一次可走 Pike Place、waterfront 和一個館；喜歡咖啡音樂則另外留一個街區和一場演出。Discovery Park 是有路線數字的森林海景步道，不再只寫『市區散步』。",
       "seasonNote": "全年可去；夏日 waterfront 最舒服，冬季以博物館與街區餐飲為主。",
-      "watch": "停車費與活動日交通差異大；Seattle Center、Pike Place、Ballard 不是步行一小圈。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "上午集中市場水岸，下午只選 Chihuly 一館。若想 MOHAI 就替換，不兩館硬塞。 停車費與活動日交通差異大；Seattle Center、Pike Place、Ballard 不是步行一小圈。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "discovery",
@@ -3042,7 +3042,7 @@
       ],
       "why": "把 Gilman Village 咖啡、Front Street 與鮭魚排成一條，或直接拿半天爬 Poo Poo Point。晚上有 Village Theatre 可加，但完整登山日不要再塞兩個大型活動。",
       "seasonNote": "秋季鮭魚最有特色；春夏適合湖邊，冬季則多看當日天候。",
-      "watch": "州立公園停車須看 Discover Pass／日票規定；Salmon Days 不是整個秋季每天都有的活動。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "先 Gilman，再到 Front Street，兩區之間只轉場一次。 州立公園停車須看 Discover Pass／日票規定；Salmon Days 不是整個秋季每天都有的活動。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "poo-poo",
@@ -3140,7 +3140,7 @@
       ],
       "why": "咖啡選 Boon Boona，湖邊選 Gene Coulon，午餐就有園內 Ivar’s；對音樂有興趣可看 Hendrix memorial，再查 Renton Civic Theatre 的實際演出（Carco Theatre 2025 年 12 月淹水後關閉，未公布重開日），不只泛稱『去市中心吃飯』。",
       "seasonNote": "春到秋、晴朗傍晚最適合；冬天可縮短湖邊時間。",
-      "watch": "不把營運狀態未確認的歷史博物館當雨天保證；湖邊與舊市中心不是步行一個小圈。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "咖啡與湖岸是不同區域；中午後依興趣只加 Hendrix 或有票的 Renton Civic Theatre。 不把營運狀態未確認的歷史博物館當雨天保證；湖邊與舊市中心不是步行一個小圈。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 2 小時",
       "itinerary": [
@@ -3228,7 +3228,7 @@
       ],
       "why": "瀑布不是全部：The Bindlestick 咖啡、老車站、鐵道展示與 Falls Brewery 午餐可組完整白天。想走更久，改選 Twin Falls，不把所有瀑布都當同一個停車場。",
       "seasonNote": "全年都有瀑布；雨季水勢較有張力，但霧氣、積水與冬季冰面會影響體驗。",
-      "watch": "火車不是全天隨到隨搭；瀑布停車有不同停車場與規則，依現場標示選擇。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "先在瀑布停車，再把咖啡、Depot 和午餐集中於老街。下午的館舍先查日曆。 火車不是全天隨到隨搭；瀑布停車有不同停車場與規則，依現場標示選擇。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "twin-falls",
@@ -3320,7 +3320,7 @@
       ],
       "why": "除了古董與南瓜，還有具名咖啡、書店式逛法、河岸、Centennial Trail、派和 Oxford 現場音樂。秋季農場仍可選，但不再用一間農場占掉所有小鎮時間。",
       "seasonNote": "十月南瓜季最有記憶點，春夏則是河岸與老街；農場活動不是全年固定。",
-      "watch": "看動物、迷宮、遊樂設施常屬付費區；南瓜田免費入場不等於南瓜免費。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "這條真正把時間留給小鎮；想走更長就以 Centennial Trail 取代古董店，不兩條步道都走滿。 看動物、迷宮、遊樂設施常屬付費區；南瓜田免費入場不等於南瓜免費。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "wallace",
@@ -3386,7 +3386,7 @@
       "days": 1,
       "title": "Monroe：咖啡、河邊林地與湖岸短日",
       "subtitle": "沿著 Skykomish 出發",
-      "route": "Redmond → Monroe Coffee Co. → Historic Downtown Monroe → Al Borlin Park → Tuscano’s Italian Kitchen → Lake Tye Park → Redmond",
+      "route": "Redmond → Noticed Coffee Co. → Historic Downtown Monroe → Al Borlin Park → Tuscano’s Italian Kitchen → Lake Tye Park → Redmond",
       "scene": "farm",
       "interests": [
         "town",
@@ -3411,7 +3411,7 @@
       ],
       "why": "這次具體選 Monroe Coffee Co.（原 Pilot House，週日休；週日改 Noticed Coffee）、Tuscano’s 午餐、Al Borlin 林地與 Lake Tye 湖邊。真正爬山則往 Wallace Falls／Heybrook，城市公園不冒充山頂路線。",
       "seasonNote": "春至秋最適合戶外；夏季 fair 與秋季活動需看當年日期。",
-      "watch": "Fairgrounds 不是每天都有大型活動；沿 US-2 交通與山區路況要另外估。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "先 Downtown 與河岸，午餐後才往 Lake Tye；若想爬山，改用下方指定路線占半天。 Fairgrounds 不是每天都有大型活動；沿 US-2 交通與山區路況要另外估。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "wallace",
@@ -3436,10 +3436,10 @@
           "steps": [
             [
               "10:00",
-              "monroe/pilot",
+              "monroe/noticed-coffee-co",
               45,
               40,
-              "咖啡。",
+              "Main St 的 Noticed Coffee，週六 7–16、週日 9–14；原 Pilot House（現 Monroe Coffee Co.）週日公休。",
               "walk"
             ],
             [
@@ -3511,7 +3511,7 @@
       ],
       "why": "Huxdotter、Twede’s、山腳街景與 Boxley’s 爵士都點名；戶外再依你今天想爬山或只看湖二選一。Rattlesnake Lake 與 Ledge 是不同強度，不混用耗時。",
       "seasonNote": "春秋舒適、夏季湖景漂亮；冬季地面可能濕滑或結冰。",
-      "watch": "停車、步道與湖岸狀態依管理單位公告，不能因為湖邊離城近就忽略天候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "輕鬆版不登頂，湖邊和鎮上留足時間。晚間爵士是有場次才加。 停車、步道與湖岸狀態依管理單位公告，不能因為湖邊離城近就忽略天候。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "rattlesnake",
@@ -3602,7 +3602,7 @@
       ],
       "why": "Cafe Louvre、Salt & Iron、Cascadia Art Museum 與 ECA 表演都具名，海邊則看渡輪與短步道。很適合咖啡、美術和海風，不需要先搭船才能有旅行感。",
       "seasonNote": "春至秋的海景最佳；冬季可縮短戶外，多排室內。",
-      "watch": "要搭 Edmonds–Kingston 才需要渡輪規劃；只玩 Edmonds 不必排進候船車流。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "Downtown 和海邊可走路串；天氣好先海邊，下午再進館。 要搭 Edmonds–Kingston 才需要渡輪規劃；只玩 Edmonds 不必排進候船車流。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 1.5 小時",
       "itinerary": [
@@ -3686,7 +3686,7 @@
       ],
       "why": "燈塔和 Ivar’s 海景午餐之外，還有 Red Cup 咖啡、日本谷森林步道和 Future of Flight 展示；工廠 tour 有身高限制，不能把兩者混為雨天必去。",
       "seasonNote": "天暖海邊最舒服；燈塔內部有季節開放，外觀不等於能登塔。",
-      "watch": "Boeing Factory Tour 有至少 4 英尺身高要求，不能抱著較小兒童參加；以 Boeing 當日政策為準。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "海邊三站先集中玩，下午再開去航空館；想走森林則用 Japanese Gulch 替換航空館。 Boeing Factory Tour 有至少 4 英尺身高要求，不能抱著較小兒童參加；以 Boeing 當日政策為準。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 2 小時",
       "itinerary": [
@@ -3766,7 +3766,7 @@
       ],
       "why": "The Muse 咖啡和碼頭風景很適合你，藝術則可看 Schack，晚間選 New Everett Theater（原 Historic Everett Theatre）的致敬樂團場。兒童館保留作另一種家庭玩法，但不再把整座城市只當親子室內館。",
       "seasonNote": "全年能排；Jetty Island 是有季節交通與條件的額外玩法，不混入冬季主線。",
-      "watch": "館方營業日、票務及展區限制先確認；不要看見 Jetty Island 就假設隨時能搭船。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "上午都在 waterfront，午餐後才移到 Downtown 的 Schack；晚場依劇院日曆加。 館方營業日、票務及展區限制先確認；不要看見 Jetty Island 就假設隨時能搭船。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 2.5 小時",
       "itinerary": [
@@ -3854,7 +3854,7 @@
       ],
       "why": "這次把咖啡、午餐、步行和音樂接好：Downtown 走 Anthem、Museum of Glass、Fish Peddler，下午才往 Ruston；Valhalla 和車博館是可選替代，不整座城市來回穿。",
       "seasonNote": "全年合適，冬季館舍主線尤其穩定；夏日再延長水岸與公園。",
-      "watch": "Point Defiance、Ruston Way、汽車館與玻璃館不是步行一圈，別低估跨區車程與停車。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "上午都在 Downtown 博物館水道區，最後才移車一次往 Ruston。想全室內時以 TAM 換海岸。 Point Defiance、Ruston Way、汽車館與玻璃館不是步行一圈，別低估跨區車程與停車。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 2.5 小時",
       "itinerary": [
@@ -3937,7 +3937,7 @@
       ],
       "why": "Hookline 咖啡、Thai House／Playa Bonita、Verlot 服務站與 Big Four、Lake 22 都點名。一天只選一條主線：平緩的 Big Four 觀景，或爬升的 Lake 22／Heather Lake；冬春雪崩季改走低海拔的 Lime Kiln。",
       "seasonNote": "Mountain Loop Highway 2026 年 5/15 全線開通；冬季 Deer Creek–Bedal 之間 14 英里封路（2024 年從 11/22 起），Big Four 在封閉段內，Pilchuck Road 也在 Heather Lake 口設閘。Lake 22、Heather Lake 冬春有雪崩風險，6–10 月最穩；Big Four 冰洞每年不同，2026 年 10 月中已幾乎全塌。",
-      "watch": "Lake 22、Heather Lake 與 Big Four 冬春位在雪崩路徑下，雪季先看 NWAC；Big Four 曾有人因冰洞崩塌與雪崩喪命，只在步道終點觀看。熱門登山口週末一早客滿，停車需 Northwest Forest Pass 或現場 $5 日票。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "Mountain Loop Highway 開通期間（約 5 月中到 11 月）才用；冰洞只遠看，冬春雪崩季不走。 Lake 22、Heather Lake 與 Big Four 冬春位在雪崩路徑下，雪季先看 NWAC；Big Four 曾有人因冰洞崩塌與雪崩喪命，只在步道終點觀看。熱門登山口週末一早客滿，停車需 Northwest Forest Pass 或現場 $5 日票。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "lake-22",
@@ -4029,7 +4029,7 @@
       ],
       "why": "The Local Coffee House、Cole Street、The Mint 和森林步道可以排實在；想看更大山景再往 Crystal 或夏季 Naches Peak。Chalet 的電影與真正樂團場次分開看。",
       "seasonNote": "春至秋鎮上與山前路線最好安排；冬天滑雪是另一套交通與票務計畫。",
-      "watch": "Chinook Pass 季節封路不等於整條 SR-410 都封，也不代表夏天路線冬天可穿越；看 WSDOT。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "早上只在鎮內，午餐後挑一個公園；高山纜車另成一日主題，不是加拍照十幾分鐘。 Chinook Pass 季節封路不等於整條 SR-410 都封，也不代表夏天路線冬天可穿越；看 WSDOT。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "naches",
@@ -4112,7 +4112,7 @@
       ],
       "why": "Kimball 同時滿足咖啡和真實音樂，白天再走 Skansie 和 Harborview。Netshed No. 9 作午餐；Tides Tavern 是 21+，不能把兩間不加區分地推薦給帶未成年者。",
       "seasonNote": "春至秋最好享受水岸；冬季可做館舍加餐飲的短版。",
-      "watch": "會經 Tacoma Narrows Bridge，行程與通行費看實際走法；不要把私人碼頭當公共通道。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "先在 Kimball，接著車停港灣區慢走；午餐在 Netshed，不把 21+ Tides 當全齡替代。 會經 Tacoma Narrows Bridge，行程與通行費看實際走法；不要把私人碼頭當公共通道。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 3.5 小時",
       "itinerary": [
@@ -4198,7 +4198,7 @@
       ],
       "why": "花季之外也有 Ristretto 咖啡、Calico 午餐、Riverwalk 和 Lincoln Theatre。四月花田是另一套版本，不再拿全年都看得到鬱金香的想像排秋天。",
       "seasonNote": "鬱金香以四月為主要旅遊季，實際花況隨年；秋季改看農田與收成。",
-      "watch": "花季塞車、停車與預約是重點；有些花田是生產田，不能任意進入。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "整個白天集中 Downtown，下午可接 La Conner；有票才留 Lincoln 的晚場。 花季塞車、停車與預約是重點；有些花田是生產田，不能任意進入。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 3 小時",
       "itinerary": [
@@ -4276,7 +4276,7 @@
       ],
       "why": "這座很合你的小鎮口味：水道邊咖啡、MoNA、老街、淡菜與慢步道。先在 La Conner 本體慢下來，花田只是季節延伸，不是唯一亮點。",
       "seasonNote": "春季可串水仙與鬱金香，秋季更安靜；不是只有四月值得來。",
-      "watch": "花田在河谷周邊，不是鎮中心走出去就是；節慶期間停車提早規劃。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "幾乎都在鎮內步行，不把春季花田硬插在鎮內午餐中間。 花田在河谷周邊，不是鎮中心走出去就是；節慶期間停車提早規劃。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 3 小時",
       "itinerary": [
@@ -4365,7 +4365,7 @@
       ],
       "why": "Winslow 可以玩得很具體：Pegasus、Blackbird、Proper Fish、BIMA、水岸和 BPA。若想走森林或 Bloedel，另留交通，不再寫成下船後都能順手到。",
       "seasonNote": "全年能排，春秋花園漂亮；冬季用藝術館與餐飲縮短戶外。",
-      "watch": "Seattle–Bainbridge 車輛不是可預約保證上船；步行和開車登船的排隊體驗差很多。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "時間從抵達 Winslow 後算；先用步行圈玩好，不將 Bloedel 硬插在午餐中間。 Seattle–Bainbridge 車輛不是可預約保證上船；步行和開車登船的排隊體驗差很多。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 3 小時",
       "itinerary": [
@@ -4453,7 +4453,7 @@
       ],
       "why": "Olympia Coffee、州議會、市場、Bread Peddler 和 Percival Landing 可以順路串。想聽音樂看 Washington Center，想走更久的自然再去 Nisqually，不把海灣整片當一個景點。",
       "seasonNote": "全年可去，春夏園區和水岸更舒服；冬季主打館與建築。",
-      "watch": "州議會室內不是隨時都能自由參觀；市場與特定活動要看當季公告。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "市場和 Bread Peddler 都放下午前段，避免逛完才發現已收市／結束廚房。 州議會室內不是隨時都能自由參觀；市場與特定活動要看當季公告。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 4 小時",
       "itinerary": [
@@ -4539,7 +4539,7 @@
       ],
       "why": "很適合慢逛：Salty Sea Coffee、First Street 的畫廊小店、海景 pizza、Seawall 水道景色，下午再看 WICA 或 Ott & Hunter 的實際演出。渡輪是旅程的一部分，但候船不能假裝不存在。",
       "seasonNote": "春至秋最舒服；賞鯨有季節與運氣，不能把野生動物當固定演出。",
-      "watch": "Mukilteo–Clinton 車輛不是預約保證登船；週末候船可能比海上航程長。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "時間以到 Langley 後開始；Mukilteo 候船和 Clinton 到鎮上車程另外加。 Mukilteo–Clinton 車輛不是預約保證登船；週末候船可能比海上航程長。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 3.5 小時",
       "itinerary": [
@@ -4600,7 +4600,7 @@
       "days": 1,
       "title": "Port Gamble：老商店咖啡、歷史鎮與森林",
       "subtitle": "像被留下來的十九世紀",
-      "route": "Redmond → Port Gamble General Store & Cafe → Port Gamble Historic Townsite → Port Gamble Historic Museum → Butcher & Baker Provisions → Port Gamble Forest Heritage Park → Redmond",
+      "route": "Redmond → Port Gamble General Store & Cafe → Port Gamble Historic Townsite → Sea & Shore Museum (Port Gamble General Store, upstairs) → Butcher & Baker Provisions → Port Gamble Forest Heritage Park → Redmond",
       "scene": "village",
       "interests": [
         "town",
@@ -4624,7 +4624,7 @@
       ],
       "why": "這座小村可以做得很精準：General Store 咖啡、公司鎮街屋、Museum、Butcher & Baker 午餐和森林步道。鎮小是特色，不需要用重複逛街湊一整天。",
       "seasonNote": "春到秋有較多戶外活動，冬季更安靜但店家日數也可能少。",
-      "watch": "歷史鎮區、森林步道與付費活動不是同一套行程；森林活動要另外確認天候與開放。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "鎮內走完再用午餐，森林是午後加長；不想走林地可提早接 Poulsbo。 歷史鎮區、森林步道與付費活動不是同一套行程；森林活動要另外確認天候與開放。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 4 小時",
       "itinerary": [
@@ -4652,10 +4652,10 @@
             ],
             [
               "12:10",
-              "port-gamble/museum",
-              50,
+              "port-gamble/sea-shore-museum-port-gamble-general-sto",
+              40,
               10,
-              "史蹟館只在 5–9 月週四至週日 12:00–17:00 開；其他時間改看 General Store 樓上的免費貝殼館。",
+              "General Store 樓上的免費貝殼館，每天 10–17；史蹟館只在 5–9 月週四至週日 12–17 開。",
               "walk"
             ],
             [
@@ -4713,7 +4713,7 @@
       ],
       "why": "先吃 Cle Elum Bakery、喝 Pioneer，再看 South Cle Elum 的鐵道與河谷。Suncadia 和 Swiftwater 是可選的另一區，公開餐飲和住客設施分開看。",
       "seasonNote": "春秋最舒適；夏季自然活動多，冬季雪景與山口交通是同一件事的兩面。",
-      "watch": "度假區的泳池、spa、活動與部分停車不是所有遊客免費使用；先查權限與費用。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "不為了看所有度假設施一直移車，先用 South Cle Elum 做完整半天。 度假區的泳池、spa、活動與部分停車不是所有遊客免費使用；先查權限與費用。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 4.5 小時",
       "itinerary": [
@@ -4799,7 +4799,7 @@
       ],
       "why": "Anacortes 本島就夠玩：Penguin 咖啡、Cap Sante、Rockfish 午餐與 live music，再選 Washington Park 或 Mt. Erie。San Juan 渡輪不是必需，也不再把碼頭當唯一景點。",
       "seasonNote": "春至秋天氣穩時最美；低雲強風會大幅削弱海景體驗。",
-      "watch": "開到 Anacortes 不代表已到 San Juan；外島另算船班與預約。步道／棧橋狀態也要查市府公告。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "上午咖啡和 Cap Sante，午餐在 Downtown；下午 Washington Park 或 Mt. Erie 擇一，不為數量全跑。 開到 Anacortes 不代表已到 San Juan；外島另算船班與預約。步道／棧橋狀態也要查市府公告。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "goose-rock",
@@ -4869,7 +4869,7 @@
       "days": 1,
       "title": "Poulsbo：咖啡、北歐烘焙與海灣",
       "subtitle": "海灣邊的小挪威",
-      "route": "Redmond → Poulsbo Coffee Company → Historic Front Street Poulsbo → The Loft at Latitude Forty Seven Seven → Liberty Bay Waterfront Park → SEA Discovery Center → Redmond",
+      "route": "Redmond → Poulsbo Coffee Company → Historic Front Street Poulsbo → The Loft at Latitude Forty Seven Seven → Liberty Bay Waterfront Park → Poulsbo Maritime Museum → Redmond",
       "scene": "village",
       "interests": [
         "town",
@@ -4894,7 +4894,7 @@
       ],
       "why": "北歐街屋、Sluys 烘焙、Poulsbo Coffee Company（原 Poulsbohemian 店面）與 Liberty Bay 都值得慢慢停。餐廳和海洋館分開點名；音樂看 Bushel & Barrel Ciderhouse（多數週五 18–20 免費、全齡，北邊約 10 分鐘車程）。",
       "seasonNote": "春至秋最適合海灣，冬季可逛但營業日與室內活動更需事先確認。",
-      "watch": "挪威風街景不等於大型主題樂園；節慶是特定日期，不是全年每天都有。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "核心區多用步行，海洋館未開就多留給海灣和小店，不為等開門反覆繞街。 挪威風街景不等於大型主題樂園；節慶是特定日期，不是全年每天都有。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 4 小時",
       "itinerary": [
@@ -4938,10 +4938,10 @@
             ],
             [
               "14:50",
-              "poulsbo/sea",
+              "poulsbo/poulsbo-maritime-museum",
               60,
               10,
-              "SEA 只在週五、六 11:00–16:00 開；週日改去 Maritime Museum，或買 Sluys 烘焙收尾。",
+              "Poulsbo 海事博物館每天 10–16；SEA Discovery Center 只開週五、六。",
               "walk"
             ]
           ],
@@ -4982,7 +4982,7 @@
       ],
       "why": "真正的礦城慢旅行：Basecamp 書店咖啡、Roslyn Village Pizza（老 Roslyn Cafe 已歇業）、Historical Museum 和 Coal Mines Trail，晚間才選 The Brick 的樂團。不是只有拍 Northern Exposure 招牌。",
       "seasonNote": "春秋最容易散步；夏天可延伸自然，冬天有雪景但需山口交通規劃。",
-      "watch": "跨 Snoqualmie Pass 看 WSDOT 路況；雪季不能只照夏天導航時間出發。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "上午先逛店，午後才走步道；The Brick 晚場有喜歡的樂團才加，住一晚更從容。 跨 Snoqualmie Pass 看 WSDOT 路況；雪季不能只照夏天導航時間出發。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 3.5 小時",
       "itinerary": [
@@ -5072,7 +5072,7 @@
       ],
       "why": "Fairhaven、Woods 的海邊咖啡、Village Books 與 Colophon 足夠慢慢玩。再加 Whatcom Falls 或 SPARK，晚上才視興趣排 Mount Baker Theatre；爬山另外留半天。",
       "seasonNote": "全年能排，春秋舒服；夏天適合延長海邊時間，冬天以街區和館為主。",
-      "watch": "Whatcom Falls 與 Mount Baker 是另外的車程，不是 Fairhaven 步行範圍。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "先海濱與 Fairhaven，最後只開去 Whatcom Falls 或 SPARK 其中一個。 Whatcom Falls 與 Mount Baker 是另外的車程，不是 Fairhaven 步行範圍。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "fragrance",
@@ -5169,7 +5169,7 @@
       ],
       "why": "先在 Manette 吃 Saboteur 烘焙與 Boat Shed 午餐，再過橋看海軍館和水岸。晚上真想聽音樂有 Admiral Theatre；不把軍艦艙梯當普通博物館無障礙走法。",
       "seasonNote": "全年可規劃，冬季館舍營業日和船艦開放尤其要查。",
-      "watch": "不要把『博物館』與『艦內參觀』當同一種可達性；實際開館、票務依業者公告。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "上午留在 Manette，午餐後再過橋一次到 Downtown，不兩岸反覆移車。 不要把『博物館』與『艦內參觀』當同一種可達性；實際開館、票務依業者公告。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 4 小時",
       "itinerary": [
@@ -5256,7 +5256,7 @@
       ],
       "why": "咖啡有 Fiddlers（Mellen St）與 11 點才開的 Rustic Heritage Bakery（原 Santa Lucia 位置），午餐有 Olympic Club，古董街與車站能真的走成一圈。把它當小鎮半日或南下停靠，不以 outlet 取代歷史街區。",
       "seasonNote": "全年能逛店，春秋走街最舒服；冬季先看個別商家營業日。",
-      "watch": "Outlet 與 Historic Downtown 是不同體驗；跨區找停車和商店休息日都要算進去。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "先咖啡再把車停 Downtown，車站與午餐步行串，最後才移去公園。 Outlet 與 Historic Downtown 是不同體驗；跨區找停車和商店休息日都要算進去。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 5 小時",
       "itinerary": [
@@ -5340,7 +5340,7 @@
       ],
       "why": "用 Whidbey Coffee 與 Seabolt’s 把用餐排實在，風景則看 Windjammer 和 Deception Pass。這座是北島基地，不把普通市區公園誇成登山。",
       "seasonNote": "春秋與夏季最適合海岸；冬季低雲、強風會影響橋邊觀景。",
-      "watch": "不要在橋上隨意停車；州立公園停車與日票規則先確認。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "若從北橋進島，可將公園放第一站，鎮上收尾；這版先給已抵達 Oak Harbor 的安排。 不要在橋上隨意停車；州立公園停車與日票規則先確認。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "goose-rock",
@@ -5430,7 +5430,7 @@
       ],
       "why": "咖啡外帶後，Book ’n’ Brush、歷史館與 Jeremy’s 午餐能排得很具體；火車要先訂班次，晚間先看 The Chehalis Theater 有沒有演唱會（查證時沒有排定），不把兩種 theatre 混在一起。",
       "seasonNote": "春至秋較好串戶外，節慶火車有特定日期；冬季看實際營運。",
-      "watch": "不要只看舊照片就排蒸汽火車；先確認列車是否營運、票務與車種。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "這條排週六：週日 Mint City 與歷史館都休、Book ’n’ Brush 11 點才開。沒有買列車票就不空留兩小時在車站；Steam train 若是主角，先以班次重排全日。 不要只看舊照片就排蒸汽火車；先確認列車是否營運、票務與車種。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 5.5 小時",
       "itinerary": [
@@ -5453,7 +5453,7 @@
               "chehalis/books",
               50,
               20,
-              "書店。",
+              "書店（週日 11:00 才開）。",
               "drive"
             ],
             [
@@ -5515,7 +5515,7 @@
       ],
       "why": "這裡可以是咖啡與淡菜小鎮日，也可以真的走 Ebey’s 海崖長線。把 Sunshine Drip、Osprey Fish Co.（Front Street Grill 2026/10 起整修暫停） 和 Wharf 點出來，長健行就不再把午後逛店塞滿。",
       "seasonNote": "春至秋看海與農地最舒服；冬季海灣強風時縮短戶外。",
-      "watch": "Port Townsend–Coupeville 是可訂車位的不同航線，也會受風與潮汐影響；不要混用航線規則。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "這條不走完整 Ebey’s；想走長線就給它半天並減少鎮內活動。 Port Townsend–Coupeville 是可訂車位的不同航線，也會受風與潮汐影響；不要混用航線規則。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "ebeys",
@@ -5606,7 +5606,7 @@
       ],
       "why": "D&M 咖啡、紅磚街屋、La Santa（原 Yellow Church 老教堂裡的墨西哥餐廳） 和兩間歷史藝術館可以慢玩；想聽音樂就查 CWU Concert Hall。河谷風景另外留交通，不直接把全段公路寫成一個點。",
       "seasonNote": "春秋適合戶外，盛夏偏熱；rodeo 是特定日期，不是常設演出。",
-      "watch": "跨山口風雪、東側強風都會影響交通；不要把峽谷當全段都能隨意停車的觀景台。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "先去河畔再回市中心午餐，下午兩館擇一為主；有演出才留 CWU 晚間。 跨山口風雪、東側強風都會影響交通；不要把峽谷當全段都能隨意停車的觀景台。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 5 小時",
       "itinerary": [
@@ -5695,7 +5695,7 @@
       ],
       "why": "山前咖啡、Copper Creek 正餐和國家公園分開給你。想登山就把 Skyline 留整個白天；Elbe 火車有恢復營運，仍要按正式班次，不沿用疫情時舊攻略說永久停駛。",
       "seasonNote": "夏季步道與道路選擇最多；冬天道路和開門時間受天候、人力影響，不能保證每天上 Paradise。",
-      "watch": "NPS 規定十一月一日至五月一日攜帶雪鏈，AWD 也適用；其他季節、入園與預約規定看當季公告。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "按道路和館舍實際開放調整，下午不再硬塞 Elbe 班次或 Paradise 長線。 NPS 規定十一月一日至五月一日攜帶雪鏈，AWD 也適用；其他季節、入園與預約規定看當季公告。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "nisqually",
@@ -5782,7 +5782,7 @@
       ],
       "why": "不只國境前加油：L&L Bakery（原 Peace Arch City Cafe 已歇業）、Drayton Harbor 牡蠣和 Semiahmoo 海岸都可實際導航。喜歡安靜海景才值得停，過境或夏季音樂則獨立安排。",
       "seasonNote": "春到秋適合海邊；冬季風冷，鎮內室內內容不多。",
-      "watch": "這裡仍是美國。國境周邊有特定規則，不把 Peace Arch 當不需文件即可自由跨境的觀光走道。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "先玩 Blaine 本城，午餐後再去 Semiahmoo；若要過境，回頭把口岸等候時間獨立保留。 這裡仍是美國。國境周邊有特定規則，不把 Peace Arch 當不需文件即可自由跨境的觀光走道。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 5 小時",
       "itinerary": [
@@ -5860,7 +5860,7 @@
       ],
       "why": "Water Street 是開場，不是全部：海邊咖啡、Jefferson Museum、Point Hudson 午餐、Fort Worden 和 Centrum 音樂，值得讓它成為一個有內容的過夜小鎮。",
       "seasonNote": "春秋舒服、夏季活動多；冬天可逛，但海風與部分館舍時段更受限制。",
-      "watch": "不要把整個 Fort Worden 當半小時可逛完；橋梁、船班與州立公園停車各有規則。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "上午集中 Downtown／Point Hudson，下午才開往 Fort Worden；要聽 Centrum 就先以節目排。 不要把整個 Fort Worden 當半小時可逛完；橋梁、船班與州立公園停車各有規則。 含渡輪：週末常要等一兩班，出發前看 WSDOT 渡輪即時等候。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 5.5 小時",
       "itinerary": [
@@ -5946,7 +5946,7 @@
       ],
       "why": "咖啡選 Hoodsport Coffee，湖邊選 Skokomish Park，午餐選 El Puerto；Hama Hama 是往北的另一個餐飲選項，不和中午正餐再重複塞一輪。",
       "seasonNote": "春秋與夏季都適合水岸，山路與林道冬季可能有雪或管制。",
-      "watch": "公共海岸、私人度假地與需票的公園分清楚；進山車程不是本頁到鎮估時的一部分。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "這版走湖邊；Hama Hama 是替代餐飲路線，不是在午餐後再排第二頓正餐。 公共海岸、私人度假地與需票的公園分清楚；進山車程不是本頁到鎮估時的一部分。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "mount-ellinor",
@@ -6029,7 +6029,7 @@
       ],
       "why": "這裡是水景、咖啡和音樂活動的慢度假，不是密集觀光。Union City Market 有指定營業日，Alderbrook 餐廳能訂位；想走自然則去真正公共的 Twanoh。",
       "seasonNote": "春至秋容易享受水景，冬天偏向住宿和室內放鬆。",
-      "watch": "Alderbrook 的泳池、spa、碼頭與活動可能有住客或預約限制，不當公共遊樂設施。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "從 11:00 的當地市場開始，不硬塞一個未開門的早咖啡。若以演出為主，再依 Robinhood 場次調整。 Alderbrook 的泳池、spa、碼頭與活動可能有住客或預約限制，不當公共遊樂設施。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [],
       "driving": "全程開車約 5.5 小時",
       "itinerary": [
@@ -6074,7 +6074,7 @@
       "days": 1,
       "title": "Leavenworth：咖啡、巴伐利亞街景與河岸",
       "subtitle": "山裡的巴伐利亞假日",
-      "route": "Redmond → J5 Coffee → Front Street Leavenworth → Andreas Keller Restaurant → Waterfront Park → Leavenworth Nutcracker Museum → Redmond",
+      "route": "Redmond → Argonaut Coffee & Biscuits → Front Street Leavenworth → Andreas Keller Restaurant → Waterfront Park → Leavenworth Nutcracker Museum → Redmond",
       "scene": "village",
       "interests": [
         "town",
@@ -6103,7 +6103,7 @@
       ],
       "why": "把咖啡、德式午餐、河岸、博物館和音樂都點名；如果真正想爬山，Icicle Ridge 是獨立的完整早上，不和平緩 Icicle Gorge 混在一起。",
       "seasonNote": "秋色與冬季燈景特別有氣氛，夏季適合河邊；節慶日期與活動規則逐年查。",
-      "watch": "US-2／I-90 接山路的選擇依季節與路況，不照夏天最短時間保證冬天可達。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "給已抵達當地的一整天；跨山口來回另算。晚間音樂先訂，再選餐廳。 US-2／I-90 接山路的選擇依季節與路況，不照夏天最短時間保證冬天可達。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "icicle-ridge",
@@ -6124,10 +6124,10 @@
           "steps": [
             [
               "09:30",
-              "leavenworth/j5",
+              "leavenworth/argonaut-coffee-biscuits",
               45,
               155,
-              "咖啡；J5 週日休，週日改 Argonaut（每天 7–14）。",
+              "Argonaut 的 biscuit 與咖啡，每天 7–14（J5 週日休）。",
               "walk"
             ],
             [
@@ -6202,7 +6202,7 @@
       ],
       "why": "Concrete 的 5b's 烘焙與 1923 年老戲院、Newhalem 的吊橋老樹與 Ladder Creek Falls、Diablo Lake 湖色都點名；夏秋可背寶寶走 Thunder Knob，冬天改看 Rockport 白頭海鵰。SR 20 冬季封閉點會移動，出發前先看 WSDOT。",
       "seasonNote": "SR 20 西段平時全年可開到 Newhalem；冬季封閉通常先設在 MP 134（Diablo 東側），之後可能後退到 Newhalem gate（MP 120），屆時 Gorge Creek Falls、Diablo Lake Overlook、Thunder Knob 都到不了。湖色 7–9 月晴天最藍，老鷹 12 月下旬到 1 月中最多；2026 年 Visitor Center 只開 5/18–9/27。",
-      "watch": "Marblemount 以東的 Newhalem 與國家公園沿線沒有加油站（NPS）；冬季先看 WSDOT 封閉點再決定能開到哪。Sauk Mountain 林道不除雪、步道有沖蝕與墜落事故回報，夏天也先看 WTA 近況。 同城其他時間路線、雨天備案與音樂在城市指南。",
+      "watch": "適合 SR 20 開到 Diablo、Thunder Knob 季節木橋還在的 5–10 月週末；Newhalem 以東沒有餐廳，午餐在 5b's 外帶。下雨或木橋已拆就跳過 Thunder Knob，提早回 Marblemount。 Marblemount 以東的 Newhalem 與國家公園沿線沒有加油站（NPS）；冬季先看 WSDOT 封閉點再決定能開到哪。Sauk Mountain 林道不除雪、步道有沖蝕與墜落事故回報，夏天也先看 WTA 近況。 同城其他時間路線、雨天備案與音樂在城市指南。",
       "hikes": [
         {
           "trail": "trail-of-the-cedars",
