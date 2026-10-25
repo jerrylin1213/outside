@@ -321,6 +321,7 @@ function validateDetailedData(data, details, trailData) {
       if (place.program !== undefined && typeof place.program !== "boolean") throw new Error(`${city.id}/${place.id} 節目型別不符。`);
       if (place.program && !place.url) throw new Error(`${city.id}/${place.id} 節目需要可查日期與場地的來源。`);
       if (place.verified !== undefined && !parseISODate(place.verified)) throw new Error(`${city.id}/${place.id} 查證日期不符。`);
+      for (const field of ["hours", "liveMusic"]) if (place[field] !== undefined && (typeof place[field] !== "string" || !place[field].trim())) throw new Error(`${city.id}/${place.id} 的 ${field} 不符。`);
       if (place.query.trim().length < 8 || normalize(place.query) === normalize(city.name)) throw new Error(`${city.id}/${place.id} 不能只以城市名稱代替地點定位。`);
       if (place.url !== undefined) sourceURL(place.url);
       places.set(place.id, place);
@@ -597,6 +598,8 @@ function placeCardHTML(place, index) {
     <div class="place-kinds">${place.kinds.map((kind) => `<span>${PLACE_KINDS[kind]}</span>`).join("")}</div>
     <p>${escapeHTML(place.note)}</p>
     <div class="place-time">${icon("clock")}建議停留約 ${stayLabel(place.minutes)}</div>
+    ${place.hours ? `<p class="place-hours">營業（官網）：${escapeHTML(place.hours)}</p>` : ""}
+    ${place.liveMusic ? `<p class="place-hours">演出：${escapeHTML(place.liveMusic)}</p>` : ""}
     ${place.kinds.some((kind) => BUSINESS_KINDS.has(kind)) ? `<p class="place-verified" data-verified="${place.verified ? "yes" : "no"}">${place.verified ? `${icon("check")}${dateLabel(parseISODate(place.verified))}已查證營業` : `${icon("info")}營業狀態尚未逐家查證，出發前先看 Google Maps`}</p>` : ""}
     <p class="place-location">${escapeHTML(place.query)}</p>
     <div class="place-actions">${placeActions(place)}</div>

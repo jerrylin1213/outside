@@ -1663,6 +1663,312 @@
         "https://www.wta.org/go-hiking/trip-reports/trip_report-2025-12-28.211249585808",
         "https://dnr.wa.gov/natural-areas/natural-resources-conservation-areas/west-tiger-mountain-natural-resources-conservation-area"
       ]
+    },
+    {
+      "id": "trail-of-the-cedars",
+      "name": "Trail of the Cedars（Newhalem 吊橋環線）",
+      "miles": 0.3,
+      "gainFt": 0,
+      "difficulty": "easy",
+      "climb": false,
+      "duration": [
+        30,
+        60
+      ],
+      "trailhead": [
+        48.6726,
+        -121.2467
+      ],
+      "pass": "WTA：不需停車證。",
+      "note": "過 Skagit River 吊橋後的老紅雪松碎石環線，有解說牌與 2015 年野火後的再生林；WTA 與 NPS 都列 0.3 mile，City Light 含支線的 3/4 mile 說法不混算。",
+      "access": "碎石平路，WTA 標示輪椅可行但建議有人協助；吊橋會晃，推車可過，背巾最省事。",
+      "source": "https://www.wta.org/go-hiking/hikes/trail-of-the-cedars",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "City Light 標示全年開放，2026 年 2 月仍有 WTA 回報；冬季雨後碎石與吊橋濕滑，下雪結冰時穿止滑鞋。",
+      "roadAccess": "SR 20 冬季封閉點最西後退到 Newhalem gate（MP 120）；City Light 標示鎮內步道全年開放，出發前仍看 WSDOT。",
+      "status": [
+        [
+          "City Light 開放時間",
+          "https://www.seattle.gov/city-light/in-the-community/tours-recreation-and-education/skagit-tours-and-recreation"
+        ],
+        [
+          "WSDOT SR 20 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/north-cascades"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/trail-of-the-cedars"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/trail-of-the-cedars",
+        "https://www.wta.org/go-hiking/hikes/trail-of-the-cedars/@@related_tripreport_listing",
+        "https://www.seattle.gov/city-light/in-the-community/tours-recreation-and-education/skagit-tours-and-recreation",
+        "https://www.nps.gov/noca/planyourvisit/newhalem-area-trails.htm",
+        "https://wsdot.wa.gov/about/news/2025/sr-20-north-cascades-highway-closes-season-thursday-dec-4-6-pm"
+      ]
+    },
+    {
+      "id": "thunder-knob",
+      "name": "Thunder Knob（Colonial Creek 入口）",
+      "miles": 3.6,
+      "gainFt": 635,
+      "difficulty": "easy-moderate",
+      "climb": false,
+      "duration": [
+        120,
+        180
+      ],
+      "trailhead": [
+        48.6905,
+        -121.098
+      ],
+      "pass": "WTA：不需停車證。",
+      "note": "穿過 Colonial Creek 營地、走過溪上的季節木橋後緩上，頂上俯瞰 Diablo Lake 與周圍群峰；WTA 標示適合小孩，沿途有長椅。",
+      "access": "土石山徑有樹根，不是推車路線，背巾可行；WTA 註明此路線已不再算輪椅可行。",
+      "source": "https://www.wta.org/go-hiking/hikes/thunder-knob",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "WTA 指出起點過 Colonial Creek 的季節木橋在夏季結束後拆除，冬季要越過溪床分流，加上封閉點可能後退，冬天不排。",
+      "roadAccess": "登山口在 SR 20 MP 130 的 Colonial Creek 營地旁，位於冬季封閉點 MP 134 西側；封閉點後退到 Newhalem gate（MP 120）後就開不到。",
+      "status": [
+        [
+          "WSDOT SR 20 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/north-cascades"
+        ],
+        [
+          "NPS 步道狀況",
+          "https://www.nps.gov/noca/planyourvisit/trail-conditions.htm"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/thunder-knob"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/thunder-knob",
+        "https://www.wta.org/go-hiking/hikes/thunder-knob/@@related_tripreport_listing",
+        "https://www.nps.gov/noca/planyourvisit/trail-conditions.htm",
+        "https://www.nps.gov/noca/planyourvisit/road-conditions.htm",
+        "https://wsdot.wa.gov/about/news/2025/sr-20-north-cascades-highway-closes-season-thursday-dec-4-6-pm"
+      ]
+    },
+    {
+      "id": "diablo-lake-trail",
+      "name": "Diablo Lake Trail（至 Ross Dam 吊橋往返）",
+      "miles": 7.6,
+      "gainFt": 1400,
+      "difficulty": "moderate-hard",
+      "climb": true,
+      "duration": [
+        240,
+        360
+      ],
+      "trailhead": [
+        48.7206,
+        -121.1216
+      ],
+      "pass": "WTA：不需停車證。",
+      "note": "從 North Cascades Institute 停車場出發，沿 Sourdough Mountain 山腰穿過老森林與碎石坡，看湖景與瀑布，到 Ross Dam 附近吊橋後原路折返，不是環線。",
+      "access": "有碎石坡與岩段，不推車；7.6 mile 對背寶寶是整天行程，起點要開過 Diablo Dam。",
+      "source": "https://www.wta.org/go-hiking/hikes/diablo-lake",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "WTA 認為低海拔全年可走、也適合早季，但冬季碎石坡與岩階可能結冰；列出月份以外出發前先看封閉點與近期回報。",
+      "roadAccess": "SR 20 轉 Diablo Dam Road 開過壩頂到路底；冬季封閉點後退到 Newhalem gate（MP 120）時無法進入。",
+      "status": [
+        [
+          "WSDOT SR 20 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/north-cascades"
+        ],
+        [
+          "NPS 步道狀況",
+          "https://www.nps.gov/noca/planyourvisit/trail-conditions.htm"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/diablo-lake"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/diablo-lake",
+        "https://www.nps.gov/noca/planyourvisit/trail-conditions.htm",
+        "https://wsdot.wa.gov/about/news/2025/sr-20-north-cascades-highway-closes-season-thursday-dec-4-6-pm",
+        "https://wsdot.wa.gov/construction-planning/search-projects/sr-20-north-cascades-highway-emergency-repairs-completed-june-2026"
+      ]
+    },
+    {
+      "id": "sauk-mountain",
+      "name": "Sauk Mountain（FR 1030 路底登山口）",
+      "miles": 4.2,
+      "gainFt": 1200,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        150,
+        240
+      ],
+      "trailhead": [
+        48.5213,
+        -121.6072
+      ],
+      "pass": "WTA 與 USFS：不需停車證。",
+      "note": "停車場就有展望，前 1.5 mile 有 26 個之字坡，最後半英里上稜線；晴天可望 Rainier、Puget Sound 與 San Juan Islands，7–8 月野花最盛（USFS）。",
+      "access": "開闊陡坡、路窄，WTA 2026 年 9 月回報多處沖蝕且有墜落事故；背寶寶不建議走沖蝕段與最後稜線，不是推車路線。",
+      "source": "https://www.wta.org/go-hiking/hikes/sauk-mountain",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "冬季到初夏積雪、林道不除雪，開闊陡坡有雪崩與滑墜風險；10 月中下旬清晨步道已會結冰濕滑（WTA 2026-10-18）。",
+      "roadAccess": "SR 20 MP 96 附近轉 Sauk Mountain Road（FR 1030），約 8 mile 碎石陡路到底，USFS 稱多數車可上；2026 年 WTA 回報坑洞與車轍增加。",
+      "status": [
+        [
+          "USFS Mt. Baker-Snoqualmie 警示",
+          "https://www.fs.usda.gov/r06/mbs/alerts"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/sauk-mountain"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/sauk-mountain",
+        "https://www.wta.org/go-hiking/hikes/sauk-mountain/@@related_tripreport_listing",
+        "https://www.fs.usda.gov/r06/mbs/recreation/trails/sauk-mountain-trail-613",
+        "https://www.fs.usda.gov/r06/mbs/recreation/sauk-mountain-trailhead"
+      ]
+    },
+    {
+      "id": "blue-lake-sr20",
+      "name": "Blue Lake（Washington Pass 西側）",
+      "miles": 4.4,
+      "gainFt": 1050,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        150,
+        240
+      ],
+      "trailhead": [
+        48.5191,
+        -120.6742
+      ],
+      "pass": "USFS：Northwest Forest Pass、America the Beautiful，或現場 Scan & Pay 每車每日 $5。",
+      "note": "森林緩上到花崗岩峰下的藍綠湖，USFS 主線約 2.2 mile 單程；1.7 mile 處左岔是 Liberty Bell 攀登路線，維持主線。9 月下旬到 10 月初秋色最好。",
+      "access": "土石山徑、上段石塊多，不推車，背巾可行；海拔 5,400–6,254 ft，比西側冷且天氣變化快。停車約 20 格常滿。",
+      "source": "https://www.wta.org/go-hiking/hikes/blue-lake",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "SR 20 冬季封閉期間完全到不了（2025 年 12/4 關閉、2026 年因災損到 6/14 才全線重開）；開放初期與 10 月下旬常有殘雪或新雪，需抓地鞋。",
+      "roadAccess": "只在 SR 20 開放時可到：MP 162 西側半英里的南側小停車場，位於冬季封閉段 MP 134–171 內。",
+      "status": [
+        [
+          "WSDOT SR 20 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/north-cascades"
+        ],
+        [
+          "USFS Okanogan-Wenatchee 警示",
+          "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/blue-lake"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/blue-lake-trailhead",
+        "https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/trails/blue-lake-trail",
+        "https://www.wta.org/go-hiking/hikes/blue-lake",
+        "https://wsdot.wa.gov/travel/roads-bridges/mountain-pass-closure-and-opening-dates",
+        "https://wsdot.wa.gov/construction-planning/search-projects/sr-20-north-cascades-highway-emergency-repairs-completed-june-2026"
+      ]
+    },
+    {
+      "id": "rainy-lake",
+      "name": "Rainy Lake 鋪面步道（Rainy Pass）",
+      "miles": 2.0,
+      "gainFt": 70,
+      "difficulty": "easy",
+      "climb": false,
+      "duration": [
+        45,
+        90
+      ],
+      "trailhead": [
+        48.515,
+        -120.7355
+      ],
+      "pass": "USFS：Northwest Forest Pass、America the Beautiful，或現場 Scan & Pay 每車每日 $5。",
+      "note": "全鋪面、幾乎無爬升，走到湖邊看峭壁與瀑布，USFS 說單程約 20 分鐘；數字採 WTA 2.0 mile 往返、70 ft。",
+      "access": "USFS 列 fully accessible，推車可走；約半英里處右岔是陡上山路，直走即可。手動輪椅部分路段可能需協助。",
+      "source": "https://www.wta.org/go-hiking/hikes/rainy-lake",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "SR 20 冬季封閉期間到不了；2025 年 6 月底已有親子走完的回報、10 月中則有積雪回報，鋪面結冰時一樣會滑。",
+      "roadAccess": "只在 SR 20 開放時可到：MP 158 Rainy Pass 的南側停車場，位於冬季封閉段 MP 134–171 內。",
+      "status": [
+        [
+          "WSDOT SR 20 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/north-cascades"
+        ],
+        [
+          "USFS Okanogan-Wenatchee 警示",
+          "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/rainy-lake"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/heather-maple-pass-rainy-pass-picnic-site",
+        "https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/trails/rainy-lake-trail",
+        "https://www.wta.org/go-hiking/hikes/rainy-lake",
+        "https://www.wta.org/go-hiking/hikes/trail-of-the-cedars/@@related_tripreport_listing?b_start:int=5",
+        "https://wsdot.wa.gov/travel/roads-bridges/mountain-pass-closure-and-opening-dates"
+      ]
     }
   ]
 }

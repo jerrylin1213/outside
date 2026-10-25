@@ -11289,6 +11289,375 @@
       ],
       "musicNote": "Inlet Theatre 有真正音樂節目才安排；Brewers Row 任一家當天有沒有音樂不當保證。",
       "hikes": []
+    },
+    "north-cascades": {
+      "intro": "Concrete 的 5b's 烘焙與 1923 年老戲院、Newhalem 的吊橋老樹與 Ladder Creek Falls、Diablo Lake 湖色都點名；夏秋可背寶寶走 Thunder Knob，冬天改看 Rockport 白頭海鵰。SR 20 冬季封閉點會移動，出發前先看 WSDOT。",
+      "interests": [
+        "town",
+        "coffee",
+        "music",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "places": [
+        {
+          "id": "bakery",
+          "name": "5b's Bakery",
+          "kinds": [
+            "coffee",
+            "food"
+          ],
+          "minutes": 45,
+          "indoor": true,
+          "note": "無麩質專門烘焙與 1940 年代風格小餐館，咖啡、肉桂捲、早午餐與冷藏外帶品；週四至週一 9–16，週二、三休。",
+          "query": "5b's Bakery, 45597 Main Street, Concrete WA",
+          "url": "https://5bsbakery.com/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Mon 9–16; closed Tue–Wed"
+        },
+        {
+          "id": "cascade-burgers",
+          "name": "Cascade Burgers",
+          "kinds": [
+            "food",
+            "coffee"
+          ],
+          "minutes": 50,
+          "indoor": true,
+          "note": "SR 20 旁的漢堡、全天早餐、奶昔與 espresso，每天營業（週末夏季 7–20、冬季 7–19），是最穩的週末補給。",
+          "query": "Cascade Burgers, 45292 State Route 20, Concrete WA",
+          "url": "https://www.cascadeburgers.net/",
+          "verified": "2026-10-24",
+          "hours": "Summer Mon–Fri 6–20, Sat–Sun 7–20; winter Mon–Fri 6–19, Sat–Sun 7–19"
+        },
+        {
+          "id": "theatre",
+          "name": "Concrete Theatre／Act One Ice Cream Parlor",
+          "kinds": [
+            "culture",
+            "coffee",
+            "music"
+          ],
+          "minutes": 45,
+          "indoor": true,
+          "note": "1923 年、Skagit 郡最老的戲院，大廳是 Act One 冰淇淋、鬆餅甜筒與 espresso；週五六 12–18、週日 12–17。現場音樂只在特定場次（如 2026-12-13 Celtic 音樂舞蹈），平常以電影和活動為主。",
+          "query": "Concrete Theatre, 45920 Main Street, Concrete WA",
+          "url": "https://concrete-theatre.com/",
+          "verified": "2026-10-24",
+          "hours": "Fri–Sat 12–18; Sun 12–17",
+          "liveMusic": "Occasional: Oct 17 2026 Dylan tribute; Dec 13 2026 Celtic music & dance (details TBA); mostly films/events"
+        },
+        {
+          "id": "baker-trail",
+          "name": "S.báliuqʷ 解說步道／Henry Thompson Bridge",
+          "kinds": [
+            "walk",
+            "town"
+          ],
+          "minutes": 45,
+          "indoor": false,
+          "setting": "戶外步道；遊客中心 5–9 月",
+          "note": "2026 年啟用的河岸解說步道，從 Community Center 沿 Lower Baker River 穿過市區、走過歷史 Henry Thompson Bridge 到 Baker River Clubhouse；遊客中心只在 5–9 月週三至週日 10–17 開。",
+          "query": "Henry Thompson Bridge, Concrete WA",
+          "url": "https://concrete-wa.com/blog/2026/05/interpretive-trail-in-concrete/",
+          "hours": "Trail: outdoor; Clubhouse May–Sep Wed–Sun 10–17"
+        },
+        {
+          "id": "birdsview",
+          "name": "Birdsview Brewing Company",
+          "kinds": [
+            "food",
+            "music"
+          ],
+          "minutes": 90,
+          "indoor": true,
+          "note": "Concrete 西邊約 15 分鐘的家族小酒廠，餐點與自釀啤酒，官方標明歡迎家庭；2026 年多在週六 18:00 排現場演出（多為 $5 cover）。週一休，週日 12–18。",
+          "query": "Birdsview Brewing Company, 38302 State Route 20, Concrete WA",
+          "url": "https://www.birdsviewbrewingcompany.com/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Thu 12–19; Fri–Sat 12–21; Sun 12–18; Mon closed",
+          "liveMusic": "Saturdays ~18:00 (Oct 10, Nov 14, Nov 21, Dec 12, Dec 19 2026), mostly $5 cover; site says family friendly"
+        },
+        {
+          "id": "eagles",
+          "name": "Skagit River Bald Eagle Interpretive Center",
+          "kinds": [
+            "sight",
+            "walk",
+            "culture"
+          ],
+          "minutes": 150,
+          "indoor": false,
+          "setting": "小館＋戶外導覽步行",
+          "note": "冬季看白頭海鵰的起點：12 月第一個週末到 2 月中的週六日 10–16 開，11:00、13:30 有約 90 分鐘的平緩導覽步行，小孩可走。2026–27 季日期尚未公告。",
+          "query": "Skagit River Bald Eagle Interpretive Center, 52809 Rockport Park Road, Rockport WA",
+          "url": "https://skagiteagle.org/",
+          "verified": "2026-10-24",
+          "hours": "Sat–Sun 10–16, first weekend of Dec to mid-Feb (2025-26: Dec 6–Feb 15); guided walks 11:00 & 13:30"
+        },
+        {
+          "id": "upriver",
+          "name": "Upriver Grill & Taproom",
+          "kinds": [
+            "food"
+          ],
+          "minutes": 75,
+          "indoor": true,
+          "note": "Marblemount 進國家公園前最後的正餐，漢堡、披薩與在地啤酒，有戶外座位；官網列每日 11–20，但 Concrete 商會註明季節營業，淡季先打電話。",
+          "query": "Upriver Grill & Taproom, 60084 State Route 20, Marblemount WA",
+          "url": "https://uprivergrill.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 11–20 (official); chamber says open seasonally — call off-season"
+        },
+        {
+          "id": "visitor",
+          "name": "North Cascades Visitor Center",
+          "kinds": [
+            "indoor",
+            "culture"
+          ],
+          "minutes": 40,
+          "indoor": true,
+          "note": "NPS 主遊客中心，展示、立體地圖與影片，旁邊 330 ft 無障礙木棧道看 Picket Range；2026 年只開 5/18–9/27 每日 9–17，淡季不開。",
+          "query": "North Cascades Visitor Center, Newhalem WA",
+          "url": "https://www.nps.gov/noca/planyourvisit/hours.htm",
+          "verified": "2026-10-24",
+          "hours": "2026: daily 9–17, May 18–Sep 27 (closed now)"
+        },
+        {
+          "id": "cedars",
+          "name": "Trail of the Cedars",
+          "kinds": [
+            "walk",
+            "sight"
+          ],
+          "minutes": 45,
+          "indoor": false,
+          "note": "Newhalem 主街盡頭過 Skagit River 吊橋，0.3 mile 碎石環線看老紅雪松、解說牌與 2015 年野火後的再生林；全年開放。",
+          "query": "Trail of the Cedars Suspension Bridge, Newhalem WA",
+          "url": "https://www.nps.gov/noca/planyourvisit/newhalem-area-trails.htm"
+        },
+        {
+          "id": "ladder",
+          "name": "Ladder Creek Falls Trail & Garden",
+          "kinds": [
+            "walk",
+            "sight"
+          ],
+          "minutes": 40,
+          "indoor": false,
+          "note": "Gorge Powerhouse 後方 0.4 mile 環線，看瀑布穿過岩槽與 75 年以上的老庭園；有陡階和扶手，入夜到 23:00 打燈。旁邊 Powerhouse 參觀廊 Memorial Day 到 10 月每日 8–16。",
+          "query": "Ladder Creek Falls Trail, Gorge Powerhouse, Newhalem WA",
+          "url": "https://www.seattle.gov/city-light/in-the-community/tours-recreation-and-education/skagit-tours-and-recreation"
+        },
+        {
+          "id": "store",
+          "name": "Skagit General Store",
+          "kinds": [
+            "shopping",
+            "food"
+          ],
+          "minutes": 20,
+          "indoor": true,
+          "note": "1922 年的公司鎮商店，自製 fudge、零食飲料與露營用品；季節營業，City Light 只公布 2025 年時段（5 月下旬起每日 7–18），2026 收季日期未公告，冬天別預設有開。",
+          "query": "Skagit General Store, Newhalem WA",
+          "url": "https://www.seattle.gov/city-light/in-the-community/tours-recreation-and-education/skagit-tours-and-recreation",
+          "verified": "2026-10-24",
+          "hours": "2025 posted: May 16–23 daily 7–16; May 24–end of season daily 7–18. 2026 hours not posted"
+        },
+        {
+          "id": "gorge-falls",
+          "name": "Gorge Creek Falls",
+          "kinds": [
+            "sight",
+            "walk"
+          ],
+          "minutes": 20,
+          "indoor": false,
+          "note": "SR 20 MP 123.4 的瀑布停車點，落差 242 ft，前 0.3 mile 鋪面可推車；春到初夏融雪水量最大。冬季封閉點後退到 Newhalem 時就到不了。",
+          "query": "Gorge Creek Falls, North Cascades Highway, Newhalem WA",
+          "url": "https://www.nps.gov/places/gorge-creek-falls.htm"
+        },
+        {
+          "id": "overlook",
+          "name": "Diablo Lake Overlook",
+          "kinds": [
+            "sight"
+          ],
+          "minutes": 40,
+          "indoor": false,
+          "note": "SR 20 MP 131.7 的湖景停車點，有野餐桌與 vault toilet；7–9 月晴天冰河粉讓湖色最藍綠。冬季封閉點在 MP 134 時還能到，後退到 Newhalem 就不行。",
+          "query": "Diablo Lake Overlook, North Cascades Highway (SR 20), WA",
+          "url": "https://www.nps.gov/places/diablo-lake-overlook.htm"
+        },
+        {
+          "id": "thunder-th",
+          "name": "Thunder Knob Trailhead（Colonial Creek）",
+          "kinds": [
+            "walk",
+            "sight"
+          ],
+          "minutes": 150,
+          "indoor": false,
+          "note": "3.6 mile／635 ft 的親子小山，上去俯瞰 Diablo Lake，沿途有長椅；起點季節木橋夏末後會拆，見步道卡。",
+          "query": "Thunder Knob Trailhead, Colonial Creek Campground, North Cascades Highway, WA",
+          "url": "https://www.wta.org/go-hiking/hikes/thunder-knob"
+        }
+      ],
+      "plans": [
+        {
+          "id": "lake",
+          "title": "湖色版｜Newhalem 老樹、Diablo 觀景台與 Thunder Knob",
+          "note": "適合 SR 20 開到 Diablo、Thunder Knob 季節木橋還在的 5–10 月週末；Newhalem 以東沒有餐廳，午餐在 5b's 外帶。下雨或木橋已拆就跳過 Thunder Knob，提早回 Marblemount。",
+          "steps": [
+            [
+              "09:30",
+              "bakery",
+              45,
+              0,
+              "咖啡與肉桂捲，順便買午餐外帶；週二、三休。",
+              "drive"
+            ],
+            [
+              "11:05",
+              "cedars",
+              45,
+              50,
+              "過吊橋走老紅雪松環線，鎮上有公廁。",
+              "drive"
+            ],
+            [
+              "11:55",
+              "ladder",
+              40,
+              5,
+              "瀑布與老庭園，陡階處抱好寶寶。",
+              "drive"
+            ],
+            [
+              "13:05",
+              "overlook",
+              45,
+              30,
+              "途中可停 Gorge Creek Falls 10 分鐘；到觀景台野餐看湖色。",
+              "drive"
+            ],
+            [
+              "13:55",
+              "thunder-th",
+              150,
+              5,
+              "背巾往返 3.6 mile，含休息與湖景。",
+              "drive"
+            ],
+            [
+              "17:10",
+              "upriver",
+              75,
+              45,
+              "晚餐後約 2.5 小時回 Redmond。",
+              "drive"
+            ]
+          ]
+        },
+        {
+          "id": "eagles",
+          "title": "冬季老鷹版｜Rockport 導覽、Concrete 小鎮與 brewery",
+          "note": "只在 12 月到 2 月中的週末（老鷹 12 月下旬到 1 月中最多），2026–27 季日期待 skagiteagle.org 公告；週六若 Birdsview 有 18:00 演出可多留。",
+          "steps": [
+            [
+              "10:00",
+              "eagles",
+              150,
+              0,
+              "先看館內展示，再跟 11:00 導覽步行（約 90 分鐘、平緩）。",
+              "drive"
+            ],
+            [
+              "12:50",
+              "cascade-burgers",
+              60,
+              15,
+              "午餐與熱飲。",
+              "drive"
+            ],
+            [
+              "14:00",
+              "theatre",
+              45,
+              5,
+              "Act One 冰淇淋或 espresso（週五至週日營業）。",
+              "drive"
+            ],
+            [
+              "14:55",
+              "baker-trail",
+              45,
+              5,
+              "沿 Baker River 走解說步道、過 Henry Thompson Bridge；遊客中心冬季不開。",
+              "walk"
+            ],
+            [
+              "16:00",
+              "birdsview",
+              90,
+              15,
+              "回程順路晚餐；週六 18:00 常有演出。",
+              "drive"
+            ]
+          ]
+        }
+      ],
+      "rainPlaces": [
+        "bakery",
+        "cascade-burgers",
+        "theatre",
+        "birdsview",
+        "upriver",
+        "visitor",
+        "store"
+      ],
+      "rainNote": "室內有 5b's、Cascade Burgers、戲院大廳 Act One、Birdsview 與 Upriver；North Cascades Visitor Center（2026 年 5/18–9/27）和 General Store 只在季節內開。大雨低雲時 Diablo 湖色和山景大打折，不如改去 Mount Vernon 或 La Conner。",
+      "musicPlaces": [
+        "birdsview",
+        "theatre"
+      ],
+      "musicNote": "Birdsview Brewing 2026 年多在週六 18:00 排駐唱與小型演出（多為 $5、歡迎家庭），先看官網活動頁；Concrete Theatre 只有特定音樂場次。Upriver Grill 旁的旅館提到有 live music，但查不到節目表，不列入。",
+      "hikes": [
+        {
+          "trail": "trail-of-the-cedars",
+          "drive": [
+            25,
+            35
+          ],
+          "note": "Newhalem 鎮內，全年可走的平緩老樹環線。"
+        },
+        {
+          "trail": "thunder-knob",
+          "drive": [
+            40,
+            55
+          ],
+          "note": "Colonial Creek 營地旁，背巾可走的親子小山；季節木橋拆除後不排。"
+        },
+        {
+          "trail": "diablo-lake-trail",
+          "drive": [
+            40,
+            55
+          ],
+          "note": "要開過 Diablo Dam；7.6 mile 原路往返的完整健行日。"
+        },
+        {
+          "trail": "sauk-mountain",
+          "drive": [
+            45,
+            65
+          ],
+          "note": "往西回 Rockport 一帶再上約 8 mile 碎石林道；只在 7–10 月、天氣穩定時排。"
+        }
+      ]
     }
   }
 }

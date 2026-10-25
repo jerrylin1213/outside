@@ -908,6 +908,7 @@ body[data-theme="night"] .season-badge[data-tone="closed"] { color: #f6b7a6; bac
 .status-link { color: var(--accent); }
 .plan-date-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: 0 0 14px; color: var(--muted); font-size: 12px; }
 .place-verified { display: flex; align-items: center; gap: 5px; margin: 8px 0 0; font-size: 12px; line-height: 1.6; }
+.place-card .place-hours { margin: 6px 0 0; color: var(--ink); font-size: 12px; line-height: 1.7; overflow-wrap: anywhere; }
 .place-verified .icon { width: 13px; height: 13px; flex-basis: 13px; }
 .place-verified[data-verified="yes"] { color: var(--accent); }
 .place-verified[data-verified="no"] { color: #9a5d16; }
