@@ -2140,7 +2140,9 @@
           "indoor": true,
           "note": "市場樓上的咖啡起點，適合坐下看一眼市場周邊；帶推車找電梯，不走樓梯捷徑。",
           "query": "Storyville Coffee Pike Place Market, Seattle WA",
-          "url": "https://www.storyville.com/"
+          "url": "https://www.storyville.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 6:59–17; Fri–Sun 6:59–18"
         },
         {
           "id": "market",
@@ -2153,7 +2155,9 @@
           "indoor": true,
           "note": "市場主體有遮蔽，逛食材、商店與工藝；周邊不是完全室內，熱門時段人多。",
           "query": "Pike Place Market, Seattle WA",
-          "url": "https://www.pikeplacemarket.org/"
+          "url": "https://www.pikeplacemarket.org/",
+          "verified": "2026-10-24",
+          "hours": "Open daily; most businesses ~10–17, Merchant bldg 9–19; closed Thanksgiving & Christmas"
         },
         {
           "id": "chowder",
@@ -2165,7 +2169,9 @@
           "indoor": true,
           "note": "具名 chowder 午餐點，座位有限、隊伍可能長；不把整間市場當未規劃的餐廳。",
           "query": "Pike Place Chowder Post Alley, Seattle WA",
-          "url": "https://www.pikeplacechowder.com/"
+          "url": "https://www.pikeplacechowder.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 11–17"
         },
         {
           "id": "waterfront",
@@ -2190,7 +2196,9 @@
           "indoor": true,
           "note": "玻璃藝術的具體室內主題，含部分戶外庭園；與市場不同區，要另移動。",
           "query": "Chihuly Garden and Glass, Seattle WA",
-          "url": "https://www.chihulygardenandglass.com/"
+          "url": "https://www.chihulygardenandglass.com/",
+          "verified": "2026-10-24",
+          "hours": "Sat 10–19:30; Sun 10–18:30; Mon, Tue, Thu 10:30–17:30; Wed 10:30–16:30; Fri 10–19:30"
         },
         {
           "id": "mohai",
@@ -2203,7 +2211,9 @@
           "indoor": true,
           "note": "南湖聯合區的城市與產業歷史館，雨天可當半日主題，而不是跑館清單的一個勾。",
           "query": "Museum of History and Industry, Seattle WA",
-          "url": "https://mohai.org/"
+          "url": "https://mohai.org/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Mon 10–17; closed Tue–Wed (also closed Nov 6, Nov 26, Dec 25)"
         },
         {
           "id": "kerry",
@@ -2226,7 +2236,9 @@
           "indoor": true,
           "note": "想另走 Capitol Hill 咖啡線時選，別為喝第二杯就強行跨所有街區。",
           "query": "Victrola Coffee Roasters Pike Street, Seattle WA",
-          "url": "https://www.victrolacoffee.com/"
+          "url": "https://www.victrolacoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–17"
         },
         {
           "id": "jazz",
@@ -2238,7 +2250,10 @@
           "indoor": true,
           "note": "以樂手、票務與場次安排的 jazz club；年齡、餐飲低消和座位規則依當場，不先假設嬰兒可入場。",
           "query": "Dimitriou's Jazz Alley, Seattle WA",
-          "url": "https://www.jazzalley.com/"
+          "url": "https://www.jazzalley.com/",
+          "verified": "2026-10-24",
+          "hours": "Shows Tue–Sun evenings (occasional Mon); sets 70–90 min",
+          "liveMusic": "Yes, nightly Tue–Sun. 2026 calendar: Brian Culbertson Oct 22–25, Lao Tizer Oct 27–28, Jon Cleary Oct 29–Nov 1, Kenny Garrett Nov 3–4. All ages except bar seating; under-12 free for most shows (book by phone 206-441-9729); FAQ warns some shows too loud for infants."
         },
         {
           "id": "tractor",
@@ -2250,7 +2265,10 @@
           "indoor": true,
           "note": "Ballard 的現場樂團選項；和 Downtown 不同區，通常是晚間加場，先查年齡與交通。",
           "query": "Tractor Tavern, Seattle WA",
-          "url": "https://www.tractortavern.com/"
+          "url": "https://www.tractortavern.com/",
+          "verified": "2026-10-24",
+          "hours": "Show nights 20–02; doors per show (typically 18:30–20:00)",
+          "liveMusic": "Shows almost nightly (e.g., Oct 24–Nov 1, 2026 all booked; Mon square dance). 21+ unless the ticket page says otherwise — no minors even with parents, so not usable with the baby; rare matinees (e.g., Oct 31 13:30)."
         },
         {
           "id": "discovery",
@@ -2398,7 +2416,10 @@
           "indoor": true,
           "note": "市中心具名咖啡點，適合和藝文、海邊一起慢慢安排。",
           "query": "Cafe Louvre, Edmonds WA",
-          "url": "https://www.cafelouvreedmonds.com/"
+          "url": "https://www.cafelouvreedmonds.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 6:30–17; Sun 7–17",
+          "liveMusic": "Live jazz about every other week (e.g., Wed Sep 16, 2026 16:00); check site schedule."
         },
         {
           "id": "waterfront",
@@ -2434,7 +2455,9 @@
           "indoor": true,
           "note": "Downtown 的具名餐廳，安排正餐而不是無限逛店；午餐／brunch 依當日服務。",
           "query": "Salt and Iron, Edmonds WA",
-          "url": "https://www.saltniron.com/"
+          "url": "https://www.saltniron.com/",
+          "verified": "2026-10-24",
+          "hours": "Brunch Sat–Sun 9:30–14; dinner Mon–Thu 16–21, Fri–Sun 15–21"
         },
         {
           "id": "cascadia",
@@ -2447,7 +2470,9 @@
           "indoor": true,
           "note": "西北藝術主題的真實雨天備案，先看展覽與開館日。",
           "query": "Cascadia Art Museum, Edmonds WA",
-          "url": "https://www.cascadiaartmuseum.org/"
+          "url": "https://www.cascadiaartmuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Sun 11–17; closed Mon–Tue; free every 3rd Thursday"
         },
         {
           "id": "main",
@@ -2459,7 +2484,10 @@
           "minutes": 60,
           "indoor": false,
           "note": "畫廊、小店與街景，和海岸距離近，適合步行串連。",
-          "query": "Main Street Downtown Edmonds, Edmonds WA"
+          "query": "Main Street Downtown Edmonds, Edmonds WA",
+          "url": "https://www.edmondsdowntown.org/",
+          "verified": "2026-10-24",
+          "hours": "Street always accessible; shop hours vary"
         },
         {
           "id": "eca",
@@ -2472,7 +2500,10 @@
           "indoor": true,
           "note": "真的有巡演音樂節目的專業場館，依節目表買票，不把 Edmonds 的電影戲院充當音樂場。",
           "query": "Edmonds Center for the Arts, Edmonds WA",
-          "url": "https://www.edmondscenterforthearts.org/"
+          "url": "https://www.edmondscenterforthearts.org/",
+          "verified": "2026-10-24",
+          "hours": "Performance nights/matinees only",
+          "liveMusic": "Active 2026–27 calendar: Cascade Symphony 'Beethoven Seventh' Oct 26; Eagles tribute Nov 15; Jake Shimabukuro Nov 18; Mark O’Connor Dec 2; Voctave Dec 9; Mavis Staples Jan 14, 2027. All ages; every patron needs a ticket; free tickets for children ≤18 months via box office 425-275-9595."
         }
       ],
       "plans": [
@@ -2554,7 +2585,10 @@
           "minutes": 45,
           "indoor": true,
           "note": "Old Town 的咖啡停靠，適合和燈塔路線一起安排。",
-          "query": "Red Cup Cafe, Mukilteo WA"
+          "query": "Red Cup Cafe, Mukilteo WA",
+          "url": "https://www.facebook.com/RedCupCafe/",
+          "verified": "2026-10-24",
+          "hours": "Opens 7:00 incl. Sunday (Restaurant Guru, updated Oct 2026); closing time not published"
         },
         {
           "id": "lighthouse",
@@ -2578,7 +2612,9 @@
           "indoor": true,
           "note": "這是有室內的 waterfront 餐廳，和旁邊 seafood bar 外帶窗口不同。",
           "query": "Ivar's Mukilteo Landing, Mukilteo WA",
-          "url": "https://www.ivars.com/"
+          "url": "https://www.ivars.com/mukilteo-landing",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11–20; Fri–Sat 11–21"
         },
         {
           "id": "flight",
@@ -2591,7 +2627,9 @@
           "indoor": true,
           "note": "展館為具體室內替代，Sky Deck 在戶外；Everett Factory Tour 另看票務、至少 4 英尺身高和禁止推車限制。",
           "query": "Boeing Future of Flight, Mukilteo WA",
-          "url": "https://www.boeingfutureofflight.com/visit"
+          "url": "https://www.boeingfutureofflight.com/visit",
+          "verified": "2026-10-24",
+          "hours": "Daily 8:30–17:30 (closed 11/26, 12/24, 12/25, 12/31, 1/1)"
         },
         {
           "id": "gulch",
@@ -2669,7 +2707,7 @@
       "hikes": []
     },
     "everett": {
-      "intro": "The Muse 咖啡和碼頭風景很適合你，藝術則可看 Schack，晚間選 Historic Everett Theatre。兒童館保留作另一種家庭玩法，但不再把整座城市只當親子室內館。",
+      "intro": "The Muse 咖啡和碼頭風景很適合你，藝術則可看 Schack，晚間選 New Everett Theater（原 Historic Everett Theatre）的致敬樂團場。兒童館保留作另一種家庭玩法，但不再把整座城市只當親子室內館。",
       "interests": [
         "coffee",
         "music",
@@ -2687,7 +2725,9 @@
           "indoor": true,
           "note": "碼頭歷史建築裡的咖啡／酒吧空間；白天咖啡和晚間酒吧規則分開看。",
           "query": "The Muse Whiskey and Coffee, Everett WA",
-          "url": "https://www.thewhiskeymuse.com/"
+          "url": "https://www.thewhiskeymuse.com/",
+          "verified": "2026-10-24",
+          "hours": "Café Mon–Thu 8–16, Fri–Sun 8–15:30; bar Mon–Thu 17–22, Fri–Sat 16–23, Sun 16–22"
         },
         {
           "id": "marina",
@@ -2712,7 +2752,9 @@
           "indoor": true,
           "note": "海濱具名午餐點，別把啤酒生產廠和餐廳入口搞混。",
           "query": "Scuttlebutt Family Pub, Everett WA",
-          "url": "https://www.scuttlebuttbrewing.com/"
+          "url": "https://www.scuttlebuttbrewing.com/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11–21; Fri–Sat 11–22"
         },
         {
           "id": "schack",
@@ -2725,7 +2767,9 @@
           "indoor": true,
           "note": "看展覽與藝術創作的室內選項，工作坊要預約，不是隨時都能吹玻璃。",
           "query": "Schack Art Center, Everett WA",
-          "url": "https://www.schack.org/"
+          "url": "https://www.schack.org/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Sat 10–17; Sun 12–17; Mon closed; gallery free"
         },
         {
           "id": "arboretum",
@@ -2750,19 +2794,25 @@
           "indoor": true,
           "note": "若這天想以小朋友為主，可替換藝術館；票務和適合展區依年齡選。",
           "query": "Imagine Children's Museum, Everett WA",
-          "url": "https://www.imaginecm.org/"
+          "url": "https://www.imaginecm.org/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Sun 9–16 (member-only hour 9–10 on some days); Mon closed"
         },
         {
           "id": "theatre",
-          "name": "Historic Everett Theatre",
+          "name": "New Everett Theater（原 Historic Everett Theatre）",
           "kinds": [
             "music",
             "culture"
           ],
           "minutes": 150,
           "indoor": true,
-          "note": "有真正樂團演出可選的歷史劇院；先選日期與藝人。",
-          "query": "Historic Everett Theatre, Everett WA"
+          "note": "1901 年老戲院，現在多是致敬樂團演唱會，通常週五、六 20:00 開演、全齡可進。只從官網活動頁的連結買票並刷信用卡；售出不退。",
+          "query": "New Everett Theater, 2911 Colby Ave, Everett WA",
+          "url": "https://www.everetttheater.org/",
+          "verified": "2026-10-24",
+          "hours": "Event nights only; concerts usually doors 19:00, music 20:00",
+          "liveMusic": "Yes — mostly tribute-band concerts Fri/Sat 20:00 (doors 19:00), all ages: Eagles+Ronstadt Nov 14, The Grunge Show Nov 20, Shania tribute Dec 4, ABBA tribute Dec 5, Mötley Crüe/Judas Priest Dec 12, yacht rock Dec 19 (2026); also comedy and ski films."
         }
       ],
       "plans": [
@@ -2825,7 +2875,7 @@
       "musicPlaces": [
         "theatre"
       ],
-      "musicNote": "Historic Everett Theatre 按場次看樂團；不要假定 The Muse 白天喝咖啡時會有演出。",
+      "musicNote": "New Everett Theater 多在週五、六 20:00 有致敬樂團場，只從官網活動頁買票；不要假定 The Muse 白天喝咖啡時會有演出。",
       "hikes": []
     },
     "snohomish": {
@@ -2841,14 +2891,17 @@
       "places": [
         {
           "id": "looking-glass",
-          "name": "Looking Glass Coffee",
+          "name": "Snohomish Coffee Co.",
           "kinds": [
             "coffee"
           ],
           "minutes": 50,
           "indoor": true,
-          "note": "First Street 具名咖啡停靠；先看商家地圖最新營業，不把舊網站失效等同當天一定開門。",
-          "query": "Looking Glass Coffee, 801 1st Street, Snohomish WA"
+          "note": "Looking Glass 原址（801 First St）改由 Snohomish Coffee Co. 經營，自家烘豆，牛奶用 A2 有機奶與自製植物奶，可內用；每天約 7:00–15:30，別排到下午太晚。",
+          "query": "Snohomish Coffee Co, 801 1st St Unit 201, Snohomish WA",
+          "url": "https://www.snohomishcoffeeco.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–15:30 (Toast listing; HDSA directory says 7–16)"
         },
         {
           "id": "first",
@@ -2861,7 +2914,9 @@
           "indoor": false,
           "note": "古董、選物與歷史街屋集中，先停好車，選有興趣的店慢逛。",
           "query": "Historic First Street, Snohomish WA",
-          "url": "https://www.historicdowntownsnohomish.org/"
+          "url": "https://www.historicdowntownsnohomish.org/",
+          "verified": "2026-10-24",
+          "hours": "Street always accessible; most shops ~10/11–17"
         },
         {
           "id": "star",
@@ -2873,7 +2928,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "想真的進室內逛古董可點這一間，不再只說『下雨去逛店』。",
-          "query": "Star Center Antique Mall, Snohomish WA"
+          "query": "Star Center Antique Mall, Snohomish WA",
+          "url": "https://www.myantiquemall.com/starcenter.html",
+          "verified": "2026-10-24",
+          "hours": "Daily 10–17"
         },
         {
           "id": "andys",
@@ -2885,7 +2943,9 @@
           "indoor": true,
           "note": "Fish & chips 的具名午餐點，現場候位、不收訂位；停車不要占旁邊 American Legion 專用位。",
           "query": "Andy's Fish House, 1229 1st Street, Snohomish WA",
-          "url": "https://www.andysfishhouse.com/"
+          "url": "https://www.andysfishhouse.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 11–20; Sun 11–19"
         },
         {
           "id": "pie",
@@ -2897,7 +2957,9 @@
           "indoor": true,
           "note": "Apple Berry Crumb 或當季派；可能售完提早結束，別留到很晚。",
           "query": "Snohomish Pie Co, 915 1st Street, Snohomish WA",
-          "url": "https://snohomishpieco.com/locations/snohomish"
+          "url": "https://snohomishpieco.com/locations/snohomish",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 10–18; Sun 10–17 (may close early if sold out)"
         },
         {
           "id": "river",
@@ -2933,7 +2995,9 @@
           "indoor": false,
           "note": "秋季南瓜田、熱飲與點心；免費一般區不等於動物、迷宮與活動區都免費。",
           "query": "Craven Farm, 13817 Shorts School Road, Snohomish WA",
-          "url": "https://www.cravenfarm.com/fall-festival"
+          "url": "https://www.cravenfarm.com/fall-festival",
+          "verified": "2026-10-24",
+          "hours": "2026 Fall Festival Sep 19–Nov 1, Wed–Sun 10–18 (open Sun 10/25)"
         },
         {
           "id": "oxford",
@@ -2946,7 +3010,10 @@
           "indoor": true,
           "note": "已查官方有 live music，餐飲標示 family friendly；Cellar 夜間空間和一般餐區要分清楚，演出時間按當天節目。",
           "query": "The Oxford Saloon, Snohomish WA",
-          "url": "https://oxfordsaloonsnohomish.com/"
+          "url": "https://oxfordsaloonsnohomish.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon 11–21; Tue–Wed 11–22; Thu 11–23; Fri–Sat 11–24; Sun 11–21 (site); Toast online orders 11–19:30",
+          "liveMusic": "Still hosts music in 2026 (FB events Apr 24, Jul 31, Aug 17, Oct 22). Listed: Sun Oct 25, 2026 'Dahlia' dinner show 18:00–21:00. Site (last updated 2024) claims music most nights, no cover; Tue acoustic jam, Thu rock jam. Main floor family-friendly with kids menu; downstairs Cellar bar Fri–Sat 19:00–close (treat as 21+)."
         }
       ],
       "plans": [
@@ -3044,11 +3111,11 @@
         "pie",
         "oxford"
       ],
-      "rainNote": "室內直接點名 Looking Glass、Star Center Antique Mall、Andy’s、Pie Co.；晚間音樂是 Oxford。河岸與南瓜田可整段取消，不硬加戶外。",
+      "rainNote": "室內直接點名 Snohomish Coffee Co.、Star Center Antique Mall、Andy’s、Pie Co.；晚間音樂是 Oxford。河岸與南瓜田可整段取消，不硬加戶外。",
       "musicPlaces": [
         "oxford"
       ],
-      "musicNote": "Oxford 官方有 live music，先看當天樂團。Looking Glass 是否有當日音樂不當保證，咖啡和演出分開決定。",
+      "musicNote": "Oxford 官方有 live music，先看當天樂團。Snohomish Coffee Co. 是咖啡館，不當音樂場地，咖啡和演出分開決定。",
       "hikes": [
         {
           "trail": "wallace",
@@ -3061,7 +3128,7 @@
       ]
     },
     "monroe": {
-      "intro": "這次具體選 Pilot House 咖啡、Tuscano’s 午餐、Al Borlin 林地與 Lake Tye 湖邊。真正爬山則往 Wallace Falls／Heybrook，城市公園不冒充山頂路線。",
+      "intro": "這次具體選 Monroe Coffee Co.（原 Pilot House，週日休；週日改 Noticed Coffee）、Tuscano’s 午餐、Al Borlin 林地與 Lake Tye 湖邊。真正爬山則往 Wallace Falls／Heybrook，城市公園不冒充山頂路線。",
       "interests": [
         "town",
         "coffee",
@@ -3072,14 +3139,17 @@
       "places": [
         {
           "id": "pilot",
-          "name": "Original Pilot House Coffees",
+          "name": "Monroe Coffee Co.（原 Pilot House）",
           "kinds": [
             "coffee"
           ],
           "minutes": 45,
           "indoor": true,
           "note": "在地咖啡與烘焙停靠，先看商家更新，不只寫『進市中心喝咖啡』。",
-          "query": "Original Pilot House Coffees, Monroe WA"
+          "query": "Monroe Coffee Co, 408 W Main St, Monroe WA",
+          "url": "https://monroecoffeeco.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 6–15; Sat 8–13; Sun closed"
         },
         {
           "id": "tuscanos",
@@ -3090,7 +3160,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "具名義式用餐選項，中午是否服務先查當日菜單與營業資訊。",
-          "query": "Tuscano's Italian Kitchen, Monroe WA"
+          "query": "Tuscano's Italian Kitchen, Monroe WA",
+          "url": "https://www.tuscanositalian.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 11:30–21"
         },
         {
           "id": "al-borlin",
@@ -3126,7 +3199,9 @@
           "minutes": 45,
           "indoor": false,
           "note": "老街屋、咖啡與小店短逛，不需要為了城市數量硬待整天。",
-          "query": "Historic Downtown Monroe, Monroe WA"
+          "query": "Historic Downtown Monroe, Monroe WA",
+          "verified": "2026-10-24",
+          "hours": "Street always accessible; shop hours vary"
         },
         {
           "id": "fairgrounds",
@@ -3138,7 +3213,23 @@
           "indoor": false,
           "note": "只有當天真有展會／市集才安排；一般日不是自動有整天室內活動。",
           "query": "Evergreen State Fair Park, Monroe WA",
-          "url": "https://www.choosemonroe.com/"
+          "url": "https://www.evergreenfair.org/",
+          "verified": "2026-10-24",
+          "hours": "Event-dependent"
+        },
+        {
+          "id": "noticed-coffee-co",
+          "name": "Noticed Coffee Co.",
+          "kinds": [
+            "coffee"
+          ],
+          "minutes": 45,
+          "indoor": true,
+          "note": "Main St 上新開的咖啡館，拿鐵用自製糖漿，也有抹茶、手沖與糕點；週日 9:00–14:00。原 Pilot House 已改名 Monroe Coffee Co.，只開到週六 13:00、週日公休。",
+          "query": "Noticed Coffee Co, 103 W Main St, Monroe WA",
+          "url": "https://www.noticedcoffee.co/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 7–16; Sun 9–14"
         }
       ],
       "plans": [
@@ -4116,7 +4207,7 @@
       "hikes": []
     },
     "langley": {
-      "intro": "很適合慢逛：First Street 的畫廊小店、海景 pizza、Seawall 水道景色，下午再看 WICA 或 Ott & Hunter 的實際演出。渡輪是旅程的一部分，但候船不能假裝不存在。",
+      "intro": "很適合慢逛：Salty Sea Coffee、First Street 的畫廊小店、海景 pizza、Seawall 水道景色，下午再看 WICA 或 Ott & Hunter 的實際演出。渡輪是旅程的一部分，但候船不能假裝不存在。",
       "interests": [
         "town",
         "coffee",
@@ -4125,6 +4216,20 @@
         "scenery"
       ],
       "places": [
+        {
+          "id": "coffee",
+          "name": "Salty Sea Coffee — Langley",
+          "kinds": [
+            "coffee"
+          ],
+          "minutes": 45,
+          "indoor": true,
+          "note": "Anthes Ave 上的在地咖啡館，豆子在島上每週烘焙，另有自製糕點；週末 8–17。原本的 Useless Bay 已停業、舊址改成 Double Bluff 酒廠，別找錯。",
+          "query": "Salty Sea Coffee, 111 Anthes Ave, Langley WA",
+          "url": "https://www.saltyseacoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 7:30–16; Sat–Sun 8–17"
+        },
         {
           "id": "first",
           "name": "First Street Langley",
@@ -4135,7 +4240,9 @@
           "minutes": 75,
           "indoor": false,
           "note": "畫廊、獨立店與海邊聚落街景，選幾間慢逛。",
-          "query": "First Street Downtown Langley, Langley WA"
+          "query": "First Street Downtown Langley, Langley WA",
+          "verified": "2026-10-24",
+          "hours": "Street always accessible; shop hours vary"
         },
         {
           "id": "seawall",
@@ -4158,7 +4265,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "午餐 pizza 與海景的具名選擇，別走錯島外同名店。",
-          "query": "Village Pizzeria, Langley WA"
+          "query": "Village Pizzeria, Langley WA",
+          "url": "https://villagepizzeria.online/",
+          "verified": "2026-10-24",
+          "hours": "Mon & Wed–Sun 11–20; closed Tue"
         },
         {
           "id": "whale",
@@ -4170,7 +4280,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "想理解當地海域與鯨類可進這裡；不等於買票就一定看得到野生鯨。",
-          "query": "Langley Whale Center, Langley WA"
+          "query": "Langley Whale Center, Langley WA",
+          "url": "https://orcanetwork.org/langley-whale-center/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Sun 11–16 (current; varies by season); Mon–Tue closed"
         },
         {
           "id": "wica",
@@ -4183,7 +4296,10 @@
           "indoor": true,
           "note": "音樂、戲劇按節目區分，有票才加，不把所有表演都當音樂。",
           "query": "Whidbey Island Center for the Arts, Langley WA",
-          "url": "https://www.wicaonline.org/"
+          "url": "https://www.wicaonline.org/",
+          "verified": "2026-10-24",
+          "hours": "Event-based",
+          "liveMusic": "Mixed program; 2026 music dates: WIO 'Identity Crisis!' Sun Oct 25, Art of the Score concert Nov 1, Cythara VIII Nov 7, guitarist Gaëlle Solal Nov 13; plus film, comedy, Nutcracker Dec 10–20."
         },
         {
           "id": "ott",
@@ -4194,7 +4310,11 @@
           "minutes": 120,
           "indoor": true,
           "note": "小型音樂與品酒空間，依演出日訂位；年齡、低消和座位需看當場規則。",
-          "query": "Ott and Hunter Wines, Langley WA"
+          "query": "Ott & Hunter Wines, 204 1st St, Langley WA",
+          "url": "https://otthunter.com/",
+          "verified": "2026-10-24",
+          "hours": "Langley tasting room Sun–Fri 14–18; Sat 12–22 (tastings end 16:30 Sat)",
+          "liveMusic": "Cabaret-room shows most Saturdays 19:00 (some 18:00+20:00 doubles, occasional Sundays), $25–30 via orderport: Greta Matassa Quartet Oct 24, Brazilian Music Express Oct 31, Nick Mardon Trio Nov 7, Kareem Kandi Nov 14 (2026). Age policy not published — ask info@otthunterwines.com."
         }
       ],
       "plans": [
@@ -4204,10 +4324,18 @@
           "note": "時間以到 Langley 後開始；Mukilteo 候船和 Clinton 到鎮上車程另外加。",
           "steps": [
             [
+              "10:15",
+              "coffee",
+              45,
+              0,
+              "咖啡與糕點；週末 8–17 營業。",
+              "walk"
+            ],
+            [
               "11:10",
               "first",
               60,
-              0,
+              10,
               "畫廊和小店。",
               "walk"
             ],
@@ -4239,12 +4367,13 @@
         }
       ],
       "rainPlaces": [
+        "coffee",
         "pizza",
         "whale",
         "wica",
         "ott"
       ],
-      "rainNote": "具體室內有 Village Pizzeria、Whale Center；有場次再加 WICA／Ott & Hunter。原本的 Useless Bay Coffee 已停業（2023 年店面改為 Double Bluff Brewing），不再列入。海邊畫廊之間仍要走戶外。",
+      "rainNote": "具體室內有 Salty Sea Coffee、Village Pizzeria、Whale Center；有場次再加 WICA／Ott & Hunter。原本的 Useless Bay Coffee 已停業（2023 年店面改為 Double Bluff Brewing），不再列入。海邊畫廊之間仍要走戶外。",
       "musicPlaces": [
         "wica",
         "ott"
@@ -4253,7 +4382,7 @@
       "hikes": []
     },
     "coupeville": {
-      "intro": "這裡可以是咖啡與淡菜小鎮日，也可以真的走 Ebey’s 海崖長線。把 Sunshine Drip、Front Street Grill 和 Wharf 點出來，長健行就不再把午後逛店塞滿。",
+      "intro": "這裡可以是咖啡與淡菜小鎮日，也可以真的走 Ebey’s 海崖長線。把 Sunshine Drip、Osprey Fish Co.（Front Street Grill 2026/10 起整修暫停） 和 Wharf 點出來，長健行就不再把午後逛店塞滿。",
       "interests": [
         "town",
         "coffee",
@@ -4272,7 +4401,9 @@
           "indoor": true,
           "note": "咖啡、烘焙與白天餐點，進小鎮前先坐下來。",
           "query": "Sunshine Drip, Coupeville WA",
-          "url": "https://www.sunshinedrip.com/"
+          "url": "https://www.sunshinedrip.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–16:30"
         },
         {
           "id": "front",
@@ -4284,7 +4415,9 @@
           "minutes": 60,
           "indoor": false,
           "note": "歷史街屋、獨立商店與 Penn Cove 風景。",
-          "query": "Front Street, Coupeville WA"
+          "query": "Front Street, Coupeville WA",
+          "verified": "2026-10-24",
+          "hours": "Street always accessible; shop hours vary"
         },
         {
           "id": "wharf",
@@ -4300,14 +4433,17 @@
         },
         {
           "id": "grill",
-          "name": "Front Street Grill",
+          "name": "Osprey Fish Co.",
           "kinds": [
             "food"
           ],
-          "minutes": 90,
+          "minutes": 60,
           "indoor": true,
-          "note": "想吃 Penn Cove mussels 的具名用餐選項；先看當日菜單和午餐時段。",
-          "query": "Front Street Grill, Coupeville WA"
+          "note": "Coveland St 上櫃檯點餐的海鮮小館（Oystercatcher 姊妹店），有 fish & chips、Penn Cove 淡菜與巧達湯，炸物用無麩質專用油鍋；週一至週三公休。",
+          "query": "Osprey Fish Co, 103 NW Coveland St, Coupeville WA",
+          "url": "https://www.ospreyfishco.com/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Sun 12–20; closed Mon–Wed"
         },
         {
           "id": "museum",
@@ -4319,7 +4455,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "小型在地歷史館，可替換雨天海邊一段；先核對開館。",
-          "query": "Island County Historical Museum, Coupeville WA"
+          "query": "Island County Historical Museum, Coupeville WA",
+          "url": "https://www.islandhistory.org/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 10–16; Sun 11–16"
         },
         {
           "id": "ebeys",
@@ -4370,7 +4509,7 @@
               "grill",
               90,
               10,
-              "淡菜或當日海鮮。",
+              "櫃檯點餐：fish & chips 或 Penn Cove 淡菜。",
               "walk"
             ],
             [
@@ -4420,7 +4559,7 @@
         "grill",
         "museum"
       ],
-      "rainNote": "Sunshine Drip、Front Street Grill、Historical Museum 才是室內。海崖強風大雨時整段換掉，而不是只換一雙鞋照走。",
+      "rainNote": "Sunshine Drip、Osprey Fish Co.（週四至週日）、Historical Museum 才是室內。海崖強風大雨時整段換掉，而不是只換一雙鞋照走。",
       "musicPlaces": [],
       "musicNote": "白天主線不保證有駐唱；若音樂是主題，往 Langley 看 WICA／Ott & Hunter 的正式場次。",
       "hikes": [
@@ -4452,7 +4591,9 @@
           "indoor": true,
           "note": "選具體的 Pioneer Way 分店，避免導航到只有 drive-through 的另一個入口。",
           "query": "Whidbey Coffee Pioneer Way, Oak Harbor WA",
-          "url": "https://www.whidbeycoffee.com/pages/oak-harbor-pioneer-way"
+          "url": "https://www.whidbeycoffee.com/pages/oak-harbor-pioneer-way",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 5:30–18; Sat 6–18; Sun 6:30–17"
         },
         {
           "id": "windjammer",
@@ -4475,7 +4616,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "煙燻鮭魚、海鮮與 chowder 的具名餐廳／市場，和普通高速公路連鎖餐飲不同。",
-          "query": "Seabolt's Smokehouse, Oak Harbor WA"
+          "query": "Seabolt's Restaurant, 31640 State Route 20, Oak Harbor WA",
+          "url": "https://www.seaboltsrestaurant.com/",
+          "verified": "2026-10-24",
+          "hours": "Restaurant daily 11–20; retail daily from 9"
         },
         {
           "id": "pioneer",
@@ -4487,7 +4631,9 @@
           "minutes": 45,
           "indoor": false,
           "note": "老街短逛與小店，可和咖啡一起停車。",
-          "query": "Pioneer Way Downtown Oak Harbor, Oak Harbor WA"
+          "query": "Pioneer Way Downtown Oak Harbor, Oak Harbor WA",
+          "verified": "2026-10-24",
+          "hours": "Street always accessible; shop hours vary"
         },
         {
           "id": "deception",
@@ -4512,7 +4658,10 @@
           "indoor": true,
           "note": "社區劇場，若有想看的音樂劇才當晚間選項；普通話劇不一概標成 live music。",
           "query": "Whidbey Playhouse, Oak Harbor WA",
-          "url": "https://www.whidbeyplayhouse.com/"
+          "url": "https://www.whidbeyplayhouse.com/",
+          "verified": "2026-10-24",
+          "hours": "Shows Fri–Sat 19:30, Sun 14:30 during runs; box office Tue–Fri 13–18",
+          "liveMusic": "Community theatre, not a music venue. 2026–27 musicals: Ride the Cyclone (Nov 2026, dark-comedy musical), A Christmas Carol with music (Dec); other shows are plays (Shawshank, Deathtrap, Pride & Prejudice)."
         }
       ],
       "plans": [
@@ -4603,7 +4752,10 @@
           "indoor": true,
           "note": "歷史建築的咖啡館，適合把坐下來喝咖啡當真正一站。",
           "query": "Pegasus Coffee House, Bainbridge Island WA",
-          "url": "https://pegasuscoffee.com/"
+          "url": "https://pegasuscoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 7–17; Fri–Sun 7–18",
+          "liveMusic": "Free live music every Friday 16–18 (1st Fri chef pop-up, 3rd Fri paint night)."
         },
         {
           "id": "blackbird",
@@ -4616,7 +4768,9 @@
           "indoor": true,
           "note": "Winslow 的 artisan bakery，甜鹹烘焙和咖啡；看當日售完與營業資訊。",
           "query": "Blackbird Bakery, Bainbridge Island WA",
-          "url": "https://blackbirdbakery.com/"
+          "url": "https://blackbirdbakery.com/",
+          "verified": "2026-10-24",
+          "hours": "Fall hours: daily 8–16"
         },
         {
           "id": "winslow",
@@ -4628,7 +4782,9 @@
           "minutes": 75,
           "indoor": false,
           "note": "書店、小店與餐飲集中，下船後可步行慢逛。",
-          "query": "Winslow Way East, Bainbridge Island WA"
+          "query": "Winslow Way East, Bainbridge Island WA",
+          "verified": "2026-10-24",
+          "hours": "Street always accessible; shop hours vary"
         },
         {
           "id": "fish",
@@ -4639,7 +4795,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "具名 fish & chips 午餐，座位與候位要留彈性，不只說在鎮上找海鮮。",
-          "query": "Proper Fish, Bainbridge Island WA"
+          "query": "Proper Fish, Bainbridge Island WA",
+          "url": "https://properfish.com/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11–19; Fri–Sat 11–20 (Toast lists one hour later)"
         },
         {
           "id": "bima",
@@ -4652,7 +4811,9 @@
           "indoor": true,
           "note": "具體室內藝術站，和碼頭、Winslow 很好串。",
           "query": "Bainbridge Island Museum of Art, Bainbridge Island WA",
-          "url": "https://www.biartmuseum.org/"
+          "url": "https://www.biartmuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Daily 10–17; free admission"
         },
         {
           "id": "waterfront",
@@ -4690,7 +4851,10 @@
           "indoor": true,
           "note": "看當季音樂、音樂劇或其他演出；不是每個節目都屬音樂，先選正式場次。",
           "query": "Bainbridge Performing Arts, Bainbridge Island WA",
-          "url": "https://www.bainbridgeperformingarts.org/"
+          "url": "https://www.bainbridgeperformingarts.org/",
+          "verified": "2026-10-24",
+          "hours": "Event-based; box office Wed–Fri 13–16 and 1 h before events",
+          "liveMusic": "Bainbridge Symphony 'Demons & Destiny' Oct 30–Nov 1, 2026; youth orchestra Nov 8 15:00; Holiday Baroque Dec 20 12:00. Theatre: Fun Home (musical, mature themes) through Oct 25; Red Nov 13–15."
         }
       ],
       "plans": [
