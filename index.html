@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7f5">
+  <meta name="application-name" content="OUTSIDE Redmond Guide">
+  <meta name="description" content="從 Redmond 出發，64 個約四小時內的城市與小鎮。依遠近、季節與玩法，找到下一個值得出發的週末。">
+  <title>OUTSIDE｜離城不必遠行・Redmond 週末旅行指南</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=3">
+  <script type="module" src="app.js?v=3"></script>
+</head>
+<body id="top" data-theme="atlas">
+  <a class="skip-link" href="#explore">跳到目的地清單</a>
+  <svg class="svg-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+      <symbol id="i-external" viewBox="0 0 24 24"><path d="M8 5h11v11M19 5 5 19"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.4 5.4 0 0 0-7.6 0L12 5.8l-1.2-1.2a5.4 5.4 0 0 0-7.6 7.6L12 21l8.8-8.8a5.4 5.4 0 0 0 0-7.6Z"/></symbol>
+      <symbol id="i-map" viewBox="0 0 24 24"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6Zm6-3v15m6-12v15"/></symbol>
+      <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></symbol>
+      <symbol id="i-rain" viewBox="0 0 24 24"><path d="M6 15a5 5 0 0 1-.8-9.9A7 7 0 0 1 18 7a4 4 0 0 1 0 8H6Zm1 3-1 3m6-3-1 3m6-3-1 3"/></symbol>
+      <symbol id="i-stroller" viewBox="0 0 24 24"><path d="M5 9h15a7 7 0 0 1-7 7H9L5 4H2m11 5V2a7 7 0 0 1 7 7"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14M12 5v14"/></symbol>
+      <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+      <symbol id="i-fit" viewBox="0 0 24 24"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+      <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V3H3v13h5"/></symbol>
+      <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v1"/></symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6L12 2Z"/></symbol>
+      <symbol id="i-coffee" viewBox="0 0 24 24"><path d="M4 8h12v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Zm12 1h2a3 3 0 0 1 0 6h-2M7 2v3m5-3v3M2 22h18"/></symbol>
+      <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5l11-3v13M9 9l11-3"/><ellipse cx="5.5" cy="18.5" rx="3.5" ry="2.5"/><ellipse cx="16.5" cy="15.5" rx="3.5" ry="2.5"/></symbol>
+      <symbol id="i-mountain" viewBox="0 0 24 24"><path d="m2 21 8-17 6 12 3-6 4 11H2Zm5-11 3 2 2-2"/></symbol>
+      <symbol id="i-walk" viewBox="0 0 24 24"><path d="M5 22c-3-7 11-6 10-12M10 22c-4-5 10-6 10-12M3 10l4-8 4 8H3Zm3 0v5m9-9 3-5 3 5h-6Zm3 0v3"/></symbol>
+      <symbol id="i-town" viewBox="0 0 24 24"><path d="M3 21V10h8v11m2 0V5h8v16M1 10l6-6 6 6m-8 5h4m6-7h4m-4 5h4m-4 5h4M1 22h22"/></symbol>
+      <symbol id="i-view" viewBox="0 0 24 24"><path d="m2 20 6-10 5 7 4-5 5 8H2Z"/><circle cx="17" cy="5" r="3"/></symbol>
+      <symbol id="scene-mountain" viewBox="0 0 640 360">
+        <rect width="640" height="360" fill="var(--art-sky)"/>
+        <circle cx="481" cy="84" r="39" fill="var(--art-sun)"/>
+        <path d="M0 224 112 131 211 218 353 107 534 227 640 169V360H0Z" fill="var(--art-far)"/>
+        <path d="m87 302 168-235 185 235Z" fill="var(--art-mountain)"/>
+        <path d="m255 67-73 102 43-15 28 22 23-20 33 14Z" fill="var(--art-snow)"/>
+        <path d="M0 272q125-40 258 9t382-7v86H0Z" fill="var(--art-near)"/>
+        <path d="M390 280q-143 19-42 47t-3 33h170q86-42-22-53t-20-32Z" fill="var(--art-water)"/>
+        <g fill="var(--art-ink)"><path d="m54 235-26 58h16l-24 32h68l-24-32h16Z"/><path d="m115 270-19 42h11l-17 25h50l-17-25h11Z"/><path d="m576 225-30 67h18l-28 39h80l-28-39h18Z"/><path d="m530 270-17 40h11l-17 24h46l-16-24h10Z"/></g>
+        <path d="M19 345h113m329-12h67m-155 13h38" fill="none" stroke="var(--art-snow)" stroke-width="2" opacity=".5"/>
+      </symbol>
+      <symbol id="scene-harbor" viewBox="0 0 640 360">
+        <rect width="640" height="360" fill="var(--art-sky)"/><circle cx="476" cy="79" r="34" fill="var(--art-sun)"/>
+        <path d="M0 195 113 123l89 59 98-90 138 105 123-49 79 41v47H0Z" fill="var(--art-far)"/>
+        <path d="M0 226q160-25 307 1t333-2v135H0Z" fill="var(--art-water)"/>
+        <path d="M0 215h262v23H0Z" fill="var(--art-near)"/>
+        <g fill="var(--art-building)"><path d="M37 157h47v58H37Zm61 13h61v45H98Zm80-24h51v69h-51Z"/></g>
+        <g fill="var(--art-ink)"><path d="m28 157 32-26 33 26Zm60 13 41-28 40 28Zm82-24 34-29 34 29Z"/><path d="M48 215h5v55h-5Zm147 0h5v55h-5ZM337 276h89l-18 17h-57Z"/></g>
+        <path d="M380 193v83m5-72 33 58h-33Z" fill="var(--art-snow)" stroke="var(--art-ink)" stroke-width="3"/>
+        <path d="M512 187h30l-4 61h-22Z" fill="var(--art-snow)"/><path d="M506 184h42l-21-19Z" fill="var(--art-ink)"/>
+        <path d="M288 316h90m57 14h105M41 289h95" stroke="var(--art-snow)" stroke-width="3" opacity=".65"/>
+      </symbol>
+      <symbol id="scene-village" viewBox="0 0 640 360">
+        <rect width="640" height="360" fill="var(--art-sky)"/><circle cx="498" cy="76" r="34" fill="var(--art-sun)"/>
+        <path d="M0 210 148 92l103 106L364 67l151 140 125-87v154H0Z" fill="var(--art-far)"/>
+        <path d="M0 280q180-35 340 4t300-6v82H0Z" fill="var(--art-near)"/>
+        <path d="M280 270h49l110 90H187Z" fill="var(--art-road)"/>
+        <path d="M54 189h130v110H54Zm166-24h112v110H220Zm160 28h135v107H380Z" fill="var(--art-building)"/>
+        <path d="m43 189 76-66 77 66Zm165-24 68-59 68 59Zm162 28 78-65 78 65Z" fill="var(--art-ink)"/>
+        <g fill="var(--art-sky)"><path d="M75 213h21v28H75Zm65 0h22v28h-22Zm100-25h22v26h-22Zm50 0h22v26h-22Zm110 26h23v27h-23Zm64 0h23v27h-23Z"/></g>
+        <path d="M106 256h31v43h-31Zm153-19h33v38h-33Zm172 21h31v42h-31Z" fill="var(--art-ink)"/>
+        <path d="M565 245v79m-33-50q32-77 66 0Z" fill="var(--art-mountain)" stroke="var(--art-mountain)" stroke-width="7"/>
+      </symbol>
+      <symbol id="scene-city" viewBox="0 0 640 360">
+        <rect width="640" height="360" fill="var(--art-sky)"/><circle cx="486" cy="91" r="44" fill="var(--art-sun)"/>
+        <path d="M0 211 155 109l124 106 145-77 216 79v48H0Z" fill="var(--art-far)"/>
+        <path d="M0 278h640v82H0Z" fill="var(--art-water)"/>
+        <g fill="var(--art-building)"><path d="M45 160h49v118H45Zm66 26h66v92h-66Zm128-66h58v158h-58Zm80 49h68v109h-68Zm89-31h48v140h-48Zm66 60h84v80h-84Z"/></g>
+        <path d="M188 116h29v162h-29Zm6-38h17v38h-17Zm-18 38 27-19 27 19Z" fill="var(--art-ink)"/>
+        <g stroke="var(--art-sky)" stroke-width="4" opacity=".8"><path d="M57 178h24m-24 16h24m-24 16h24m-24 16h24m170-86h30m-30 19h30m-30 19h30m-30 19h30m-30 19h30m-30 19h30m55-48h40m-40 19h40m-40 19h40m-40 19h40m53-70h25m-25 20h25m-25 20h25"/></g>
+        <path d="M0 278h640" stroke="var(--art-ink)" stroke-width="9"/><path d="M75 311h154m124 17h174" stroke="var(--art-snow)" stroke-width="3" opacity=".6"/>
+      </symbol>
+      <symbol id="scene-lake" viewBox="0 0 640 360">
+        <rect width="640" height="360" fill="var(--art-sky)"/><circle cx="484" cy="82" r="37" fill="var(--art-sun)"/>
+        <path d="M0 191 130 102l132 96L424 87l216 109v73H0Z" fill="var(--art-far)"/>
+        <path d="M0 223q138-42 262 4t378-10v143H0Z" fill="var(--art-water)"/>
+        <path d="M0 270q91-48 178 7t159 83H0Z" fill="var(--art-near)"/>
+        <path d="M640 272q-71-19-147 23t-137 65h284Z" fill="var(--art-mountain)"/>
+        <path d="M315 206v85m6-78 41 63h-41Zm-47 80h92l-15 12h-62Z" fill="var(--art-snow)" stroke="var(--art-ink)" stroke-width="2"/>
+        <g fill="var(--art-ink)"><path d="m64 211-29 62h17l-26 32h77l-27-32h17Z"/><path d="m587 217-26 58h16l-23 31h68l-23-31h15Z"/></g>
+        <path d="M203 243h76m99 77h72m-247-13h45" stroke="var(--art-snow)" stroke-width="3" opacity=".6"/>
+      </symbol>
+      <symbol id="scene-farm" viewBox="0 0 640 360">
+        <rect width="640" height="360" fill="var(--art-sky)"/><circle cx="483" cy="81" r="37" fill="var(--art-sun)"/>
+        <path d="M0 188q160-107 322-5t318-6v98H0Z" fill="var(--art-far)"/>
+        <path d="M0 233q190-36 337 12t303-6v121H0Z" fill="var(--art-near)"/>
+        <path d="M0 299 294 242l170 118H0Z" fill="var(--art-mountain)"/>
+        <path d="m170 262 125-23 227 121h-55Zm-93 18 35-7 199 87h-74Z" fill="var(--art-sun)" opacity=".6"/>
+        <path d="M96 167h134v84H96Z" fill="var(--art-building)"/><path d="m84 169 79-65 79 65Z" fill="var(--art-ink)"/>
+        <path d="M145 196h37v55h-37Z" fill="var(--art-snow)"/><path d="m145 196 37 55m0-55-37 55" stroke="var(--art-building)" stroke-width="3"/>
+        <g fill="var(--art-ink)"><path d="M373 179h8v80h-8Zm74 5h8v85h-8Zm88-9h8v83h-8Z"/></g>
+        <g fill="var(--art-mountain)"><circle cx="377" cy="173" r="31"/><circle cx="451" cy="176" r="33"/><circle cx="539" cy="165" r="30"/></g>
+        <g fill="var(--art-building)"><circle cx="500" cy="317" r="14"/><circle cx="530" cy="322" r="11"/><circle cx="557" cy="310" r="15"/></g>
+      </symbol>
+      <symbol id="scene-garden" viewBox="0 0 640 360">
+        <rect width="640" height="360" fill="var(--art-sky)"/><circle cx="475" cy="77" r="35" fill="var(--art-sun)"/>
+        <path d="M0 207q120-96 293-25t347 4v174H0Z" fill="var(--art-far)"/>
+        <path d="M0 277q131-56 266 5t374-28v106H0Z" fill="var(--art-near)"/>
+        <path d="M238 360q-19-88 84-98t31-51h49q87 45-35 72t12 77Z" fill="var(--art-road)"/>
+        <g stroke="var(--art-ink)" stroke-width="7"><path d="M94 162v148m86-109v115m324-148v151"/></g>
+        <g fill="var(--art-mountain)"><ellipse cx="90" cy="164" rx="43" ry="71" transform="rotate(-21 90 164)"/><ellipse cx="181" cy="203" rx="36" ry="57" transform="rotate(19 181 203)"/><ellipse cx="505" cy="175" rx="49" ry="76" transform="rotate(17 505 175)"/></g>
+        <g fill="var(--art-building)"><circle cx="54" cy="313" r="13"/><circle cx="84" cy="322" r="17"/><circle cx="117" cy="315" r="11"/><circle cx="537" cy="331" r="17"/><circle cx="575" cy="318" r="19"/></g>
+      </symbol>
+      <symbol id="scene-coast" viewBox="0 0 640 360">
+        <rect width="640" height="360" fill="var(--art-sky)"/><circle cx="478" cy="83" r="38" fill="var(--art-sun)"/>
+        <path d="M0 200q143-18 315 1t325-7v166H0Z" fill="var(--art-water)"/>
+        <path d="M0 256q168-27 297 28t343 10v66H0Z" fill="var(--art-road)"/>
+        <path d="M0 301q124-49 247 17t393 12v30H0Z" fill="var(--art-near)"/>
+        <path d="m102 258 17-108h36l18 108Z" fill="var(--art-snow)"/><path d="M115 148h44v-20h-44Zm-8-20 29-23 30 23Z" fill="var(--art-ink)"/>
+        <path d="M47 225h58m121 15h118m70-19h166M294 272h63" stroke="var(--art-snow)" stroke-width="3" opacity=".7"/>
+        <path d="m478 148 20-22 19 22-19 23Z" fill="var(--art-building)"/><path d="M498 171q-34 49-10 86" fill="none" stroke="var(--art-ink)" stroke-width="2"/>
+        <path d="m44 340 13-40m0 40 3-33m128 48 12-44m9 45 2-35" stroke="var(--art-ink)" stroke-width="3"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="site-header">
+    <a class="brand" href="./index.html" aria-label="OUTSIDE 旅行指南首頁">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="m20 2 5 13 13 5-13 5-5 13-5-13L2 20l13-5Z" fill="currentColor"/><circle cx="20" cy="20" r="4" fill="var(--bg)"/></svg>
+      <span>OUTSIDE<small>THE REDMOND FIELD GUIDE</small></span>
+    </a>
+    <nav class="header-nav" aria-label="主要導覽">
+      <a class="nav-explore" href="#trips">現成行程</a>
+      <a class="nav-explore" href="#explore">探索目的地</a>
+      <button class="favorites-nav" id="favorites-nav" type="button" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg><span>收藏</span><span class="favorite-count" id="favorite-count">0</span></button>
+      <a class="style-link" href="./styles.html"><span class="style-orbit" aria-hidden="true"></span>其他風格</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> 47.674° N, 122.122° W <span class="eyebrow-divider">/</span> A WEEKEND AWAY</p>
+        <h1 id="hero-title">離城，<br><em>不必遠行。</em></h1>
+        <p class="hero-description">從 Redmond 出發，把下個週末留給小鎮、咖啡、<br class="desktop-break">音樂、森林步道，和山裡的風景。</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#trips">看一日～三日現成行程 <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="text-button" href="#explore">或逐城探索</a>
+          <button class="text-button method-button" type="button">怎麼估車程？<svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></button>
+        </div>
+        <div class="hero-fineprint"><span>華盛頓州</span><i></i><span>Oregon</span><i></i><span>British Columbia</span></div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-art-frame"><svg class="hero-landscape" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice"><use href="#scene-mountain"/></svg></div>
+        <div class="hero-coordinate">PACIFIC NORTHWEST<br><span>KEEP A LITTLE ROOM FOR WONDER.</span></div>
+        <div class="hero-stamp"><span>THE WEEKEND RADIUS</span><strong>4<span>h</span></strong><span>FROM REDMOND, WA</span></div>
+        <div class="floating-note"><span>FIELD NOTE / 001</span><p>好旅程，<br>不一定要請假。</p><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg></div>
+      </div>
+      <div class="hero-stats">
+        <div><strong id="hero-city-count">64</strong><span>個值得出發的地方</span></div>
+        <div><strong id="hero-place-count">481</strong><span>個具體地點與體驗</span></div>
+        <div><strong id="hero-trail-count">21</strong><span>條有路線數據的步道</span></div>
+        <p>遠近都收，先從最遠的看起。<br><span>不是景點打卡，是下一個舒服的週末。</span></p>
+      </div>
+    </section>
+
+    <section class="trips-section" id="trips" aria-labelledby="trips-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">READY-MADE ROUTES <span>/ 1–3 DAYS</span></p><h2 id="trips-title">一日、兩日、三日，照著走就好。</h2></div>
+        <p class="section-aside">每天有時段、轉場與導航；<br>多日行程附具名住宿，依出發日檢查季節與封閉。</p>
+      </div>
+      <div class="trip-controls">
+        <div class="trip-tabs" id="trip-tabs" role="group" aria-label="行程天數"></div>
+        <label class="plan-date trip-date">出發日<input type="date" id="trip-date" data-plan-date></label>
+      </div>
+      <p class="results-count trip-count" id="trip-count" role="status" aria-live="polite">正在載入行程…</p>
+      <div class="trip-grid" id="trip-grid"></div>
+    </section>
+
+    <section class="explore-section" id="explore" aria-labelledby="explore-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE DESTINATION INDEX <span>/ 01—64</span></p><h2 id="explore-title">這次，往哪裡走？</h2></div>
+        <p class="section-aside">先按遠到近排好。<br>也可以只看適合今天心情的地方。</p>
+      </div>
+      <div class="search-row">
+        <label class="search-field" for="search">
+          <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+          <input id="search" type="search" placeholder="搜城市、店名或景點，例如：Bellevue Square、Boxley’s、瀑布…" autocomplete="off">
+          <span class="search-shortcut" aria-hidden="true">/</span>
+        </label>
+        <div class="quick-filters" aria-label="快速篩選">
+          <button class="filter-chip" id="filter-picks" type="button" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg>首次優先</button>
+          <button class="filter-chip" id="filter-rain" type="button" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#i-rain"/></svg>雨天也行</button>
+          <button class="filter-chip" id="filter-easy" type="button" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#i-stroller"/></svg>推車主線</button>
+        </div>
+      </div>
+      <nav class="region-tabs" id="region-tabs" aria-label="旅行方向"></nav>
+      <div class="interest-row">
+        <span class="interest-label">想怎麼玩</span>
+        <div class="interest-filters" id="interest-filters" aria-label="依興趣篩選目的地"></div>
+        <span class="interest-hint" id="interest-hint">可複選・同時符合</span>
+      </div>
+      <div class="filter-toolbar">
+        <div class="select-filters">
+          <label>單程上限<select id="max-drive"><option value="240">約 4 小時內</option><option value="180">3 小時內</option><option value="120">2 小時內</option><option value="60">1 小時內</option></select></label>
+          <label>季節<select id="season"><option value="all">任何季節</option><option value="spring">春・花與新綠</option><option value="summer">夏・水邊日子</option><option value="fall">秋・葉色與收成</option><option value="winter">冬・室內與雪景</option></select></label>
+          <label>停留節奏<select id="trip"><option value="all">全部節奏</option><option value="half">輕鬆半日</option><option value="day">一日旅行</option><option value="overnight">值得住一晚</option></select></label>
+          <label>國家<select id="country"><option value="all">美國＋加拿大</option><option value="US">只看美國</option><option value="CA">只看加拿大</option></select></label>
+        </div>
+        <button class="reset-filters text-button" id="reset-filters" type="button" hidden>清除條件</button>
+      </div>
+      <div class="results-toolbar">
+        <p class="results-count" id="results-count" role="status" aria-live="polite">正在載入目的地…</p>
+        <div class="results-controls">
+          <label class="sort-label" for="sort">排序<select id="sort"><option value="far">車程遠 → 近</option><option value="near">車程近 → 遠</option><option value="picks">編輯首選優先</option><option value="name">城市 A → Z</option></select></label>
+          <div class="view-toggle" aria-label="瀏覽方式">
+            <button id="view-cards" type="button" aria-label="卡片檢視" aria-pressed="true"><svg class="icon" aria-hidden="true"><use href="#i-grid"/></svg></button>
+            <button id="view-map" type="button" aria-label="地圖並列檢視" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#i-map"/></svg></button>
+          </div>
+        </div>
+      </div>
+      <p class="timing-note"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>單程為規劃估算；加拿大另加過境排隊，渡輪另加候船。市區以外的山路也要另外算。<button class="method-button inline-link" type="button">看收錄方式</button></p>
+      <div class="explore-layout" id="explore-layout" data-view="cards">
+        <div class="results-area">
+          <div class="city-grid" id="city-grid" aria-label="目的地清單"><p class="loading-message">正在展開你的週末地圖…</p></div>
+          <div class="empty-state" id="empty-state" hidden><span class="empty-mark" aria-hidden="true">↗</span><h3>這一組條件，先留白。</h3><p id="empty-message">換個關鍵字，或放寬一個條件看看。</p><button class="secondary-button" id="empty-reset" type="button">重新看所有目的地</button></div>
+          <div class="load-more-row" id="load-more-row" hidden><button class="secondary-button" id="load-more" type="button">再看 12 個目的地<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button><button class="text-button" id="show-all" type="button">一次展開全部</button></div>
+        </div>
+        <aside class="map-panel" id="map-panel" aria-label="目的地地圖" hidden>
+          <div class="map-panel-heading"><div><span class="eyebrow">A LITTLE PERSPECTIVE</span><h3>把想去的地方，放回地圖。</h3></div><span class="map-count" id="map-count">64</span></div>
+          <div class="map-canvas" id="map-canvas">
+            <svg id="destination-map" viewBox="0 0 1200 1000" role="group" aria-label="西北地區目的地位置，點選標記可看詳細行程">
+              <rect class="map-water" x="0" y="0" width="1200" height="1000"/>
+              <g id="map-land" aria-hidden="true"></g>
+              <g id="map-grid" aria-hidden="true"></g>
+              <g id="map-labels" aria-hidden="true"></g>
+              <g id="map-pins"></g>
+              <g id="map-origin"></g>
+            </svg>
+            <div class="map-controls"><button id="map-zoom-in" type="button" aria-label="放大地圖"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button><button id="map-zoom-out" type="button" aria-label="縮小地圖"><svg class="icon" aria-hidden="true"><use href="#i-minus"/></svg></button><button id="map-fit" type="button" aria-label="顯示全部符合條件的目的地"><svg class="icon" aria-hidden="true"><use href="#i-fit"/></svg></button></div>
+            <p class="map-interaction">拖曳移動・按 ＋ 放大・點城市看詳情</p>
+          </div>
+          <div class="map-legend"><span><i class="origin-dot"></i>Redmond 出發</span><span><i></i>符合篩選的目的地</span></div>
+          <p class="map-credit">底圖：<a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener noreferrer">Natural Earth</a>（public domain）。位置示意，非導航路線。</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="field-notes" aria-labelledby="notes-title">
+      <div class="section-heading"><div><p class="eyebrow">BEFORE THE WEEKEND</p><h2 id="notes-title">出發以前，少一點意外。</h2></div><button class="method-button text-button" type="button">資料範圍與來源<svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></button></div>
+      <div class="notes-grid">
+        <article><span>01 / TIME</span><h3>到城市，不等於到山裡。</h3><p>Port Angeles 不是 Hurricane Ridge，Ashford 也不是 Paradise。延伸景點的車程、道路與體力分開算。</p></article>
+        <article><span>02 / FERRY</span><h3>海上二十分鐘，岸上不一定。</h3><p>渡輪航行和候船是兩件事。走陸路、帶車上船、步行上船，可能是完全不同的週末。</p></article>
+        <article><span>03 / BORDER</span><h3>加拿大近，過境不一定快。</h3><p>BC 目的地的估時不含國境排隊；出入境文件與回程等候，都要在出發前獨立確認。</p></article>
+        <article><span>04 / SEASON</span><h3>不是每張照片，都屬於今天。</h3><p>鬱金香、薰衣草、南瓜、雪景和夜市各有季節。看當季玩法，不拿夏天攻略保證冬天通行。</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#top">OUTSIDE<span>LESS RUSH. MORE WEEKEND.</span></a><p>從 Redmond 出發的 64 個旅行提案。<br>資料整理 <time datetime="2026-10-24">2026.10.24</time>・所有插畫為原創意境圖，非景點實景照片。</p><a href="./styles.html">換一種風格看世界 ↗</a></footer>
+  <dialog id="city-dialog" class="city-dialog" aria-labelledby="city-title"></dialog>
+  <dialog id="method-dialog" class="method-dialog" aria-labelledby="method-title"></dialog>
+  <dialog id="trip-dialog" class="city-dialog trip-dialog" aria-labelledby="trip-title"></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><div class="noscript-message">這份互動指南需要 JavaScript 才能搜尋、篩選與顯示城市內容。請啟用 JavaScript 後重新載入。</div></noscript>
+</body>
+</html>
