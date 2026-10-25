@@ -1969,6 +1969,604 @@
         "https://www.wta.org/go-hiking/hikes/trail-of-the-cedars/@@related_tripreport_listing?b_start:int=5",
         "https://wsdot.wa.gov/travel/roads-bridges/mountain-pass-closure-and-opening-dates"
       ]
+    },
+    {
+      "id": "picture-lake",
+      "name": "Picture Lake 環湖步道（Heather Meadows）",
+      "miles": 0.6,
+      "gainFt": 45,
+      "difficulty": "easy",
+      "climb": false,
+      "duration": [
+        30,
+        60
+      ],
+      "trailhead": [
+        48.8666,
+        -121.6779
+      ],
+      "pass": "Northwest Forest Pass 或 America the Beautiful；現場也可掃碼付 $5 日票（USFS）。",
+      "note": "Shuksan 倒影的經典湖景，WTA 列 0.6 英里、45 ft 的無障礙環湖步道與觀景平台。清晨或傍晚光線好、人也少。",
+      "access": "鋪面與木棧，推車可走；禁止下湖與帶寵物進湖，只在步道上拍照。",
+      "source": "https://www.wta.org/go-hiking/hikes/picture-lake",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "冬季湖面與步道埋在數英尺雪下（雪可留到 6 月），車開得到但不是環湖散步。",
+      "roadAccess": "SR 542 全年除雪到 Heather Meadows 滑雪場，Picture Lake 一年四季開得到；冬季依 WSDOT 公告準備雪鏈。",
+      "status": [
+        [
+          "WSDOT Mt. Baker Hwy／Artist Point 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/mt.-baker"
+        ],
+        [
+          "USFS Picture Lake Path",
+          "https://www.fs.usda.gov/r06/mbs/recreation/picture-lake-path"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/picture-lake"
+        ]
+      ],
+      "closures": [
+        {
+          "start": "2026-09-30",
+          "end": "2026-10-02",
+          "scope": "partial",
+          "note": "9/30–10/1 白天 7:30–16:00，SR 542 MP48–54（Silver Fir–Picture Lake）入冬整備雙向封路；7:30 前通過、16:00 後才能下山。",
+          "source": "https://www.fs.usda.gov/r06/mbs/alerts/mt-baker-highway-sr-542-closed-winter-prep"
+        },
+        {
+          "start": "2026-10-05",
+          "end": "2026-10-07",
+          "scope": "partial",
+          "note": "10/5–10/6 白天 7:30–16:00，SR 542 MP48–54 再次入冬整備雙向封路，規則同上。",
+          "source": "https://www.fs.usda.gov/r06/mbs/alerts/mt-baker-highway-sr-542-closed-winter-prep"
+        }
+      ],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/mbs/recreation/picture-lake-path",
+        "https://www.wta.org/go-hiking/hikes/picture-lake",
+        "https://wsdot.wa.gov/about/news/2026/sr-542-road-artist-point-mount-baker-reopens-season-wednesday-june-10"
+      ]
+    },
+    {
+      "id": "fire-and-ice",
+      "name": "Fire and Ice 解說環線（Austin Pass）",
+      "miles": 0.5,
+      "gainFt": 100,
+      "difficulty": "easy",
+      "climb": false,
+      "duration": [
+        30,
+        50
+      ],
+      "trailhead": [
+        48.8579,
+        -121.6822
+      ],
+      "pass": "Northwest Forest Pass 或 America the Beautiful；現場也可掃碼付 $5 日票（USFS）。",
+      "note": "Heather Meadows 遊客中心旁 0.5 英里、100 ft 的解說環線，講火山與冰河如何塑造地形，是這一帶最早融雪的步道之一。",
+      "access": "全程鋪面但坡陡，推車回停車場要有人幫推；揹帶較省事。",
+      "source": "https://www.wta.org/go-hiking/hikes/fire-and-ice-trail",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "winter": "冬季這一帶屬封閉路段與滑雪場範圍，步道埋雪，沒有可走的路線。",
+      "roadAccess": "登山口在 Austin Pass，位於 SR 542 最後 2.7 英里季節路段內，首場大雪後封閉、通常 7 月前後重開；遊客中心九月最後一個週末後關。",
+      "status": [
+        [
+          "WSDOT Mt. Baker Hwy／Artist Point 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/mt.-baker"
+        ],
+        [
+          "USFS Heather Meadows 遊客中心",
+          "https://www.fs.usda.gov/r06/mbs/offices/heather-meadows-visitor-center"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/fire-and-ice-trail"
+        ]
+      ],
+      "closures": [
+        {
+          "start": "2026-09-30",
+          "end": "2026-10-02",
+          "scope": "partial",
+          "note": "9/30–10/1 白天 7:30–16:00，SR 542 MP48–54（Silver Fir–Picture Lake）入冬整備雙向封路；7:30 前通過、16:00 後才能下山。",
+          "source": "https://www.fs.usda.gov/r06/mbs/alerts/mt-baker-highway-sr-542-closed-winter-prep"
+        },
+        {
+          "start": "2026-10-05",
+          "end": "2026-10-07",
+          "scope": "partial",
+          "note": "10/5–10/6 白天 7:30–16:00，SR 542 MP48–54 再次入冬整備雙向封路，規則同上。",
+          "source": "https://www.fs.usda.gov/r06/mbs/alerts/mt-baker-highway-sr-542-closed-winter-prep"
+        }
+      ],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/mbs/recreation/austin-pass-picnic-area",
+        "https://www.fs.usda.gov/r06/mbs/offices/heather-meadows-visitor-center",
+        "https://www.fs.usda.gov/r06/mbs/recreation/trails/chain-lakes-trail-682",
+        "https://www.wta.org/go-hiking/hikes/fire-and-ice-trail"
+      ]
+    },
+    {
+      "id": "artist-ridge",
+      "name": "Artist Ridge（Huntoon Point）",
+      "miles": 1.2,
+      "gainFt": 200,
+      "difficulty": "easy",
+      "climb": false,
+      "duration": [
+        45,
+        90
+      ],
+      "trailhead": [
+        48.8467,
+        -121.691
+      ],
+      "pass": "Northwest Forest Pass 或 America the Beautiful；現場也可掃碼付 $5 日票（USFS）。",
+      "note": "從 Artist Point 停車場出發的短線，Shuksan 與 Baker 都在眼前，WTA 列 1.2 英里、200 ft。重點是看山，不必再接長線。",
+      "access": "碎石步道與短坡，推車只到停車場與開頭一段，建議揹帶；高山植被脆弱，留在步道上。",
+      "source": "https://www.wta.org/go-hiking/hikes/artist-ridge",
+      "months": [
+        8,
+        9
+      ],
+      "winter": "冬季路封，Artist Point 變成從滑雪場出發約 4 英里、1,000 ft 的雪鞋路線，會穿越雪崩地形，不是帶嬰兒的行程。",
+      "roadAccess": "SR 542 最後 2.7 英里（Heather Meadows→Artist Point）首場大雪後封閉、通常 7 月初前後重開：2025 年 6/27–10/15，2026 年 6/10 重開，WSDOT 10/18 更新仍開。",
+      "status": [
+        [
+          "WSDOT Mt. Baker Hwy／Artist Point 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/mt.-baker"
+        ],
+        [
+          "USFS Artist Point Trailhead",
+          "https://www.fs.usda.gov/r06/mbs/recreation/artist-point-trailhead"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/artist-ridge"
+        ]
+      ],
+      "closures": [
+        {
+          "start": "2026-09-30",
+          "end": "2026-10-02",
+          "scope": "partial",
+          "note": "9/30–10/1 白天 7:30–16:00，SR 542 MP48–54（Silver Fir–Picture Lake）入冬整備雙向封路；7:30 前通過、16:00 後才能下山。",
+          "source": "https://www.fs.usda.gov/r06/mbs/alerts/mt-baker-highway-sr-542-closed-winter-prep"
+        },
+        {
+          "start": "2026-10-05",
+          "end": "2026-10-07",
+          "scope": "partial",
+          "note": "10/5–10/6 白天 7:30–16:00，SR 542 MP48–54 再次入冬整備雙向封路，規則同上。",
+          "source": "https://www.fs.usda.gov/r06/mbs/alerts/mt-baker-highway-sr-542-closed-winter-prep"
+        }
+      ],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/mbs/recreation/artist-point-trailhead",
+        "https://wsdot.wa.gov/about/news/2026/sr-542-road-artist-point-mount-baker-reopens-season-wednesday-june-10",
+        "https://www.wta.org/go-hiking/hikes/artist-ridge",
+        "https://www.wta.org/go-hiking/hikes/artist-point-snowshoe"
+      ]
+    },
+    {
+      "id": "chain-lakes",
+      "name": "Chain Lakes Loop（Artist Point 逆時針）",
+      "miles": 6.5,
+      "gainFt": 1820,
+      "difficulty": "moderate-hard",
+      "climb": true,
+      "duration": [
+        240,
+        360
+      ],
+      "trailhead": [
+        48.8469,
+        -121.6925
+      ],
+      "pass": "Northwest Forest Pass 或 America the Beautiful；現場也可掃碼付 $5 日票（USFS）。",
+      "note": "高山湖泊、草甸與 Baker／Shuksan 雙峰的完整環線，採 WTA 6.5 英里／1,820 ft、從 Artist Point 逆時針先下 Wild Goose 的走法。從 Heather Meadows 或 Bagley Lakes 起走是另一組數字，不混算。",
+      "access": "高山碎石、岩坡與陡降段，不推車；揹嬰兒只選晴朗穩定的日子，起霧時路徑難辨。",
+      "source": "https://www.wta.org/go-hiking/hikes/chain-lakes-loop",
+      "months": [
+        8,
+        9
+      ],
+      "winter": "冬季整條環線在雪崩地形中，USFS 提醒冬季使用者必須能應對雪崩，不是一般家庭行程。",
+      "roadAccess": "起點在 Artist Point，只有季節路段開放時（通常 7–10 月）開得到；USFS 提醒坡上殘雪可留到 8 月中。",
+      "status": [
+        [
+          "WSDOT Mt. Baker Hwy／Artist Point 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/mt.-baker"
+        ],
+        [
+          "USFS Chain Lakes Trail 682",
+          "https://www.fs.usda.gov/r06/mbs/recreation/trails/chain-lakes-trail-682"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/chain-lakes-loop"
+        ]
+      ],
+      "closures": [
+        {
+          "start": "2026-09-30",
+          "end": "2026-10-02",
+          "scope": "partial",
+          "note": "9/30–10/1 白天 7:30–16:00，SR 542 MP48–54（Silver Fir–Picture Lake）入冬整備雙向封路；7:30 前通過、16:00 後才能下山。",
+          "source": "https://www.fs.usda.gov/r06/mbs/alerts/mt-baker-highway-sr-542-closed-winter-prep"
+        },
+        {
+          "start": "2026-10-05",
+          "end": "2026-10-07",
+          "scope": "partial",
+          "note": "10/5–10/6 白天 7:30–16:00，SR 542 MP48–54 再次入冬整備雙向封路，規則同上。",
+          "source": "https://www.fs.usda.gov/r06/mbs/alerts/mt-baker-highway-sr-542-closed-winter-prep"
+        }
+      ],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/mbs/recreation/trails/chain-lakes-trail-682",
+        "https://www.fs.usda.gov/r06/mbs/recreation/artist-point-trailhead",
+        "https://www.wta.org/go-hiking/hikes/chain-lakes-loop"
+      ]
+    },
+    {
+      "id": "horseshoe-bend",
+      "name": "Horseshoe Bend 河岸步道",
+      "miles": 3.2,
+      "gainFt": 410,
+      "difficulty": "easy-moderate",
+      "climb": false,
+      "duration": [
+        75,
+        150
+      ],
+      "trailhead": [
+        48.9023,
+        -121.9117
+      ],
+      "pass": "Northwest Forest Pass 或 America the Beautiful（WTA）。",
+      "note": "沿 North Fork Nooksack 急流的老森林步道，WTA 列 3.2 英里、410 ft；開頭就看得到峽谷急流，隨時可折返。",
+      "access": "前 1/3 英里是樹皮屑／夯土無障礙段，推車可到輪椅折返點；之後有木石階與起伏，改揹帶。登山口沒有廁所。",
+      "source": "https://www.wta.org/go-hiking/hikes/horseshoe-bend",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "最高約 1,200 ft，WTA 說全年大多可走；冬季偶有積雪結冰，帶簡易冰爪並遠離濕滑河岸。",
+      "roadAccess": "在 Glacier 東邊 1.8 英里的 SR 542 旁，全年通車；大雨或下雪時先看 WSDOT，2025 年 12 月洪水曾毀損 Glacier 以東路段。",
+      "status": [
+        [
+          "WSDOT Mt. Baker Hwy 路況",
+          "https://wsdot.com/travel/real-time/mountainpasses/mt.-baker"
+        ],
+        [
+          "USFS 林區警示",
+          "https://www.fs.usda.gov/r06/mbs/alerts"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/horseshoe-bend"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/horseshoe-bend",
+        "https://www.cascadiadaily.com/2026/feb/06/mount-baker-highway-reopens-friday-morning/"
+      ]
+    },
+    {
+      "id": "lake-22",
+      "name": "Lake 22（Lake Twentytwo）",
+      "miles": 5.4,
+      "gainFt": 1350,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        180,
+        270
+      ],
+      "trailhead": [
+        48.077,
+        -121.7457
+      ],
+      "pass": "Northwest Forest Pass 或 America the Beautiful；現場也可掃碼付 $5 日票（USFS）。",
+      "note": "老森林、溪流瀑布到 Pilchuck 北壁下的冰斗湖，採 WTA 到湖口 5.4 英里／1,350 ft；環湖 1 英里另計。不要爬湖後的大石坡，WTA 記載曾有人在那裡喪命。",
+      "access": "石階、木棧與溪水漫過步道，全程不推車；下坡濕滑，揹嬰兒要穿抓地好的鞋並帶登山杖。",
+      "source": "https://www.wta.org/go-hiking/hikes/lake-22-lake-twenty-two",
+      "months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "WTA 指出冬季這條路線容易發生雪崩，Pilchuck 北壁冬春常有雪崩，建議等雪融再去；雪季出發前看 NWAC。",
+      "roadAccess": "登山口在 Verlot 東邊 2 英里、Deer Creek 冬季閘門之前，USFS 說這條步道全年有人走；週末停車場早上就滿。",
+      "status": [
+        [
+          "Snohomish County 道路封閉（MLH 季節狀態）",
+          "https://snohomishcountywa.gov/518/Road-Closures"
+        ],
+        [
+          "USFS Lake Twenty Two Trail 702",
+          "https://www.fs.usda.gov/r06/mbs/recreation/trails/lake-twenty-two-trail-702"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/lake-22-lake-twenty-two"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/lake-twentytwo-snowshoe",
+        "https://www.wta.org/go-hiking/hikes/lake-22-lake-twenty-two",
+        "https://www.fs.usda.gov/r06/mbs/recreation/trails/lake-twenty-two-trail-702",
+        "https://nwac.us/"
+      ]
+    },
+    {
+      "id": "heather-lake",
+      "name": "Heather Lake（Mountain Loop）",
+      "miles": 5.0,
+      "gainFt": 1034,
+      "difficulty": "moderate",
+      "climb": true,
+      "duration": [
+        150,
+        240
+      ],
+      "trailhead": [
+        48.0829,
+        -121.774
+      ],
+      "pass": "Northwest Forest Pass 或 America the Beautiful；現場也可掃碼付 $5 日票（USFS）。",
+      "note": "Pilchuck 山腳的小冰斗湖，WTA 數字 5.0 英里（含約 0.8 英里環湖）／1,034 ft，只到湖口約 4.2 英里。比 Lake 22 短，但上段比數字難走。",
+      "access": "前 3/4 英里碎石好走，之後是石頭、樹根與泥濘，不推車；濕季揹嬰兒要特別注意腳下。",
+      "source": "https://www.wta.org/go-hiking/hikes/heather-lake-mountain-loop",
+      "months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "WTA 註明冬季這條路線有雪崩危險，湖盆就在 Pilchuck 峭壁下；雪季不當一般散步。",
+      "roadAccess": "從 Mountain Loop Hwy 轉 Pilchuck Road（FR 42）1.5 英里；冬季 Pilchuck Road 在 Heather Lake 登山口設閘，登山口本身仍到得了。",
+      "status": [
+        [
+          "Snohomish County 道路封閉（MLH 季節狀態）",
+          "https://snohomishcountywa.gov/518/Road-Closures"
+        ],
+        [
+          "USFS Heather Lake Trail 701",
+          "https://www.fs.usda.gov/r06/mbs/recreation/trails/heather-lake-trail-701"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/heather-lake-mountain-loop"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/heather-lake-snowshoe",
+        "https://www.fs.usda.gov/r06/mbs/newsroom/releases/mountain-loop-highway-mt-pilchuck-rd-close-winter",
+        "https://www.fs.usda.gov/r06/mbs/recreation/trails/heather-lake-trail-701"
+      ]
+    },
+    {
+      "id": "big-four",
+      "name": "Big Four Ice Caves（只到觀景區）",
+      "miles": 2.2,
+      "gainFt": 220,
+      "difficulty": "easy",
+      "climb": false,
+      "duration": [
+        75,
+        150
+      ],
+      "trailhead": [
+        48.0659,
+        -121.5107
+      ],
+      "pass": "Northwest Forest Pass 或 America the Beautiful；現場也可掃碼付 $5 日票（USFS）。",
+      "note": "平緩步道過 Stillaguamish 河，到 Big Four 北壁下的觀景區，WTA 列 2.2 英里、220 ft。冰洞只能在步道終點遠看，絕不進洞或爬上雪堆，曾有人因崩塌與雪崩喪命；2026 年 10 月中 WTA 回報冰洞已幾乎全塌。",
+      "access": "停車場、野餐區到河上大橋一帶約 1 英里鋪面與木棧可推車；過橋後有石頭與木棧高低差，改揹帶。",
+      "source": "https://www.wta.org/go-hiking/hikes/big-four-ice-caves",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "冬季路段封閉且整區是雪崩區，WTA 雪鞋版要從 Deer Creek 閘門走 7 英里來回，不適合帶嬰兒；USFS 指出落石與落冰全年都有。",
+      "roadAccess": "Verlot 東邊 14.5 英里，在 Deer Creek–Bedal 冬季封閉段內（2024 年 11/22 起封，2026 年 5/15 全線開通）；冰洞通常 7 月中以後才露出。",
+      "status": [
+        [
+          "Snohomish County 道路封閉（MLH 季節狀態）",
+          "https://snohomishcountywa.gov/518/Road-Closures"
+        ],
+        [
+          "USFS Big Four Ice Caves Trail 723",
+          "https://www.fs.usda.gov/r06/mbs/recreation/trails/big-four-ice-caves-trail-723"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/big-four-ice-caves"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/mbs/recreation/trails/big-four-ice-caves-trail-723",
+        "https://www.fs.usda.gov/r06/mbs/newsroom/releases/mountain-loop-highway-mt-pilchuck-rd-close-winter",
+        "https://snohomishcountywa.gov/518/Road-Closures",
+        "https://www.wta.org/go-hiking/hikes/big-four-ice-caves-snowshoe"
+      ]
+    },
+    {
+      "id": "pilchuck",
+      "name": "Mount Pilchuck 山頂瞭望屋",
+      "miles": 5.4,
+      "gainFt": 2300,
+      "difficulty": "moderate-hard",
+      "climb": true,
+      "duration": [
+        210,
+        330
+      ],
+      "trailhead": [
+        48.0702,
+        -121.8147
+      ],
+      "pass": "Northwest Forest Pass 或 America the Beautiful；現場也可掃碼付 $5 日票（USFS）。",
+      "note": "上到 1921 年起建的山頂瞭望屋，晴天看得到 Baker、Rainier 與 Olympics，採 WTA 5.4 英里／2,300 ft。上段要穿大石區，WTA 提醒常有人誤上假山頂或需要救援。",
+      "access": "大石區與開闊碎石坡，不推車，也不建議揹嬰兒；適合大人輪流或另找時間。",
+      "source": "https://www.wta.org/go-hiking/hikes/mount-pilchuck",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "WTA 指冬季積雪會蓋住路徑、常有人迷路需救援；而且 Pilchuck Road 冬季在 Heather Lake 口封閉，開不到登山口。",
+      "roadAccess": "Pilchuck Road（FR 42）從 MLH 進去約 6.9 英里，2026 年 10 月 WTA 回報可通行、有伐木車；冬季在 Heather Lake 登山口設閘封路。",
+      "status": [
+        [
+          "USFS Mount Pilchuck Trailhead",
+          "https://www.fs.usda.gov/r06/mbs/recreation/mount-pilchuck-trailhead"
+        ],
+        [
+          "USFS 林區警示",
+          "https://www.fs.usda.gov/r06/mbs/alerts"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/mount-pilchuck"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.fs.usda.gov/r06/mbs/newsroom/releases/mountain-loop-highway-mt-pilchuck-rd-close-winter",
+        "https://www.wta.org/go-hiking/hikes/mount-pilchuck",
+        "https://www.fs.usda.gov/r06/mbs/recreation/mount-pilchuck-trailhead"
+      ]
+    },
+    {
+      "id": "boardman-lake",
+      "name": "Boardman Lake（經 Lake Evan）",
+      "miles": 2.0,
+      "gainFt": 300,
+      "difficulty": "easy",
+      "climb": false,
+      "duration": [
+        60,
+        120
+      ],
+      "trailhead": [
+        48.0337,
+        -121.6858
+      ],
+      "pass": "Northwest Forest Pass 或 America the Beautiful（WTA）。",
+      "note": "老雪松林裡的兩座湖，先經 Lake Evan 再到較大的 Boardman Lake，WTA 列 2.0 英里、300 ft；比 Lake 22 安靜，適合帶寶寶的短線。",
+      "access": "步道有樹根與舊木橋，不推車，揹帶可行；湖邊有小沙岸可休息。",
+      "source": "https://www.wta.org/go-hiking/hikes/boardman-lake",
+      "months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "winter": "登山口約 2,750 ft，林道不除雪，冬季通常開不到。",
+      "roadAccess": "Verlot 東邊 4.6 英里轉林道 4020，約 4.9 英里坑洞碎石路（WTA：慢開可過；2026 年 9 月回報路況良好），冬季積雪。",
+      "status": [
+        [
+          "USFS 林區警示",
+          "https://www.fs.usda.gov/r06/mbs/alerts"
+        ],
+        [
+          "Snohomish County 道路封閉（MLH 季節狀態）",
+          "https://snohomishcountywa.gov/518/Road-Closures"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/boardman-lake"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/boardman-lake"
+      ]
+    },
+    {
+      "id": "lime-kiln",
+      "name": "Lime Kiln Trail（Robe Canyon Historic Park）",
+      "miles": 7.0,
+      "gainFt": 625,
+      "difficulty": "moderate",
+      "climb": false,
+      "duration": [
+        180,
+        270
+      ],
+      "trailhead": [
+        48.0774,
+        -121.9325
+      ],
+      "pass": "不需停車證（WTA）；縣立公園黎明到黃昏開放。",
+      "note": "Granite Falls 旁的苔蘚森林與 1890 年代石灰窯、鐵道遺跡，WTA 列 7.0 英里、625 ft；先下坡約 600 ft 到河谷，爬升多在回程，可隨時折返。",
+      "access": "舊路基與窄石徑混合，下坡後建議揹帶；峽谷河邊看緊小孩，夏季週末停車場常滿。",
+      "source": "https://www.wta.org/go-hiking/hikes/lime-kiln",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "winter": "最高點約 750 ft，冬季大多無雪，是 Mountain Loop 高處封路或雪崩季的替代；雨後泥濘、偶有倒木。",
+      "roadAccess": null,
+      "status": [
+        [
+          "Snohomish County Lime Kiln Trailhead",
+          "https://snohomishcountywa.gov/Facilities/Facility/Details/Lime-Kiln-Trailhead-95"
+        ],
+        [
+          "WTA 近期回報",
+          "https://www.wta.org/go-hiking/hikes/lime-kiln"
+        ]
+      ],
+      "closures": [],
+      "seasonSources": [
+        "https://www.wta.org/go-hiking/hikes/lime-kiln",
+        "https://snohomishcountywa.gov/Facilities/Facility/Details/Lime-Kiln-Trailhead-95"
+      ]
     }
   ]
 }

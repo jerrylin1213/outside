@@ -11932,6 +11932,636 @@
           "note": "往西回 Rockport 一帶再上約 8 mile 碎石林道；只在 7–10 月、天氣穩定時排。"
         }
       ]
+    },
+    "mount-baker": {
+      "intro": "Wake ’N Bakery、Chair 9／Gunners、Nooksack Falls 與 Heather Meadows 都點名。先看 Artist Point 路段開不開：開就上 Picture Lake 與 Artist Point，封路就改走低海拔河谷版，不硬撐。",
+      "interests": [
+        "town",
+        "coffee",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "places": [
+        {
+          "id": "wnb",
+          "name": "Wake ’N Bakery",
+          "kinds": [
+            "coffee"
+          ],
+          "minutes": 45,
+          "indoor": true,
+          "note": "Glacier 從 2003 年開到現在的烘焙咖啡館，司康、早餐捲餅與小批烘豆咖啡；營業時間隨季節變，淡季週二三可能不開，以 Instagram 公告為準。",
+          "query": "Wake 'N Bakery, 6903 Bourne St, Glacier WA 98244",
+          "url": "https://www.wakenbakeryglacier.com/",
+          "verified": "2026-10-24",
+          "hours": "Varies by season; shoulder Sat–Sun 8–14, Mon/Thu/Fri 8–12; peak Mon–Thu 7–14, Fri–Sun 7–17"
+        },
+        {
+          "id": "gunners",
+          "name": "Gunners Tex Mex BBQ",
+          "kinds": [
+            "food"
+          ],
+          "minutes": 75,
+          "indoor": true,
+          "note": "Brisket、carnitas tacos 與 BBQ 盤餐，有兒童餐；官網目前只開週四至週日 12–20，週一到週三休。",
+          "query": "Gunners Tex Mex BBQ, 9990 Mt Baker Hwy, Glacier WA",
+          "url": "https://www.gunnersbbq.net/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Sun 12–20; closed Mon–Wed"
+        },
+        {
+          "id": "chair9",
+          "name": "Chair 9 Woodstone Pizza & Bar",
+          "kinds": [
+            "food"
+          ],
+          "minutes": 75,
+          "indoor": true,
+          "note": "窯烤披薩與運動酒吧，有 12 歲以下兒童餐；每天中午開、廚房到 20 點（週五六 21 點），是 Glacier 週一到週三的晚餐選擇，晚上酒吧較熱鬧。",
+          "query": "Chair 9 Woodstone Pizza, 10459 Mt Baker Hwy, Glacier WA",
+          "url": "https://chair9.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 12–20 (Fri–Sat to 21); bar later"
+        },
+        {
+          "id": "northfork",
+          "name": "North Fork Brewery",
+          "kinds": [
+            "food"
+          ],
+          "minutes": 75,
+          "indoor": true,
+          "note": "Deming 公路旁的自釀啤酒館兼披薩店，牆上擺滿老啤酒瓶；每天 12–21，在 Glacier 下方約 18 英里，上山前午餐或下山晚餐順路。",
+          "query": "North Fork Brewery, 6186 Mt Baker Hwy, Deming WA",
+          "url": "https://www.northforkbrewery.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 12–21"
+        },
+        {
+          "id": "psc",
+          "name": "Glacier Public Service Center",
+          "kinds": [
+            "culture",
+            "indoor"
+          ],
+          "minutes": 20,
+          "indoor": true,
+          "note": "林務局服務站，問路況、買 Northwest Forest Pass 與地圖；冬季只開週六日 9–15，門外有 24 小時自助日票機。",
+          "query": "Glacier Public Service Center, 10091 Mt Baker Hwy, Glacier WA",
+          "url": "https://www.fs.usda.gov/r06/mbs/offices/glacier-public-service-center",
+          "verified": "2026-10-24",
+          "hours": "Winter: Sat–Sun 9–15"
+        },
+        {
+          "id": "horseshoe",
+          "name": "Horseshoe Bend Trail",
+          "kinds": [
+            "walk",
+            "sight"
+          ],
+          "minutes": 90,
+          "indoor": false,
+          "note": "Glacier 東邊 1.8 英里的河岸老森林步道，全年大多可走；只走前 1/3 英里無障礙段看急流也值得。",
+          "query": "Horseshoe Bend Trailhead, Mt Baker Hwy, Glacier WA",
+          "url": "https://www.wta.org/go-hiking/hikes/horseshoe-bend"
+        },
+        {
+          "id": "nooksack",
+          "name": "Nooksack Falls",
+          "kinds": [
+            "sight"
+          ],
+          "minutes": 30,
+          "indoor": false,
+          "note": "SR 542 轉 Wells Creek Road（FR 33）0.6 英里，短步道到圍欄觀景點；圍欄外是濕滑岩壁，不越過。冬季林道可能積雪。",
+          "query": "Nooksack Falls, Wells Creek Rd, Glacier WA",
+          "url": "https://www.wta.org/go-hiking/hikes/nooksack-falls"
+        },
+        {
+          "id": "picture",
+          "name": "Picture Lake（Heather Meadows）",
+          "kinds": [
+            "sight",
+            "walk"
+          ],
+          "minutes": 45,
+          "indoor": false,
+          "note": "Shuksan 倒影的經典湖景，0.6 英里無障礙環湖步道；冬季路仍除雪到滑雪場，但湖與步道埋在雪下。",
+          "query": "Picture Lake, Mt Baker Hwy, Deming WA 98244",
+          "url": "https://www.fs.usda.gov/r06/mbs/recreation/picture-lake-path"
+        },
+        {
+          "id": "heather",
+          "name": "Austin Pass／Fire and Ice Trail",
+          "kinds": [
+            "sight",
+            "walk"
+          ],
+          "minutes": 45,
+          "indoor": false,
+          "setting": "戶外；遊客中心只在夏季開",
+          "note": "Heather Meadows 遊客中心旁的 0.5 英里鋪面解說環線；遊客中心九月最後一個週末後關門，這段路屬 Artist Point 季節路段。",
+          "query": "Heather Meadows Visitor Center, Austin Pass, Mt Baker Hwy, Deming WA",
+          "url": "https://www.fs.usda.gov/r06/mbs/offices/heather-meadows-visitor-center",
+          "hours": "Visitor center summer only; closed for the 2026 season"
+        },
+        {
+          "id": "artist",
+          "name": "Artist Point",
+          "kinds": [
+            "sight",
+            "walk"
+          ],
+          "minutes": 120,
+          "indoor": false,
+          "note": "SR 542 路底，停車場就看得到 Baker 與 Shuksan，Artist Ridge 1.2 英里環線最輕鬆；只有廁所，沒有水和餐飲。旁邊的 Table Mountain 陡，WTA 不建議帶小小孩。",
+          "query": "Artist Point Parking, Mt Baker Hwy, Deming WA 98244",
+          "url": "https://www.fs.usda.gov/r06/mbs/recreation/artist-point-trailhead"
+        },
+        {
+          "id": "chain",
+          "name": "Chain Lakes Loop Trailhead（Artist Point）",
+          "kinds": [
+            "walk",
+            "sight"
+          ],
+          "minutes": 330,
+          "indoor": false,
+          "note": "6.5 英里／1,820 ft 的高山湖泊環線，採 WTA 從 Artist Point 逆時針、先下 Wild Goose 的走法；8–9 月最穩，殘雪可留到 8 月中。",
+          "query": "Chain Lakes Trailhead, Artist Point, Deming WA",
+          "url": "https://www.wta.org/go-hiking/hikes/chain-lakes-loop"
+        }
+      ],
+      "plans": [
+        {
+          "id": "high-road",
+          "title": "路開時｜Picture Lake、Heather Meadows 到 Artist Point",
+          "note": "只在 Artist Point 路段開放時用（通常 7–10 月，出發前看 WSDOT）；山上沒有餐飲，午餐自備。前晚住 Glacier 或 Maple Falls 較從容。",
+          "steps": [
+            [
+              "08:30",
+              "wnb",
+              40,
+              0,
+              "咖啡、早餐，順便買午餐麵包。",
+              "drive"
+            ],
+            [
+              "09:55",
+              "picture",
+              45,
+              45,
+              "上山先走環湖步道。",
+              "drive"
+            ],
+            [
+              "10:50",
+              "heather",
+              40,
+              10,
+              "Fire and Ice 短環線；遊客中心開不開看季節。",
+              "drive"
+            ],
+            [
+              "11:45",
+              "artist",
+              120,
+              15,
+              "停車場看雙峰、走 Artist Ridge 並野餐。",
+              "drive"
+            ],
+            [
+              "14:20",
+              "nooksack",
+              30,
+              35,
+              "下山順路看瀑布，留在圍欄內。",
+              "drive"
+            ],
+            [
+              "15:10",
+              "chair9",
+              75,
+              20,
+              "窯烤披薩當早晚餐；週四至週日也可改 Gunners。",
+              "drive"
+            ]
+          ]
+        },
+        {
+          "id": "low-road",
+          "title": "全年版｜河岸森林、瀑布與 Glacier 小鎮",
+          "note": "Artist Point 封路的月份（約 10／11 月到隔年 6／7 月）用這版；冬季先看 WSDOT 是否要雪鏈，林道積雪就略過瀑布。",
+          "steps": [
+            [
+              "09:30",
+              "wnb",
+              45,
+              0,
+              "咖啡與司康；淡季營業日先查。",
+              "drive"
+            ],
+            [
+              "10:20",
+              "psc",
+              20,
+              5,
+              "冬季只開週六日 9–15，問路況、買通行證。",
+              "drive"
+            ],
+            [
+              "10:50",
+              "horseshoe",
+              90,
+              10,
+              "河岸步道，可只走前段無障礙路線。",
+              "drive"
+            ],
+            [
+              "12:35",
+              "nooksack",
+              30,
+              15,
+              "瀑布觀景台，林道積雪就跳過。",
+              "drive"
+            ],
+            [
+              "13:25",
+              "chair9",
+              75,
+              20,
+              "午餐披薩；週四至週日可改 Gunners。",
+              "drive"
+            ]
+          ]
+        }
+      ],
+      "rainPlaces": [
+        "wnb",
+        "gunners",
+        "chair9",
+        "northfork",
+        "psc"
+      ],
+      "rainNote": "室內只有 Wake ’N Bakery、Gunners（週四至週日）、Chair 9、North Fork Brewery 與週末開的服務站，撐不起一整天；大雨低雲就改去 Bellingham 的 SPARK Museum 或書店。",
+      "musicPlaces": [],
+      "musicNote": "沿線沒有固定的 live music 場地：Chair 9 只有節日派對（萬聖節、跨年樂團，多為 21+），Wake ’N Bakery 官網提到夏季週末偶有現場音樂。想聽正式演出回 Bellingham 的 Mount Baker Theatre。",
+      "hikes": [
+        {
+          "trail": "horseshoe-bend",
+          "drive": [
+            5,
+            10
+          ],
+          "note": "Glacier 東邊幾分鐘，封路月份的主力。"
+        },
+        {
+          "trail": "picture-lake",
+          "drive": [
+            35,
+            50
+          ],
+          "note": "Heather Meadows 全年開得到，但冬季湖在雪下。"
+        },
+        {
+          "trail": "fire-and-ice",
+          "drive": [
+            40,
+            50
+          ],
+          "note": "Austin Pass 屬季節路段，路開才到得了。"
+        },
+        {
+          "trail": "artist-ridge",
+          "drive": [
+            40,
+            55
+          ],
+          "note": "SR 542 路底，季節路段開放時才去。"
+        },
+        {
+          "trail": "chain-lakes",
+          "drive": [
+            40,
+            55
+          ],
+          "note": "完整高山日，和看景短線擇一。"
+        }
+      ]
+    },
+    "mountain-loop": {
+      "intro": "Hookline 咖啡、Thai House／Playa Bonita、Verlot 服務站與 Big Four、Lake 22 都點名。一天只選一條主線：平緩的 Big Four 觀景，或爬升的 Lake 22／Heather Lake；冬春雪崩季改走低海拔的 Lime Kiln。",
+      "interests": [
+        "town",
+        "coffee",
+        "walk",
+        "scenery",
+        "hike"
+      ],
+      "places": [
+        {
+          "id": "hookline",
+          "name": "Hookline Espresso",
+          "kinds": [
+            "coffee"
+          ],
+          "minutes": 15,
+          "indoor": false,
+          "setting": "得來速／窗口外帶",
+          "note": "1998 年開到現在的 Granite Falls 咖啡小屋，窗口點濃縮咖啡、早餐捲餅與三明治；週末 5–19，沒有座位。",
+          "query": "Hookline Espresso, 208 W Stanley St, Granite Falls WA",
+          "url": "https://hooklineespresso.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 4–19; Sat–Sun 5–19"
+        },
+        {
+          "id": "thai",
+          "name": "Thai House Authentic Thai Cuisine",
+          "kinds": [
+            "food"
+          ],
+          "minutes": 60,
+          "indoor": true,
+          "note": "Granite Falls 的泰式小館，Pad Thai、烤鴨料理與湯麵；週一休、週末 12–20，下山回程順路。",
+          "query": "Thai House Authentic Thai Cuisine, 402 E Stanley St, Granite Falls WA",
+          "url": "https://thaihousegranitefalls.com/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Fri 11–20; Sat–Sun 12–20; closed Mon"
+        },
+        {
+          "id": "playa",
+          "name": "Playa Bonita（Granite Falls）",
+          "kinds": [
+            "food"
+          ],
+          "minutes": 60,
+          "indoor": true,
+          "note": "在地家族經營的墨西哥餐廳，carnitas、chiles rellenos 與現炸玉米片；每天 11 點開，家庭客多。",
+          "query": "Playa Bonita Mexican Restaurant, 206 E Stanley St, Granite Falls WA",
+          "url": "https://www.playabonitarestaurants.com/locations/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11–21:30; Fri–Sat 11–22:30"
+        },
+        {
+          "id": "downtown",
+          "name": "Downtown Granite Falls（Stanley St）",
+          "kinds": [
+            "town"
+          ],
+          "minutes": 30,
+          "indoor": false,
+          "note": "Mountain Loop 起點的小鎮主街，餐廳、咖啡小屋與加油站集中在 Stanley Street 一帶；以補給為主，不是逛街型老街。",
+          "query": "E Stanley St & S Granite Ave, Granite Falls WA"
+        },
+        {
+          "id": "museum",
+          "name": "Granite Falls Historical Museum",
+          "kinds": [
+            "culture",
+            "indoor"
+          ],
+          "minutes": 45,
+          "indoor": true,
+          "note": "老屋 Sharp House 加新館，講伐木、鐵路與 Mountain Loop 的地方史；官網寫只在週日 12–17 或預約開放，週六不開。",
+          "query": "Granite Falls Historical Museum, 109 E Union St, Granite Falls WA",
+          "url": "https://www.gfhistory.org/",
+          "verified": "2026-10-24",
+          "hours": "Sun 12–17 and by appointment"
+        },
+        {
+          "id": "verlot",
+          "name": "Verlot Public Service Center",
+          "kinds": [
+            "culture"
+          ],
+          "minutes": 20,
+          "indoor": true,
+          "setting": "季節開放的歷史服務站",
+          "note": "1930 年代 CCC 建的林務局服務站（國家史蹟名錄），問路況、買通行證；9/15–10/31 週五至週一、11/1–12/12 週五六 8–16（12–12:30 午休），之後關到隔年。",
+          "query": "Verlot Public Service Center, 33515 Mountain Loop Hwy, Granite Falls WA",
+          "url": "https://www.fs.usda.gov/r06/mbs/offices/verlot-public-service-center",
+          "verified": "2026-10-24",
+          "hours": "Sep 15–Oct 31 Fri–Mon 8–16; Nov 1–Dec 12 Fri–Sat 8–16; closed after Dec 12"
+        },
+        {
+          "id": "limekiln",
+          "name": "Lime Kiln Trail（Robe Canyon）",
+          "kinds": [
+            "walk",
+            "sight"
+          ],
+          "minutes": 180,
+          "indoor": false,
+          "note": "鎮邊的苔蘚森林與 1890 年代石灰窯遺跡，海拔低、全年多可走；7 英里來回，先下坡到河谷、回程才爬，可隨時折返。",
+          "query": "Lime Kiln Trailhead, 22221 Waite Mill Rd, Granite Falls WA",
+          "url": "https://snohomishcountywa.gov/Facilities/Facility/Details/Lime-Kiln-Trailhead-95"
+        },
+        {
+          "id": "lake22",
+          "name": "Lake 22 Trailhead",
+          "kinds": [
+            "walk",
+            "sight"
+          ],
+          "minutes": 270,
+          "indoor": false,
+          "note": "5.4 英里／1,350 ft 的老森林、瀑布與冰斗湖；週末停車場早上就滿。冬春 Pilchuck 北壁有雪崩，等雪融再去。",
+          "query": "Lake Twenty Two Trailhead, Mountain Loop Hwy, Granite Falls WA",
+          "url": "https://www.wta.org/go-hiking/hikes/lake-22-lake-twenty-two"
+        },
+        {
+          "id": "heather",
+          "name": "Heather Lake Trailhead",
+          "kinds": [
+            "walk",
+            "sight"
+          ],
+          "minutes": 240,
+          "indoor": false,
+          "note": "Pilchuck Road 進去 1.5 英里，5 英里（含環湖）／約 1,000 ft；上段石頭、樹根與泥濘多，比數字難走。",
+          "query": "Heather Lake Trailhead, Mt Pilchuck Rd, Granite Falls WA",
+          "url": "https://www.wta.org/go-hiking/hikes/heather-lake-mountain-loop"
+        },
+        {
+          "id": "bigfour",
+          "name": "Big Four Ice Caves Trailhead",
+          "kinds": [
+            "walk",
+            "sight"
+          ],
+          "minutes": 150,
+          "indoor": false,
+          "note": "2.2 英里平緩步道到 Big Four 北壁下，冰洞只准在步道終點遠看，絕不進洞或爬雪堆；2026 年 10 月中 WTA 回報冰洞已幾乎全塌。旁邊野餐區適合午餐。",
+          "query": "Big Four Ice Caves Trailhead, Mountain Loop Hwy, Granite Falls WA",
+          "url": "https://www.fs.usda.gov/r06/mbs/recreation/trails/big-four-ice-caves-trail-723"
+        },
+        {
+          "id": "pilchuck",
+          "name": "Mount Pilchuck Trailhead",
+          "kinds": [
+            "walk",
+            "sight"
+          ],
+          "minutes": 300,
+          "indoor": false,
+          "note": "5.4 英里／2,300 ft 上到山頂瞭望屋，景觀最大但上段要過大石區，不建議揹嬰兒；Pilchuck Road 冬季在 Heather Lake 口封閉。",
+          "query": "Mount Pilchuck Trailhead, Mt Pilchuck Rd, Granite Falls WA",
+          "url": "https://www.wta.org/go-hiking/hikes/mount-pilchuck"
+        },
+        {
+          "id": "boardman",
+          "name": "Boardman Lake Trailhead",
+          "kinds": [
+            "walk",
+            "sight"
+          ],
+          "minutes": 120,
+          "indoor": false,
+          "note": "林道 4020 約 5 英里碎石路進去，2 英里來回的安靜森林湖（先經 Lake Evan）；2026 年 9 月 WTA 回報林道路況良好。",
+          "query": "Boardman Lake Trailhead, Forest Road 4020, Granite Falls WA",
+          "url": "https://www.wta.org/go-hiking/hikes/boardman-lake"
+        }
+      ],
+      "plans": [
+        {
+          "id": "big-four",
+          "title": "平緩版｜Big Four 觀景與 Verlot 服務站",
+          "note": "Mountain Loop Highway 開通期間（約 5 月中到 11 月）才用；冰洞只遠看，冬春雪崩季不走。",
+          "steps": [
+            [
+              "08:30",
+              "hookline",
+              15,
+              0,
+              "窗口外帶咖啡與早餐，順便加油。",
+              "drive"
+            ],
+            [
+              "09:10",
+              "verlot",
+              20,
+              25,
+              "開放日問路況、買通行證。",
+              "drive"
+            ],
+            [
+              "10:00",
+              "bigfour",
+              150,
+              30,
+              "步道含野餐，只在終點觀景區看冰洞。",
+              "drive"
+            ],
+            [
+              "13:20",
+              "thai",
+              60,
+              50,
+              "回 Granite Falls 吃泰式午餐（週一休）。",
+              "drive"
+            ]
+          ]
+        },
+        {
+          "id": "lake-22",
+          "title": "爬山版｜Lake 22 後回鎮吃墨西哥菜",
+          "note": "6–10 月無雪季才用；週末 8 點前到登山口才有車位。冬春 Pilchuck 北壁有雪崩，改走 Lime Kiln。",
+          "steps": [
+            [
+              "07:30",
+              "hookline",
+              15,
+              0,
+              "外帶咖啡，早點進山搶車位。",
+              "drive"
+            ],
+            [
+              "08:15",
+              "lake22",
+              270,
+              30,
+              "5.4 英里來回含湖邊休息；不爬湖後的大石坡。",
+              "drive"
+            ],
+            [
+              "12:55",
+              "verlot",
+              20,
+              10,
+              "順路看 CCC 老建築，開放日才進去。",
+              "drive"
+            ],
+            [
+              "13:40",
+              "playa",
+              75,
+              25,
+              "回 Granite Falls 午餐。",
+              "drive"
+            ]
+          ]
+        }
+      ],
+      "rainPlaces": [
+        "thai",
+        "playa",
+        "museum"
+      ],
+      "rainNote": "室內只有 Thai House、Playa Bonita 和週日才開的歷史博物館，Hookline 是外帶窗口；小雨時 Lime Kiln 或 Big Four 前段仍可走，大雨低雲就改去 Snohomish 老街或 Everett。",
+      "musicPlaces": [],
+      "musicNote": "Granite Falls 沒有查到固定的 live music 場地；想聽現場，改排 Snohomish 的 Oxford Saloon 或 Everett 的 Historic Everett Theatre，先看各自節目表。",
+      "hikes": [
+        {
+          "trail": "lake-22",
+          "drive": [
+            25,
+            35
+          ],
+          "note": "Verlot 東邊 2 英里，週末早到。"
+        },
+        {
+          "trail": "heather-lake",
+          "drive": [
+            25,
+            40
+          ],
+          "note": "轉 Pilchuck Road 1.5 英里碎石路。"
+        },
+        {
+          "trail": "big-four",
+          "drive": [
+            45,
+            60
+          ],
+          "note": "Verlot 再往東 14.5 英里，在冬季封閉段內。"
+        },
+        {
+          "trail": "pilchuck",
+          "drive": [
+            50,
+            70
+          ],
+          "note": "Pilchuck Road 約 7 英里，有伐木車；不揹嬰兒。"
+        },
+        {
+          "trail": "boardman-lake",
+          "drive": [
+            50,
+            70
+          ],
+          "note": "林道 4020 坑洞路，慢開。"
+        },
+        {
+          "trail": "lime-kiln",
+          "drive": [
+            5,
+            15
+          ],
+          "note": "鎮邊低海拔，冬春的替代路線。"
+        }
+      ]
     }
   }
 }
