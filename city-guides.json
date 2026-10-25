@@ -5965,7 +5965,7 @@
       "hikes": []
     },
     "roslyn": {
-      "intro": "真正的礦城慢旅行：Basecamp 書店咖啡、Roslyn Cafe、Historical Museum 和 Coal Mines Trail，晚間才選 The Brick 的樂團。不是只有拍 Northern Exposure 招牌。",
+      "intro": "真正的礦城慢旅行：Basecamp 書店咖啡、Roslyn Village Pizza（老 Roslyn Cafe 已歇業）、Historical Museum 和 Coal Mines Trail，晚間才選 The Brick 的樂團。不是只有拍 Northern Exposure 招牌。",
       "interests": [
         "town",
         "coffee",
@@ -5984,19 +5984,24 @@
           "minutes": 60,
           "indoor": true,
           "note": "書、咖啡和餐飲組合，很適合慢坐而非一路打卡。",
-          "query": "Basecamp Books and Bites, Roslyn WA"
+          "query": "Basecamp Books and Bites, Roslyn WA",
+          "url": "https://www.basecampbooks.com/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 7–20; Fri–Sat 7–22"
         },
         {
           "id": "cafe",
-          "name": "Roslyn Cafe",
+          "name": "Roslyn Village Pizza",
           "kinds": [
-            "food",
-            "culture"
+            "food"
           ],
-          "minutes": 75,
+          "minutes": 60,
           "indoor": true,
-          "note": "具名早餐／午餐餐廳，也能看熟悉的影視小鎮氛圍；先看當日服務。",
-          "query": "Roslyn Cafe, Roslyn WA"
+          "note": "鎮中心家庭式披薩店，菜單有以《Northern Exposure》小鎮命名的 Cicely 披薩；12:00 才開門、週一二休。吃完走一個街口可看已歇業 Roslyn Cafe 外牆的駱駝壁畫。",
+          "query": "Village Pizza, 105 W Pennsylvania Ave, Roslyn WA",
+          "url": "https://roslyn-village-pizza-llc-roslyn.cloveronline.com/menu/all",
+          "verified": "2026-10-24",
+          "hours": "Wed–Sun 12–21; closed Mon–Tue"
         },
         {
           "id": "downtown",
@@ -6008,7 +6013,10 @@
           "minutes": 60,
           "indoor": false,
           "note": "礦城街屋、藝術與小店，幾個街口慢逛。",
-          "query": "Historic Downtown Roslyn, Roslyn WA"
+          "query": "Historic Downtown Roslyn, Roslyn WA",
+          "url": "https://roslyndowntown.org/",
+          "verified": "2026-10-24",
+          "hours": "Public streets; shop hours vary"
         },
         {
           "id": "museum",
@@ -6020,7 +6028,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "理解煤礦與移民歷史的實際小館，開館日先確認。",
-          "query": "Roslyn Historical Museum, Roslyn WA"
+          "query": "Roslyn Historical Museum, Roslyn WA",
+          "url": "https://www.roslynmuseum.com/",
+          "verified": "2026-10-24",
+          "hours": "Fri–Sun 11–15 (call 509-649-2355 to confirm)"
         },
         {
           "id": "coal",
@@ -6043,7 +6054,11 @@
           "minutes": 150,
           "indoor": true,
           "note": "歷史酒館與實際樂團活動；餐區、酒吧與晚間演出的年齡限制各自核對，不先保證未成年人可進。",
-          "query": "The Brick Saloon, Roslyn WA"
+          "query": "The Brick Saloon, Roslyn WA",
+          "url": "https://bricksaloon.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 11:30–22; Fri 11:30–01; Sat 11–01; Sun 11–22",
+          "liveMusic": "Bands most Saturdays (some Fridays) 21:00–24:00 on the official 2026 calendar: Oct 31 Halloween party w/ Hair Force, Nov 7 Diamond Star Halo, Nov 14 The Sh80's, Nov 20 acoustic + Nov 21 full band Sammy Steele, Nov 27 Mt Pilot, Nov 28 Josh Piper, Dec 31 NYE; Fri karaoke nights. Per The Suncadia News (Jul 2026) the dining room is family-friendly until 21:00 and the bar side is 21+ after 21:00, so evening shows are effectively 21+."
         },
         {
           "id": "candy",
@@ -6055,7 +6070,10 @@
           "minutes": 30,
           "indoor": true,
           "note": "想吃甜點可短停，不需要為每個小店都分配一小時。",
-          "query": "Roslyn Candy Company, Roslyn WA"
+          "query": "Roslyn Candy Company, Roslyn WA",
+          "url": "https://roslyncandyco.com/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Mon 12–17; closed Tue–Wed (production days)"
         }
       ],
       "plans": [
@@ -6085,7 +6103,7 @@
               "cafe",
               75,
               10,
-              "午餐。",
+              "披薩午餐，12:00 開門。",
               "walk"
             ],
             [
@@ -6113,7 +6131,7 @@
         "museum",
         "brick"
       ],
-      "rainNote": "室內具體有 Basecamp、Roslyn Cafe、開館的 Museum 和有合適接待條件的 The Brick；雪雨天不硬走未清理的步道。",
+      "rainNote": "室內具體有 Basecamp、Roslyn Village Pizza（12:00 才開）、開館的 Museum 和有合適接待條件的 The Brick；雪雨天不硬走未清理的步道。",
       "musicPlaces": [
         "brick"
       ],
@@ -6139,7 +6157,10 @@
           "minutes": 50,
           "indoor": true,
           "note": "具名烘焙咖啡館，跨過山口後坐下來喝一杯。",
-          "query": "Pioneer Coffee Roasting Company, Cle Elum WA"
+          "query": "Pioneer Coffee Roasting Co, 121 N Pennsylvania Ave, Cle Elum WA",
+          "url": "https://pioneercoffeeco.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 6–19"
         },
         {
           "id": "bakery",
@@ -6150,7 +6171,10 @@
           "minutes": 30,
           "indoor": true,
           "note": "買烘焙早餐或帶上路，主要是採買，不和完整正餐混算。",
-          "query": "Cle Elum Bakery, Cle Elum WA"
+          "query": "Cle Elum Bakery, Cle Elum WA",
+          "url": "https://www.facebook.com/cleelumbakery/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Sat 7–16; Sun 7–15; closed Mon–Tue"
         },
         {
           "id": "cottage",
@@ -6161,7 +6185,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "具名 diner 午餐與休息點，和山口前後的咖啡分開安排。",
-          "query": "Cottage Cafe, Cle Elum WA"
+          "query": "Cottage Cafe, Cle Elum WA",
+          "url": "https://www.cottagecafe.net/",
+          "verified": "2026-10-24",
+          "hours": "Daily 6–22"
         },
         {
           "id": "depot",
@@ -6173,7 +6200,10 @@
           "minutes": 60,
           "indoor": false,
           "note": "鐵道遺構與歷史資訊，館內是否開放另查，不保證隨時可進。",
-          "query": "South Cle Elum Rail Yard, South Cle Elum WA"
+          "query": "South Cle Elum Rail Yard, South Cle Elum WA",
+          "url": "https://www.milwelectric.org/visit/",
+          "verified": "2026-10-24",
+          "hours": "Yard trail daily; depot exhibit Sat 12–16 (May–Sep)"
         },
         {
           "id": "trail",
@@ -6198,7 +6228,9 @@
           "indoor": false,
           "note": "想看度假區或預約餐飲再去；泳池、spa、住宿活動不是所有遊客免費使用。",
           "query": "Suncadia Resort, Cle Elum WA",
-          "url": "https://www.suncadia.com/"
+          "url": "https://www.suncadia.com/",
+          "verified": "2026-10-24",
+          "hours": "Varies by outlet"
         },
         {
           "id": "swiftwater",
@@ -6211,7 +6243,10 @@
           "indoor": true,
           "note": "餐飲和 live music 有正式活動頁，選 Cle Elum 位置，不走錯 Bellevue 分店。",
           "query": "Swiftwater Cellars, Cle Elum WA",
-          "url": "https://swiftwatercellars.com/eventcalendar/category/live-music/"
+          "url": "https://swiftwatercellars.com/eventcalendar/",
+          "verified": "2026-10-24",
+          "hours": "Sep–May Wed–Sun 11:30–21; Jun–Sep daily",
+          "liveMusic": "Seasonal: 2026 Summer Concert Series outdoors (tribute bands; all ages; $45 adult / $30 kids 5–12, tickets in person) on Jul 4, Jul 25, Sep 5, plus Aug 1 benefit concert; Oct 2025 had Fireside Lounge live music 18–21. No live music listed for late Oct–Dec 2026."
         }
       ],
       "plans": [
@@ -6277,7 +6312,7 @@
       "hikes": []
     },
     "ellensburg": {
-      "intro": "D&M 咖啡、紅磚街屋、Yellow Church 和兩間歷史藝術館可以慢玩；想聽音樂就查 CWU Concert Hall。河谷風景另外留交通，不直接把全段公路寫成一個點。",
+      "intro": "D&M 咖啡、紅磚街屋、La Santa（原 Yellow Church 老教堂裡的墨西哥餐廳） 和兩間歷史藝術館可以慢玩；想聽音樂就查 CWU Concert Hall。河谷風景另外留交通，不直接把全段公路寫成一個點。",
       "interests": [
         "town",
         "coffee",
@@ -6295,18 +6330,24 @@
           "minutes": 50,
           "indoor": true,
           "note": "選市中心分店，和 Pearl Street 逛街集中走。",
-          "query": "D and M Coffee Downtown, Ellensburg WA"
+          "query": "D&M Coffee, 325 N Pearl St, Ellensburg WA",
+          "url": "https://www.dmcoffee.com/locations",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–18"
         },
         {
           "id": "church",
-          "name": "The Yellow Church Cafe",
+          "name": "La Santa Mexican Cuisine",
           "kinds": [
             "food"
           ],
           "minutes": 75,
           "indoor": true,
-          "note": "具名的改造教堂餐飲，先看當日午餐／brunch 服務，不只是拍建築外觀。",
-          "query": "The Yellow Church Cafe, Ellensburg WA"
+          "note": "就在原 Yellow Church Cafe 的 1923 年黃色老教堂裡，現為墨西哥餐廳；現做玉米餅、mole、chile relleno 評價高，每天 11:00 開。",
+          "query": "La Santa Mexican Cuisine, 111 S Pearl St, Ellensburg WA",
+          "url": "https://www.instagram.com/lasantacuisine/",
+          "verified": "2026-10-24",
+          "hours": "Daily 11–21"
         },
         {
           "id": "downtown",
@@ -6318,7 +6359,10 @@
           "minutes": 75,
           "indoor": false,
           "note": "紅磚街屋、畫廊、咖啡和壁畫慢逛。",
-          "query": "North Pearl Street Downtown, Ellensburg WA"
+          "query": "North Pearl Street Downtown, Ellensburg WA",
+          "url": "https://www.ellensburgdowntown.org/",
+          "verified": "2026-10-24",
+          "hours": "Public streets; shop hours vary"
         },
         {
           "id": "history",
@@ -6330,7 +6374,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "真正的在地歷史館，雨天可替換戶外；開館日先查。",
-          "query": "Kittitas County Historical Museum, Ellensburg WA"
+          "query": "Kittitas County Historical Museum, Ellensburg WA",
+          "url": "https://kchm.org/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 10–16; closed Sun"
         },
         {
           "id": "clymer",
@@ -6342,7 +6389,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "西部藝術主題，小鎮文化的實際內容，和歷史館擇重點或短串。",
-          "query": "Clymer Museum of Art, Ellensburg WA"
+          "query": "Clymer Museum of Art, Ellensburg WA",
+          "url": "https://www.clymermuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Fri 12–16; Sat 10–14; closed Sun–Wed (appointments off-hours)"
         },
         {
           "id": "river",
@@ -6367,7 +6417,26 @@
           "indoor": true,
           "note": "大學音樂系的正式演出，學年內較多；先看音樂節目日期和票務。",
           "query": "Dr Wayne S Hertz Concert Hall, Central Washington University, Ellensburg WA",
-          "url": "https://www.cwu.edu/academics/music/about-us/events-listing.php"
+          "url": "https://www.cwu.edu/academics/music/about-us/events-listing.php",
+          "verified": "2026-10-24",
+          "hours": "Event-based",
+          "liveMusic": "Fall 2026: frequent faculty/guest/student recitals (many in the McIntyre Music Building recital hall); ticketed ensemble concerts in Hertz Concert Hall, e.g. Mon Oct 26 19:00 Symphony Halloween (Marvel) concert, Sun Nov 22 16:00 choirs, Sat Dec 5 16:00 & 19:00 jazz, Sun Dec 6 16:00 symphony (Sibelius 2); winter/spring 2027 dates posted. Age rule not stated."
+        },
+        {
+          "id": "gallery-one-visual-arts-center",
+          "name": "Gallery One Visual Arts Center",
+          "kinds": [
+            "indoor",
+            "culture",
+            "shopping"
+          ],
+          "minutes": 45,
+          "indoor": true,
+          "note": "Pearl Street 上的社區藝術中心，每月換展（10 月為多位在地藝術家聯展），附在地藝術禮品店；週日 12:00 才開、週一休。",
+          "query": "Gallery One Visual Arts Center, 408 N Pearl St, Ellensburg WA",
+          "url": "https://www.gallery-one.org/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Fri 11–17; Sat 10–16; Sun 12–16; closed Mon"
         }
       ],
       "plans": [
@@ -6405,7 +6474,7 @@
               "history",
               75,
               10,
-              "先查開館，未開可換 Clymer。",
+              "地方史館週一至六開、週日休；週日改去 Pearl St 的 Gallery One（12:00 開）。",
               "walk"
             ],
             [
@@ -6426,7 +6495,7 @@
         "clymer",
         "cwu"
       ],
-      "rainNote": "真的有 D&M、Yellow Church、History Museum、Clymer；CWU 必須有場次。雨天不靠河岸填時間。",
+      "rainNote": "真的有 D&M、La Santa、History Museum、Clymer；CWU 必須有場次。雨天不靠河岸填時間。",
       "musicPlaces": [
         "cwu"
       ],
@@ -6453,8 +6522,10 @@
           "minutes": 45,
           "indoor": true,
           "note": "小鎮具名咖啡點，店小時別預設能全團長坐兩小時。",
-          "query": "J5 Coffee, Leavenworth WA",
-          "url": "https://www.j5coffee.com/"
+          "query": "J5 Coffee, 215 9th St, Leavenworth WA",
+          "url": "https://www.j5coffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 9–16; Sat 9–17; closed Sun"
         },
         {
           "id": "front",
@@ -6466,7 +6537,10 @@
           "minutes": 90,
           "indoor": false,
           "note": "巴伐利亞街屋、小店和山景，慢逛不是每間紀念品店都要跑。",
-          "query": "Front Street Downtown, Leavenworth WA"
+          "query": "Front Street Downtown, Leavenworth WA",
+          "url": "https://leavenworth.org/",
+          "verified": "2026-10-24",
+          "hours": "Public street; shop hours vary"
         },
         {
           "id": "munchen",
@@ -6478,7 +6552,9 @@
           "indoor": false,
           "note": "香腸、pretzel 與 beer garden；主要是戶外／半戶外，不拿來當全室內雨天餐廳。",
           "query": "Munchen Haus, Leavenworth WA",
-          "url": "https://www.munchenhaus.com/"
+          "url": "https://www.munchenhaus.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 11–20; Fri–Sat 11–22; Sun 11–21"
         },
         {
           "id": "keller",
@@ -6490,7 +6566,9 @@
           "indoor": true,
           "note": "德式餐飲的實際室內選擇，午餐服務和訂位先確認；有演奏也以當日公告為準。",
           "query": "Andreas Keller Restaurant, Leavenworth WA",
-          "url": "https://www.andreaskellerrestaurant.com/"
+          "url": "https://www.andreaskellerrestaurant.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 11:30–20; Fri–Sat 11:30–22; Sun 11:30–20"
         },
         {
           "id": "waterfront",
@@ -6515,7 +6593,9 @@
           "indoor": true,
           "note": "具體可進去的博物館，喜歡收藏與工藝才加入；看開館日與票務。",
           "query": "Leavenworth Nutcracker Museum, Leavenworth WA",
-          "url": "https://www.nutcrackermuseum.com/"
+          "url": "https://www.nutcrackermuseum.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 11–17; Sun 11–16:30"
         },
         {
           "id": "arts",
@@ -6528,7 +6608,10 @@
           "indoor": true,
           "note": "有古典、爵士與其他正式音樂節目的場館，從鎮上另開車，按場次購票。",
           "query": "Icicle Creek Center for the Arts, Leavenworth WA",
-          "url": "https://icicle.org/"
+          "url": "https://icicle.org/",
+          "verified": "2026-10-24",
+          "hours": "Event-based",
+          "liveMusic": "2026-27 Singer Songwriter Storyteller series, monthly Thursdays 19:00 in the Snowy Owl Theater ($15–25; e.g. Nov 5, Dec 3, 2026); also Met Opera Live in HD (e.g. Sat Dec 5 09:00), films (Warren Miller Sat Nov 14), classical series and summer Chamber Music Festival. Age rule not stated."
         },
         {
           "id": "ridge",
@@ -6555,6 +6638,21 @@
           "note": "河流與森林、低爬升的長步道，需再開進 Icicle Creek Road，不在 Downtown 徒步圈。",
           "query": "Icicle Gorge Nature Loop Trailhead, Leavenworth WA",
           "url": "https://www.wta.org/go-hiking/hikes/icicle-gorge-loop"
+        },
+        {
+          "id": "argonaut-coffee-biscuits",
+          "name": "Argonaut Coffee & Biscuits",
+          "kinds": [
+            "coffee",
+            "food"
+          ],
+          "minutes": 45,
+          "indoor": true,
+          "note": "小而忙的在地咖啡館，Blue Star 濃縮咖啡配每天現烤的南方 buttermilk biscuit 早餐；每天 7–14，下午不營業。",
+          "query": "Argonaut Coffee & Biscuits, 220 US Highway 2, Leavenworth WA",
+          "url": "https://www.argocoffeeandbiscuits.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–14"
         }
       ],
       "plans": [
@@ -6568,7 +6666,7 @@
               "j5",
               45,
               0,
-              "咖啡。",
+              "咖啡；J5 週日休，週日改 Argonaut（每天 7–14）。",
               "walk"
             ],
             [
@@ -6631,7 +6729,7 @@
               "j5",
               40,
               15,
-              "若店仍營業再咖啡，否則直接在街區休息。",
+              "J5 週六營業到傍晚、週日休；週日直接在街區休息（Argonaut 14:00 已打烊）。",
               "walk"
             ],
             [
@@ -6695,7 +6793,9 @@
           "indoor": true,
           "note": "果鄉烘焙和咖啡，留意實際營業日／季節，不把舊的已停業咖啡館填回來。",
           "query": "Anjou Bakery, Cashmere WA",
-          "url": "https://www.anjoubakery.com/"
+          "url": "https://www.anjoubakery.com/",
+          "verified": "2026-10-24",
+          "hours": "Fri–Sun 8–15; closed Mon–Thu (closed Thanksgiving)"
         },
         {
           "id": "milepost",
@@ -6706,7 +6806,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "具名 brewpub 正餐，可和博物館、河邊集中排，先看當日午餐。",
-          "query": "Milepost 111 Brewing Company, Cashmere WA"
+          "query": "Milepost 111 Brewing Company, Cashmere WA",
+          "url": "https://milepostbrewing.com/visit-us",
+          "verified": "2026-10-24",
+          "hours": "Sun–Tue & Thu 11–19:30; Fri–Sat 11–20:30; closed Wed"
         },
         {
           "id": "candy",
@@ -6719,7 +6822,9 @@
           "indoor": true,
           "note": "買糖果、看地方產業故事；週末商店開不等於工廠正在生產或有導覽。",
           "query": "Aplets and Cotlets Liberty Orchards, Cashmere WA",
-          "url": "https://www.libertyorchards.com/"
+          "url": "https://www.libertyorchards.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 9–17; Sat–Sun 10–16"
         },
         {
           "id": "museum",
@@ -6733,7 +6838,9 @@
           "setting": "館內＋戶外村落",
           "note": "歷史館、拓荒村和 gift shop 的時段分開看，村落不是整片有屋頂。",
           "query": "Cashmere Museum and Pioneer Village, Cashmere WA",
-          "url": "https://www.cashmeremuseum.org/"
+          "url": "https://www.cashmeremuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Sun 10–16"
         },
         {
           "id": "riverside",
@@ -6757,7 +6864,10 @@
           "minutes": 45,
           "indoor": false,
           "note": "小鎮主街屋和商店，不需要為了走遍所有街口再多開車。",
-          "query": "Cottage Avenue Downtown Cashmere, Cashmere WA"
+          "query": "Cottage Avenue Downtown Cashmere, Cashmere WA",
+          "url": "https://www.cashmerechamber.org/",
+          "verified": "2026-10-24",
+          "hours": "Public street; shop hours vary"
         }
       ],
       "plans": [
@@ -6840,7 +6950,9 @@
           "indoor": true,
           "note": "具名烘焙咖啡館，和 Downtown／PAC 一帶好串。",
           "query": "Mela Coffee, 17 North Wenatchee Avenue, Wenatchee WA",
-          "url": "https://melacoffee.com/pages/cafe-mela"
+          "url": "https://melacoffee.com/pages/cafe-mela",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 6–17; Sat 7–17; Sun 8–16"
         },
         {
           "id": "pybus",
@@ -6853,7 +6965,10 @@
           "indoor": true,
           "note": "實際室內市場，逛商品、買食物，和河岸相鄰。",
           "query": "Pybus Public Market, Wenatchee WA",
-          "url": "https://pybuspublicmarket.org/"
+          "url": "https://pybuspublicmarket.org/",
+          "verified": "2026-10-24",
+          "hours": "Daily 8–22 (shops 10–18)",
+          "liveMusic": "Friday Night Music 18:00–20:00 on the center stage (e.g. Oct 30, Nov 6, 13, 20, Dec 4, 2026; none Nov 27); Art Alley on second Fridays 17–19. Family market setting."
         },
         {
           "id": "fire",
@@ -6865,7 +6980,9 @@
           "indoor": true,
           "note": "在市場裡有名字的正餐／pizza 選項，不只說去市場隨便吃。",
           "query": "Fire at Pybus Visconti's, Wenatchee WA",
-          "url": "https://www.viscontis.com/fire"
+          "url": "https://www.viscontis.com/fire",
+          "verified": "2026-10-24",
+          "hours": "Daily 11–21"
         },
         {
           "id": "riverfront",
@@ -6915,7 +7032,10 @@
           "indoor": true,
           "note": "正式音樂與巡演節目，按當季場次買票。",
           "query": "Numerica Performing Arts Center, Wenatchee WA",
-          "url": "https://www.numericapac.org/"
+          "url": "https://www.numericapac.org/",
+          "verified": "2026-10-24",
+          "hours": "Event-based",
+          "liveMusic": "2026-27 season on sale, e.g. Fri Nov 13 Wannabe (Spice Girls tribute) 19:30, Holiday Spice Dec 3–4, Sat Dec 5 Storm Large 19:30, Sat Feb 20 2027 Hell's Belles; plus cirque, film, dance and galas. Age rules vary by show."
         }
       ],
       "plans": [
@@ -7048,7 +7168,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "具名早餐咖啡點，不把它寫成在別家 winery 樓下；看當季白天營業。",
-          "query": "Riverwalk Cafe Riverwalk Inn, Chelan WA"
+          "query": "Riverwalk Park Inn Cafe, 204 E Wapato Ave, Chelan WA",
+          "url": "https://www.riverwalkparkinn.com/cafe",
+          "verified": "2026-10-24",
+          "hours": "Fall/winter: breakfast menu Sat–Mon, coffee menu Tue–Fri; times not posted"
         },
         {
           "id": "campbells",
@@ -7060,7 +7183,9 @@
           "indoor": true,
           "note": "湖邊完整正餐選項，可看室內／戶外座位與當日服務，不需把私人泳池當景點。",
           "query": "Campbell's Pub and Veranda, Chelan WA",
-          "url": "https://www.campbellsresort.com/dining"
+          "url": "https://campbellsresort.com/dining/",
+          "verified": "2026-10-24",
+          "hours": "Daily 8–20 (Fri–Sat to 21)"
         },
         {
           "id": "riverwalk",
@@ -7096,7 +7221,10 @@
           "minutes": 60,
           "indoor": false,
           "note": "小店、餐飲和老街，給下午留一段慢逛。",
-          "query": "Woodin Avenue Downtown Chelan, Chelan WA"
+          "query": "Woodin Avenue Downtown Chelan, Chelan WA",
+          "url": "https://lakechelan.com/",
+          "verified": "2026-10-24",
+          "hours": "Public street; shop hours vary"
         },
         {
           "id": "museum",
@@ -7108,7 +7236,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "當地歷史的小型室內選項，先核對營業日，不把它當大型全天館。",
-          "query": "Chelan Museum, Chelan WA"
+          "query": "Chelan Museum, Chelan WA",
+          "url": "https://chelanmuseum.com/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Sat 11–15 (Mar–Dec); closed Jan–Feb"
         },
         {
           "id": "tipsy",
@@ -7121,7 +7252,10 @@
           "indoor": false,
           "note": "具名音樂活動選項，從 Chelan 再往 Manson 開一段；部分活動戶外，不是每天有歌手。",
           "query": "Tipsy Canyon Winery, Manson WA",
-          "url": "https://tipsycanyon.com/"
+          "url": "https://tipsycanyon.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 11–17:30",
+          "liveMusic": "Fall 2026 'Live Music During Harvest': most Thursdays 16:00–18:00 (Oct 29, Nov 5, 12, 19; Dec 3, 10…) and some Saturdays 13:00–16:00 (Nov 7; barrel-tasting weekends Nov 14 & 21); Fri Nov 27 holiday lighting 15–18. Age rule not stated."
         },
         {
           "id": "boat",
@@ -7132,7 +7266,10 @@
           "minutes": 360,
           "indoor": false,
           "note": "要去 Stehekin 就按實際船班另外留整天，不能在小鎮午餐後隨手加成一小時景點。",
-          "query": "Lady of the Lake Chelan Dock, Chelan WA"
+          "query": "Lady of the Lake Chelan Dock, Chelan WA",
+          "url": "https://ladyofthelake.com/boat-schedules-3/",
+          "verified": "2026-10-24",
+          "hours": "Daily to Nov 9; Nov 13–Apr 30 Fri–Mon (dep. Chelan 9:30, back ~16:00)"
         }
       ],
       "plans": [
@@ -7197,7 +7334,7 @@
       "hikes": []
     },
     "yakima": {
-      "intro": "你可以從 North Town 咖啡、Greenway 開始，午餐在 Cowiche Canyon Kitchen，下午文化館、晚上 The Seasons。Cowiche Canyon 健走是另一個地點，別被相同名字導到餐廳。",
+      "intro": "你可以從 North Town 咖啡、Greenway 開始，午餐在 Cowiche Canyon Kitchen，下午文化館、晚上 The Capitol Theatre。Cowiche Canyon 健走是另一個地點，別被相同名字導到餐廳。",
       "interests": [
         "town",
         "coffee",
@@ -7216,7 +7353,9 @@
           "indoor": true,
           "note": "歷史鐵道建築風格的具名咖啡館，適合慢坐，不是假定有駐唱。",
           "query": "North Town Coffeehouse, Yakima WA",
-          "url": "https://northtowncoffee.com/"
+          "url": "https://northtowncoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 8–19; Fri–Sat 8–18; Sun 8–15"
         },
         {
           "id": "kitchen",
@@ -7228,7 +7367,9 @@
           "indoor": true,
           "note": "這是餐廳，不是步道入口；午餐與室內用餐可在這裡安排。",
           "query": "Cowiche Canyon Kitchen and Icehouse Bar, Yakima WA",
-          "url": "https://cowichecanyon.com/"
+          "url": "https://cowichecanyon.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 11–20; Fri–Sat 11–21 (winter); closed Sun"
         },
         {
           "id": "greenway",
@@ -7252,7 +7393,10 @@
           "minutes": 90,
           "indoor": true,
           "note": "具體的地方文化館，雨天可換掉戶外，開館日先查。",
-          "query": "Yakima Valley Museum, Yakima WA"
+          "query": "Yakima Valley Museum, Yakima WA",
+          "url": "https://yvmuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Sat 10–17; Sun 12–17; closed Mon"
         },
         {
           "id": "canyon",
@@ -7277,20 +7421,39 @@
           "minutes": 60,
           "indoor": false,
           "note": "餐飲與舊街區短逛，與農場／酒鄉外圍地點分開計車程。",
-          "query": "North Front Street Downtown Yakima, Yakima WA"
+          "query": "North Front Street Downtown Yakima, Yakima WA",
+          "url": "https://downtownyakima.com/",
+          "verified": "2026-10-24",
+          "hours": "Public streets; shop hours vary"
         },
         {
           "id": "seasons",
-          "name": "The Seasons Performance Hall",
+          "name": "The Capitol Theatre",
           "kinds": [
             "music",
             "culture"
           ],
           "minutes": 150,
           "indoor": true,
-          "note": "真正的音樂表演場館，選爵士或其他節目按日期買票。",
-          "query": "The Seasons Performance Hall, Yakima WA",
-          "url": "https://theseasonsyakima.com/"
+          "note": "市中心歷史劇院，Yakima Symphony Orchestra 與巡演音樂劇的主場；按場次購票，11 月另有劇院導覽場。",
+          "query": "The Capitol Theatre, 19 S 3rd St, Yakima WA",
+          "url": "https://capitoltheatre.org/",
+          "verified": "2026-10-24",
+          "hours": "Event-based; box office Mon–Fri 11–16 and from 11:00 on show days"
+        },
+        {
+          "id": "second-street-grill",
+          "name": "Second Street Grill",
+          "kinds": [
+            "food"
+          ],
+          "minutes": 75,
+          "indoor": true,
+          "note": "市中心的美式 bar & grill，漢堡、chicken & waffle 三明治、ahi 沙拉，週日也開；晚上偏酒吧氣氛，帶嬰兒選午餐時段。",
+          "query": "Second Street Grill, 28 N 2nd St, Yakima WA",
+          "url": "https://www.secondstreetgrill.com/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11–20; Fri–Sat 11–21"
         }
       ],
       "plans": [
@@ -7320,7 +7483,7 @@
               "kitchen",
               90,
               20,
-              "午餐。",
+              "午餐；Cowiche Canyon 週日休，週日改 Second Street Grill。",
               "drive"
             ],
             [
@@ -7348,15 +7511,15 @@
         "museum",
         "seasons"
       ],
-      "rainNote": "North Town、Cowiche Canyon Kitchen、Yakima Valley Museum 和有票的 The Seasons 都具名。自然 Canyon 不是室內，酒莊也要選實際場地才算。",
+      "rainNote": "North Town、Cowiche Canyon Kitchen、Yakima Valley Museum 和有票的 The Capitol Theatre 都具名。自然 Canyon 不是室內，酒莊也要選實際場地才算。",
       "musicPlaces": [
         "seasons"
       ],
-      "musicNote": "The Seasons 按藝人和日期安排；餐廳／咖啡館是否有臨時 open mic 不當主線保證。",
+      "musicNote": "The Capitol Theatre 按藝人和日期安排；餐廳／咖啡館是否有臨時 open mic 不當主線保證。原本的 The Seasons Performance Hall 已於 2025 年售出停用。",
       "hikes": []
     },
     "enumclaw": {
-      "intro": "Anchor House、Cole Street、The Mint 和森林步道可以排實在；想看更大山景再往 Crystal 或夏季 Naches Peak。Chalet 的電影與真正樂團場次分開看。",
+      "intro": "The Local Coffee House、Cole Street、The Mint 和森林步道可以排實在；想看更大山景再往 Crystal 或夏季 Naches Peak。Chalet 的電影與真正樂團場次分開看。",
       "interests": [
         "town",
         "coffee",
@@ -7368,14 +7531,18 @@
       "places": [
         {
           "id": "anchor",
-          "name": "Anchor House Coffee Roasters",
+          "name": "The Local Coffee House",
           "kinds": [
-            "coffee"
+            "coffee",
+            "shopping"
           ],
-          "minutes": 50,
+          "minutes": 45,
           "indoor": true,
-          "note": "具名咖啡起點，先看當日營業，尤其週日不要直接套用平日時段。",
-          "query": "Anchor House Coffee Roasters, Enumclaw WA"
+          "note": "Cole Street 上的咖啡館兼小雜貨禮品店，用 Stumptown 咖啡，座位寬敞可久坐；週日 8:00 開，和 The Mint 在同一段主街。",
+          "query": "The Local Coffee House, 1616 Cole St, Enumclaw WA",
+          "url": "https://www.facebook.com/thelocalenumclaw/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Wed 6–18; Thu–Sat 6–19; Sun 8–17"
         },
         {
           "id": "mint",
@@ -7387,7 +7554,9 @@
           "indoor": true,
           "note": "有實際菜單的主街餐廳，午餐從店家當日開門時段排。",
           "query": "The Historic Mint Restaurant and Alehouse, Enumclaw WA",
-          "url": "https://www.thehistoricmint.com/mint-menu/"
+          "url": "https://www.thehistoricmint.com/mint-menu/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11–21; Fri–Sat 11–22"
         },
         {
           "id": "cole",
@@ -7399,7 +7568,10 @@
           "minutes": 60,
           "indoor": false,
           "note": "老街屋、在地店和山前小鎮氣氛，與咖啡午餐集中走。",
-          "query": "Cole Street Downtown Enumclaw, Enumclaw WA"
+          "query": "Cole Street Downtown Enumclaw, Enumclaw WA",
+          "url": "https://www.enumclawchamber.com/",
+          "verified": "2026-10-24",
+          "hours": "Public street; many businesses close Sun/Mon"
         },
         {
           "id": "foothills",
@@ -7435,7 +7607,10 @@
           "indoor": true,
           "note": "有音樂場次也有電影，請選實際樂團節目，不以戲院名字就保證當天有演奏。",
           "query": "Chalet Theatre, Enumclaw WA",
-          "url": "https://www.chalettheatre.com/"
+          "url": "https://www.chalettheatre.com/",
+          "verified": "2026-10-24",
+          "hours": "Showtimes vary",
+          "liveMusic": "Occasional concerts, typically Fri/Sat 19:30: Fri Oct 2 2026 Soul Stripper (AC/DC tribute); Fri Nov 13 2026 Chickenwire + Jack & Dad (doors 18:30, $15 adv/$20 door, all ages, beer/wine with ID). Movies on other nights."
         },
         {
           "id": "crystal",
@@ -7474,7 +7649,7 @@
               "anchor",
               50,
               0,
-              "營業日先查，未開就從主街午餐開始。",
+              "咖啡起點，週日 8:00 才開。",
               "walk"
             ],
             [
@@ -7509,7 +7684,7 @@
         "mint",
         "chalet"
       ],
-      "rainNote": "Anchor House、The Mint、已有票的 Chalet 才是室內。山區低雲大雨時不要花錢上纜車只看白牆，也不把公園教育館當保證開門。",
+      "rainNote": "The Local Coffee House、The Mint、已有票的 Chalet 才是室內。山區低雲大雨時不要花錢上纜車只看白牆，也不把公園教育館當保證開門。",
       "musicPlaces": [
         "chalet"
       ],
@@ -7544,7 +7719,10 @@
           "minutes": 45,
           "indoor": true,
           "note": "Ashford 補給咖啡點，先查當季實際開門；若早出發尚未營業，前晚自備飲食，不延後進山。",
-          "query": "Whittaker's Bunkhouse Cafe, Ashford WA"
+          "query": "Whittaker's Bunkhouse Cafe, Ashford WA",
+          "url": "https://whittakersbunkhouse.com/cafe/",
+          "verified": "2026-10-24",
+          "hours": "Winter Fri–Sun 8–17, Mon & Thu 8–13; summer daily ~6:30–20"
         },
         {
           "id": "copper",
@@ -7556,7 +7734,9 @@
           "indoor": true,
           "note": "有正式餐廳菜單的山前正餐與派，先查選定日期的午餐／晚餐服務。",
           "query": "Copper Creek Inn Restaurant, Ashford WA",
-          "url": "https://www.coppercreekinn.com/Copper-Creek-Inn-Restaurant-menu"
+          "url": "https://www.coppercreekinn.com/Copper-Creek-Inn-Restaurant-menu",
+          "verified": "2026-10-24",
+          "hours": "Thu–Mon 11–19 (Fri–Sat to 20); closed Tue–Wed"
         },
         {
           "id": "longmire",
@@ -7569,7 +7749,9 @@
           "setting": "歷史區戶外＋部分館舍",
           "note": "入園後的歷史區與森林，Museum 開放另看；不是在 Ashford 主街。",
           "query": "Longmire Museum, Mount Rainier National Park WA",
-          "url": "https://www.nps.gov/mora/"
+          "url": "https://www.nps.gov/mora/",
+          "verified": "2026-10-24",
+          "hours": "Museum daily 9–16:30 (Oct–Nov)"
         },
         {
           "id": "shadows",
@@ -7631,7 +7813,9 @@
           "indoor": false,
           "note": "2026 官方有營運與可訂班次，非永久停駛；需回 Elbe 並依正式票務安排，不當隨到隨搭。",
           "query": "Mt Rainier Scenic Railroad Elbe Depot, Elbe WA",
-          "url": "https://mtrainierrailroad.com/"
+          "url": "https://mtrainierrailroad.com/",
+          "verified": "2026-10-24",
+          "hours": "Select dates Feb–Oct; Christmas trains Nov 21–Dec 23"
         }
       ],
       "plans": [
@@ -7752,7 +7936,10 @@
           "minutes": 50,
           "indoor": true,
           "note": "山城具名咖啡與烘焙補給，早上好好坐一下，不只一路加油站外帶。",
-          "query": "Mountain Goat Coffee, Packwood WA"
+          "query": "Mountain Goat Coffee, Packwood WA",
+          "url": "https://www.facebook.com/MountainGoatCoffeeCo/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–17"
         },
         {
           "id": "cliff",
@@ -7763,7 +7950,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "Burgers、薯條和奶昔的具名休閒正餐，確認當日營業再從山區回來。",
-          "query": "Cliff Droppers, Packwood WA"
+          "query": "Cliff Droppers, Packwood WA",
+          "url": "https://www.facebook.com/p/Cliff-Droppers-100063691594198/",
+          "verified": "2026-10-24",
+          "hours": "Wed/Thu–Sat 11–18:45; Sun 11–17:45"
         },
         {
           "id": "brew",
@@ -7776,7 +7966,10 @@
           "indoor": true,
           "note": "有官方 live music 活動頁的 brewery，不是只因賣酒就當音樂場館。",
           "query": "Packwood Brewing Company, Packwood WA",
-          "url": "https://www.packwoodbrewingco.com/calendar/live-music"
+          "url": "https://www.packwoodbrewingco.com/calendar",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 15–21; Fri 13–22; Sat 12–22; Sun 12–21",
+          "liveMusic": "Mostly summer: Jun 2026 bands Fri/Sat (some Tue/Wed) 17:30–20:30; Packwood Brewfest Aug 1; fundraiser Sep 12. Nothing posted after Sep 12, 2026. Age rule not stated (site calls it a gathering place for families and friends)."
         },
         {
           "id": "museum",
@@ -7788,7 +7981,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "看地方歷史的小型館，先查開館日；沒開就不空等。",
-          "query": "White Pass Country Historical Museum, Packwood WA"
+          "query": "White Pass Country Historical Museum, Packwood WA",
+          "url": "https://whitepasscountrymuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Winter Fri–Sat 12–16; summer Wed–Sat 11–16; closed Sun"
         },
         {
           "id": "town",
@@ -7824,6 +8020,21 @@
           "note": "僅山路與步道季節性開放時使用；距離爬升採指定路線，冬季不走 Stevens Canyon／Chinook 捷徑。",
           "query": "Naches Peak Loop Trailhead Tipsoo Lake, Washington",
           "url": "https://www.wta.org/go-hiking/hikes/naches-peak-loop"
+        },
+        {
+          "id": "packwood-visitor-center",
+          "name": "Packwood Visitor Center",
+          "kinds": [
+            "indoor",
+            "town"
+          ],
+          "minutes": 30,
+          "indoor": true,
+          "note": "每天 9–16 開的小鎮遊客中心，可問路況與步道、買在地 2026 Pioneer 月曆；不是博物館，只當週日博物館休館時的短停。",
+          "query": "Packwood Visitor Center, 13011 US Highway 12, Packwood WA",
+          "url": "https://packwoodvisitorcenter.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 9–16"
         }
       ],
       "plans": [
@@ -7861,7 +8072,7 @@
               "museum",
               60,
               15,
-              "開館才加入，未開就鎮上休息。",
+              "博物館冬季只開週五六 12–16、週日休；週日改到 Visitor Center 短停或鎮上休息。",
               "drive"
             ],
             [
@@ -7954,7 +8165,10 @@
           "minutes": 50,
           "indoor": true,
           "note": "博物館區附近的咖啡起點，和 Bridge of Glass 可以步行銜接。",
-          "query": "Anthem Coffee Downtown Tacoma, Tacoma WA"
+          "query": "Anthem Coffee, 1911 Pacific Ave, Tacoma WA",
+          "url": "https://www.myanthemcoffee.com/locations",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 7–16, Sat–Sun 8–16"
         },
         {
           "id": "valhalla",
@@ -7966,7 +8180,9 @@
           "indoor": true,
           "note": "想專門探咖啡可選 6th Avenue 的這間；不是 Downtown 博物館門口，室內座位有限。",
           "query": "Valhalla Coffee, Tacoma WA",
-          "url": "https://valhallacoffee.com/"
+          "url": "https://www.valhallacoffeecompany.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–17 (per Google-derived listings)"
         },
         {
           "id": "glass",
@@ -7979,7 +8195,9 @@
           "indoor": true,
           "note": "看玻璃藝術與當日可看的示範；示範、特展和普通參觀各自看安排。",
           "query": "Museum of Glass, Tacoma WA",
-          "url": "https://www.museumofglass.org/"
+          "url": "https://www.museumofglass.org/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Sun 10–17 (last ticket 16:30); closed Mon–Tue"
         },
         {
           "id": "bridge",
@@ -7991,7 +8209,10 @@
           "minutes": 30,
           "indoor": false,
           "note": "博物館旁可串的公共藝術橋，和 Museum of Glass 不是同一張門票的室內展。",
-          "query": "Chihuly Bridge of Glass, Tacoma WA"
+          "query": "Chihuly Bridge of Glass, Tacoma WA",
+          "url": "https://www.museumofglass.org/visit",
+          "verified": "2026-10-24",
+          "hours": "Public outdoor walkway, free (no posted hours)"
         },
         {
           "id": "peddler",
@@ -8002,7 +8223,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "Thea Foss 水道旁的海鮮正餐，適合接玻璃館，不必為吃飯又穿城。",
-          "query": "The Fish Peddler, Tacoma WA"
+          "query": "The Fish Peddler, Tacoma WA",
+          "url": "https://www.pacificseafood.com/contact-us/retail-locations/tacoma-fish-peddler/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11–20, Fri–Sat 11–21 (official page; some listings show daily 11–21)"
         },
         {
           "id": "foss",
@@ -8038,7 +8262,9 @@
           "indoor": true,
           "note": "有室內與海景的實際午餐／晚餐選項；適合把一天主線放 Ruston 時使用。",
           "query": "Duke's Seafood Ruston Way, Tacoma WA",
-          "url": "https://dukesseafood.com/locations/tacoma/"
+          "url": "https://dukesseafood.com/locations/tacoma/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11–22, Fri–Sat 11–23 (lunch 11–15); happy hour 15–18 & 21–close"
         },
         {
           "id": "cars",
@@ -8051,7 +8277,9 @@
           "indoor": true,
           "note": "喜歡車就拿它替換玻璃館，不必同一天追完兩個大館。",
           "query": "LeMay America's Car Museum, Tacoma WA",
-          "url": "https://www.americascarmuseum.org/"
+          "url": "https://www.americascarmuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Mon 10–17; closed Tue–Wed"
         },
         {
           "id": "tam",
@@ -8064,7 +8292,9 @@
           "indoor": true,
           "note": "另一個清楚的室內藝術替代，先看開館日和展覽，再選一館或短串。",
           "query": "Tacoma Art Museum, Tacoma WA",
-          "url": "https://www.tacomaartmuseum.org/"
+          "url": "https://www.tacomaartmuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Fri 10–20 (Thu 17–20 free), Sat–Sun 10–17; closed Mon–Wed"
         },
         {
           "id": "defiance",
@@ -8088,7 +8318,10 @@
           "indoor": true,
           "note": "真實的樂團場館；每場年齡條件、售票和進場時間不同，先選節目。",
           "query": "Spanish Ballroom McMenamins Elks Temple, Tacoma WA",
-          "url": "https://www.mcmenamins.com/elks-temple/spanish-ballroom"
+          "url": "https://www.mcmenamins.com/elks-temple/spanish-ballroom",
+          "verified": "2026-10-24",
+          "hours": "Event nights only; typically doors 19:00, show 20:00 (some Sunday shows 16:00/17:00)",
+          "liveMusic": "Active 2026–27 calendar with shows most weeks incl. weekends (e.g. Neko Case Nov 11–12, Polyrhythmics Nov 13, Critical Mass Big Band Sun Nov 8 5pm). Age rule per show; the music shows checked are 'All ages welcome'."
         }
       ],
       "plans": [
@@ -8108,13 +8341,13 @@
             [
               "11:05",
               "glass",
-              120,
+              75,
               15,
-              "一個主館就好。",
+              "展廳整修至 2026/12/12，之前以 Hot Shop 吹玻璃示範為主（另有大廳小展、商店與咖啡）；週三至週日 10–17。",
               "walk"
             ],
             [
-              "13:25",
+              "12:40",
               "peddler",
               75,
               20,
@@ -8122,7 +8355,7 @@
               "walk"
             ],
             [
-              "14:50",
+              "14:05",
               "foss",
               50,
               10,
@@ -8130,7 +8363,7 @@
               "walk"
             ],
             [
-              "16:05",
+              "15:20",
               "ruston",
               60,
               25,
@@ -8176,7 +8409,10 @@
           "indoor": true,
           "note": "已查官方有週四 open mic、週五 live music；白天喝咖啡，音樂另看當週樂手與時段。",
           "query": "Kimball Coffeehouse, Gig Harbor WA",
-          "url": "https://kimballcoffeehouse.com/"
+          "url": "https://kimballcoffeehouse.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 7–16, Sat 8–15; closed Sun (Thu open mic 17–21, Fri music 18–21)",
+          "liveMusic": "Live bands most Friday nights (doors 18:00, show 19:00–21:00) and Thursday open mic (sign-up 17:30, until 21:00); upcoming listings Oct 29 & Nov 6, 2026. Coffeehouse; open mic 'all are welcome' (no 21+ rule posted)."
         },
         {
           "id": "skansie",
@@ -8189,7 +8425,10 @@
           "minutes": 60,
           "indoor": false,
           "note": "港灣核心的公園與歷史漁業街景，適合作為停車後的第一段慢走。",
-          "query": "Skansie Brothers Park, Gig Harbor WA"
+          "query": "Skansie Brothers Park, Gig Harbor WA",
+          "url": "https://www.cityofgigharbor.net/193/Skansie-Brothers-Park",
+          "verified": "2026-10-24",
+          "hours": "City park, open daily; historic netshed interior open only in summer season"
         },
         {
           "id": "netshed",
@@ -8201,7 +8440,9 @@
           "indoor": true,
           "note": "早餐／午餐的具名選項，先看最後點餐時間，不排到下午很晚才去。",
           "query": "Netshed No 9, Gig Harbor WA",
-          "url": "https://www.netshed9.com/"
+          "url": "https://www.netshed9.com/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Mon 8–14 (breakfast & lunch); closed Tue–Wed; summer Fri–Sat 'NetShed Nights' dinners"
         },
         {
           "id": "tides",
@@ -8213,7 +8454,9 @@
           "indoor": true,
           "note": "海邊午餐與 pub 選項，但為全時段 21+；有未成年旅伴不能選，改 Netshed。",
           "query": "Tides Tavern, Gig Harbor WA",
-          "url": "https://www.tidestavern.com/"
+          "url": "https://tidestavern.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 11–21 (main 'Hours of Operation' block; site header still shows older longer hours)"
         },
         {
           "id": "history",
@@ -8226,7 +8469,9 @@
           "indoor": true,
           "note": "造船與港口故事，按開館日安排下午，不只看館外招牌。",
           "query": "Harbor History Museum, Gig Harbor WA",
-          "url": "https://harborhistorymuseum.org/"
+          "url": "https://harborhistorymuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Sat 11–16; closed Sun–Tue"
         },
         {
           "id": "harborview",
@@ -8251,6 +8496,37 @@
           "indoor": false,
           "note": "若想長一點的鋪面散步可選短段，和港灣逛店是不同入口。",
           "query": "Cushman Trail Trailhead, Gig Harbor WA"
+        },
+        {
+          "id": "java-clay-cafe",
+          "name": "Java & Clay Cafe",
+          "kinds": [
+            "coffee",
+            "indoor"
+          ],
+          "minutes": 50,
+          "indoor": true,
+          "note": "港邊 Harborview Drive 的咖啡館兼自助彩繪陶器工作室，大窗面海、對面就是 Skansie 公園；只喝咖啡也行，彩繪另計費、成品要等窯燒後再取。週二、三公休。",
+          "query": "Java & Clay Cafe, 3210 Harborview Dr, Gig Harbor WA",
+          "url": "https://www.facebook.com/javaclaycafe",
+          "verified": "2026-10-24",
+          "hours": "Thu–Mon 9–17; closed Tue–Wed (Google-listed hours)"
+        },
+        {
+          "id": "woodstock-gallery",
+          "name": "Woodstock Gallery",
+          "kinds": [
+            "indoor",
+            "culture",
+            "shopping"
+          ],
+          "minutes": 40,
+          "indoor": true,
+          "note": "港邊老街的小型藝廊，攝影、數位藝術、玻璃與雕塑；週四至週日 12–17，官方註明視天候調整，雨天前先打電話確認。",
+          "query": "Woodstock Gallery, 3120 1/2 Harborview Dr, Gig Harbor WA",
+          "url": "https://woodstockgallerywa.com/",
+          "verified": "2026-10-24",
+          "hours": "Thu–Sun 12–17 (weather-dependent per site)"
         }
       ],
       "plans": [
@@ -8264,7 +8540,7 @@
               "kimball",
               60,
               0,
-              "咖啡。",
+              "咖啡；Kimball 週六 8–15、週日公休，週日改港邊 Java & Clay Cafe。",
               "drive"
             ],
             [
@@ -8288,7 +8564,7 @@
               "history",
               90,
               20,
-              "開館才進；未開就縮成港灣半日。",
+              "週三至週六 11–16 開館，週日休館；週日改港邊 Woodstock Gallery 或縮成港灣半日。",
               "drive"
             ],
             [
@@ -8333,7 +8609,9 @@
           "indoor": true,
           "note": "600 4th Ave E 的咖啡主店，和 Tacoma、Seattle 同品牌分店分清楚。",
           "query": "Olympia Coffee, 600 4th Ave E, Olympia WA",
-          "url": "https://www.olympiacoffee.com/"
+          "url": "https://www.olympiacoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 6:30–18, Sat–Sun 7–18"
         },
         {
           "id": "capitol",
@@ -8345,7 +8623,10 @@
           "minutes": 90,
           "indoor": true,
           "note": "建築與園區，室內可訪區域和導覽時段需查官方；不是所有政府辦公空間都開放。",
-          "query": "Washington State Capitol Legislative Building, Olympia WA"
+          "query": "Washington State Capitol Legislative Building, Olympia WA",
+          "url": "https://capitol.wa.gov/",
+          "verified": "2026-10-24",
+          "hours": "Building Mon–Fri 7:30–17, Sat–Sun & holidays 11–16 (closed Thanksgiving + day after, Christmas, New Year's); grounds dawn–dusk; free 50-min tours weekends 11:30/12:30/13:30/14:30"
         },
         {
           "id": "market",
@@ -8357,7 +8638,10 @@
           "minutes": 50,
           "indoor": true,
           "note": "有遮蔽市場與農產，季節營業日及下午收市時間先查，不排閉市後才到。",
-          "query": "Olympia Farmers Market, Olympia WA"
+          "query": "Olympia Farmers Market, Olympia WA",
+          "url": "https://www.olympiafarmersmarket.com/",
+          "verified": "2026-10-24",
+          "hours": "10–15; 2026: Apr 2–Oct 31 Thu–Sun; Nov 1–Dec 20 Sat–Sun (+Fri Dec 18); Jan–Mar Sat only; no market ~Dec 21–early Jan"
         },
         {
           "id": "bread",
@@ -8370,7 +8654,9 @@
           "indoor": true,
           "note": "烘焙與早午餐／午餐，屬白天餐飲，先看最後點餐時間。",
           "query": "The Bread Peddler, Olympia WA",
-          "url": "https://breadpeddler.com/"
+          "url": "https://breadpeddler.com/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Sun 7–14:30; closed Mon"
         },
         {
           "id": "percival",
@@ -8395,7 +8681,9 @@
           "indoor": true,
           "note": "若帶小朋友可用一個館替換州議會，不用一天硬跑兩大室內主題。",
           "query": "Hands On Children's Museum, Olympia WA",
-          "url": "https://www.hocm.org/"
+          "url": "https://www.hocm.org/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 9–17, Sun 10–17"
         },
         {
           "id": "nisqually",
@@ -8420,7 +8708,10 @@
           "indoor": true,
           "note": "按音樂節目售票的正式場館，先看藝人與日期，不當每天都可臨時參加。",
           "query": "Washington Center for the Performing Arts, Olympia WA",
-          "url": "https://www.washingtoncenter.org/"
+          "url": "https://www.washingtoncenter.org/",
+          "verified": "2026-10-24",
+          "hours": "Event nights only (box office per show)",
+          "liveMusic": "Active 2026–27 season: e.g. Bee Gees tribute Oct 23, Liverpool Legends (Beatles) Sun Oct 25 7pm, Skerryvore in Oct, holiday shows Dec; mix of concerts, comedy, talks, pageants. Typically evening shows (~19:00–20:00), some matinees; all-ages theatre (check each event)."
         }
       ],
       "plans": [
@@ -8442,7 +8733,7 @@
               "capitol",
               75,
               20,
-              "依實際導覽時間看建築與園區。",
+              "週末大樓 11:00 才開（至 16:00），先看外觀與園區再入內；免費導覽週末 11:30 起每小時一梯。",
               "drive"
             ],
             [
@@ -8450,7 +8741,7 @@
               "market",
               45,
               25,
-              "先逛白天市場。",
+              "白天市場 10–15；11–12 月只開週末，1–3 月只開週六，12 月下旬至 1 月初停市。",
               "drive"
             ],
             [
@@ -8487,7 +8778,7 @@
       "hikes": []
     },
     "centralia": {
-      "intro": "咖啡有 Fiddlers／Santa Lucia，午餐有 Olympic Club，古董街與車站能真的走成一圈。把它當小鎮半日或南下停靠，不以 outlet 取代歷史街區。",
+      "intro": "咖啡有 Fiddlers（Mellen St）與 11 點才開的 Rustic Heritage Bakery（原 Santa Lucia 位置），午餐有 Olympic Club，古董街與車站能真的走成一圈。把它當小鎮半日或南下停靠，不以 outlet 取代歷史街區。",
       "interests": [
         "town",
         "coffee",
@@ -8504,18 +8795,24 @@
           "indoor": true,
           "note": "選有可坐空間的 Centralia 店，不和 Chehalis 小型 drive-through 分店混用。",
           "query": "Fiddlers Coffee Mellen Street, Centralia WA",
-          "url": "https://www.fiddlerscoffee.com/"
+          "url": "https://www.fiddlerscoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 5:30–19, Sat 6–19, Sun 6–18 (Google-derived listing)"
         },
         {
           "id": "santa",
-          "name": "Santa Lucia Coffee",
+          "name": "Rustic Heritage Bakery",
           "kinds": [
-            "coffee"
+            "coffee",
+            "food"
           ],
-          "minutes": 50,
+          "minutes": 45,
           "indoor": true,
-          "note": "Tower Avenue 在地咖啡店，先看營業日，週末尤其不要直接假設星期日開門。",
-          "query": "Santa Lucia Coffee, Centralia WA"
+          "note": "Tower Avenue 老街上的手作麵包店兼咖啡座，就在原 Santa Lucia 的位置；酸種麵包、甜點和咖啡，磚牆室內有沙發角。每天 11 點才開，不適合當早上第一站。",
+          "query": "Rustic Heritage Bakery, 202 S Tower Ave, Centralia WA",
+          "url": "https://www.rusticheritagebakery.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 11–19 (Google-derived listings)"
         },
         {
           "id": "tower",
@@ -8527,7 +8824,10 @@
           "minutes": 90,
           "indoor": false,
           "note": "古董、書店和老街屋集中，選有興趣的店慢逛。",
-          "query": "Tower Avenue Historic Downtown, Centralia WA"
+          "query": "Tower Avenue Historic Downtown, Centralia WA",
+          "url": "https://downtowncentralia.org/",
+          "verified": "2026-10-24",
+          "hours": "Street district; individual shops vary (many close Sun or early)"
         },
         {
           "id": "olympic",
@@ -8540,7 +8840,10 @@
           "indoor": true,
           "note": "歷史旅館／pub 餐飲，電影節目不是音樂，別以同一品牌就假定有現場樂團。",
           "query": "McMenamins Olympic Club, Centralia WA",
-          "url": "https://www.mcmenamins.com/olympic-club"
+          "url": "https://www.mcmenamins.com/olympic-club",
+          "verified": "2026-10-24",
+          "hours": "Pub Sun–Thu 7–23, Fri–Sat 7–24; weekend brunch 11–15; minors welcome until 19:00",
+          "liveMusic": "Theater hosts free live music every second Tuesday (not weekends); otherwise films."
         },
         {
           "id": "depot",
@@ -8551,7 +8854,10 @@
           "minutes": 30,
           "indoor": true,
           "note": "看歷史車站與鐵道氣氛，尊重旅客與實際營運區域，不能任意進軌道。",
-          "query": "Centralia Amtrak Train Depot, Centralia WA"
+          "query": "Centralia Amtrak Train Depot, Centralia WA",
+          "url": "https://www.amtrak.com/stations/cen",
+          "verified": "2026-10-24",
+          "hours": "Waiting room daily 8:20–16:50 (ticket office 8:30–16:40)"
         },
         {
           "id": "borst",
@@ -8577,7 +8883,7 @@
               "fiddlers",
               50,
               0,
-              "咖啡，或營業日確認後改 Santa Lucia。",
+              "咖啡；Santa Lucia 原址已改為 Rustic Heritage Bakery（11 點才開），早上以 Fiddlers 為主。",
               "drive"
             ],
             [
@@ -8622,11 +8928,11 @@
       ],
       "rainNote": "咖啡和 Olympic Club 有實際室內空間；古董店也可進，但商家各自營業，不能保證整條街同時開。",
       "musicPlaces": [],
-      "musicNote": "這裡不把 Olympic Club 電影場次充當現場音樂；想接樂團可看鄰近 Chehalis 的 McFiler’s。",
+      "musicNote": "這裡不把 Olympic Club 電影場次充當現場音樂；鄰近 Chehalis 的 The Chehalis Theater 偶有演唱會，但查證時（2026/10）沒有排定場次。",
       "hikes": []
     },
     "chehalis": {
-      "intro": "咖啡外帶後，Book ’n’ Brush、歷史館與 Jeremy’s 午餐能排得很具體；火車要先訂班次，晚間音樂則是 McFiler’s，不把兩種 theatre 混在一起。",
+      "intro": "咖啡外帶後，Book ’n’ Brush、歷史館與 Jeremy’s 午餐能排得很具體；火車要先訂班次，晚間先看 The Chehalis Theater 有沒有演唱會（查證時沒有排定），不把兩種 theatre 混在一起。",
       "interests": [
         "town",
         "coffee",
@@ -8636,15 +8942,17 @@
       "places": [
         {
           "id": "fiddlers",
-          "name": "Fiddlers Coffee — Chehalis",
+          "name": "Mint City Coffee Roasting",
           "kinds": [
             "coffee"
           ],
-          "minutes": 25,
-          "indoor": false,
-          "note": "這個分店以外帶／drive-through 為主，不當能長坐的室內咖啡館；想坐久可改 Centralia 的店。",
-          "query": "Fiddlers Coffee, Chehalis WA",
-          "url": "https://www.fiddlerscoffee.com/"
+          "minutes": 45,
+          "indoor": true,
+          "note": "Chehalis 老街上的小批量烘豆咖啡館，有室內座位，和 Book ’n’ Brush 同在 N Market Blvd、步行一兩分鐘。週日公休；週日只能改 I-5 旁原 Fiddlers 位置的 Sipside 得來速外帶。",
+          "query": "Mint City Coffee Roasting, 539 N Market Blvd, Chehalis WA",
+          "url": "https://mintcitycoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon 8–15, Tue–Sat 8–17; closed Sun"
         },
         {
           "id": "books",
@@ -8657,7 +8965,9 @@
           "indoor": true,
           "note": "老街具體可逛的書與美術用品店，不只泛稱去市中心看看。",
           "query": "Book N Brush, Chehalis WA",
-          "url": "https://www.booknbrush.com/"
+          "url": "https://www.booknbrush.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 10–18, Sun 11–16"
         },
         {
           "id": "jeremy",
@@ -8669,7 +8979,9 @@
           "indoor": true,
           "note": "具名午餐與在地食材餐廳，週末廚房結束時間先確認。",
           "query": "Jeremy's Farm to Table, Chehalis WA",
-          "url": "https://jeremysfarmtotable.com/"
+          "url": "https://jeremysfarmtotable.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 10–21, Fri 10–22, Sat 8–22, Sun 8–20"
         },
         {
           "id": "museum",
@@ -8681,7 +8993,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "在地歷史與模型鐵道，開館日核對後再排。",
-          "query": "Lewis County Historical Museum, Chehalis WA"
+          "query": "Lewis County Historical Museum, Chehalis WA",
+          "url": "https://lewiscountymuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Winter: Tue–Fri 10–16, Sat 10–14; Summer (Memorial Day–Labor Day): Tue–Fri 10–17, Sat 10–16; closed Sun–Mon"
         },
         {
           "id": "steam",
@@ -8693,7 +9008,9 @@
           "indoor": false,
           "note": "按正式列車班次購票，報到、車程與車種看票；不是到站就能搭蒸汽火車。",
           "query": "Chehalis Centralia Railroad and Museum, Chehalis WA",
-          "url": "https://steamtrainride.com/"
+          "url": "https://steamtrainride.com/",
+          "verified": "2026-10-24",
+          "hours": "Scheduled rides only. 2026: Chehalis Valley Train weekends May 2–Oct 3; Pumpkin Train Oct 10–11; Polar Express Nov 14–Dec 20 (Sat/Sun + Fri Dec 4/11/18; 14:00/16:30/19:00, $69, ≤2 free on lap); depot Sat–Sun 10–17"
         },
         {
           "id": "willapa",
@@ -8709,15 +9026,34 @@
         },
         {
           "id": "mcfiler",
-          "name": "McFiler’s Chehalis Theater",
+          "name": "The Chehalis Theater",
           "kinds": [
             "music",
             "culture"
           ],
           "minutes": 150,
           "indoor": true,
-          "note": "實際有樂團與活動的場地，按當日節目、入場年齡與票務安排。",
-          "query": "McFiler's Chehalis Theater, Chehalis WA"
+          "note": "1923 年老戲院，放電影、晚餐劇場，偶有演唱會；查證時 2026 秋季沒有排現場音樂，要聽音樂先看官網節目再決定。旁邊同集團的 McFiler’s 是披薩酒吧，不是樂團場地。",
+          "query": "The Chehalis Theater, 558 N Market Blvd, Chehalis WA",
+          "url": "https://chehalistheater.com/",
+          "verified": "2026-10-24",
+          "hours": "Show nights doors 18:00 / films 19:00; Limelight restaurant Thu–Sun 16–21",
+          "liveMusic": "查證時沒有排定的現場音樂；偶有致敬樂團演出，以官網節目為準。"
+        },
+        {
+          "id": "veterans-memorial-museum",
+          "name": "Veterans Memorial Museum",
+          "kinds": [
+            "indoor",
+            "culture"
+          ],
+          "minutes": 75,
+          "indoor": true,
+          "note": "Chehalis 的室內軍事史博物館，介紹獨立戰爭到近代各戰事的退伍軍人故事與文物；週二至週六 10–16，週六比歷史館開得久，但週日、週一同樣休館。",
+          "query": "Veterans Memorial Museum, 100 SW Veterans Way, Chehalis WA",
+          "url": "https://www.veteransmuseum.org/",
+          "verified": "2026-10-24",
+          "hours": "Tue–Sat 10–16; closed Sun–Mon"
         }
       ],
       "plans": [
@@ -8731,7 +9067,7 @@
               "fiddlers",
               25,
               0,
-              "咖啡外帶。",
+              "Fiddlers Chehalis 已關；改老街 Mint City 坐下喝咖啡，週日公休。",
               "drive"
             ],
             [
@@ -8747,7 +9083,7 @@
               "museum",
               60,
               15,
-              "開館才加入。",
+              "週二至週六開（冬季週六只到 14:00），週日、週一休館；週日跳過這站。",
               "walk"
             ],
             [
@@ -8774,11 +9110,11 @@
         "jeremy",
         "museum"
       ],
-      "rainNote": "Book ’n’ Brush、Jeremy’s、開館的歷史館才是室內。Fiddlers 這一站主要外帶，不把它寫成溫暖坐一下午的 cafe。",
+      "rainNote": "Book ’n’ Brush、Jeremy’s、開館的歷史館才是室內。Mint City Coffee 有室內座位但週日公休。",
       "musicPlaces": [
         "mcfiler"
       ],
-      "musicNote": "McFiler’s 要看樂團活動，而非把電影或一般餐廳營業當現場音樂。",
+      "musicNote": "The Chehalis Theater 偶有演唱會，但查證時（2026/10）沒有排定場次；不把電影或晚餐劇場當現場音樂。",
       "hikes": []
     },
     "vancouver-wa": {
@@ -8801,7 +9137,9 @@
           "indoor": true,
           "note": "Downtown／Uptown 的具名咖啡館，做城市日的起點。",
           "query": "Relevant Coffee, Vancouver WA",
-          "url": "https://www.relevantcoffee.com/"
+          "url": "https://www.relevantcoffee.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 7–17"
         },
         {
           "id": "waterfront",
@@ -8825,7 +9163,9 @@
           "indoor": true,
           "note": "具名的水岸室內午餐選項，明確選 Washington 位置，不是 Issaquah 分店。",
           "query": "WildFin American Grill Vancouver Waterfront, Vancouver WA",
-          "url": "https://www.wildfinamericangrill.com/"
+          "url": "https://www.wildfinamericangrill.com/vancouver",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11:30–21, Fri–Sat 11:30–22; happy hour 15–18 & 20–close"
         },
         {
           "id": "mighty",
@@ -8836,8 +9176,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "想吃簡單 bowls 可作替代，先確認當天營業；主路線仍以已確認午餐服務為準。",
-          "query": "The Mighty Bowl, Vancouver WA",
-          "url": "https://www.themightybowl.com/"
+          "query": "The Mighty Bowl food cart, 9811 NE 15th Ave, Vancouver WA",
+          "url": "https://www.themightybowl.com/",
+          "verified": "2026-10-24",
+          "hours": "Hazel Dell cart Mon–Sat 11–20; closed Sun"
         },
         {
           "id": "fort",
@@ -8850,7 +9192,9 @@
           "indoor": false,
           "note": "堡壘與歷史園區含戶外，室內建物、導覽與停車看 NPS，不是全天有屋頂。",
           "query": "Fort Vancouver National Historic Site, Vancouver WA",
-          "url": "https://www.nps.gov/fova/"
+          "url": "https://www.nps.gov/fova/",
+          "verified": "2026-10-24",
+          "hours": "Visitor Center, reconstructed fort, Pearson: Tue–Sat 9–16; closed Sun–Mon & major holidays; grounds daily dawn–dusk"
         },
         {
           "id": "pearson",
@@ -8863,7 +9207,9 @@
           "indoor": true,
           "note": "歷史區裡具體的航空館，開館日與堡壘園區不同，先查。",
           "query": "Pearson Air Museum, Vancouver WA",
-          "url": "https://www.nps.gov/fova/"
+          "url": "https://www.nps.gov/fova/planyourvisit/pearsonairmuseum.htm",
+          "verified": "2026-10-24",
+          "hours": "Tue–Sat 9–16; closed Sun–Mon"
         },
         {
           "id": "row",
@@ -8875,7 +9221,10 @@
           "minutes": 45,
           "indoor": false,
           "note": "歷史住宅外觀與街景，不能把有人使用的老屋當可隨意進入的展館。",
-          "query": "Officers Row, Vancouver WA"
+          "query": "Officers Row, Vancouver WA",
+          "url": "https://www.nps.gov/fova/",
+          "verified": "2026-10-24",
+          "hours": "Public street, always accessible (houses are private/offices)"
         },
         {
           "id": "brickhouse",
@@ -8887,7 +9236,27 @@
           "minutes": 150,
           "indoor": true,
           "note": "真正的在地音樂選項，晚間年齡與場次規則要看該場，不以白天能用餐推論深夜全齡。",
-          "query": "Brickhouse Bar and Grill, Vancouver WA"
+          "query": "Brickhouse Bar and Grill, Vancouver WA",
+          "url": "https://www.vancouverbrickhouse.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 12–01, Sat–Sun 10–01 (weekend brunch 10–14); minors welcome until 21:00 daily",
+          "liveMusic": "Weekly: Fri & Sat live bands or DJ (doors ~20:00), Sun traditional Irish music jam 19–21, Wed open mic 19–23 (all ages until 21:00), Tue karaoke, Thu trivia. Minors allowed until 9pm, so late band sets are effectively 21+. Dated show list on site is an old December run."
+        },
+        {
+          "id": "vancouver-land-bridge-confluence-project",
+          "name": "Vancouver Land Bridge (Confluence Project)",
+          "kinds": [
+            "culture",
+            "walk",
+            "sight"
+          ],
+          "minutes": 60,
+          "indoor": false,
+          "note": "從 Fort Vancouver 南側跨過 SR-14 通往哥倫比亞河岸的覆土人行橋，有原住民藝術家 Lillian Pitt 的迎賓門、三座觀景台與原生植物步道；屬國家歷史遺址園區，每天日出到日落開放、免費，週日館舍休館時可用。全程戶外。",
+          "query": "Vancouver Land Bridge, Vancouver WA",
+          "url": "https://www.confluenceproject.org/river-site/vancouver-land-bridge/",
+          "verified": "2026-10-24",
+          "hours": "Daily dawn–dusk (park grounds)"
         }
       ],
       "plans": [
@@ -8925,7 +9294,7 @@
               "fort",
               120,
               25,
-              "歷史園區，雨天選開放的 Pearson。",
+              "堡壘與 Pearson 只在週二至週六 9–16 開放（堡壘需 $10 通行證、只收卡），週日、週一改走園區戶外與 Land Bridge。",
               "drive"
             ],
             [
@@ -8972,7 +9341,9 @@
           "indoor": true,
           "note": "選明確的 Camas 店家，搭配 Downtown 逛店；不是導航到外地同名 roaster。",
           "query": "Hidden River Roasters Camas, Camas WA",
-          "url": "https://www.hiddenriverroasters.com/"
+          "url": "https://www.hiddenriverroasters.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 6:30–17, Sat 7–17, Sun 8–15 (Google-derived listing)"
         },
         {
           "id": "downtown",
@@ -8985,7 +9356,9 @@
           "indoor": false,
           "note": "樹蔭、老街屋、小店與餐飲，短街區可以慢逛。",
           "query": "NE 4th Avenue Downtown Camas, Camas WA",
-          "url": "https://downtowncamas.com/"
+          "url": "https://downtowncamas.com/",
+          "verified": "2026-10-24",
+          "hours": "Street district; shops vary"
         },
         {
           "id": "grains",
@@ -8997,7 +9370,9 @@
           "indoor": true,
           "note": "有餐飲的 brewery 午餐選項，酒吧年齡／晚間條件看現場，不把所有區都當全齡。",
           "query": "Grains of Wrath, Camas WA",
-          "url": "https://www.gowbeer.com/"
+          "url": "https://www.gowbeer.com/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 11–21, Fri–Sat 11–23"
         },
         {
           "id": "lacamas",
@@ -9021,7 +9396,10 @@
           "minutes": 45,
           "indoor": true,
           "note": "有實際場地的藝廊可作短室內替代，先看開館日。",
-          "query": "Attic Gallery, Camas WA"
+          "query": "Attic Gallery, Camas WA",
+          "url": "https://atticgallery.com/",
+          "verified": "2026-10-24",
+          "hours": "Wed–Sat 11–17 and by appointment; closed Sun–Tue"
         },
         {
           "id": "liberty",
@@ -9033,7 +9411,10 @@
           "minutes": 150,
           "indoor": true,
           "note": "有想看的電影才買票，不拿電影放映當 live music。",
-          "query": "Liberty Theatre, Camas WA"
+          "query": "Liberty Theatre, Camas WA",
+          "url": "https://www.camasliberty.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily film showtimes; box office opens 30 min before first show"
         },
         {
           "id": "birch",
@@ -9045,7 +9426,25 @@
           "indoor": true,
           "note": "小型爵士／現場音樂選項，21+，晚間依節目安排；有未成年者不要選這個夜場。",
           "query": "Birch Street Uptown Lounge, Camas WA",
-          "url": "https://www.birchstreetuptownlounge.com/"
+          "url": "https://www.birchstreetuptownlounge.com/",
+          "verified": "2026-10-24",
+          "hours": "Sun–Thu 16–23, Fri–Sat 16–24",
+          "liveMusic": "Live music every Friday & Saturday 20:00–23:00; dated lineup posted through Nov 28, 2026 (e.g. Sat Oct 24 Lorna Baxter w/ Russ Miller). Site doesn't state an age rule; it is a cocktail lounge (bar), so treat as 21+."
+        },
+        {
+          "id": "camas-antiques",
+          "name": "Camas Antiques",
+          "kinds": [
+            "shopping",
+            "indoor"
+          ],
+          "minutes": 45,
+          "indoor": true,
+          "note": "4th Avenue 歷史 Farrell 大樓裡約一萬平方英尺的古董與復古選物店，70 多個攤主可慢慢挖寶；週日也開（11–17），適合當週日的室內收尾。",
+          "query": "Camas Antiques, 305 NE 4th Ave, Camas WA",
+          "url": "https://camasantiques.com/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Sat 10–18, Sun 11–17"
         }
       ],
       "plans": [
@@ -9091,7 +9490,7 @@
               "attic",
               45,
               10,
-              "開館才加，未開就早點休息。",
+              "藝廊週三至週六 11–17，週日休；週日改 4th Ave 的 Camas Antiques。",
               "walk"
             ]
           ]
@@ -9130,7 +9529,9 @@
           "indoor": true,
           "note": "明確選 Grand Avenue 店，不用已關閉的 Downtown 分店當起點；喝咖啡和空間體驗留一小時。",
           "query": "Coava Coffee Roasters, 1300 SE Grand Avenue, Portland OR",
-          "url": "https://coavacoffee.com/locations"
+          "url": "https://coavacoffee.com/locations",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 6–18, Sat–Sun 7–18"
         },
         {
           "id": "screen",
@@ -9142,7 +9543,9 @@
           "indoor": true,
           "note": "具名 Southern brunch／午餐，週末候位可能長，先看當日座位與訂位規則。",
           "query": "Screen Door Eastside, Portland OR",
-          "url": "https://www.screendoorrestaurant.com/"
+          "url": "https://www.screendoorrestaurant.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily brunch 8:30–14, dinner 16:30–21"
         },
         {
           "id": "pine",
@@ -9154,7 +9557,9 @@
           "indoor": true,
           "note": "想改吃 biscuit brunch 的替代，Alberta 和主路線不同街區，不為一餐又折返全城。",
           "query": "Pine State Biscuits Alberta, Portland OR",
-          "url": "https://www.pinestatebiscuits.com/"
+          "url": "https://www.pinestatebiscuits.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 8–14"
         },
         {
           "id": "powells",
@@ -9167,7 +9572,9 @@
           "indoor": true,
           "note": "真的可以逛很久的獨立書店，留至少 1–2 小時才不只拍門口。",
           "query": "Powell's City of Books Burnside, Portland OR",
-          "url": "https://www.powells.com/"
+          "url": "https://www.powells.com/",
+          "verified": "2026-10-24",
+          "hours": "Daily 10–21 (Rare Book Room 10–17)"
         },
         {
           "id": "japanese",
@@ -9230,7 +9637,9 @@
           "indoor": true,
           "note": "具體的雨天科學館，特展、潛艇與普通入館票務分開看。",
           "query": "OMSI Oregon Museum of Science and Industry, Portland OR",
-          "url": "https://omsi.edu/"
+          "url": "https://omsi.edu/",
+          "verified": "2026-10-24",
+          "hours": "Sep 8, 2026–Jun 13, 2027: Tue–Fri 9:30–17:30, Sat 9:30–19, Sun 9:30–17:30; closed Mon"
         },
         {
           "id": "pearl",
@@ -9242,7 +9651,10 @@
           "minutes": 90,
           "indoor": false,
           "note": "書店附近的街區吃逛，別把全 Portland 都當一個步行圈。",
-          "query": "Pearl District, Portland OR"
+          "query": "Pearl District, Portland OR",
+          "url": "https://www.travelportland.com/neighborhoods/pearl-district/",
+          "verified": "2026-10-24",
+          "hours": "Neighborhood; shop hours vary"
         },
         {
           "id": "mississippi",
@@ -9254,7 +9666,10 @@
           "indoor": true,
           "note": "看當場樂團和年齡，許多場次 21+，先買喜歡的節目再排晚餐。",
           "query": "Mississippi Studios, Portland OR",
-          "url": "https://mississippistudios.com/"
+          "url": "https://mississippistudios.com/",
+          "verified": "2026-10-24",
+          "hours": "Show nights, typically doors 19:00 / show 20:00; bar open daily",
+          "liveMusic": "Shows nearly every night through 2027 (e.g. Sat Oct 24 Marie Faustin, Sun Oct 25 Griffin House). Most Mississippi Studios shows are 21+; some shows in sister room Polaris Hall are all ages."
         },
         {
           "id": "revolution",
@@ -9266,7 +9681,10 @@
           "indoor": true,
           "note": "另一個明確的巡演場館，部分全齡、部分限制年齡，依票務頁。",
           "query": "Revolution Hall, Portland OR",
-          "url": "https://www.revolutionhall.com/"
+          "url": "https://www.revolutionhall.com/",
+          "verified": "2026-10-24",
+          "hours": "Show nights, typically doors 18:00–19:00 / show 19:00–20:00",
+          "liveMusic": "Active calendar Oct 2026–Sep 2027 (e.g. Sat Oct 24 Pigeons Playing Ping Pong 21+, Sun Oct 25 The Dillinger Escape Plan all ages, Mon Oct 26 George Clanton all ages). Age rule per show; the Show Bar room is 21+."
         }
       ],
       "plans": [
@@ -9383,7 +9801,10 @@
           "minutes": 60,
           "indoor": true,
           "note": "有室內的咖啡烘焙／bistro，和只服務窗口的 espresso stand 不同。",
-          "query": "Ocean Beach Roasters and Bistro, Ocean Shores WA"
+          "query": "Ocean Beach Roasters and Bistro, Ocean Shores WA",
+          "url": "https://theoceanbeachroasters.store/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 9–15, Sat 8–15, Sun 8–14"
         },
         {
           "id": "bennetts",
@@ -9394,7 +9815,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "具名海鮮午餐選項，和 Westport 分店分清楚，別導航到隔灣另一邊。",
-          "query": "Bennett's Fish Shack, Ocean Shores WA"
+          "query": "Bennett's Fish Shack, Ocean Shores WA",
+          "url": "https://www.bennettsfishshacks.com/ocean-shores",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 11–21, Fri–Sat 11–22, Sun 11–21 (Google-derived listings)"
         },
         {
           "id": "beach",
@@ -9429,7 +9853,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "海岸自然的小型室內館，確定開館再放午後，不當全天大型博物館。",
-          "query": "Coastal Interpretive Center, Ocean Shores WA"
+          "query": "Coastal Interpretive Center, Ocean Shores WA",
+          "url": "https://www.interpretivecenter.org/",
+          "verified": "2026-10-24",
+          "hours": "Summer (Jun 15–Sep 15) daily 10–17; rest of year Sat 10–17, Sun 11–14 only; outdoor exhibits/trails dawn–dusk"
         },
         {
           "id": "jetty",
@@ -9453,7 +9880,10 @@
           "indoor": true,
           "note": "真的有音樂日曆的 Irish pub，先看當場、餐區和年齡規則；不是每晚相同樂團。",
           "query": "Galway Bay Irish Pub, Ocean Shores WA",
-          "url": "https://www.galwaybayirishpub.com/"
+          "url": "https://www.galwaybayirishpub.com/",
+          "verified": "2026-10-24",
+          "hours": "Pub Mon–Thu 11–21, Fri–Sat 11–22, Sun 11–21 (a second, shorter schedule 11–20:30 / Fri–Sat 11–21:30 is also posted)",
+          "liveMusic": "Advertises frequent live traditional Irish music; dated listings are on its Facebook events page (not loadable here). Ticketed 23rd Annual Celtic Music Feis Oct 20–25, 2026 (pub + convention center). Family-friendly dining area; age rules for bar/music areas not posted."
         }
       ],
       "plans": [
@@ -9491,7 +9921,7 @@
               "center",
               75,
               25,
-              "確認開館，沒有就刪減。",
+              "9/16–6/14 只開週六 10–17、週日 11–14；週日要改到午餐前，夏季每天 10–17。",
               "drive"
             ],
             [
@@ -9535,7 +9965,10 @@
           "minutes": 25,
           "indoor": false,
           "note": "外帶咖啡窗口，不是有室內座位的餐廳；買完往合法公共水岸停留。",
-          "query": "Capt'n Jack's Espresso, Westport WA"
+          "query": "Capt'n Jack's Espresso, Westport WA",
+          "url": "https://www.facebook.com/captnjacks/",
+          "verified": "2026-10-24",
+          "hours": "Mon–Fri 6–18, Sat 7–18, Sun 7–17 (listings; hours data updated Aug 2026)"
         },
         {
           "id": "marina",
@@ -9558,7 +9991,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "海鮮午餐，和 Ocean Shores 的同名分店隔灣，開車不是五分鐘。",
-          "query": "Bennett's Fish Shack, Westport WA"
+          "query": "Bennett's Fish Shack, Westport WA",
+          "url": "https://www.bennettsfishshacks.com/westport",
+          "verified": "2026-10-24",
+          "hours": "Mon–Thu 11–21, Fri–Sat 11–22, Sun ~9/11–21 (Google-derived listings; official page doesn't render hours to scripts)"
         },
         {
           "id": "museum",
@@ -9570,7 +10006,10 @@
           "minutes": 75,
           "indoor": true,
           "note": "港口與航海故事的實際室內館，開館和展區先查。",
-          "query": "Westport Maritime Museum, Westport WA"
+          "query": "Westport Maritime Museum, Westport WA",
+          "url": "https://www.wsbhs.org/museum",
+          "verified": "2026-10-24",
+          "hours": "Thu–Sun 11–15 year-round; closed Mon–Wed"
         },
         {
           "id": "lighthouse",
@@ -9582,7 +10021,10 @@
           "minutes": 60,
           "indoor": false,
           "note": "看燈塔外觀可短停，登塔另有時段、階梯和年齡／身體條件，不能推車上去。",
-          "query": "Grays Harbor Lighthouse, Westport WA"
+          "query": "Grays Harbor Lighthouse, Westport WA",
+          "url": "https://www.wsbhs.org/lighthouse",
+          "verified": "2026-10-24",
+          "hours": "Tower climbs Feb–Nov Thu–Sun 11–15 (Nov tours on the hour); Dec–Jan weekends by appointment only; closed Mon–Wed"
         },
         {
           "id": "coast",
@@ -9606,7 +10048,9 @@
           "indoor": true,
           "note": "具名 brewery 餐飲替代，選 Ocean Avenue 主店；不把未查證的 waterfront 分店營業狀態或音樂當保證。",
           "query": "Blackbeard's Brewing, 700 W Ocean Avenue, Westport WA",
-          "url": "https://blackbeardsbrewing.com/"
+          "url": "https://blackbeardsbrewing.com/",
+          "verified": "2026-10-24",
+          "hours": "Main brewery: Mon 15–19:30, Thu 12:30–19:30, Fri–Sat 12:30–20, Sun 12:30–19:30; closed Tue–Wed. Taphouse (2401 Westhaven Dr): Mon 11–19:30, Thu 11–19, Fri–Sat 11–20, Sun 11–19:30"
         }
       ],
       "plans": [
